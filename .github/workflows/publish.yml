@@ -1,0 +1,120 @@
+---
+
+name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Lint_Mix:
+    name: Lint (Mix)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Format
+        run: docker-compose run store mix format
+
+  Lint_Credo:
+    name: Lint (Credo)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Lint
+        run: docker-compose run store mix credo --all
+
+  Lint_Eslint:
+    name: Lint (ESLint)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Lint
+        run: docker-compose run -w /opt/app/assets store npm run lint:js
+
+  Lint_Stylelint:
+    name: Lint (Stylelint)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Lint
+        run: docker-compose run -w /opt/app/assets store npm run lint:css
+
+  Test_Unit:
+    name: Test (Unit)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Test
+        run: docker-compose run store mix test.unit
+
+  Test_Browser:
+    name: Test (Browser)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Build
+        run: docker-compose run -w /opt/app/assets store npm run build
+
+      - name: Test
+        run: docker-compose run store mix test.browser
+
+  Publish:
+    runs-on: ubuntu-latest
+
+    needs:
+      - Lint_Mix
+      - Lint_Credo
+      - Lint_Eslint
+      - Lint_Stylelint
+      - Test_Unit
+      - Test_Browser
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          docker build -f Dockerfile-production -t docker.pkg.github.com/elementary/store/store .
+
+      - name: Publish
+        run: |
+          docker login -u store -p ${{ secrets.GITHUB_TOKEN }} docker.pkg.github.com
+          docker push docker.pkg.github.com/elementary/store/store:latest

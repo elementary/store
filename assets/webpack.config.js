@@ -5,7 +5,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = (env, options) => {
-  const devMode = options.mode !== 'production';
+  const devMode = options.mode !== 'production'
 
   return {
     optimization: {
@@ -15,7 +15,7 @@ module.exports = (env, options) => {
       ]
     },
     entry: {
-      'app': ['./scripts/app.js']
+      app: ['./scripts/app.js']
     },
     output: {
       filename: '[name].js',
@@ -38,7 +38,7 @@ module.exports = (env, options) => {
             MiniCssExtractPlugin.loader,
             'css-loader',
             'sass-loader'
-          ],
+          ]
         }
       ]
     },
@@ -47,4 +47,4 @@ module.exports = (env, options) => {
       new CopyWebpackPlugin([{ from: 'static/', to: '../' }])
     ]
   }
-};
+}

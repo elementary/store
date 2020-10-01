@@ -1,0 +1,32 @@
+---
+
+name: Update
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Compile
+        run: docker-compose build
+
+      - name: Extract
+        run: docker-compose run store mix gettext.extract --merge
+
+      - name: Push
+        run: |
+          git config --local user.email "store@elementary.io"
+          git config --local user.name "elementaryBot"
+
+          git add priv/gettext
+          git commit -m "l10n: update gettext templates" || echo "no changes"
+
+          git push
