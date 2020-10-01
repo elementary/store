@@ -64,8 +64,8 @@ defmodule Elementary.Store.MixProject do
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       "ecto.seed": ["run priv/repo/seeds.exs"],
       setup: ["deps.get", "ecto.setup", "cmd npm install --prefix assets"],
-      "test.unit": ["ecto.create --quiet", "ecto.migrate", "test test/neon test/neon_server"],
-      "test.browser": ["ecto.create --quiet", "ecto.migrate", "test test/neon_client"]
+      "test.unit": ["ecto.create --quiet", "ecto.migrate", "test test/store test/store_web"],
+      "test.browser": ["ecto.create --quiet", "ecto.migrate", "test test/store_client"]
     ]
   end
 
