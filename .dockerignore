@@ -2,4 +2,3 @@
 /assets/node_modules/*
 /deps/*
 /doc/*
-/priv/persistent/*

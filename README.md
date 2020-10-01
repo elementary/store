@@ -30,11 +30,7 @@ Make sure you have `docker-compose` installed, then run these commands:
 dependencies, or are getting issues where code does not seem to update, re-run
 this step.
 
-2) `docker-compose run store mix ecto.setup` to setup the database. This only
-needs to be ran once. If there are issues and you want to reset the database,
-just run `docker-compose run store mix ecto.reset`.
-
-3) `docker-compose up` to start the server and dependencies. This is your main
+2) `docker-compose up` to start the server and dependencies. This is your main
 command and after you run steps 1 and 2, you should only need to run this
 command to get back up and running.
 

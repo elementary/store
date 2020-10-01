@@ -7,10 +7,7 @@
 # General application configuration
 import Config
 
-config :store,
-  namespace: Elementary.Store,
-  ecto_repos: [Elementary.Store.Repo],
-  generators: [binary_id: true]
+config :store, namespace: Elementary.Store
 
 # Configures the endpoint
 config :store, Elementary.StoreWeb.Endpoint,
@@ -67,3 +64,12 @@ config :phoenix, :json_library, Jason
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"
+
+# Finally import the secret environment specific config. This can be used if a
+# developer has special keys they want to set without worry of being included in
+# git.
+try do
+  import_config "#{Mix.env()}.secret.exs"
+rescue
+  Code.LoadError -> :no_op
+end

@@ -17,21 +17,11 @@ services:
       - ./test:/opt/app/test
     environment:
       - MIX_ENV
-    command: mix do ecto.setup, phx.server
+    command: mix phx.server
     working_dir: /opt/app
     network_mode: host
     depends_on:
-      - postgres
       - chrome
-
-  postgres:
-    image: timescale/timescaledb:latest-pg11
-    volumes:
-      - ./priv/persistent/database:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_USERNAME: postgres
-    network_mode: host
 
   chrome:
     image: selenium/standalone-chrome:latest

@@ -1,5 +1,5 @@
 defmodule Elementary.Store.TestTest do
-  use Elementary.Store.DataCase
+  use ExUnit.Case
 
   test "test" do
     assert 1 + 1 == 2

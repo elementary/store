@@ -34,15 +34,12 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:ecto_sql, "~> 3.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:phoenix_ecto, "~> 4.1"},
       {:phoenix_html, "~> 2.11"},
       {:phoenix_live_view, "~> 0.14.6"},
       {:phoenix, "~> 1.5.5"},
       {:plug_cowboy, "~> 2.0"},
-      {:postgrex, ">= 0.0.0"},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:credo, "~> 1.4", only: :dev, runtime: false},
@@ -60,12 +57,9 @@ defmodule Elementary.Store.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      "ecto.setup": ["ecto.create", "ecto.migrate", "ecto.seed"],
-      "ecto.reset": ["ecto.drop", "ecto.setup"],
-      "ecto.seed": ["run priv/repo/seeds.exs"],
-      setup: ["deps.get", "ecto.setup", "cmd npm install --prefix assets"],
-      "test.unit": ["ecto.create --quiet", "ecto.migrate", "test test/store test/store_web"],
-      "test.browser": ["ecto.create --quiet", "ecto.migrate", "test test/store_client"]
+      setup: ["deps.get", "cmd npm ci --prefix assets"],
+      "test.unit": ["test test/store test/store_web"],
+      "test.browser": ["test test/store_client"]
     ]
   end
 
