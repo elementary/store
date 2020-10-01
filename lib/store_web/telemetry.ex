@@ -1,4 +1,11 @@
 defmodule Elementary.StoreWeb.Telemetry do
+  @moduledoc """
+  This file is responsible for listing all metrics the server should capture. It
+  would be more useful if we had something to display these stats, or a third
+  party service to send them to, but we keep the file because it would be a pain
+  to add back later.
+  """
+
   use Supervisor
   import Telemetry.Metrics
 

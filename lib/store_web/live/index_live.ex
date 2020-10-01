@@ -1,4 +1,6 @@
 defmodule Elementary.StoreWeb.IndexLive do
+  @moduledoc false
+
   use Elementary.StoreWeb, :live_view
 
   @impl true

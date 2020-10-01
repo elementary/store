@@ -1,4 +1,4 @@
-defmodule Elementary.Store.Test do
+defmodule Elementary.Store.TestTest do
   use Elementary.StoreWeb.DataCase
 
   test "test" do
