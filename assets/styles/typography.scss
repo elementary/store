@@ -48,8 +48,16 @@ h6 {
 }
 
 h1 {
-  line-height: 1em;
+  font-size: 3rem;
   font-weight: 700;
+  line-height: 1.125;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1em;
+  opacity: 0.75;
 }
 
 h3,
@@ -62,10 +70,13 @@ h6 {
   opacity: 0.67;
 }
 
-p,
-ul,
-ol {
+p {
   line-height: 1.5;
   margin: 1.25em auto;
   max-width: var(--content-width);
+}
+
+h1 + p {
+  font-size: 1.25rem;
+  line-height: 1.33;
 }

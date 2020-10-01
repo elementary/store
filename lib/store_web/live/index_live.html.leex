@@ -1,48 +1,50 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace-of-mind from prototype to production</p>
+<section>
+  <h1>
+    Support Development.<br />
+    Get Gear. Win/Win.
+  </h1>
 
-  <form phx-change="suggest" phx-submit="search">
-    <input type="text" name="q" value="<%= @query %>" placeholder="Live dependency search" list="results" autocomplete="off"/>
-    <datalist id="results">
-      <%= for {app, _vsn} <- @results do %>
-        <option value="<%= app %>"><%= app %></option>
-      <% end %>
-    </datalist>
-    <button type="submit" phx-disable-with="Searching...">Go to Hexdocs</button>
-  </form>
+  <p>
+    Every purchase goes towards developing elementary OS, its apps, and its
+    services. We're a small team, mostly volunteer, working constantly to make
+    elementary better—your support helps make elementary OS more sustainable.
+  </p>
 </section>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
-      </li>
-    </ul>
-  </article>
+<section id="devices">
+  <h2>Devices</h2>
+
+  <p>
+    Hardware devices with elementary OS can be purchased from the following
+    retailers. Purchasing from these companies helps support elementary OS.
+  </p>
+
+  <ul>
+    <li>
+      <a href="#">Laptop With Linux</a>
+      <ul>
+        <li>Laptops, mini desktops</li>
+        <li>Based in the Netherlands</li>
+        <li>Free shipping within EU</li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#">Slimbook</a>
+      <ul>
+        <li>Laptops, desktops, mini desktops, all-in-ones</li>
+        <li>Based in Spain</li>
+        <li>International shipping</li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#">Star Labs</a>
+      <ul>
+        <li>Laptops</li>
+        <li>Based in the United Kingdom</li>
+        <li>International shipping</li>
+      </ul>
+    </li>
+  </ul>
 </section>
