@@ -1,0 +1,37 @@
+# Dockerfile
+# A dockerfile for development
+
+FROM elixir:alpine
+
+RUN mkdir -p /opt/app
+
+COPY . /opt/app
+WORKDIR /opt/app
+
+RUN apk --no-cache --update add \
+  bash \
+  g++ \
+  gcc \
+  git \
+  inotify-tools \
+  libc-dev \
+  make \
+  nodejs \
+  nodejs-npm \
+  python
+
+RUN cd /opt/app && \
+  mix local.hex --force && \
+  mix local.rebar --force && \
+  mix deps.get --all && \
+  MIX_ENV=dev mix deps.compile --all && \
+  MIX_ENV=test mix deps.compile --all
+
+RUN npm install npm -g --no-progress && \
+  cd /opt/app/assets && \
+  npm ci
+
+VOLUME /opt/app
+EXPOSE 4000
+
+CMD ["mix", "phx.server"]

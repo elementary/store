@@ -1,0 +1,40 @@
+---
+
+version: "3"
+
+services:
+  store:
+    build:
+      context: .
+      dockerfile: Dockerfile-development
+    volumes:
+      - ./assets/scripts:/opt/app/assets/scripts
+      - ./assets/static:/opt/app/assets/static
+      - ./assets/styles:/opt/app/assets/styles
+      - ./config:/opt/app/config
+      - ./lib:/opt/app/lib
+      - ./priv:/opt/app/priv
+      - ./test:/opt/app/test
+    environment:
+      - MIX_ENV
+    command: mix do ecto.setup, phx.server
+    working_dir: /opt/app
+    network_mode: host
+    depends_on:
+      - postgres
+      - chrome
+
+  postgres:
+    image: timescale/timescaledb:latest-pg11
+    volumes:
+      - ./priv/persistent/database:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USERNAME: postgres
+    network_mode: host
+
+  chrome:
+    image: selenium/standalone-chrome:latest
+    volumes:
+      - /dev/shm:/dev/shm
+    network_mode: host

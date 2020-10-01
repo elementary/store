@@ -1,0 +1,70 @@
+:root {
+  --page-width: 60rem;
+  --content-width: 40rem;
+}
+
+body {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+body > section {
+  flex: 1 0 auto;
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding: 0 1rem;
+}
+
+body > footer {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 0 1rem;
+
+  ul {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+  }
+
+  a {
+    display: inline-block;
+    opacity: 1;
+    padding: 0 0.4rem;
+    text-decoration: none;
+  }
+
+  a,
+  p {
+    color: var(--secondary-fg-color);
+    font-family: var(--ui-font);
+    font-size: 0.6rem;
+    line-height: 3em;
+    margin: 0;
+  }
+
+  .language {
+    align-content: center;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+
+    svg {
+      color: inherit;
+      height: 1.4em;
+      margin-right: 1ch;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# This file is responsible for configuring your application
+# and its dependencies with the aid of the Mix.Config module.
+#
+# This configuration file is loaded before any dependency and
+# is restricted to this project.
+
+# General application configuration
+import Config
+
+config :store,
+  namespace: Elementary.Store,
+  ecto_repos: [Elementary.Store.Repo],
+  generators: [binary_id: true]
+
+# Configures the endpoint
+config :store, Elementary.StoreWeb.Endpoint,
+  url: [host: "localhost"],
+  secret_key_base: "3o5PN2VqgVx4MSwejKZsCgvm8J+317FaRDejFSeqUWy+BHVT2aPClx4twNZD9IC2",
+  render_errors: [view: Elementary.StoreWeb.ErrorView, accepts: ~w(html json), layout: true],
+  pubsub_server: Elementary.Store.PubSub,
+  server: true,
+  gzip: false,
+  live_view: [signing_salt: "FhR1Qu+m"]
+
+config :store, Elementary.StoreWeb.Gettext,
+  default_locale: "en",
+  allowed_locales:
+    ~w(en af ar ca cs-CZ de es fi fr it ja ko lt ms mr nb nl pl pt-BR pt ru th sk sv tr-TR zh-CN zh-TW),
+  locales: %{
+    "en" => "English",
+    "af" => "Afrikaans",
+    "ar" => "العَرَبِيَّة",
+    "ca" => "català",
+    "cs-CZ" => "čeština",
+    "de" => "Deutsch",
+    "es" => "Español",
+    "fi" => "Finnish",
+    "fr" => "Français",
+    "it" => "Italiano",
+    "ja" => "日本語",
+    "ko" => "한국어",
+    "lt" => "Lietuvių kalba",
+    "ms" => "bahasa Melayu",
+    "mr" => "मराठी",
+    "nb" => "Bokmål",
+    "nl" => "Nederlands",
+    "pl" => "Polski",
+    "pt-BR" => "Português (Brasil)",
+    "pt" => "Português (Portugal)",
+    "ru" => "Русский",
+    "th" => "Thai",
+    "sk" => "Slovak",
+    "sv" => "Swedish",
+    "tr-TR" => "Türkçe",
+    "zh-CN" => "简体中文",
+    "zh-TW" => "繁體中文"
+  }
+
+# Configures Elixir's Logger
+config :logger, :console,
+  format: "$time $metadata[$level] $message\n",
+  metadata: [:request_id]
+
+# Use Jason for JSON parsing in Phoenix
+config :phoenix, :json_library, Jason
+
+# Import environment specific config. This must remain at the bottom
+# of this file so it overrides the configuration defined above.
+import_config "#{Mix.env()}.exs"
