@@ -1,0 +1,81 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+msgid ""
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:122
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:55
+msgid "Blog"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:144
+msgid "Brand"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:104
+msgid "Cart (%{count})"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:108
+msgid "Checkout"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:37
+msgid "Developer"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:43
+msgid "Get Involved"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:150
+msgid "OEMs"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:168
+msgid "Open Source"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:138
+msgid "Press"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:156
+msgid "Privacy"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:49
+msgid "Store"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:31
+msgid "Support"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:162
+msgid "Team"
+msgstr ""

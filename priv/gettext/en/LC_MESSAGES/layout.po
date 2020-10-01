@@ -1,0 +1,82 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:122
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:55
+msgid "Blog"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:144
+msgid "Brand"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:104
+msgid "Cart (%{count})"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:108
+msgid "Checkout"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:37
+msgid "Developer"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:43
+msgid "Get Involved"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:150
+msgid "OEMs"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:168
+msgid "Open Source"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:138
+msgid "Press"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:156
+msgid "Privacy"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:49
+msgid "Store"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:31
+msgid "Support"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/root.html.leex:162
+msgid "Team"
+msgstr ""
