@@ -1,18 +1,51 @@
-# Elementary.Store
+<div align="center">
+  <a href="https://store.elementary.io" align="center">
+    <center align="center">
+      <img src="assets/static/elementary.svg" alt="elementary" align="center">
+    </center>
+  </a>
+  <br>
+  <h1 align="center"><center>Store</center></h1>
+  <h3 align="center"><center>the elementary os merch store website</center></h3>
+  <br>
+  <br>
+</div>
 
-To start your Phoenix server:
+<p align="center">
+  <img src="https://github.com/elementary/store/workflows/Publish/badge.svg" alt="Publish">
+  <img src="https://github.com/elementary/store/workflows/Update/badge.svg" alt="Update">
+</p>
 
-  * Setup the project with `mix setup`
-  * Start Phoenix endpoint with `mix phx.server`
+---
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+This repository is an elixir website for `https://store.elementary.io`. It
+connects to Printful for products, and Stripe for payment processing.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Running
 
-## Learn more
+This repository contains a `docker-compose.yml` file for easier development.
+Make sure you have `docker-compose` installed, then run these commands:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+1) `docker-compose build` to build the containers. If you make changes to any
+dependencies, or are getting issues where code does not seem to update, re-run
+this step.
+
+2) `docker-compose run store mix ecto.setup` to setup the database. This only
+needs to be ran once. If there are issues and you want to reset the database,
+just run `docker-compose run store mix ecto.reset`.
+
+3) `docker-compose up` to start the server and dependencies. This is your main
+command and after you run steps 1 and 2, you should only need to run this
+command to get back up and running.
+
+## Translations
+
+All translations are extracted to the template files when new commits are
+pushed to master. If you would like to help translate this site, please see the
+[elementary weblate instance](https://l10n.elementary.io/).
+
+## Deploying
+
+This repository is setup with continuous integration and deployment. If you want
+to deploy your changes, all you need to do is open a PR to the master branch.
+Once your PR is accepted and merged in, it will automatically be deployed.
