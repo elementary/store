@@ -112,9 +112,30 @@ jobs:
 
       - name: Build
         run: |
-          docker build -f Dockerfile-production -t docker.pkg.github.com/elementary/store/store .
+          docker build -f Dockerfile-production -t elementary/store .
 
       - name: Publish
         run: |
-          docker login -u store -p ${{ secrets.GITHUB_TOKEN }} docker.pkg.github.com
-          docker push docker.pkg.github.com/elementary/store/store:latest
+          docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}"
+          docker push elementary/store:latest
+
+  Deploy:
+    runs-on: ubuntu-latest
+
+    needs:
+      - Publish
+
+    steps:
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+
+      - name: Deploy
+        run: >
+          echo "${{ secrets.KUBE_CERT }}" | base64 -d  > /tmp/elementary.crt
+
+          kubectl \
+            --server="${{ secrets.KUBE_SERVER }}" \
+            --certificate-authority="/tmp/elementary.crt" \
+            --token="${{ secrets.KUBE_TOKEN }}" \
+            --namespace="builds" \
+            rollout restart deployment builds
