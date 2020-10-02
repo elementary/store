@@ -7,18 +7,26 @@ body {
   align-content: stretch;
   align-items: stretch;
   display: flex;
-  flex-direction: column;
   justify-content: stretch;
 }
 
-body > section {
+body > div {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+  justify-content: stretch;
+}
+
+body > div > main {
   flex: 1 0 auto;
   margin: 0 auto;
   max-width: var(--page-width);
   padding: 0 1rem;
 }
 
-body > footer {
+body > div > footer {
   background-color: var(--secondary-bg-color);
   display: flex;
   flex-flow: wrap-reverse;

@@ -1,0 +1,26 @@
+.alert {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 0.85rem;
+  justify-content: space-between;
+  line-height: 2.9em;
+  padding: 0.1rem 1.65rem;
+  width: 100%;
+}
+
+.alert--closable {
+  cursor: pointer;
+
+  > svg {
+    height: 1rem;
+  }
+}
+
+.alert--info {
+  background-color: var(--lime-500);
+}
+
+.alert--error {
+  background-color: var(--strawberry-500);
+}

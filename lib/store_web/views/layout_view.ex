@@ -1,6 +1,9 @@
 defmodule Elementary.StoreWeb.LayoutView do
   use Elementary.StoreWeb, :view
 
+  def connection(%{socket: socket}), do: socket
+  def connection(%{conn: conn}), do: conn
+
   defp cart_count(conn) do
     0
   end

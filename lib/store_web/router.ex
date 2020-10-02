@@ -22,7 +22,7 @@ defmodule Elementary.StoreWeb.Router do
     live "/", IndexLive, :index
 
     get "/language", LanguageController, :index
-    get "/language/:code", LanguageController, :set
+    get "/language/:lang", LanguageController, :set
   end
 
   # Other scopes may use custom stacks.

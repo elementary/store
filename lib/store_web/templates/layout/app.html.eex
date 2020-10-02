@@ -1,5 +1,26 @@
-<main role="main" class="container">
-  <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-  <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-  <%= @inner_content %>
-</main>
+<div>
+  <header>
+    <%= render Elementary.StoreWeb.LayoutView, "primary-nav.html", assigns %>
+    <%= render Elementary.StoreWeb.LayoutView, "secondary-nav.html", assigns %>
+
+    <%= if get_flash(@conn, :info) do %>
+      <div class="alert alert--info" role="alert">
+        <span><%= get_flash(@conn, :info) %></span>
+      </div>
+    <% end %>
+
+    <%= if get_flash(@conn, :error) do %>
+      <div class="alert alert--error" role="alert">
+        <span><%= get_flash(@conn, :error) %></span>
+      </div>
+    <% end %>
+  </header>
+
+  <main role="main" class="container">
+    <%= @inner_content %>
+  </main>
+
+  <footer>
+    <%= render Elementary.StoreWeb.LayoutView, "footer.html", assigns %>
+  </footer>
+</div>

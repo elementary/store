@@ -1,22 +1,34 @@
 defmodule Elementary.StoreWeb.LanguageController do
   use Elementary.StoreWeb, :controller
 
+  alias Elementary.StoreWeb.Gettext, as: Gtext
+
   def index(conn, _params) do
     render(conn, "index.html")
   end
 
-  def set(conn, %{"code" => code} = params) do
-    Gettext.put_locale(language_code(code))
-
+  def set(conn, %{"lang" => lang} = params) do
     redirect_path = Map.get(params, "path", Routes.index_path(conn, :index))
-    redirect(conn, to: redirect_path)
-  end
 
-  defp language_code(code) do
-    if Enum.member?(Elementary.StoreWeb.Gettext.known_language_codes(), code) do
-      code
+    if Enum.member?(Gtext.known_language_codes(), lang) do
+      language_name = Map.get(Gtext.known_languages(), lang)
+
+      conn
+      |> Gtext.put_language(lang)
+      |> put_flash(
+        :info,
+        Gtext.dgettext("language", "Your language has been set to %{language}",
+          language: language_name
+        )
+      )
+      |> redirect(to: redirect_path)
     else
-      Elementary.StoreWeb.Gettext.default_language_code()
+      conn
+      |> put_flash(
+        :error,
+        Gtext.dgettext("language", "Unknown language code %{code}", code: lang)
+      )
+      |> redirect(to: redirect_path)
     end
   end
 end

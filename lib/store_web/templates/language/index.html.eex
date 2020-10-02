@@ -3,7 +3,11 @@
 <ul>
   <%= for {code, name} <- available_languages() do %>
     <li>
-      <a href="<%= Routes.language_path(@conn, :set, code) %>" rel="alternate" hreflang="<%= code %>">
+      <a
+        href="<%= Routes.language_path(@conn, :set, code) %>"
+        rel="alternate"
+        hreflang="<%= code %>"
+      >
         <%= name %>
       </a>
     </li>

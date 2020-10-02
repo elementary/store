@@ -38,4 +38,9 @@ defmodule Elementary.StoreWeb.IndexLive do
         into: %{},
         do: {app, vsn}
   end
+
+  @impl true
+  def render(assigns) do
+    Elementary.StoreWeb.IndexView.render("index.html", Map.put(assigns, :conn, assigns.socket))
+  end
 end

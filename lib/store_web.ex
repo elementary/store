@@ -22,7 +22,10 @@ defmodule Elementary.StoreWeb do
       use Phoenix.Controller, namespace: Elementary.StoreWeb
 
       import Plug.Conn
+      import Phoenix.LiveView.Controller
       import Elementary.StoreWeb.Gettext
+
+      alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
     end
   end
@@ -69,26 +72,16 @@ defmodule Elementary.StoreWeb do
     end
   end
 
-  def channel do
-    quote do
-      use Phoenix.Channel
-      import Elementary.StoreWeb.Gettext
-    end
-  end
-
   defp view_helpers do
     quote do
-      # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      # Import LiveView helpers (live_render, live_component, live_patch, etc)
       import Phoenix.LiveView.Helpers
-
-      # Import basic rendering functionality (render, render_layout, etc)
       import Phoenix.View
-
       import Elementary.StoreWeb.ErrorHelpers
       import Elementary.StoreWeb.Gettext
+
+      alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
     end
   end
