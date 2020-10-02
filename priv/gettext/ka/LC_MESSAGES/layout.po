@@ -1,0 +1,87 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ka\n"
+"Plural-Forms: nplurals=1\n"
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:4
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#, elixir-format
+#: nav.html.eex:35
+msgid "Blog"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:26
+msgid "Brand"
+msgstr ""
+
+#, elixir-format
+#: nav.html.leex:4
+msgid "Cart (%{count})"
+msgstr ""
+
+#, elixir-format
+#: nav.html.leex:8
+msgid "Checkout"
+msgstr ""
+
+#, elixir-format
+#: nav.html.eex:17
+msgid "Developer"
+msgstr ""
+
+#, elixir-format
+#: nav.html.eex:23
+msgid "Get Involved"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:32
+msgid "OEMs"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:50
+msgid "Open Source"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:20
+msgid "Press"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:38
+msgid "Privacy"
+msgstr ""
+
+#, elixir-format
+#: nav.html.eex:29
+msgid "Store"
+msgstr ""
+
+#, elixir-format
+#: nav.html.eex:11
+msgid "Support"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:44
+msgid "Team"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:12
+msgid "Language"
+msgstr ""

@@ -35,7 +35,7 @@ defmodule Elementary.StoreWeb.Gettext do
   Gets the language code saved for the user's session.
   """
   def get_language(conn, default \\ nil) do
-    Map.get(conn.private, :lang, default)
+    Map.get(conn.cookies, "locale", default)
   end
 
   @doc """
@@ -63,6 +63,6 @@ defmodule Elementary.StoreWeb.Gettext do
 
   def put_language(conn, code) do
     Gettext.put_locale(code)
-    Plug.Conn.put_private(conn, :lang, code)
+    Plug.Conn.put_resp_cookie(conn, "locale", code, max_age: 10 * 24 * 60 * 60)
   end
 end

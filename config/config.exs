@@ -21,8 +21,6 @@ config :store, Elementary.StoreWeb.Endpoint,
 
 config :store, Elementary.StoreWeb.Gettext,
   default_locale: "en",
-  allowed_locales:
-    ~w(en af ar ca cs-CZ de es fi fr it ja ko lt ms mr nb nl pl pt-BR pt ru th sk sv tr-TR zh-CN zh-TW),
   locales: %{
     "en" => "English",
     "af" => "Afrikaans",
