@@ -137,5 +137,5 @@ jobs:
             --server="${{ secrets.KUBE_SERVER }}" \
             --certificate-authority="/tmp/elementary.crt" \
             --token="${{ secrets.KUBE_TOKEN }}" \
-            --namespace="builds" \
-            rollout restart deployment builds
+            --namespace="store" \
+            rollout restart deployment store
