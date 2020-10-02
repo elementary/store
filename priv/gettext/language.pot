@@ -11,6 +11,11 @@ msgid ""
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/layout/root.html.leex:130
-msgid "Language"
+#: lib/store_web/controllers/language_controller.ex:29
+msgid "Unknown language code %{code}"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/controllers/language_controller.ex:20
+msgid "Your language has been set to %{language}"
 msgstr ""
