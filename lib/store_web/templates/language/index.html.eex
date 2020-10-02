@@ -1,5 +1,11 @@
 <h1>Pick a language</h1>
 
+<p>
+  elementary OS is created and used by people from all around the World;
+  translated to languages from all across the World. Make the experience even
+  better by selecting your language of choice.
+</P>
+
 <ul>
   <%= for {code, name} <- available_languages() do %>
     <li>

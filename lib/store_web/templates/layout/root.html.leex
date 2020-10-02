@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/styles/app.css") %>"/>
 
     <%= for {code, _language} <- available_languages() do %>
-      <link rel="alternate" hreflang="<%= code %>" href="<%= language_path(@conn, code) %>" />
+      <link rel="alternate" hreflang="<%= code %>" href="<%= language_path(connection(assigns), code) %>" />
     <% end %>
 
-    <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/scripts/app.js") %>"></script>
+    <script defer type="text/javascript" src="<%= Routes.static_path(connection(assigns), "/scripts/app.js") %>"></script>
   </head>
 
   <body>

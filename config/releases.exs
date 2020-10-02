@@ -3,6 +3,15 @@
 # although such is generally not recommended.
 import Config
 
+domain =
+  System.get_env("PUBLIC_PORT") ||
+    raise """
+    environment variable DOMAIN is missing.
+    Please set this to the domain you are hosting the store on
+    """
+
+port = String.to_integer(System.get_env("PUBLIC_PORT", "80"))
+
 secret_key_base =
   System.get_env("SECRET_KEY_BASE") ||
     raise """
@@ -11,8 +20,5 @@ secret_key_base =
     """
 
 config :store, Elementary.StoreWeb.Endpoint,
-  http: [
-    port: String.to_integer(System.get_env("PORT") || "4000"),
-    transport_options: [socket_opts: [:inet6]]
-  ],
+  url: [host: domain, port: port],
   secret_key_base: secret_key_base
