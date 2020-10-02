@@ -77,7 +77,7 @@ jobs:
         run: docker-compose build
 
       - name: Test
-        run: docker-compose run store mix test.unit
+        run: docker-compose run -e PRINTFUL_API_KEY="${{ secrets.PRINTFUL_API_KEY }}" store mix test.unit
 
   Test_Browser:
     name: Test (Browser)
@@ -94,7 +94,7 @@ jobs:
         run: docker-compose run -w /opt/app/assets store npm run build
 
       - name: Test
-        run: docker-compose run store mix test.browser
+        run: docker-compose run -e PRINTFUL_API_KEY="${{ secrets.PRINTFUL_API_KEY }}" store mix test.browser
 
   Publish:
     runs-on: ubuntu-latest
