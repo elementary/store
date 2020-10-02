@@ -10,8 +10,6 @@ domain =
     Please set this to the domain you are hosting the store on
     """
 
-port = String.to_integer(System.get_env("PUBLIC_PORT", "80"))
-
 secret_key_base =
   System.get_env("SECRET_KEY_BASE") ||
     raise """
@@ -20,5 +18,5 @@ secret_key_base =
     """
 
 config :store, Elementary.StoreWeb.Endpoint,
-  url: [host: domain, port: port],
+  url: [host: domain],
   secret_key_base: secret_key_base
