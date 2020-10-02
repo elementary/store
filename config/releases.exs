@@ -17,6 +17,16 @@ secret_key_base =
     You can generate one by calling: mix phx.gen.secret
     """
 
+printful_api_key =
+  System.get_env("PRINTFUL_API_KEY") ||
+    raise """
+    environment variable PRINTFUL_API_KEY is missing.
+    You can find yours in the Printful settings panel
+    https://www.printful.com/dashboard/settings
+    """
+
 config :store, Elementary.StoreWeb.Endpoint,
   url: [host: domain],
   secret_key_base: secret_key_base
+
+config :store, Elementary.Store.Printful, api_key: printful_api_key

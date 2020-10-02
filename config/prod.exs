@@ -17,3 +17,5 @@ config :store, Elementary.StoreWeb.Endpoint,
 
 # Do not print debug messages in production
 config :logger, level: :info
+
+config :store, Elementary.Store.Printful, enable_purchasing: true

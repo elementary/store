@@ -70,6 +70,9 @@ jobs:
     name: Test (Unit)
     runs-on: ubuntu-latest
 
+    env:
+      PRINTFUL_API_KEY: secrets.PRINTFUL_API_KEY
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -83,6 +86,9 @@ jobs:
   Test_Browser:
     name: Test (Browser)
     runs-on: ubuntu-latest
+
+    env:
+      PRINTFUL_API_KEY: secrets.PRINTFUL_API_KEY
 
     steps:
       - name: Checkout

@@ -1,50 +1,118 @@
 <section>
   <h1>
-    Support Development.<br />
-    Get Gear. Win/Win.
+    <%= dgettext "index", "Support Development.\nGet Gear. Win/Win."%>
   </h1>
 
   <p>
-    Every purchase goes towards developing elementary OS, its apps, and its
-    services. We're a small team, mostly volunteer, working constantly to make
-    elementary better—your support helps make elementary OS more sustainable.
+    <%= dgettext "index",
+      "Every purchase goes towards developing elementary OS, its apps, and its
+      services. We're a small team, mostly volunteer, working constantly to make
+      elementary better—your support helps make elementary OS more sustainable."
+    %>
   </p>
 </section>
 
 <section id="devices">
-  <h2>Devices</h2>
+  <h2><%= dgettext "index", "Devices"%></h2>
 
   <p>
-    Hardware devices with elementary OS can be purchased from the following
-    retailers. Purchasing from these companies helps support elementary OS.
+    <%= dgettext "index",
+      "Hardware devices with elementary OS can be purchased from the following
+      retailers. Purchasing from these companies helps support elementary OS."
+    %>
   </p>
 
   <ul>
     <li>
       <a href="#">Laptop With Linux</a>
       <ul>
-        <li>Laptops, mini desktops</li>
-        <li>Based in the Netherlands</li>
-        <li>Free shipping within EU</li>
+        <li><%= dgettext "index", "Laptops, mini desktops"%></li>
+        <li><%= dgettext "index", "Based in the Netherlands"%></li>
+        <li><%= dgettext "index", "Free shipping within EU"%></li>
       </ul>
     </li>
 
     <li>
       <a href="#">Slimbook</a>
       <ul>
-        <li>Laptops, desktops, mini desktops, all-in-ones</li>
-        <li>Based in Spain</li>
-        <li>International shipping</li>
+        <li><%= dgettext "index", "Laptops, desktops, mini desktops, all-in-ones"%></li>
+        <li><%= dgettext "index", "Based in Spain"%></li>
+        <li><%= dgettext "index", "International shipping"%></li>
       </ul>
     </li>
 
     <li>
       <a href="#">Star Labs</a>
       <ul>
-        <li>Laptops</li>
-        <li>Based in the United Kingdom</li>
-        <li>International shipping</li>
+        <li><%= dgettext "index", "Laptops"%></li>
+        <li><%= dgettext "index", "Based in the United Kingdom"%></li>
+        <li><%= dgettext "index", "International shipping"%></li>
       </ul>
     </li>
   </ul>
+
+  <h6>
+    <%= dgettext "index",
+      "Hardware and software support for these devices are provided by the
+      retailer."
+    %>
+  </h6>
+</section>
+
+<%= if products_in_category(@products, :apparel) do %>
+  <section class="products" id="apparel">
+    <h2><%= dgettext "index", "Apparel"%></h2>
+
+    <ul>
+      <%= for product <- products_in_category(@products, :apparel) do %>
+        <li>
+          <a href="#">
+            <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
+            <h3><%= product.name %></h3>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </section>
+<% end %>
+
+<%= if products_in_category(@products, :accessories) do %>
+  <section class="products" id="accessories">
+    <h2><%= dgettext "index", "Accessories"%></h2>
+
+    <ul>
+      <%= for product <- products_in_category(@products, :accessories) do %>
+        <li>
+          <a href="#">
+            <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
+            <h3><%= product.name %></h3>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </section>
+<% end %>
+
+<section id="shipping">
+  <h2><%= dgettext "index", "Worldwide Shipping"%></h2>
+
+  <p>
+    <%= dgettext "index",
+      "We ship apparel and accessories all around the world! Orders are made
+      on-demand typically within 2–7 days and will be shipped with the method
+      you choose at checkout. Due to COVID-19, orders may be delayed.
+      Production is on schedule, but delays may still occur with fulfillment and
+      shipping depending on the order, shipping method, and destination."
+    %>
+  </p>
+
+  <p>
+    <small>
+      <%= dgettext "index",
+        "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods,
+        prices, and times vary by country. Shipments outside of the USA may incur
+        customs fees depending on the origin and destination countries."
+      %>
+    </small>
+  </p>
 </section>
