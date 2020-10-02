@@ -1,6 +1,9 @@
 # The directory Mix will write compiled artifacts to.
 /_build/
 
+# Cover any secret configuration files
+/config/*.secret.exs
+
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
 
