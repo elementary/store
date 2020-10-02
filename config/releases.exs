@@ -4,7 +4,7 @@
 import Config
 
 domain =
-  System.get_env("PUBLIC_PORT") ||
+  System.get_env("DOMAIN") ||
     raise """
     environment variable DOMAIN is missing.
     Please set this to the domain you are hosting the store on
