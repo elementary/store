@@ -45,6 +45,34 @@ svg {
   }
 }
 
+.products > ul {
+  align-content: stretch;
+  align-items: stretch;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: stretch;
+  text-align: center;
+
+  > li {
+    list-style: none;
+
+    a {
+      color: inherit;
+      display: block;
+      text-decoration: none;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 970px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 #devices > ul {
   align-content: stretch;
   align-items: stretch;
@@ -99,32 +127,4 @@ svg {
 #devices ul {
   margin: 0;
   padding: 0;
-}
-
-.products > ul {
-  align-content: stretch;
-  align-items: stretch;
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: stretch;
-  text-align: center;
-
-  > li {
-    list-style: none;
-
-    a {
-      color: inherit;
-      display: block;
-      text-decoration: none;
-    }
-
-    img {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 970px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
