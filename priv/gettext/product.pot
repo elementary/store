@@ -1,0 +1,61 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+msgid ""
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:31
+msgid "2XL"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:32
+msgid "3XL"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:33
+msgid "4XL"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:14
+msgid "Colors"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:29
+msgid "L"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:28
+msgid "M"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:27
+msgid "S"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:43
+msgid "Sizes"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:30
+msgid "XL"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:26
+msgid "XS"
+msgstr ""
