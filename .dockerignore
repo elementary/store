@@ -1,4 +1,5 @@
 /_build/*
 /assets/node_modules/*
+/config/*.secret.exs
 /deps/*
 /doc/*
