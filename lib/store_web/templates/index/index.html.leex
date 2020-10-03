@@ -66,7 +66,11 @@
     <ul>
       <%= for product <- products_in_category(@products, :apparel) do %>
         <li>
-          <a href="#">
+          <a
+            href="<%= Routes.product_path(Endpoint, :index, product.id) %>"
+            phx-click="go_to_product"
+            phx-value-product="<%= product.id %>"
+          >
             <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
             <h3><%= product.name %></h3>
           </a>
@@ -83,7 +87,11 @@
     <ul>
       <%= for product <- products_in_category(@products, :accessories) do %>
         <li>
-          <a href="#">
+          <a
+            href="<%= Routes.product_path(Endpoint, :index, product.id) %>"
+            phx-click="go_to_product"
+            phx-value-product="<%= product.id %>"
+          >
             <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
             <h3><%= product.name %></h3>
           </a>

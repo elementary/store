@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <%= csrf_meta_tag() %>
 
-    <%= live_title_tag assigns[:page_title] || "Store", suffix: " · elementary" %>
+    <%= live_title_tag page_title assigns[:page_title] %>
 
-    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/styles/app.css") %>"/>
+    <link rel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
 
     <%= for {code, _language} <- available_languages() do %>
       <link rel="alternate" hreflang="<%= code %>" href="<%= language_path(connection(assigns), code) %>" />
     <% end %>
 
-    <script defer type="text/javascript" src="<%= Routes.static_path(connection(assigns), "/scripts/app.js") %>"></script>
+    <script defer type="text/javascript" src="<%= Routes.static_path(Endpoint, "/scripts/app.js") %>"></script>
   </head>
 
   <body>

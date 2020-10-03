@@ -10,7 +10,7 @@
   <%= for {code, name} <- available_languages() do %>
     <li>
       <a
-        href="<%= Routes.language_path(@conn, :set, code) %>"
+        href="<%= Routes.language_path(Endpoint, :set, code) %>"
         rel="alternate"
         hreflang="<%= code %>"
       >

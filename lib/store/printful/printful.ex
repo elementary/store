@@ -41,18 +41,26 @@ defmodule Elementary.Store.Printful do
     end
   end
 
-  def variants(product_id) do
-    case Tesla.get(new(), "/store/products" <> product_id) do
-      {:ok, %{status: 200, body: %{"result" => variants}}} ->
+  def product(id) do
+    case Tesla.get(new(), "/store/products/" <> id) do
+      {:ok, %{status: 200, body: %{"result" => product}}} ->
         new_variants =
-          variants
-          |> Enum.filter(&(&1["synced"] === true))
+          product["sync_variants"]
+          |> Enum.filter(&(&1["synced"] !== 0))
           |> Enum.map(&Parser.parse_variants/1)
 
-        {:ok, new_variants}
+        new_product =
+          product["sync_product"]
+          |> Parser.parse_product()
+          |> Map.put(:variants, new_variants)
 
-      err ->
-        err
+        {:ok, new_product}
+
+      {:ok, %{body: %{"error" => %{"message" => message}}}} ->
+        {:error, message}
+
+      res ->
+        res
     end
   end
 end

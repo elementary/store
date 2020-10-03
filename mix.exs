@@ -35,6 +35,7 @@ defmodule Elementary.Store.MixProject do
   defp deps do
     [
       {:castore, "~> 0.1.0"},
+      {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:mint, "~> 1.2.0"},

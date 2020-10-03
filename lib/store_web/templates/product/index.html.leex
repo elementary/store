@@ -1,0 +1,71 @@
+<section class="product">
+  <h1>
+    <%= @variant.name %>
+  </h1>
+
+  <h2>$<%= Decimal.to_string(@variant.price) %></h2>
+
+  <img alt="<%= @product.name %>" src="<%= @variant.image %>" />
+
+  <p><%= @variant.description %></p>
+
+  <div class="options">
+    <%= if length(variants(@product, :color)) > 1 do %>
+      <h2><%= dgettext "product", "Colors" %></h2>
+
+      <ul>
+        <%= for color <- variants(@product, :color) do %>
+          <li>
+            <% similar_variant = variant_for(@product, @variant, color: color) %>
+
+            <%= if similar_variant != nil do %>
+              <a
+                id="<%= similar_variant.color %>"
+                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
+                class="option <%= if similar_variant.color === @variant.color, do: "active", else: "" %>"
+                phx-hook="link"
+                phx-click="go_to_variant"
+                phx-value-variant="<%= similar_variant.id %>"
+              >
+                <%= color %>
+              </a>
+            <% else %>
+              <button class="option disabled" disabled>
+                <%= color %>
+              </button>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+
+    <%= if length(variants(@product, :size)) > 1 do %>
+      <h2><%= dgettext "product", "Sizes" %></h2>
+
+      <ul>
+        <%= for size <- variants(@product, :size) do %>
+          <li>
+            <% similar_variant = variant_for(@product, @variant, size: size) %>
+
+            <%= if similar_variant != nil do %>
+              <a
+                id="<%= similar_variant.size %>"
+                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
+                class="option <%= if similar_variant.size === @variant.size, do: "active", else: "" %>"
+                phx-hook="link"
+                phx-click="go_to_variant"
+                phx-value-variant="<%= similar_variant.id %>"
+              >
+                <%= size_text(size) %>
+              </a>
+            <% else %>
+              <button class="option disabled" disabled>
+                <%= size_text(size) %>
+              </button>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+</section>

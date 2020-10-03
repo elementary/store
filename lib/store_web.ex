@@ -81,6 +81,7 @@ defmodule Elementary.StoreWeb do
       import Elementary.StoreWeb.ErrorHelpers
       import Elementary.StoreWeb.Gettext
 
+      alias Elementary.StoreWeb.Endpoint
       alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
     end

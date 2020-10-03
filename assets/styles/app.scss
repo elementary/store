@@ -128,3 +128,32 @@ svg {
   margin: 0;
   padding: 0;
 }
+
+.product {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "image price"
+    "image description"
+    "image options";
+
+  > h1 {
+    grid-area: title;
+  }
+
+  > h2 {
+    grid-area: price;
+  }
+
+  > img {
+    grid-area: image;
+  }
+
+  > p {
+    grid-area: description;
+  }
+
+  > .options {
+    grid-area: options;
+  }
+}

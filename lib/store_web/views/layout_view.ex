@@ -1,10 +1,23 @@
 defmodule Elementary.StoreWeb.LayoutView do
   use Elementary.StoreWeb, :view
 
-  def connection(%{socket: socket}), do: socket
   def connection(%{conn: conn}), do: conn
+  def connection(%{socket: socket}), do: socket
 
-  defp cart_count(conn) do
+  def page_title(title) do
+    cond do
+      is_nil(title) ->
+        "elementary Store"
+
+      String.contains?(title, "Store") ->
+        title
+
+      true ->
+        "#{title} ⋅ elementary Store"
+    end
+  end
+
+  def cart_count(conn) do
     0
   end
 
@@ -17,10 +30,17 @@ defmodule Elementary.StoreWeb.LayoutView do
   end
 
   def language_path(%{request_path: "/"} = conn, code),
-    do: Routes.language_path(conn, :set, code)
+    do: Routes.language_url(conn, :set, code)
 
-  def language_path(conn, code),
-    do: Routes.language_path(conn, :set, code, path: conn.request_path)
+  def language_path(conn, code) do
+    absolute_path =
+      conn.request_path
+      |> URI.parse()
+      |> Map.put(:query, URI.encode_query(locale: code))
+      |> URI.to_string()
+
+    Routes.static_url(Endpoint, absolute_path)
+  end
 
   defp year() do
     Map.get(DateTime.utc_now(), :year)

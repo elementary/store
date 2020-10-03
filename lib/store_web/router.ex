@@ -20,6 +20,8 @@ defmodule Elementary.StoreWeb.Router do
     pipe_through :browser
 
     live "/", IndexLive, :index
+    live "/products/:product", ProductLive, :index
+    live "/products/:product/:variant", ProductLive, :index
 
     get "/_health", HealthController, :index
 

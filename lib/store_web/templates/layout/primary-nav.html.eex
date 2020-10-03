@@ -25,7 +25,7 @@
     </li>
 
     <li>
-      <a href="<%= Routes.index_path(connection(assigns), :index) %>" target="_self">
+      <a href="<%= Routes.index_path(Endpoint, :index) %>" target="_self">
         <%= dgettext "layout", "Store" %>
       </a>
     </li>
