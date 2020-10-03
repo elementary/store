@@ -21,6 +21,8 @@ defmodule Elementary.StoreWeb.Router do
 
     live "/", IndexLive, :index
 
+    get "/_health", HealthController, :index
+
     get "/language", LanguageController, :index
     get "/language/:lang", LanguageController, :set
   end

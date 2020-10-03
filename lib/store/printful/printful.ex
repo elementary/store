@@ -33,8 +33,11 @@ defmodule Elementary.Store.Printful do
 
         {:ok, new_products}
 
-      err ->
-        err
+      {:ok, %{body: %{"error" => %{"message" => message}}}} ->
+        {:error, message}
+
+      res ->
+        res
     end
   end
 
