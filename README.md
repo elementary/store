@@ -34,6 +34,18 @@ this step.
 command and after you run steps 1 and 2, you should only need to run this
 command to get back up and running.
 
+3) **OPTIONAL** If you have access to a printful account, you can add the API
+key to your `config/dev.secret.exs` file like so:
+
+```ex
+import Config
+
+config :store, Elementary.Store.Printful,
+  api_key: "aaaaaaaa-bbbb-cccc:dddd-eeeeeeeeeeee"
+```
+
+You will need to restart `docker-compose up` for this to take effect
+
 ## Translations
 
 All translations are extracted to the template files when new commits are
