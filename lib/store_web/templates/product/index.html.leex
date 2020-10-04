@@ -5,7 +5,11 @@
 
   <h2>$<%= Decimal.to_string(@variant.price) %></h2>
 
-  <img alt="<%= @product.name %>" src="<%= @variant.image %>" />
+  <img
+    alt="<%= @product.name %>"
+    src="<%= @variant.image %>"
+    width="800"
+  />
 
   <p><%= @variant.description %></p>
 
@@ -28,17 +32,18 @@
                 phx-value-variant="<%= similar_variant.id %>"
                 title="<%= color_text(color) %>"
               >
-                <span class="<%= color %>"></span>
-                <span><%= color_text(color) %></span>
+                <span class="color <%= color %>"></span>
+                <span class="name"><%= color_text(color) %></span>
               </a>
             <% else %>
               <button
                 class="option disabled"
-                title="<%= color_text(color) %>"
+                title="<%= dgettext "product", "Unavailable for %{size}", size: size_text(@variant.size) %>"
                 disabled
               >
-                <span class="<%= color %>"></span>
-                <span><%= color_text(color) %></span>
+                <span class="color <%= color %>"></span>
+                <span class="name"><%= color_text(color) %></span>
+                <span class="warning"><%= dgettext "product", "Unavailable for %{size}", size: size_text(@variant.size) %></span>
               </button>
             <% end %>
           </li>
@@ -57,16 +62,21 @@
             <%= if similar_variant != nil do %>
               <a
                 id="<%= similar_variant.size %>"
-                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
                 class="option <%= if similar_variant.size === @variant.size, do: "active" %>"
-                phx-hook="link"
+                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
                 phx-click="go_to_variant"
+                phx-hook="link"
                 phx-value-variant="<%= similar_variant.id %>"
+                title="<%= size_text(size) %>"
               >
                 <%= size_text(size) %>
               </a>
             <% else %>
-              <button class="option disabled" disabled>
+              <button
+                class="option disabled"
+                title="<%= dgettext "product", "Unavailable in %{color}", color: color_text(@variant.color) %>"
+                disabled
+              >
                 <%= size_text(size) %>
               </button>
             <% end %>

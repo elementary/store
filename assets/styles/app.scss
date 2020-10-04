@@ -131,11 +131,13 @@ svg {
 
 .product {
   display: grid;
+  grid-gap: 0 1rem;
   grid-template-areas:
-    "title title"
-    "image price"
-    "image description"
-    "image options";
+    "title"
+    "image"
+    "price"
+    "description"
+    "options";
 
   > h1 {
     grid-area: title;
@@ -147,6 +149,7 @@ svg {
 
   > img {
     grid-area: image;
+    max-width: 100%;
   }
 
   > p {
@@ -168,8 +171,23 @@ svg {
         margin: 0.5rem;
       }
 
-      a {
-        opacity: 1;
+      a,
+      button {
+        background-color: transparent;
+        border-radius: 6px;
+        border: none;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        text-decoration: none;
+
+        &.active {
+          background-color: var(--secondary-bg-color);
+        }
+
+        &.disabled {
+          opacity: 0.4;
+        }
       }
     }
 
@@ -185,25 +203,24 @@ svg {
       button {
         align-content: center;
         align-items: center;
-        background-color: transparent;
-        border-radius: 6px;
-        color: inherit;
-        display: flex;
+        display: grid;
+        grid-gap: 0 1ch;
+        grid-template-areas:
+          "color name"
+          "color warning";
+        grid-template-rows: 1fr auto;
         justify-content: flex-start;
         padding: 0.5rem 1rem;
-        text-decoration: none;
-
-        &.active {
-          background-color: var(--secondary-bg-color);
-        }
+        text-align: left;
       }
 
-      span:first-child {
-        border-radius: 32px;
+      .color {
+        border-radius: 1.5rem;
         border: 1px solid #000;
-        height: 64px;
-        margin: 0 1ch 0 0;
-        width: 64px;
+        display: block;
+        grid-area: color;
+        height: 3rem;
+        width: 3rem;
 
         &.charcoal { background-color: #1f221f; }
         &.aqua { background-color: #4b9ebc; }
@@ -211,6 +228,39 @@ svg {
         &.white { background-color: #dfdfdf; }
         &.purple { background-color: #574162; }
       }
+
+      .name {
+        grid-area: name;
+      }
+
+      .warning {
+        grid-area: warning;
+        font-size: 0.8rem;
+      }
     }
+
+    ul.size {
+      margin: -0.5rem -1.5rem;
+
+      li {
+        margin: 0 0.5rem;
+      }
+
+      a,
+      button {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-align: center;
+      }
+    }
+  }
+
+  @media (min-width: 900px) {
+    grid-template-areas:
+      "title title"
+      "image price"
+      "image description"
+      "image options";
+    grid-template-columns: 3fr 2fr;
   }
 }

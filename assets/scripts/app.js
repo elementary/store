@@ -17,7 +17,7 @@ hooks.link = {
 
       const attributes = Object.fromEntries(attributeList)
 
-      this.pushEvent(e.target.attributes['phx-click'].value, attributes)
+      this.pushEvent(e.target.attributes.getNamedItem('phx-click').value, attributes)
 
       e.preventDefault()
       e.stopPropagation()
