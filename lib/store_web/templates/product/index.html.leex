@@ -13,25 +13,32 @@
     <%= if length(variants(@variants, :color)) > 1 do %>
       <h2><%= dgettext "product", "Colors" %></h2>
 
-      <ul>
+      <ul class="color">
         <%= for color <- variants(@variants, :color) do %>
           <li>
             <% similar_variant = variant_for(@variants, @variant, color: color) %>
 
             <%= if similar_variant != nil do %>
               <a
-                id="<%= similar_variant.color %>"
+                id="<%= color %>"
+                class="option <%= if color === @variant.color, do: "active" %>"
                 href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
-                class="option <%= if similar_variant.color === @variant.color, do: "active" %>"
-                phx-hook="link"
                 phx-click="go_to_variant"
+                phx-hook="link"
                 phx-value-variant="<%= similar_variant.id %>"
+                title="<%= color_text(color) %>"
               >
-                <%= color_text(color) %>
+                <span class="<%= color %>"></span>
+                <span><%= color_text(color) %></span>
               </a>
             <% else %>
-              <button class="option disabled" disabled>
-                <%= color_text(color) %>
+              <button
+                class="option disabled"
+                title="<%= color_text(color) %>"
+                disabled
+              >
+                <span class="<%= color %>"></span>
+                <span><%= color_text(color) %></span>
               </button>
             <% end %>
           </li>
@@ -42,7 +49,7 @@
     <%= if length(variants(@variants, :size)) > 1 do %>
       <h2><%= dgettext "product", "Sizes" %></h2>
 
-      <ul>
+      <ul class="size">
         <%= for size <- variants(@variants, :size) do %>
           <li>
             <% similar_variant = variant_for(@variants, @variant, size: size) %>

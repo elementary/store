@@ -155,5 +155,62 @@ svg {
 
   > .options {
     grid-area: options;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -0.5rem;
+      padding: 0;
+
+      li {
+        flex: 0 0 auto;
+        list-style: none;
+        margin: 0.5rem;
+      }
+
+      a {
+        opacity: 1;
+      }
+    }
+
+    ul.color {
+      flex-direction: column;
+      margin: -0.5rem -1rem;
+
+      li {
+        margin: 0;
+      }
+
+      a,
+      button {
+        align-content: center;
+        align-items: center;
+        background-color: transparent;
+        border-radius: 6px;
+        color: inherit;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+
+        &.active {
+          background-color: var(--secondary-bg-color);
+        }
+      }
+
+      span:first-child {
+        border-radius: 32px;
+        border: 1px solid #000;
+        height: 64px;
+        margin: 0 1ch 0 0;
+        width: 64px;
+
+        &.charcoal { background-color: #1f221f; }
+        &.aqua { background-color: #4b9ebc; }
+        &.oatmeal { background-color: #dfd9cb; }
+        &.white { background-color: #dfdfdf; }
+        &.purple { background-color: #574162; }
+      }
+    }
   }
 }
