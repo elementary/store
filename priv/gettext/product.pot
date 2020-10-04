@@ -26,7 +26,7 @@ msgid "4XL"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:14
+#: lib/store_web/templates/product/index.html.leex:18
 msgid "Colors"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgid "S"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:50
+#: lib/store_web/templates/product/index.html.leex:55
 msgid "Sizes"
 msgstr ""
 
@@ -83,4 +83,15 @@ msgstr ""
 #, elixir-format
 #: lib/store_web/views/product_view.ex:38
 msgid "White Fleck Triblend"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:41
+#: lib/store_web/templates/product/index.html.leex:46
+msgid "Unavailable for %{size}"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:77
+msgid "Unavailable in %{color}"
 msgstr ""
