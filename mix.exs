@@ -20,8 +20,8 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {Elementary.Store.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:cachex, :logger, :runtime_tools],
+      mod: {Elementary.Store.Application, []}
     ]
   end
 
@@ -34,6 +34,7 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:cachex, "~> 3.3"},
       {:castore, "~> 0.1.0"},
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},

@@ -3,17 +3,17 @@ defmodule Elementary.StoreWeb.ProductView do
 
   @variant_keys [:color, :size]
 
-  def variants(product, key) do
-    product.variants
+  def variants(variants, key) do
+    variants
     |> Enum.map(&Map.get(&1, key))
     |> Enum.uniq()
   end
 
-  def variant_for(product, variant, changes \\ []) do
+  def variant_for(variants, variant, changes \\ []) do
     change_keys = Keyword.keys(changes)
     same_keys = Enum.reject([:color, :size], &Enum.member?(change_keys, &1))
 
-    product.variants
+    variants
     |> Enum.filter(fn v ->
       Enum.all?(same_keys, &(variant[&1] === v[&1]))
     end)
@@ -31,4 +31,10 @@ defmodule Elementary.StoreWeb.ProductView do
   def size_text(:two_extra_large), do: dgettext("product", "2XL")
   def size_text(:three_extra_large), do: dgettext("product", "3XL")
   def size_text(:four_extra_large), do: dgettext("product", "4XL")
+
+  defp color_text(:charcoal), do: dgettext("product", "Charcoal-Black Triblend")
+  defp color_text(:aqua), do: dgettext("product", "Aqua Triblend")
+  defp color_text(:oatmeal), do: dgettext("product", "Oatmeal Triblend")
+  defp color_text(:white), do: dgettext("product", "White Fleck Triblend")
+  defp color_text(:purple), do: dgettext("product", "Purple Triblend")
 end

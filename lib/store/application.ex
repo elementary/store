@@ -12,9 +12,9 @@ defmodule Elementary.Store.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Elementary.Store.PubSub},
       # Start the Endpoint (http/https)
-      Elementary.StoreWeb.Endpoint
+      Elementary.StoreWeb.Endpoint,
       # Start a worker by calling: Elementary.Store.Worker.start_link(arg)
-      # {Elementary.Store.Worker, arg}
+      {Cachex, name: Elementary.Store.Printful}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

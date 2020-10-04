@@ -10,28 +10,28 @@
   <p><%= @variant.description %></p>
 
   <div class="options">
-    <%= if length(variants(@product, :color)) > 1 do %>
+    <%= if length(variants(@variants, :color)) > 1 do %>
       <h2><%= dgettext "product", "Colors" %></h2>
 
       <ul>
-        <%= for color <- variants(@product, :color) do %>
+        <%= for color <- variants(@variants, :color) do %>
           <li>
-            <% similar_variant = variant_for(@product, @variant, color: color) %>
+            <% similar_variant = variant_for(@variants, @variant, color: color) %>
 
             <%= if similar_variant != nil do %>
               <a
                 id="<%= similar_variant.color %>"
                 href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
-                class="option <%= if similar_variant.color === @variant.color, do: "active", else: "" %>"
+                class="option <%= if similar_variant.color === @variant.color, do: "active" %>"
                 phx-hook="link"
                 phx-click="go_to_variant"
                 phx-value-variant="<%= similar_variant.id %>"
               >
-                <%= color %>
+                <%= color_text(color) %>
               </a>
             <% else %>
               <button class="option disabled" disabled>
-                <%= color %>
+                <%= color_text(color) %>
               </button>
             <% end %>
           </li>
@@ -39,19 +39,19 @@
       </ul>
     <% end %>
 
-    <%= if length(variants(@product, :size)) > 1 do %>
+    <%= if length(variants(@variants, :size)) > 1 do %>
       <h2><%= dgettext "product", "Sizes" %></h2>
 
       <ul>
-        <%= for size <- variants(@product, :size) do %>
+        <%= for size <- variants(@variants, :size) do %>
           <li>
-            <% similar_variant = variant_for(@product, @variant, size: size) %>
+            <% similar_variant = variant_for(@variants, @variant, size: size) %>
 
             <%= if similar_variant != nil do %>
               <a
                 id="<%= similar_variant.size %>"
                 href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
-                class="option <%= if similar_variant.size === @variant.size, do: "active", else: "" %>"
+                class="option <%= if similar_variant.size === @variant.size, do: "active" %>"
                 phx-hook="link"
                 phx-click="go_to_variant"
                 phx-value-variant="<%= similar_variant.id %>"

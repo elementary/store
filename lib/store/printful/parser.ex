@@ -5,6 +5,12 @@ defmodule Elementary.Store.Printful.Parser do
   to parse size and color information for variants. Etc.
   """
 
+  def parse_product(products) when is_list(products) do
+    products
+    |> Enum.filter(&(&1["synced"] !== 0))
+    |> Enum.map(&parse_product/1)
+  end
+
   def parse_product(product) do
     %{
       id: product["id"],
@@ -14,7 +20,20 @@ defmodule Elementary.Store.Printful.Parser do
     }
   end
 
-  def parse_variants(variant) do
+  def parse_product_and_variants(result) do
+    %{
+      product: parse_product(result["sync_product"]),
+      variants: parse_variant(result["sync_variants"])
+    }
+  end
+
+  def parse_variant(variants) when is_list(variants) do
+    variants
+    |> Enum.filter(&(&1["synced"] !== 0))
+    |> Enum.map(&parse_variant/1)
+  end
+
+  def parse_variant(variant) do
     name = clean_variant_name(variant)
     size = parse_variant_size(variant)
     color = parse_variant_color(variant, size)
@@ -74,11 +93,19 @@ defmodule Elementary.Store.Printful.Parser do
     |> parse_variant_size_text()
   end
 
+  defp parse_variant_color_text("Charcoal-Black Triblend"), do: :charcoal
+  defp parse_variant_color_text("Aqua Triblend"), do: :aqua
+  defp parse_variant_color_text("Oatmeal Triblend"), do: :oatmeal
+  defp parse_variant_color_text("White Fleck Triblend"), do: :white
+  defp parse_variant_color_text("Purple Triblend"), do: :purple
+  defp parse_variant_color_text(_), do: nil
+
   defp parse_variant_color(variant, size) do
     variant
     |> parse_variant_options()
     |> Enum.reject(&(&1 === size))
-    |> List.first()
+    |> first("")
+    |> parse_variant_color_text()
   end
 
   defp variant_preview_file(variant) do
@@ -97,8 +124,14 @@ defmodule Elementary.Store.Printful.Parser do
     |> Map.get("thumbnail_url")
   end
 
-  def last(list, default \\ nil)
-  def last([], default), do: default
-  def last([head], _default), do: head
-  def last([_ | tail], default), do: last(tail, default)
+  # These two functions should be in the standard lib as `List.first` and
+  # `List.last` in the next version of Elixir
+  defp first(list, default \\ nil)
+  defp first([], default), do: default
+  defp first([head | _], _default), do: head
+
+  defp last(list, default \\ nil)
+  defp last([], default), do: default
+  defp last([head], _default), do: head
+  defp last([_ | tail], default), do: last(tail, default)
 end

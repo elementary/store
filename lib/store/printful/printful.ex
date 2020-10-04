@@ -21,17 +21,10 @@ defmodule Elementary.Store.Printful do
     Tesla.client(middleware, Application.get_env(:tesla, :adapter))
   end
 
-  def products() do
-    query = [status: "synced", limit: 100]
-
-    case Tesla.get(new(), "/store/products", query: query) do
-      {:ok, %{status: 200, body: %{"result" => products}}} ->
-        new_products =
-          products
-          |> Enum.filter(&(&1["synced"] !== 0))
-          |> Enum.map(&Parser.parse_product/1)
-
-        {:ok, new_products}
+  def get(url, query \\ []) do
+    case Tesla.get(new(), url, query: query) do
+      {:ok, %{status: 200, body: %{"result" => result}}} ->
+        {:ok, result}
 
       {:ok, %{body: %{"error" => %{"message" => message}}}} ->
         {:error, message}
@@ -41,23 +34,36 @@ defmodule Elementary.Store.Printful do
     end
   end
 
+  def products() do
+    cache_block("products", fn ->
+      case get("/store/products", status: "synced", limit: 100) do
+        {:ok, products} -> {:ok, Parser.parse_product(products)}
+        result -> result
+      end
+    end)
+  end
+
   def product(id) do
-    case Tesla.get(new(), "/store/products/" <> id) do
-      {:ok, %{status: 200, body: %{"result" => product}}} ->
-        new_variants =
-          product["sync_variants"]
-          |> Enum.filter(&(&1["synced"] !== 0))
-          |> Enum.map(&Parser.parse_variants/1)
+    cache_block("product-" <> id, fn ->
+      case get("/store/products/" <> id) do
+        {:ok, results} -> {:ok, Parser.parse_product_and_variants(results)}
+        result -> result
+      end
+    end)
+  end
 
-        new_product =
-          product["sync_product"]
-          |> Parser.parse_product()
-          |> Map.put(:variants, new_variants)
+  defp cache_block(key, fun) do
+    case Cachex.get(__MODULE__, key) do
+      {:ok, nil} -> set_cache_block(key, fun)
+      {:ok, result} -> {:ok, result}
+    end
+  end
 
-        {:ok, new_product}
-
-      {:ok, %{body: %{"error" => %{"message" => message}}}} ->
-        {:error, message}
+  defp set_cache_block(key, fun) do
+    case apply(fun, []) do
+      {:ok, result} ->
+        Cachex.put(__MODULE__, key, result, til: :timer.minutes(5))
+        {:ok, result}
 
       res ->
         res

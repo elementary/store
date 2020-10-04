@@ -11,13 +11,8 @@ defmodule Elementary.StoreWeb.IndexLive do
       {:ok, products} ->
         {:ok, assign(socket, products: products)}
 
-      {:error, status_code} ->
-        new_socket =
-          socket
-          |> put_flash(:error, "Unable to connect to our Store")
-          |> assign(products: [])
-
-        {:ok, new_socket}
+      res ->
+        res
     end
   end
 

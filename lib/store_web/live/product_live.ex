@@ -8,11 +8,12 @@ defmodule Elementary.StoreWeb.ProductLive do
   @impl true
   def mount(%{"product" => product} = params, _session, socket) do
     case Printful.product(product) do
-      {:ok, product} ->
+      {:ok, %{product: product, variants: variants}} ->
         {:ok,
          assign(socket,
            product: product,
-           variant: variant(params["variant"], product)
+           variants: variants,
+           variant: variant(params["variant"], variants)
          )}
 
       res ->
@@ -22,7 +23,7 @@ defmodule Elementary.StoreWeb.ProductLive do
 
   @impl true
   def handle_params(%{"variant" => variant_id}, _url, socket) do
-    {:noreply, assign(socket, variant: variant(variant_id, socket.assigns.product))}
+    {:noreply, assign(socket, variant: variant(variant_id, socket.assigns.variants))}
   end
 
   @impl true
@@ -39,16 +40,16 @@ defmodule Elementary.StoreWeb.ProductLive do
      )}
   end
 
-  defp variant(nil, product), do: hd(product.variants)
-  defp variant(variant, product) when is_map(variant), do: variant
+  defp variant(nil, variants), do: hd(variants)
+  defp variant(variant, variants) when is_map(variant), do: variant
 
-  defp variant(variant, product) when is_binary(variant) do
-    product.variants
+  defp variant(variant, variants) when is_binary(variant) do
+    variants
     |> Enum.find(&(to_string(&1.id) === variant))
-    |> variant(product)
+    |> variant(variants)
   end
 
-  defp variant(_, product), do: variant(nil, product)
+  defp variant(_, variants), do: variant(nil, variants)
 
   @impl true
   def render(assigns) do
