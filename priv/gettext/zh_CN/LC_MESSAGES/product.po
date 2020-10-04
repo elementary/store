@@ -47,7 +47,7 @@ msgid "S"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:43
+#: lib/store_web/templates/product/index.html.leex:50
 msgid "Sizes"
 msgstr ""
 
