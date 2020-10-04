@@ -60,3 +60,28 @@ msgstr ""
 #: lib/store_web/views/product_view.ex:26
 msgid "XS"
 msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:36
+msgid "Aqua Triblend"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:35
+msgid "Charcoal-Black Triblend"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:37
+msgid "Oatmeal Triblend"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:39
+msgid "Purple Triblend"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/views/product_view.ex:38
+msgid "White Fleck Triblend"
+msgstr ""
