@@ -57,20 +57,21 @@ defmodule Elementary.Store.Printful.Parser do
     |> Enum.reject(&(&1 === ""))
   end
 
-  defp parse_variant_size(variant) do
-    options = parse_variant_options(variant)
+  defp parse_variant_size_text("XS"), do: :extra_small
+  defp parse_variant_size_text("S"), do: :small
+  defp parse_variant_size_text("M"), do: :medium
+  defp parse_variant_size_text("L"), do: :large
+  defp parse_variant_size_text("XL"), do: :extra_large
+  defp parse_variant_size_text("2XL"), do: :two_extra_large
+  defp parse_variant_size_text("3XL"), do: :three_extra_large
+  defp parse_variant_size_text("4XL"), do: :four_extra_large
+  defp parse_variant_size_text(_), do: nil
 
-    cond do
-      Enum.member?(options, "XS") -> :extra_small
-      Enum.member?(options, "S") -> :small
-      Enum.member?(options, "M") -> :medium
-      Enum.member?(options, "L") -> :large
-      Enum.member?(options, "XL") -> :extra_large
-      Enum.member?(options, "2XL") -> :two_extra_large
-      Enum.member?(options, "3XL") -> :three_extra_large
-      Enum.member?(options, "4XL") -> :four_extra_large
-      true -> nil
-    end
+  defp parse_variant_size(variant) do
+    variant
+    |> parse_variant_options()
+    |> last("")
+    |> parse_variant_size_text()
   end
 
   defp parse_variant_color(variant, size) do
@@ -95,4 +96,9 @@ defmodule Elementary.Store.Printful.Parser do
     |> variant_preview_file
     |> Map.get("thumbnail_url")
   end
+
+  def last(list, default \\ nil)
+  def last([], default), do: default
+  def last([head], _default), do: head
+  def last([_ | tail], default), do: last(tail, default)
 end
