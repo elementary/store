@@ -9,18 +9,16 @@ defmodule Elementary.StoreWeb.IndexLive do
   def mount(_params, _session, socket) do
     case Printful.products() do
       {:ok, products} ->
-        {:ok, assign(socket, products: products)}
+        new_socket =
+          socket
+          |> assign(:products, products)
+          |> assign(:page_title, "Store")
+
+        {:ok, new_socket}
 
       res ->
         res
     end
-  end
-
-  @impl true
-  def handle_event("go_to_product", %{"product" => product_id}, socket) do
-    new_socket = push_redirect(socket, to: Routes.product_path(socket, :index, product_id))
-
-    {:noreply, new_socket}
   end
 
   @impl true

@@ -1,0 +1,9 @@
+<section>
+  <header class="error">
+    <h1>Internal Server Error</h1>
+
+    <p>
+      Something happened that prevented us from showing you this page.
+    </p>
+  </header>
+</section>

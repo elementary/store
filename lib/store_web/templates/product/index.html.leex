@@ -1,8 +1,9 @@
-<section class="product">
-  <h1>
-    <%= @variant.name %>
-  </h1>
+<%= form_for :cart, Routes.cart_path(Endpoint, :update), [class: "product"], fn f -> %>
+  <%= text_input f, :operation, type: "hidden", value: "add" %>
+  <%= text_input f, :product_id, type: "hidden", value: @product.id %>
+  <%= text_input f, :variant_id, type: "hidden", value: @variant.id %>
 
+  <h1><%= @variant.name %></h1>
   <h2>$<%= Decimal.to_string(@variant.price) %></h2>
 
   <img
@@ -23,18 +24,10 @@
             <% similar_variant = variant_for(@variants, @variant, color: color) %>
 
             <%= if similar_variant != nil do %>
-              <a
-                id="<%= color %>"
-                class="option <%= if color === @variant.color, do: "active" %>"
-                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
-                phx-click="go_to_variant"
-                phx-hook="link"
-                phx-value-variant="<%= similar_variant.id %>"
-                title="<%= color_text(color) %>"
-              >
+              <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: color_text(color) do %>
                 <span class="color <%= color %>"></span>
                 <span class="name"><%= color_text(color) %></span>
-              </a>
+              <% end %>
             <% else %>
               <button
                 class="option disabled"
@@ -60,17 +53,9 @@
             <% similar_variant = variant_for(@variants, @variant, size: size) %>
 
             <%= if similar_variant != nil do %>
-              <a
-                id="<%= similar_variant.size %>"
-                class="option <%= if similar_variant.size === @variant.size, do: "active" %>"
-                href="<%= Routes.product_path(Endpoint, :index, @product.id, similar_variant.id) %>"
-                phx-click="go_to_variant"
-                phx-hook="link"
-                phx-value-variant="<%= similar_variant.id %>"
-                title="<%= size_text(size) %>"
-              >
+              <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: size_text(size) do %>
                 <%= size_text(size) %>
-              </a>
+              <% end %>
             <% else %>
               <button
                 class="option disabled"
@@ -84,5 +69,10 @@
         <% end %>
       </ul>
     <% end %>
+
+    <h2><%= dgettext "product", "Quantity" %></h2>
+    <%= text_input f, :quantity, type: "number", min: 1, max: 99, value: 1 %>
+
+    <%= submit dgettext "product", "Add to Cart" %>
   </div>
-</section>
+<% end %>

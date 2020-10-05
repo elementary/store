@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <%= csrf_meta_tag() %>
 
-    <%= live_title_tag page_title assigns[:page_title] %>
+    <%= live_title_tag assigns[:page_title], suffix: " ⋅ elementary OS" %>
 
     <link rel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
 

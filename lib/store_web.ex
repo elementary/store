@@ -27,6 +27,8 @@ defmodule Elementary.StoreWeb do
 
       alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
+
+      action_fallback Elementary.StoreWeb.FallbackController
     end
   end
 

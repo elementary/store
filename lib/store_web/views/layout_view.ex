@@ -4,23 +4,6 @@ defmodule Elementary.StoreWeb.LayoutView do
   def connection(%{conn: conn}), do: conn
   def connection(%{socket: socket}), do: socket
 
-  def page_title(title) do
-    cond do
-      is_nil(title) ->
-        "elementary Store"
-
-      String.contains?(title, "Store") ->
-        title
-
-      true ->
-        "#{title} ⋅ elementary Store"
-    end
-  end
-
-  def cart_count(conn) do
-    0
-  end
-
   def available_languages() do
     Elementary.StoreWeb.Gettext.known_languages()
   end

@@ -10,6 +10,7 @@ defmodule Elementary.StoreWeb.Router do
     plug :put_secure_browser_headers
 
     plug Elementary.StoreWeb.GettextPlug
+    plug Elementary.StoreWeb.CartPlug
   end
 
   pipeline :api do
@@ -27,6 +28,8 @@ defmodule Elementary.StoreWeb.Router do
 
     get "/language", LanguageController, :index
     get "/language/:lang", LanguageController, :set
+
+    post "/cart/update", CartController, :update
   end
 
   # Other scopes may use custom stacks.

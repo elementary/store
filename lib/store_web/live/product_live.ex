@@ -9,12 +9,16 @@ defmodule Elementary.StoreWeb.ProductLive do
   def mount(%{"product" => product} = params, _session, socket) do
     case Printful.product(product) do
       {:ok, %{product: product, variants: variants}} ->
-        {:ok,
-         assign(socket,
-           product: product,
-           variants: variants,
-           variant: variant(params["variant"], variants)
-         )}
+        selected_variant = variant(params["variant"], variants)
+
+        new_socket =
+          socket
+          |> assign(:product, product)
+          |> assign(:variants, variants)
+          |> assign(:variant, selected_variant)
+          |> assign(:page_title, selected_variant.name)
+
+        {:ok, new_socket}
 
       res ->
         res
@@ -29,15 +33,6 @@ defmodule Elementary.StoreWeb.ProductLive do
   @impl true
   def handle_params(_params, _url, socket) do
     {:noreply, socket}
-  end
-
-  @impl true
-  def handle_event("go_to_variant", %{"variant" => variant_id}, socket) do
-    {:noreply,
-     push_patch(socket,
-       to: Routes.product_path(socket, :index, socket.assigns.product.id, variant_id),
-       replace: true
-     )}
   end
 
   defp variant(nil, variants), do: hd(variants)

@@ -52,6 +52,15 @@ defmodule Elementary.Store.Printful do
     end)
   end
 
+  def variant(id) do
+    cache_block("variant-" <> id, fn ->
+      case get("/store/variants/" <> id) do
+        {:ok, variant} -> {:ok, Parser.parse_variant(variant)}
+        result -> result
+      end
+    end)
+  end
+
   defp cache_block(key, fun) do
     case Cachex.get(__MODULE__, key) do
       {:ok, nil} -> set_cache_block(key, fun)
