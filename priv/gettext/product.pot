@@ -26,7 +26,7 @@ msgid "4XL"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:18
+#: lib/store_web/templates/product/index.html.leex:19
 msgid "Colors"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgid "S"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:55
+#: lib/store_web/templates/product/index.html.leex:48
 msgid "Sizes"
 msgstr ""
 
@@ -86,12 +86,27 @@ msgid "White Fleck Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:41
-#: lib/store_web/templates/product/index.html.leex:46
+#: lib/store_web/templates/product/index.html.leex:34
+#: lib/store_web/templates/product/index.html.leex:39
 msgid "Unavailable for %{size}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:77
+#: lib/store_web/templates/product/index.html.leex:62
 msgid "Unavailable in %{color}"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:76
+msgid "Add to Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/controllers/cart_controller.ex:16
+msgid "Added %{product} to cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:73
+msgid "Quantity"
 msgstr ""
