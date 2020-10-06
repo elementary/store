@@ -1,7 +1,7 @@
 <nav class="secondary">
   <ul>
     <a href="#">
-      <%= dgettext "layout", "Cart (%{count})", count: @cart_count %>
+      <%= dgettext "layout", "Cart (%{count})", count: cart_count(assigns) %>
     </a>
 
     <a href="#">

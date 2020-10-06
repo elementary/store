@@ -4,6 +4,22 @@ defmodule Elementary.StoreWeb.LayoutView do
   def connection(%{conn: conn}), do: conn
   def connection(%{socket: socket}), do: socket
 
+  def cart_count(%{cart_count: count}), do: count
+
+  def cart_count(%{conn: conn}) do
+    conn
+    |> Plug.Conn.get_session(:cart_items)
+    |> count_cart()
+  end
+
+  defp count_cart(items) when is_map(items) do
+    items
+    |> Map.values()
+    |> Enum.reduce(0, &(&1 + &2))
+  end
+
+  defp count_cart(_), do: 0
+
   def available_languages() do
     Elementary.StoreWeb.Gettext.known_languages()
   end
