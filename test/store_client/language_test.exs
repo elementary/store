@@ -13,7 +13,7 @@ defmodule Elementary.StoreClient.LanguageTest do
 
   feature "can set the language from query string", %{session: session} do
     session
-    |> visit("/?lang=ja")
+    |> visit("/?locale=ja")
     |> assert_langauge("ja")
   end
 
