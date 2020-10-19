@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://store.elementary.io" align="center">
+  <a href="https://elementary.io/store/" align="center">
     <center align="center">
       <img src="assets/static/elementary.svg" alt="elementary" align="center">
     </center>
@@ -18,7 +18,7 @@
 
 ---
 
-This repository is an elixir website for `https://store.elementary.io`. It
+This repository is an elixir website for `https://elementary.io/store/`. It
 connects to Printful for products, and Stripe for payment processing.
 
 ## Running
