@@ -6,7 +6,7 @@
   </a>
   <br>
   <h1 align="center"><center>Store</center></h1>
-  <h3 align="center"><center>the elementary os merch store website</center></h3>
+  <h3 align="center"><center>The elementary OS merch store website</center></h3>
   <br>
   <br>
 </div>

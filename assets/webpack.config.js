@@ -8,21 +8,18 @@ module.exports = (env, options) => {
   const devMode = options.mode !== 'production'
 
   return {
-    optimization: {
-      minimizer: [
-        new TerserPlugin({ cache: true, parallel: true, sourceMap: devMode }),
-        new OptimizeCSSAssetsPlugin({})
-      ]
-    },
     entry: {
       app: ['./scripts/app.js']
     },
+
     output: {
       filename: '[name].js',
       path: path.resolve(__dirname, '../priv/static/scripts'),
       publicPath: '/scripts/'
     },
+
     devtool: devMode ? 'source-map' : undefined,
+
     module: {
       rules: [
         {
@@ -42,9 +39,19 @@ module.exports = (env, options) => {
         }
       ]
     },
+
+    optimization: {
+      minimizer: [
+        new TerserPlugin({ parallel: true }),
+        new OptimizeCSSAssetsPlugin({})
+      ]
+    },
+
     plugins: [
       new MiniCssExtractPlugin({ filename: '../styles/app.css' }),
-      new CopyWebpackPlugin([{ from: 'static/', to: '../' }])
+      new CopyWebpackPlugin({
+        patterns: [{ from: 'static/', to: '../' }]
+      })
     ]
   }
 }
