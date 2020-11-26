@@ -5,6 +5,8 @@ defmodule Elementary.Store.Printful.Parser do
   to parse size and color information for variants. Etc.
   """
 
+  @apparel_keywords ~w(Tee Hoodie)
+
   def parse_product(products) when is_list(products) do
     products
     |> Enum.filter(&(&1["synced"] !== 0))
@@ -52,7 +54,7 @@ defmodule Elementary.Store.Printful.Parser do
   end
 
   defp parse_product_category(%{"name" => name}) do
-    if String.contains?(name, "Tee") do
+    if Enum.any?(@apparel_keywords, &(String.contains?(name, &1))) do
       :apparel
     else
       :accessories
