@@ -13,7 +13,11 @@ config :store, namespace: Elementary.Store
 config :store, Elementary.StoreWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "3o5PN2VqgVx4MSwejKZsCgvm8J+317FaRDejFSeqUWy+BHVT2aPClx4twNZD9IC2",
-  render_errors: [view: Elementary.StoreWeb.ErrorView, accepts: ~w(html json), layout: true],
+  render_errors: [
+    accepts: ~w(html json),
+    layout: {Elementary.StoreWeb.LayoutView, "error.html"},
+    view: Elementary.StoreWeb.ErrorView
+  ],
   pubsub_server: Elementary.Store.PubSub,
   server: true,
   gzip: false,

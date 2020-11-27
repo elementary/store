@@ -8,13 +8,13 @@
 
     <%= live_title_tag assigns[:page_title] || "Store", suffix: " ⋅ elementary OS" %>
 
-    <link rel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
+    <link phx-track-static_pathrel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
 
     <%= for {code, _language} <- available_languages() do %>
       <link rel="alternate" hreflang="<%= code %>" href="<%= language_path(connection(assigns), code) %>" />
     <% end %>
 
-    <script defer type="text/javascript" src="<%= Routes.static_path(Endpoint, "/scripts/app.js") %>"></script>
+    <script phx-track-static defer type="text/javascript" src="<%= Routes.static_path(Endpoint, "/scripts/app.js") %>"></script>
   </head>
 
   <body>
