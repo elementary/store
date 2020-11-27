@@ -40,6 +40,7 @@ defmodule Elementary.Store.MixProject do
       {:gettext, "~> 0.11"},
       {:hackney, "~> 1.13"},
       {:jason, "~> 1.0"},
+      {:libcluster, "~> 3.2.1"},
       {:phoenix_html, "~> 2.11"},
       {:phoenix_live_view, "~> 0.15"},
       {:phoenix, "~> 1.5.7"},
