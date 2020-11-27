@@ -20,12 +20,10 @@ config :logger, level: :info
 
 config :libcluster, topologies: [
   production: [
-    strategy: Elixir.Cluster.Strategy.Kubernetes,
+    strategy: Elixir.Cluster.Strategy.Kubernetes.DNS,
     config: [
-      mode: :ip,
-      kubernetes_node_basename: "store",
-      kubernetes_selector: "app=store",
-      kubernetes_namespace: "store",
+      service: "store",
+      application_name: "store",
       polling_interval: 10_000
     ]
   ]
