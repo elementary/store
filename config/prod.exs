@@ -22,7 +22,7 @@ config :libcluster, topologies: [
   production: [
     strategy: Elixir.Cluster.Strategy.Kubernetes.DNS,
     config: [
-      service: "store",
+      service: "store-service-headless",
       application_name: "store",
       polling_interval: 10_000
     ]
