@@ -90,5 +90,5 @@ import_config "#{Mix.env()}.exs"
 try do
   import_config "#{Mix.env()}.secret.exs"
 rescue
-  Code.LoadError -> :no_op
+  File.Error -> :no_op
 end

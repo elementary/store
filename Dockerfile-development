@@ -18,7 +18,7 @@ RUN apk --no-cache --update add \
   make \
   nodejs \
   nodejs-npm \
-  python
+  python3
 
 RUN cd /opt/app && \
   mix local.hex --force && \
