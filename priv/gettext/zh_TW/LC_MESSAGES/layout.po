@@ -17,7 +17,7 @@ msgid "%{year} elementary, Inc"
 msgstr ""
 
 #, elixir-format
-#: nav.html.eex:35
+#: nav.html.leex:35
 msgid "Blog"
 msgstr ""
 
@@ -32,17 +32,12 @@ msgid "Cart (%{count})"
 msgstr ""
 
 #, elixir-format
-#: nav.html.leex:8
-msgid "Checkout"
-msgstr ""
-
-#, elixir-format
-#: nav.html.eex:17
+#: nav.html.leex:17
 msgid "Developer"
 msgstr ""
 
 #, elixir-format
-#: nav.html.eex:23
+#: nav.html.leex:23
 msgid "Get Involved"
 msgstr ""
 
@@ -67,12 +62,12 @@ msgid "Privacy"
 msgstr ""
 
 #, elixir-format
-#: nav.html.eex:29
+#: nav.html.leex:29
 msgid "Store"
 msgstr ""
 
 #, elixir-format
-#: nav.html.eex:11
+#: nav.html.leex:11
 msgid "Support"
 msgstr ""
 
@@ -84,4 +79,9 @@ msgstr ""
 #, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
 msgid "Language"
+msgstr ""
+
+#, elixir-format
+#: nav.html.leex:9
+msgid "Clear Cart"
 msgstr ""

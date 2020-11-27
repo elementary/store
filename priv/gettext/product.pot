@@ -26,7 +26,7 @@ msgid "4XL"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:19
+#: lib/store_web/templates/product/index.html.leex:15
 msgid "Colors"
 msgstr ""
 
@@ -46,7 +46,7 @@ msgid "S"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:48
+#: lib/store_web/templates/product/index.html.leex:44
 msgid "Sizes"
 msgstr ""
 
@@ -61,52 +61,47 @@ msgid "XS"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:36
+#: lib/store_web/views/product_view.ex:37
 msgid "Aqua Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:35
+#: lib/store_web/views/product_view.ex:36
 msgid "Charcoal-Black Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:37
+#: lib/store_web/views/product_view.ex:38
 msgid "Oatmeal Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:39
+#: lib/store_web/views/product_view.ex:40
 msgid "Purple Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:38
+#: lib/store_web/views/product_view.ex:39
 msgid "White Fleck Triblend"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:34
-#: lib/store_web/templates/product/index.html.leex:39
+#: lib/store_web/templates/product/index.html.leex:30
+#: lib/store_web/templates/product/index.html.leex:35
 msgid "Unavailable for %{size}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:62
+#: lib/store_web/templates/product/index.html.leex:58
 msgid "Unavailable in %{color}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:76
+#: lib/store_web/templates/product/index.html.leex:72
 msgid "Add to Cart"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/controllers/cart_controller.ex:16
-msgid "Added %{product} to cart"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/templates/product/index.html.leex:73
+#: lib/store_web/templates/product/index.html.leex:69
 msgid "Quantity"
 msgstr ""

@@ -1,0 +1,113 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: fi\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:7
+msgid "Address Line 1"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:10
+msgid "Address Line 2"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart.html.leex:1
+msgid "Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:20
+msgid "Checkout"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:13
+msgid "City"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart.html.leex:4
+msgid "Clear"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:6
+msgid "Color: %{color}"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:21
+msgid "Country"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:27
+msgid "Email"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:33
+msgid "Get Shipping Rates"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:4
+msgid "Name"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:30
+msgid "Phone Number"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:24
+msgid "Postal Code"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:24
+msgid "Remove"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:2
+#: lib/store_web/templates/checkout/shipping.html.leex:9
+msgid "Shipping"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:1
+msgid "Shipping Address"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:10
+msgid "Size: %{size}"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:17
+msgid "State or Province"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:33
+msgid "Update"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:4
+msgid "We encountered an error getting your shipping rates"
+msgstr ""
