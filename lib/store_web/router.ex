@@ -20,16 +20,22 @@ defmodule Elementary.StoreWeb.Router do
   scope "/", Elementary.StoreWeb do
     pipe_through :browser
 
+    get "/_health", HealthController, :index
+
     live "/", IndexLive, :index
+
     live "/products/:product", ProductLive, :index
     live "/products/:product/:variant", ProductLive, :index
 
-    get "/_health", HealthController, :index
+    live "/checkout", CheckoutLive, :index
 
     get "/language", LanguageController, :index
     get "/language/:lang", LanguageController, :set
 
-    post "/cart/update", CartController, :update
+    delete "/cart", CartController, :reset
+    post "/cart/:id", CartController, :create
+    patch "/cart/:id", CartController, :update
+    delete "/cart/:id", CartController, :delete
   end
 
   # Other scopes may use custom stacks.

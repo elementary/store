@@ -1,0 +1,11 @@
+<h1><%= dgettext "checkout", "Cart" %></h1>
+
+<%= form_for :cart, Routes.cart_path(Endpoint, :reset), [id: "cart-clear", method: :delete, phx_hook: "SetSession"], fn _f -> %>
+  <%= submit dgettext "checkout", "Clear" %>
+<% end %>
+
+<ul>
+  <%= for {variant_id, quantity} <- @cart do %>
+    <%= live_component @socket, Checkout.CartItemComponent, variant_id: variant_id, quantity: quantity %>
+  <% end %>
+</ul>

@@ -32,6 +32,8 @@ defmodule Elementary.StoreWeb.ConnCase do
   end
 
   setup tags do
-    {:ok, conn: Phoenix.ConnTest.build_conn()}
+    conn = Phoenix.ConnTest.build_conn()
+
+    {:ok, conn: conn}
   end
 end

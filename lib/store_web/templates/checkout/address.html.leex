@@ -1,0 +1,34 @@
+<h1><%= dgettext "checkout", "Shipping Address" %></h1>
+
+<%= form_for :address, "#", [phx_change: :change, phx_submit: :submit], fn f -> %>
+  <%= label f, :name, dgettext("checkout", "Name") %>
+  <%= text_input f, :name, type: "text", autocomplete: "name", required: true, value: @address.name %>
+
+  <%= label f, :name, dgettext("checkout", "Address Line 1") %>
+  <%= text_input f, :line1, type: "text", autocomplete: "shipping address-line1", required: true, value: @address.line1 %>
+
+  <%= label f, :name, dgettext("checkout", "Address Line 2") %>
+  <%= text_input f, :line2, type: "text", autocomplete: "shipping address-line2", value: @address.line2 %>
+
+  <%= label f, :name, dgettext("checkout", "City") %>
+  <%= text_input f, :city, type: "text", autocomplete: "shipping address-level2", required: true, value: @address.city %>
+
+  <%= if @states != nil do %>
+    <%= label f, :name, dgettext("checkout", "State or Province") %>
+    <%= select f, :state, state_inputs(@states), autocomplete: "shipping address-level1", value: @address.state %>
+  <% end %>
+
+  <%= label f, :name, dgettext("checkout", "Country") %>
+  <%= select f, :country, country_inputs(@countries), autocomplete: "shipping country", required: true, value: @address.country %>
+
+  <%= label f, :name, dgettext("checkout", "Postal Code") %>
+  <%= text_input f, :postal, type: "text", autocomplete: "shipping postal-code", required: true, value: @address.postal %>
+
+  <%= label f, :name, dgettext("checkout", "Email") %>
+  <%= text_input f, :email, type: "email", autocomplete: "email", required: true, value: @address.email %>
+
+  <%= label f, :name, dgettext("checkout", "Phone Number") %>
+  <%= text_input f, :phone, type: "tel", autocomplete: "tel", value: @address.phone %>
+
+  <%= submit dgettext("checkout", "Get Shipping Rates") %>
+<% end %>

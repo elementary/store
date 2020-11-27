@@ -20,4 +20,4 @@ config :wallaby,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
-config :store, Elementary.Store.Printful, api_key: System.get_env("PRINTFUL_API_KEY")
+config :store, Elementary.Printful.Api, api_key: System.get_env("PRINTFUL_API_KEY")

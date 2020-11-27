@@ -29,4 +29,4 @@ config :store, Elementary.StoreWeb.Endpoint,
   url: [host: domain],
   secret_key_base: secret_key_base
 
-config :store, Elementary.Store.Printful, api_key: printful_api_key
+config :store, Elementary.Printful.Api, api_key: printful_api_key

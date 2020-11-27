@@ -59,9 +59,9 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-config :tesla, adapter: Tesla.Adapter.Mint
+config :tesla, adapter: Tesla.Adapter.Hackney
 
-config :store, Elementary.Store.Printful,
+config :store, Elementary.Printful.Api,
   baseUrl: "https://api.printful.com/",
   api_key: "",
   enable_purchasing: false

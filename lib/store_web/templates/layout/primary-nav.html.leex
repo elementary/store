@@ -25,9 +25,9 @@
     </li>
 
     <li>
-      <a href="<%= Routes.index_path(Endpoint, :index) %>" target="_self">
+      <%= live_patch to: Routes.index_path(Endpoint, :index) do %>
         <%= dgettext "layout", "Store" %>
-      </a>
+      <% end %>
     </li>
 
     <li>

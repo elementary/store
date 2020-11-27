@@ -1,4 +1,4 @@
-defmodule Elementary.StoreWeb.SecondaryNavLive do
+defmodule Elementary.StoreWeb.Checkout.CartLive do
   @moduledoc false
 
   use Elementary.StoreWeb, :live_view
@@ -20,6 +20,6 @@ defmodule Elementary.StoreWeb.SecondaryNavLive do
 
   @impl true
   def render(assigns) do
-    Elementary.StoreWeb.LayoutView.render("secondary-nav.html", assigns)
+    Elementary.StoreWeb.CheckoutView.render("cart.html", assigns)
   end
 end

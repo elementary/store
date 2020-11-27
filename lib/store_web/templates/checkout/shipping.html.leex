@@ -1,0 +1,22 @@
+<%= if @error do %>
+  <h1><%= dgettext "checkout", "Shipping" %></h1>
+
+  <p><%= dgettext "checkout", "We encountered an error getting your shipping rates" %></p>
+  <p><%= @error %>
+<% end %>
+
+<%= if @rates != nil do %>
+  <h1><%= dgettext "checkout", "Shipping" %></h1>
+
+  <%= form_for :shipping, "#", [phx_change: :change, phx_submit: :submit], fn f -> %>
+    <%= for rate <- @rates do %>
+      <%= radio_button f, :id, rate.id, id: rate.id %>
+      <label for="<%= rate.id %>">
+        <h4><%= rate.name %></h4>
+        <p>For <%= rate.rate %> <%= rate.currency %></p>
+      </label>
+    <% end %>
+
+    <%= submit dgettext "checkout", "Checkout" %>
+  <% end %>
+<% end %>

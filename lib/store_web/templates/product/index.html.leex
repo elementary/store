@@ -1,10 +1,6 @@
-<%= form_for :cart, Routes.cart_path(Endpoint, :update), [class: "product"], fn f -> %>
-  <%= text_input f, :operation, type: "hidden", value: "add" %>
-  <%= text_input f, :product_id, type: "hidden", value: @product.id %>
-  <%= text_input f, :variant_id, type: "hidden", value: @variant.id %>
-
+<%= form_for :cart, Routes.cart_path(Endpoint, :create, @variant.id), [class: "product"], fn f -> %>
   <h1><%= @variant.name %></h1>
-  <h2>$<%= Decimal.to_string(@variant.price) %></h2>
+  <h2>$<%= @variant.retail_price %></h2>
 
   <img
     alt="<%= @product.name %>"
@@ -12,7 +8,7 @@
     width="800"
   />
 
-  <p><%= @variant.description %></p>
+  <p><%= @variant.product.name %></p>
 
   <div class="options">
     <%= if length(variants(@variants, :color)) > 1 do %>

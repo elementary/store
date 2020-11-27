@@ -3,8 +3,6 @@ defmodule Elementary.StoreWeb.FooterLive do
 
   use Elementary.StoreWeb, :live_view
 
-  alias Elementary.StoreWeb.Gettext, as: Gtext
-
   @impl true
   def mount(_params, _session, socket) do
     {:ok, socket}

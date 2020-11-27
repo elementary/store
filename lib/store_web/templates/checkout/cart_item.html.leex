@@ -1,0 +1,35 @@
+<div>
+  <h2><%= @variant.name %></h2>
+  <h3>$<%= @variant.retail_price %></h3>
+
+  <%= if @variant.color != nil do %>
+    <p><%= dgettext "checkout", "Color: %{color}", color: color_text(@variant.color) %></p>
+  <% end %>
+
+  <%= if @variant.size != nil do %>
+    <p><%= dgettext "checkout", "Size: %{size}", size: size_text(@variant.size) %></p>
+  <% end %>
+
+  <img
+    alt="<%= @variant.name %>"
+    src="<%= @variant.thumbnail %>"
+    width="300"
+  />
+
+  <%= form_for :cart, Routes.cart_path(Endpoint, :delete, @variant.id), [
+    id: "remove-" <> to_string(@variant.id),
+    method: :delete,
+    phx_hook: "SetSession"
+  ], fn _f -> %>
+    <%= submit dgettext "checkout", "Remove" %>
+  <% end %>
+
+  <%= form_for :cart, Routes.cart_path(Endpoint, :update, @variant.id), [
+    id: "update-" <> to_string(@variant.id),
+    method: :patch,
+    phx_hook: "SetSession"
+  ], fn f -> %>
+    <%= text_input f, :quantity, type: "number", min: 0, max: 99, value: @quantity %>
+    <%= submit dgettext "checkout", "Update" %>
+  <% end %>
+</div>

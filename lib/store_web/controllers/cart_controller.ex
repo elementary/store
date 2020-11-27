@@ -1,40 +1,36 @@
 defmodule Elementary.StoreWeb.CartController do
   use Elementary.StoreWeb, :controller
 
-  alias Elementary.Store.Printful
-  alias Elementary.StoreWeb.Gettext, as: Gtext
+  alias Elementary.Store.{Cart, Catalog}
 
-  def update(conn, %{"cart" => %{"operation" => "add", "variant_id" => variant_id} = params}) do
-    {quantity, _} = params |> Map.get("quantity", "1") |> Integer.parse()
+  def create(conn, %{"id" => variant_id, "cart" => %{"quantity" => quantity}}) do
+    variant = Catalog.get_variant(variant_id)
+    current_quantity = Cart.get_item(conn, variant.id)
 
-    case Printful.variant(variant_id) do
-      {:ok, variant} ->
-        conn
-        |> update_items(:add, variant_id, quantity)
-        |> put_flash(
-          :info,
-          dgettext("product", "Added %{product} to cart", product: variant.name)
-        )
-        |> redirect(to: Routes.index_path(conn, :index))
-
-      res ->
-        res
-    end
+    conn
+    |> Cart.set_item(variant.id, current_quantity + String.to_integer(quantity))
+    |> redirect(to: "/checkout")
   end
 
-  defp update_items(conn, :add, id, quantity \\ 1) do
-    current = current_cart_items(conn)
-    current_quantity = Map.get(current, id, 0)
-    new_quantity = current_quantity + quantity
+  def update(conn, %{"id" => variant_id, "cart" => %{"quantity" => quantity}}) do
+    variant = Catalog.get_variant(variant_id)
 
-    put_session(conn, :cart_items, Map.put(current, id, new_quantity))
+    conn
+    |> Cart.set_item(variant.id, String.to_integer(quantity))
+    |> redirect(to: "/checkout")
   end
 
-  defp current_cart_items(conn) do
-    if get_session(conn, :cart_items) == nil do
-      []
-    else
-      get_session(conn, :cart_items)
-    end
+  def delete(conn, %{"id" => variant_id}) do
+    variant = Catalog.get_variant(variant_id)
+
+    conn
+    |> Cart.clear_item(variant.id)
+    |> redirect(to: "/checkout")
+  end
+
+  def reset(conn, _params) do
+    conn
+    |> Cart.clear_items()
+    |> redirect(to: "/")
   end
 end

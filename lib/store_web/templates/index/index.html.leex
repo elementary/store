@@ -67,7 +67,7 @@
       <%= for product <- products_in_category(@products, :apparel) do %>
         <li>
           <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
-            <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
+            <img alt="<%= product.name %>" src="<%= product.thumbnail_url %>" />
             <h3><%= product.name %></h3>
           <% end %>
         </li>
@@ -84,7 +84,7 @@
       <%= for product <- products_in_category(@products, :accessories) do %>
         <li>
           <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
-            <img alt="<%= product.name %>" src="<%= product.thumbnail %>" />
+            <img alt="<%= product.name %>" src="<%= product.thumbnail_url %>" />
             <h3><%= product.name %></h3>
           <% end %>
         </li>
