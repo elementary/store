@@ -32,9 +32,13 @@ export default {
         .then((res) => {
           if (!res.ok) {
             console.error('Bad request made to server')
+            window.reload()
           }
         })
-        .catch((err) => console.error(err))
+        .catch((err) => {
+          console.error(err)
+          window.reload()
+        })
     })
   }
 }

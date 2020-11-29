@@ -10,7 +10,7 @@ defmodule Elementary.StoreWeb.Router do
     plug :put_secure_browser_headers
 
     plug Elementary.StoreWeb.GettextPlug
-    plug Elementary.StoreWeb.CartPlug
+    plug Elementary.StoreWeb.InitPlug
   end
 
   pipeline :api do
@@ -32,10 +32,12 @@ defmodule Elementary.StoreWeb.Router do
     get "/language", LanguageController, :index
     get "/language/:lang", LanguageController, :set
 
-    delete "/cart", CartController, :reset
-    post "/cart/:id", CartController, :create
-    patch "/cart/:id", CartController, :update
-    delete "/cart/:id", CartController, :delete
+    patch "/checkout/address", Checkout.AddressController, :update
+
+    delete "/checkout/cart", Checkout.CartController, :reset
+    post "/checkout/cart/:id", Checkout.CartController, :create
+    patch "/checkout/cart/:id", Checkout.CartController, :update
+    delete "/checkout/cart/:id", Checkout.CartController, :delete
   end
 
   # Other scopes may use custom stacks.

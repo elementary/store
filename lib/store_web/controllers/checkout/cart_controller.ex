@@ -1,4 +1,4 @@
-defmodule Elementary.StoreWeb.CartController do
+defmodule Elementary.StoreWeb.Checkout.CartController do
   use Elementary.StoreWeb, :controller
 
   alias Elementary.Store.{Cart, Catalog}
