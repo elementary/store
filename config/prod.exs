@@ -18,15 +18,16 @@ config :store, Elementary.StoreWeb.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
-config :libcluster, topologies: [
-  production: [
-    strategy: Elixir.Cluster.Strategy.Kubernetes.DNS,
-    config: [
-      service: "store-internal",
-      application_name: "store",
-      polling_interval: 10_000
+config :libcluster,
+  topologies: [
+    production: [
+      strategy: Elixir.Cluster.Strategy.Kubernetes.DNS,
+      config: [
+        service: "store-internal",
+        application_name: "store",
+        polling_interval: 10_000
+      ]
     ]
   ]
-]
 
 config :store, Elementary.Printful.Api, enable_purchasing: true
