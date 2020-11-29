@@ -17,8 +17,13 @@
   }
 }
 
-.alert--info {
+.alert--success {
   background-color: var(--lime-500);
+}
+
+.alert--info {
+  background-color: var(--banana-300);
+  color: var(--black-900);
 }
 
 .alert--error {
