@@ -38,20 +38,20 @@ defmodule Elementary.Store.MixProject do
       {:castore, "~> 0.1.0"},
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},
-      {:hackney, "~> 1.13"},
+      {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.2.1"},
-      {:phoenix_html, "~> 2.11"},
-      {:phoenix_live_view, "~> 0.15"},
+      {:phoenix_html, "~> 2.14.3"},
+      {:phoenix_live_view, "~> 0.15.3"},
       {:phoenix, "~> 1.5.7"},
       {:plug_cowboy, "~> 2.4"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 0.4"},
       {:tesla, "~> 1.4.0", override: true},
-      {:credo, "~> 1.5", only: :dev, runtime: false},
+      {:credo, "~> 1.5.4", only: :dev, runtime: false},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:floki, ">= 0.27.0", only: :test},
-      {:wallaby, "~> 0.26.0", runtime: false, only: :test}
+      {:wallaby, "~> 0.28.0", runtime: false, only: :test}
     ]
   end
 

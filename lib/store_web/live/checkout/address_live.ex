@@ -10,10 +10,10 @@ defmodule Elementary.StoreWeb.Checkout.AddressLive do
   @default_address %{"country" => "US"}
 
   @impl true
-  def mount(_params, %{"cart_id" => cart_id}, socket) do
+  def mount(_params, %{"session_id" => session_id}, socket) do
     new_socket =
       socket
-      |> assign(:cart_id, cart_id)
+      |> assign(:session_id, session_id)
       |> assign(:countries, Shipping.get_countries())
       |> assign(:states, Shipping.get_states(grab_address(@default_address).country))
       |> assign(:address, grab_address(@default_address))
@@ -23,14 +23,14 @@ defmodule Elementary.StoreWeb.Checkout.AddressLive do
 
   @impl true
   def handle_event("change", _, socket) do
-    PubSub.broadcast(StorePubSub, socket.assigns.cart_id, {:address_update, nil})
+    PubSub.broadcast(StorePubSub, socket.assigns.session_id, {:address_update, nil})
     {:noreply, socket}
   end
 
   @impl true
   def handle_event("submit", %{"address" => address}, socket) do
     updated_address = grab_address(address)
-    PubSub.broadcast(StorePubSub, socket.assigns.cart_id, {:address_update, updated_address})
+    PubSub.broadcast(StorePubSub, socket.assigns.session_id, {:address_update, updated_address})
     {:noreply, assign(socket, :address, updated_address)}
   end
 

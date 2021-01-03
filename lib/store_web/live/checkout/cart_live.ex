@@ -4,8 +4,8 @@ defmodule Elementary.StoreWeb.Checkout.CartLive do
   use Elementary.StoreWeb, :live_view
 
   @impl true
-  def mount(_params, %{"cart_id" => cart_id, "cart" => cart}, socket) do
-    Elementary.StoreWeb.Endpoint.subscribe(cart_id)
+  def mount(_params, %{"session_id" => session_id, "cart" => cart}, socket) do
+    Elementary.StoreWeb.Endpoint.subscribe(session_id)
 
     {:ok, assign(socket, :cart, cart)}
   end

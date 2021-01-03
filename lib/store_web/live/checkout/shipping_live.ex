@@ -8,8 +8,8 @@ defmodule Elementary.StoreWeb.Checkout.ShippingLive do
   alias Phoenix.PubSub
 
   @impl true
-  def mount(_params, %{"cart_id" => cart_id, "cart" => cart}, socket) do
-    Elementary.StoreWeb.Endpoint.subscribe(cart_id)
+  def mount(_params, %{"session_id" => session_id, "cart" => cart}, socket) do
+    Elementary.StoreWeb.Endpoint.subscribe(session_id)
 
     new_socket =
       socket
