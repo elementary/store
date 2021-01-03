@@ -59,29 +59,12 @@
   </h6>
 </section>
 
-<%= if length(products_in_category(@products, :apparel)) > 0 do %>
-  <section class="products" id="apparel">
-    <h2><%= dgettext "index", "Apparel"%></h2>
+<%= for {category, products} <- group_by_category(@products) do %>
+  <section class="products" id="<%= category_slug(hd(products).category) %>">
+    <h2><%= hd(products).category %></h2>
 
     <ul>
-      <%= for product <- products_in_category(@products, :apparel) do %>
-        <li>
-          <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
-            <img alt="<%= product.name %>" src="<%= product.thumbnail_url %>" />
-            <h3><%= product.name %></h3>
-          <% end %>
-        </li>
-      <% end %>
-    </ul>
-  </section>
-<% end %>
-
-<%= if length(products_in_category(@products, :accessories)) > 0 do %>
-  <section class="products" id="accessories">
-    <h2><%= dgettext "index", "Accessories"%></h2>
-
-    <ul>
-      <%= for product <- products_in_category(@products, :accessories) do %>
+      <%= for product <- products do %>
         <li>
           <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
             <img alt="<%= product.name %>" src="<%= product.thumbnail_url %>" />

@@ -30,4 +30,4 @@ config :libcluster,
     ]
   ]
 
-config :store, Elementary.Printful.Api, enable_purchasing: true
+config :store, Printful.Api, enable_purchasing: true

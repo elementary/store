@@ -3,14 +3,12 @@ defmodule Elementary.Store.Shipping do
   Entry point for handling all shipping data
   """
 
-  alias Elementary.Printful.Shipping
-
   def get_countries() do
-    Shipping.countries()
+    Printful.Shipping.countries()
   end
 
   def get_states(country_code) do
-    Shipping.countries()
+    Printful.Shipping.countries()
     |> Enum.find(%{}, &(&1.code === country_code))
     |> Map.get(:states, [])
   end
@@ -26,7 +24,7 @@ defmodule Elementary.Store.Shipping do
         }
       end)
 
-    Shipping.rates(%{
+    Printful.Shipping.rates(%{
       recipient: %{
         address1: address.line1,
         city: address.city,

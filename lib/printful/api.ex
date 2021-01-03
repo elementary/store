@@ -1,15 +1,15 @@
-defmodule Elementary.Printful.Api do
+defmodule Printful.Api do
   @moduledoc """
   A simple HTTP client for Printful
   """
 
-  alias Elementary.Printful.ApiError
+  alias Printful.ApiError
 
   def new() do
     config = Application.get_env(:store, __MODULE__)
 
     middleware = [
-      Elementary.Printful.Cache,
+      Printful.Cache,
       {Tesla.Middleware.JSON,
        [
          engine_opts: [keys: :atoms]
@@ -45,7 +45,7 @@ defmodule Elementary.Printful.Api do
       {:ok, %{body: %{error: %{message: message}}}} ->
         raise ApiError, message: message
 
-      res ->
+      _ ->
         raise ApiError, message: "Unable to communicate with Printful"
     end
   end

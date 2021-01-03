@@ -1,18 +1,18 @@
 <div>
   <h2><%= @variant.name %></h2>
-  <h3>$<%= @variant.retail_price %></h3>
+  <h3>$<%= @variant.price %></h3>
 
   <%= if @variant.color != nil do %>
-    <p><%= dgettext "checkout", "Color: %{color}", color: color_text(@variant.color) %></p>
+    <p><%= dgettext "checkout", "Color: %{color}", color: @variant.color %></p>
   <% end %>
 
   <%= if @variant.size != nil do %>
-    <p><%= dgettext "checkout", "Size: %{size}", size: size_text(@variant.size) %></p>
+    <p><%= dgettext "checkout", "Size: %{size}", size: @variant.size %></p>
   <% end %>
 
   <img
     alt="<%= @variant.name %>"
-    src="<%= @variant.thumbnail %>"
+    src="<%= @variant.thumbnail_url %>"
     width="300"
   />
 

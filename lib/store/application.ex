@@ -18,7 +18,7 @@ defmodule Elementary.Store.Application do
       # Start the Endpoint (http/https)
       Elementary.StoreWeb.Endpoint,
       # Start a worker by calling: Elementary.Store.Worker.start_link(arg)
-      {Cachex, name: Elementary.Printful.Cache}
+      {Cachex, name: Printful.Cache}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

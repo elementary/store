@@ -1,5 +1,15 @@
 <nav class="secondary">
   <ul>
+    <%= for category <- @categories do %>
+      <li>
+        <a href="<%= Routes.index_path(Endpoint, :index) %>#<%= category_slug(category) %>">
+          <%= category %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+
+  <ul>
     <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
       <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
     <% end %>

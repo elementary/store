@@ -1,7 +1,9 @@
 defmodule Elementary.StoreWeb.IndexView do
   use Elementary.StoreWeb, :view
 
-  def products_in_category(products, category) do
-    Enum.filter(products, &(&1.category == category))
+  def group_by_category(products) do
+    products
+    |> Enum.group_by(&Map.get(&1, :category))
+    |> Enum.sort_by(&elem(&1, 0), :asc)
   end
 end

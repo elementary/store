@@ -81,6 +81,7 @@ defmodule Elementary.StoreWeb do
       import Phoenix.LiveView.Helpers
       import Phoenix.View
       import Elementary.StoreWeb.ErrorHelpers
+      import Elementary.StoreWeb.ProductHelpers
       import Elementary.StoreWeb.Gettext
 
       alias Elementary.StoreWeb.Endpoint

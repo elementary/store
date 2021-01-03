@@ -1,3 +1,3 @@
-defmodule Elementary.Printful.ApiError do
+defmodule Printful.ApiError do
   defexception message: "Error in communicating with Printful"
 end

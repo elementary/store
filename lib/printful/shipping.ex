@@ -1,9 +1,9 @@
-defmodule Elementary.Printful.Shipping do
+defmodule Printful.Shipping do
   @moduledoc """
   This is for handling shipping information from Printful.
   """
 
-  alias Elementary.Printful.{Api, Parser}
+  alias Printful.Api
 
   def countries() do
     Api.get("/countries")

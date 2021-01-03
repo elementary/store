@@ -15,28 +15,11 @@ defmodule Elementary.StoreWeb.ProductView do
 
     variants
     |> Enum.filter(fn v ->
-      Enum.all?(same_keys, &(variant[&1] === v[&1]))
+      Enum.all?(same_keys, &(Map.get(variant, &1) === Map.get(v, &1)))
     end)
     |> Enum.filter(fn v ->
-      Enum.all?(changes, fn {ck, cv} -> v[ck] === cv end)
+      Enum.all?(changes, fn {ck, cv} -> Map.get(v, ck) === cv end)
     end)
     |> List.first()
   end
-
-  def size_text(:extra_small), do: dgettext("product", "XS")
-  def size_text(:small), do: dgettext("product", "S")
-  def size_text(:medium), do: dgettext("product", "M")
-  def size_text(:large), do: dgettext("product", "L")
-  def size_text(:extra_large), do: dgettext("product", "XL")
-  def size_text(:two_extra_large), do: dgettext("product", "2XL")
-  def size_text(:three_extra_large), do: dgettext("product", "3XL")
-  def size_text(:four_extra_large), do: dgettext("product", "4XL")
-  def size_text(text), do: text
-
-  def color_text(:charcoal), do: dgettext("product", "Charcoal-Black Triblend")
-  def color_text(:aqua), do: dgettext("product", "Aqua Triblend")
-  def color_text(:oatmeal), do: dgettext("product", "Oatmeal Triblend")
-  def color_text(:white), do: dgettext("product", "White Fleck Triblend")
-  def color_text(:purple), do: dgettext("product", "Purple Triblend")
-  def color_text(text), do: text
 end

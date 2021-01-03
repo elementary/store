@@ -80,7 +80,7 @@ config :libcluster,
     ]
   ]
 
-config :store, Elementary.Printful.Api,
+config :store, Printful.Api,
   baseUrl: "https://api.printful.com/",
   api_key: "",
   enable_purchasing: false
