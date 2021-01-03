@@ -27,7 +27,7 @@ msgid "Brand"
 msgstr ""
 
 #, elixir-format
-#: nav.html.leex:4
+#: nav.html.leex:14
 msgid "Cart (%{count})"
 msgstr ""
 
@@ -82,7 +82,7 @@ msgid "Language"
 msgstr ""
 
 #, elixir-format
-#: nav.html.leex:9
+#: nav.html.leex:19
 msgid "Clear Cart"
 msgstr ""
 

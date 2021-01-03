@@ -11,78 +11,13 @@ msgid ""
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:31
-msgid "2XL"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:32
-msgid "3XL"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:33
-msgid "4XL"
-msgstr ""
-
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:15
 msgid "Colors"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/views/product_view.ex:29
-msgid "L"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:28
-msgid "M"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:27
-msgid "S"
-msgstr ""
-
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:44
 msgid "Sizes"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:30
-msgid "XL"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:26
-msgid "XS"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:37
-msgid "Aqua Triblend"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:36
-msgid "Charcoal-Black Triblend"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:38
-msgid "Oatmeal Triblend"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:40
-msgid "Purple Triblend"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/views/product_view.ex:39
-msgid "White Fleck Triblend"
 msgstr ""
 
 #, elixir-format
