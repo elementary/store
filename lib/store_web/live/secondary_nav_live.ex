@@ -7,16 +7,7 @@ defmodule Elementary.StoreWeb.SecondaryNavLive do
   def mount(_params, %{"session_id" => session_id, "cart" => cart}, socket) do
     Elementary.StoreWeb.Endpoint.subscribe(session_id)
 
-    categories =
-      Elementary.Store.Catalog.get_products()
-      |> Enum.map(& &1.category)
-      |> Enum.uniq()
-      |> Enum.sort()
-
-    {:ok,
-     socket
-     |> assign(:categories, categories)
-     |> assign(:cart, cart)}
+    {:ok, assign(socket, :cart, cart)}
   end
 
   @impl true

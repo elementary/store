@@ -1,11 +1,13 @@
 <nav class="secondary">
   <ul>
-    <%= for category <- @categories do %>
-      <li>
-        <a href="<%= Routes.index_path(Endpoint, :index) %>#<%= category_slug(category) %>">
-          <%= category %>
-        </a>
-      </li>
+    <%= if page_module(assigns) == Elementary.StoreWeb.IndexLive do %>
+      <%= for category <- categories() do %>
+        <li>
+          <a href="<%= Routes.index_path(Endpoint, :index) %>#<%= category_slug(category) %>">
+            <%= category %>
+          </a>
+        </li>
+      <% end %>
     <% end %>
   </ul>
 
