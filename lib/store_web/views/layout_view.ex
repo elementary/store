@@ -6,14 +6,6 @@ defmodule Elementary.StoreWeb.LayoutView do
   def connection(%{conn: conn}), do: conn
   def connection(%{socket: socket}), do: socket
 
-  def page_module(assigns) do
-    case connection(assigns) do
-      %{root_view: root_view} -> root_view
-      %{private: %{phoenix_controller: controller}} -> controller
-      _ -> nil
-    end
-  end
-
   def categories() do
     Elementary.Store.Catalog.get_products()
     |> Enum.map(& &1.category)
