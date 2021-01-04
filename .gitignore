@@ -38,3 +38,6 @@ npm-debug.log
 
 # Test results
 /test/store_client_errors/
+
+# asdf package manager files
+.tool-versions
