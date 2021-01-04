@@ -3,6 +3,8 @@ defmodule Printful.Cache do
   A Tesla middleware to cache successful get requests
   """
 
+  @default_ttl :timer.hours(48)
+
   def call(%{method: :get} = env, next, _opts) do
     case Cachex.get!(__MODULE__, cache_key(env)) do
       nil -> call_cached(env, next)
@@ -23,7 +25,7 @@ defmodule Printful.Cache do
   end
 
   defp set_cache({:ok, res}, env) do
-    Cachex.put(__MODULE__, cache_key(env), res)
+    Cachex.put(__MODULE__, cache_key(env), res, ttl: @default_ttl)
     {:ok, res}
   end
 
