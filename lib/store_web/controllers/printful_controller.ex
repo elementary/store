@@ -1,8 +1,6 @@
 defmodule Elementary.StoreWeb.PrintfulController do
   use Elementary.StoreWeb, :controller
 
-  alias Elementary.Printful
-
   @address_fields ~w(
     name email phone address1 address2 city state_code zip country_code
   )a
@@ -35,7 +33,6 @@ defmodule Elementary.StoreWeb.PrintfulController do
       data
       |> Map.get("order", %{})
       |> Map.get("items", [])
-      |> Printful.Parser.parse_variant()
 
     conn
     |> put_status(:ok)

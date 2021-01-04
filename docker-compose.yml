@@ -14,17 +14,8 @@ services:
       - ./config:/opt/app/config
       - ./lib:/opt/app/lib
       - ./priv:/opt/app/priv
-      - ./test:/opt/app/test
     environment:
       - MIX_ENV
     command: mix phx.server
     working_dir: /opt/app
-    network_mode: host
-    depends_on:
-      - chrome
-
-  chrome:
-    image: selenium/standalone-chrome:latest
-    volumes:
-      - /dev/shm:/dev/shm
     network_mode: host

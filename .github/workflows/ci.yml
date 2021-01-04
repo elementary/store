@@ -66,8 +66,8 @@ jobs:
       - name: Lint
         run: docker-compose run -w /opt/app/assets store npm run lint:css
 
-  Test_Unit:
-    name: Test (Unit)
+  Test_Mix:
+    name: Test (Mix)
     runs-on: ubuntu-latest
 
     steps:
@@ -78,24 +78,7 @@ jobs:
         run: docker-compose build
 
       - name: Test
-        run: docker-compose run -e PRINTFUL_API_KEY="${{ secrets.PRINTFUL_API_KEY }}" store mix test.unit
-
-  Test_Browser:
-    name: Test (Browser)
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Compile
-        run: docker-compose build
-
-      - name: Build
-        run: docker-compose run -w /opt/app/assets store npm run build
-
-      - name: Test
-        run: docker-compose run -e PRINTFUL_API_KEY="${{ secrets.PRINTFUL_API_KEY }}" store mix test.browser
+        run: docker-compose run store mix test
 
   Build:
     runs-on: ubuntu-latest

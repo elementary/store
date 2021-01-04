@@ -10,7 +10,6 @@ defmodule Elementary.Store.MixProject do
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
-      preferred_cli_env: preferred_cli_env(),
       deps: deps()
     ]
   end
@@ -36,22 +35,20 @@ defmodule Elementary.Store.MixProject do
     [
       {:cachex, "~> 3.3"},
       {:castore, "~> 0.1.0"},
+      {:credo, "~> 1.5.4", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.2.1"},
       {:phoenix_html, "~> 2.14.3"},
+      {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.15.3"},
       {:phoenix, "~> 1.5.7"},
       {:plug_cowboy, "~> 2.4"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 0.4"},
-      {:tesla, "~> 1.4.0", override: true},
-      {:credo, "~> 1.5.4", only: :dev, runtime: false},
-      {:phoenix_live_reload, "~> 1.3", only: :dev},
-      {:floki, ">= 0.27.0", only: :test},
-      {:wallaby, "~> 0.28.0", runtime: false, only: :test}
+      {:tesla, "~> 1.4.0", override: true}
     ]
   end
 
@@ -63,16 +60,7 @@ defmodule Elementary.Store.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "cmd npm ci --prefix assets"],
-      "test.unit": ["test test/store test/store_web"],
-      "test.browser": ["test test/store_client"]
-    ]
-  end
-
-  defp preferred_cli_env do
-    [
-      "test.unit": :test,
-      "test.browser": :test
+      setup: ["deps.get", "cmd npm ci --prefix assets"]
     ]
   end
 end
