@@ -12,32 +12,27 @@ msgstr ""
 "Plural-Forms: nplurals=1\n"
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:15
+#: lib/store_web/templates/product/index.html.leex:14
 msgid "Colors"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:44
+#: lib/store_web/templates/product/index.html.leex:56
 msgid "Sizes"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:30
-#: lib/store_web/templates/product/index.html.leex:35
+#: lib/store_web/templates/product/index.html.leex:26
+#: lib/store_web/templates/product/index.html.leex:31
 msgid "Unavailable for %{size}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:58
+#: lib/store_web/templates/product/index.html.leex:68
 msgid "Unavailable in %{color}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:72
+#: lib/store_web/templates/product/index.html.leex:94
 msgid "Add to Cart"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/templates/product/index.html.leex:69
-msgid "Quantity"
 msgstr ""
