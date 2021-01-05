@@ -60,12 +60,17 @@ svg {
     a {
       color: inherit;
       display: block;
+      opacity: 1;
       text-decoration: none;
     }
 
     img {
       width: 100%;
     }
+  }
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media (min-width: 970px) {
