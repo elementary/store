@@ -1,16 +1,16 @@
 defmodule Elementary.StoreWeb.LayoutView do
   use Elementary.StoreWeb, :view
 
-  alias Elementary.Store.Cart
+  alias Elementary.Store.{Catalog, Cart}
 
   def connection(%{conn: conn}), do: conn
   def connection(%{socket: socket}), do: socket
 
   def categories() do
-    Elementary.Store.Catalog.get_products()
+    Catalog.get_products()
     |> Enum.map(& &1.category)
     |> Enum.uniq()
-    |> Enum.sort()
+    |> Enum.sort(Catalog.Category)
   end
 
   def count(%{cart: cart}), do: count(cart)
