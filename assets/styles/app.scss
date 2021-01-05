@@ -212,7 +212,7 @@ section.products {
 
     ul.color {
       flex-direction: column;
-      margin: 0rem -1rem;
+      margin: 0 -1rem;
 
       li {
         margin: 0;
@@ -254,7 +254,7 @@ section.products {
     }
 
     ul.size {
-      margin: 0rem -1.5rem;
+      margin: 0 -1.5rem;
 
       li {
         margin: 0 0.5rem;
@@ -299,7 +299,7 @@ section.products {
   button[type="submit"]:hover {
     background-color: var(--blueberry-300);
     box-shadow:
-        0 2px 3px -1px rgba(30, 51, 134, 0.3),
-        0 5px 10px -2px rgba(89, 159, 239, 0.5);
+      0 2px 3px -1px rgba(30, 51, 134, 0.3),
+      0 5px 10px -2px rgba(89, 159, 239, 0.5);
   }
 }
