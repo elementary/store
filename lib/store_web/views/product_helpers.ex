@@ -13,6 +13,6 @@ defmodule Elementary.StoreWeb.ProductHelpers do
   end
 
   def format_price(price) do
-    price
+    String.replace(price, ".00", "")
   end
 end
