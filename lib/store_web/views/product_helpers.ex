@@ -11,4 +11,8 @@ defmodule Elementary.StoreWeb.ProductHelpers do
     |> String.replace(~r/\s/, "-")
     |> String.downcase()
   end
+
+  def format_price(price) do
+    price
+  end
 end

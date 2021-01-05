@@ -48,16 +48,24 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.125;
   margin-bottom: 0;
+
+  @media (min-width: 1024px) {
+    font-size: 3rem;
+  }
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-top: 1em;
   opacity: 0.75;
+
+  @media (min-width: 1024px) {
+    font-size: 2rem;
+  }
 }
 
 h3,
@@ -74,6 +82,10 @@ p {
   line-height: 1.5;
   margin: 1.25em auto;
   max-width: var(--content-width);
+}
+
+small {
+  font-size: 0.75em;
 }
 
 h1 + p {

@@ -1,6 +1,5 @@
 <%= form_for :cart, Routes.cart_path(Endpoint, :create, @variant.id), [class: "product"], fn f -> %>
-  <h1><%= @variant.name %></h1>
-  <h2>$<%= @variant.price %></h2>
+  <h1><%= @product.name %></h1>
 
   <img
     alt="<%= @product.name %>"
@@ -8,32 +7,45 @@
     width="800"
   />
 
-  <p><%= @variant.name %></p>
-
   <div class="options">
+    <h2>$<%= format_price(@variant.price) %></h2>
+
     <%= if length(variants(@variants, :color)) > 1 do %>
-      <h2><%= dgettext "product", "Colors" %></h2>
+      <h3><%= dgettext "product", "Colors" %></h3>
 
       <ul class="color">
         <%= for color <- variants(@variants, :color) do %>
           <li>
             <% similar_variant = variant_for(@variants, @variant, color: color) %>
 
-            <%= if similar_variant != nil do %>
-              <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: color do %>
-                <span class="color" style="background-color:<%= similar_variant.color_code %>;"></span>
-                <span class="name"><%= color %></span>
-              <% end %>
-            <% else %>
-              <button
-                class="option disabled"
-                title="<%= dgettext "product", "Unavailable for %{size}", size: @variant.size %>"
-                disabled
-              >
-                <span class="color <%= color %>"></span>
-                <span class="name"><%= color %></span>
-                <span class="warning"><%= dgettext "product", "Unavailable for %{size}", size: @variant.size %></span>
-              </button>
+            <%= cond do %>
+              <% similar_variant == nil -> %>
+                <button
+                  type="button"
+                  class="option disabled"
+                  title="<%= dgettext "product", "Unavailable for %{size}", size: @variant.size %>"
+                  disabled
+                >
+                  <span class="color"></span>
+                  <span class="name"><%= color %></span>
+                  <span class="warning"><%= dgettext "product", "Unavailable for %{size}", size: @variant.size %></span>
+                </button>
+
+              <% similar_variant.id == @variant.id -> %>
+                <button
+                  type="button"
+                  class="option active"
+                  active
+                >
+                  <span class="color" style="background-color:<%= similar_variant.color_code %>;"></span>
+                  <span class="name"><%= color %></span>
+                </button>
+
+              <% true -> %>
+                <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: color do %>
+                  <span class="color" style="background-color:<%= similar_variant.color_code %>;"></span>
+                  <span class="name"><%= color %></span>
+                <% end %>
             <% end %>
           </li>
         <% end %>
@@ -41,34 +53,48 @@
     <% end %>
 
     <%= if length(variants(@variants, :size)) > 1 do %>
-      <h2><%= dgettext "product", "Sizes" %></h2>
+      <h3><%= dgettext "product", "Sizes" %></h3>
 
       <ul class="size">
         <%= for size <- variants(@variants, :size) do %>
           <li>
             <% similar_variant = variant_for(@variants, @variant, size: size) %>
 
-            <%= if similar_variant != nil do %>
-              <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: size do %>
-                <%= size %>
-              <% end %>
-            <% else %>
-              <button
-                class="option disabled"
-                title="<%= dgettext "product", "Unavailable in %{color}", color: @variant.color %>"
-                disabled
-              >
-                <%= size %>
-              </button>
+            <%= cond do %>
+              <% similar_variant == nil -> %>
+                <button
+                  type="button"
+                  class="option disabled"
+                  title="<%= dgettext "product", "Unavailable in %{color}", color: @variant.color %>"
+                  disabled
+                >
+                  <%= size %>
+                </button>
+
+              <% similar_variant.id == @variant.id -> %>
+                <button
+                  type="button"
+                  class="option active"
+                  active
+                >
+                  <%= size %>
+                </button>
+
+              <% true -> %>
+                <%= live_patch to: Routes.product_path(Endpoint, :index, @product.id, similar_variant.id), replace: true, title: size do %>
+                  <%= size %>
+                <% end %>
             <% end %>
           </li>
         <% end %>
       </ul>
     <% end %>
 
-    <h2><%= dgettext "product", "Quantity" %></h2>
-    <%= text_input f, :quantity, type: "number", min: 1, max: 99, value: 1 %>
-
+    <%= hidden_input f, :quantity, value: 1 %>
     <%= submit dgettext "product", "Add to Cart" %>
+  </div>
+
+  <div class="description">
+    <%= text_to_html(@variant.description) %>
   </div>
 <% end %>

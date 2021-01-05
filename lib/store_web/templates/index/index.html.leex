@@ -1,6 +1,7 @@
 <section>
   <h1>
-    <%= dgettext "index", "Support Development.\nGet Gear. Win/Win."%>
+    <%= dgettext "index", "Support Development." %><br />
+    <%= dgettext "index", "Get Gear. Win/Win."%>
   </h1>
 
   <p>
@@ -51,12 +52,14 @@
     </li>
   </ul>
 
-  <h6>
-    <%= dgettext "index",
-      "Hardware and software support for these devices are provided by the
-      retailer."
-    %>
-  </h6>
+  <p>
+    <small>
+      <%= dgettext "index",
+        "Hardware and software support for these devices are provided by the
+        retailer."
+      %>
+    </small>
+  </p>
 </section>
 
 <%= for {category, products} <- group_by_category(@products) do %>
