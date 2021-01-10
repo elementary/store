@@ -1,4 +1,4 @@
-<h1><%= dgettext "checkout", "Shipping Address" %></h1>
+<h2><%= dgettext "checkout", "Shipping Address" %></h2>
 
 <%= form_for :address, "#", [phx_change: :change, phx_submit: :submit], fn f -> %>
   <%= label f, :name, dgettext("checkout", "Name") %>

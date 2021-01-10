@@ -21,7 +21,6 @@ defmodule Mix.Tasks.Printful.Analytics.Designs do
 
     orders
     |> Enum.flat_map(& &1.items)
-    |> IO.inspect(label: "product")
     |> Enum.filter(&Map.has_key?(&1, :custom_product))
     |> Enum.group_by(& &1.custom_product.id)
     |> Enum.each(fn {_, items} ->

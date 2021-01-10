@@ -1,35 +1,44 @@
-<div>
-  <h2><%= @variant.name %></h2>
-  <h3>$<%= @variant.price %></h3>
+<img
+  alt="<%= @variant.name %>"
+  src="<%= @variant.thumbnail_url %>"
+  width="300"
+/>
 
-  <%= if @variant.color != nil do %>
-    <p><%= dgettext "checkout", "Color: %{color}", color: @variant.color %></p>
-  <% end %>
+<span class="name"><%= @variant.name %></span>
 
-  <%= if @variant.size != nil do %>
-    <p><%= dgettext "checkout", "Size: %{size}", size: @variant.size %></p>
-  <% end %>
-
-  <img
-    alt="<%= @variant.name %>"
-    src="<%= @variant.thumbnail_url %>"
-    width="300"
-  />
-
-  <%= form_for :cart, Routes.cart_path(Endpoint, :delete, @variant.id), [
+<div class="remove">
+  <%= link "Remove",
+    to: Routes.cart_path(Endpoint, :delete, @variant.id),
     id: "remove-" <> to_string(@variant.id),
     method: :delete,
     phx_hook: "SetSession"
-  ], fn _f -> %>
-    <%= submit dgettext "checkout", "Remove" %>
-  <% end %>
+  %>
+</div>
+
+<span class="price-row">
+  <span class="individual-price">$<%= format_price(@variant.price) %></span>
+  <span>x</span>
 
   <%= form_for :cart, Routes.cart_path(Endpoint, :update, @variant.id), [
     id: "update-" <> to_string(@variant.id),
     method: :patch,
     phx_hook: "SetSession"
   ], fn f -> %>
-    <%= text_input f, :quantity, type: "number", min: 0, max: 99, value: @quantity %>
-    <%= submit dgettext "checkout", "Update" %>
+    <%= text_input f,
+      :quantity,
+      phx_hook: "SetSession",
+      phx_hook_event: "change keydown",
+      phx_debounce: 1500,
+      type: "number",
+      min: 0,
+      max: 99,
+      value: @quantity
+    %>
+    <noscript>
+      <%= submit dgettext "checkout", "Update" %>
+    </noscript>
   <% end %>
-</div>
+
+  <span>=</span>
+  <span class="total-price">$<%= format_price(total_price(@variant.price, @quantity)) %></span>
+</span>

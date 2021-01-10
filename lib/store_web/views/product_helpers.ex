@@ -12,7 +12,16 @@ defmodule Elementary.StoreWeb.ProductHelpers do
     |> String.downcase()
   end
 
-  def format_price(price) do
-    String.replace(price, ".00", "")
+  def format_price(price) when is_binary(price) do
+    price |> String.replace(".00", "") |> String.replace(".0", "")
+  end
+
+  def format_price(price) when is_float(price) do
+    price |> to_string() |> format_price()
+  end
+
+  def total_price(price, quantity) do
+    {value, _} = Float.parse(price)
+    Float.round(value * quantity, 2)
   end
 end

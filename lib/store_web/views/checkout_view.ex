@@ -10,6 +10,15 @@ defmodule Elementary.StoreWeb.CheckoutView do
     |> Enum.into([])
   end
 
+  def cart_total(cart) do
+    cart
+    |> Enum.map(fn {variant, quantity} ->
+      {value, _} = Float.parse(variant.price)
+      value * quantity
+    end)
+    |> Enum.reduce(0, fn a, b -> a + b end)
+  end
+
   def state_inputs(states) do
     Enum.map(states, &{&1.name, &1.code})
   end

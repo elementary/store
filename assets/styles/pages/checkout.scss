@@ -1,0 +1,126 @@
+.checkout-cart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-product {
+  border-bottom: 1px solid var(--slate-100);
+  display: grid;
+  grid-gap: 0.5rem 1rem;
+  grid-template-areas:
+    "image"
+    "name"
+    "remove"
+    "prices";
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.checkout-product > * {
+  margin: 0;
+}
+
+.checkout-product img {
+  grid-area: image;
+  margin: 0 auto;
+  width: auto;
+}
+
+.checkout-product .name {
+  font-weight: bold;
+  grid-area: name;
+}
+
+.checkout-product .remove {
+  grid-area: remove;
+}
+
+.checkout-product .remove a {
+  color: inherit;
+  font-size: 0.8em;
+}
+
+.checkout-product .price-row {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  grid-area: prices;
+  justify-content: center;
+}
+
+.checkout-product .price-row > *:not(:first-child) {
+  margin-left: 0.5ch;
+}
+
+.checkout-product .price-row form {
+  display: flex;
+}
+
+.checkout-product .price-row input {
+  background: linear-gradient(to bottom, #fafafa, #fdfdfd);
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  font-size: 1em;
+  height: 1.8em;
+  margin: 0 0.5ch;
+  text-align: center;
+  width: 6ch;
+}
+
+.checkout-product .price-row button {
+  background-color: var(--blueberry-500);
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  display: block;
+  display: inline-block;
+  margin: 0 0.5ch;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  transition: background-color 50ms ease;
+  width: 100%;
+}
+
+.checkout-product .price-row button:focus,
+.checkout-product .price-row button:hover {
+  background-color: var(--blueberry-300);
+  box-shadow:
+    0 2px 3px -1px rgba(30, 51, 134, 0.3),
+    0 5px 10px -2px rgba(89, 159, 239, 0.5);
+}
+
+.checkout-product .total-price {
+  font-weight: bold;
+}
+
+.cart-total {
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (min-width: 600px) {
+  .checkout-product {
+    align-items: center;
+    align-content: center;
+    grid-template-areas:
+      "image space1 space1"
+      "image name name"
+      "image remove prices"
+      "image space2 space2";
+    grid-template-columns: auto 1fr auto;
+    justify-content: flex-start;
+    text-align: inherit;
+  }
+
+  .checkout-product .price-row {
+    justify-content: flex-start;
+  }
+
+  .cart-total {
+    text-align: right;
+  }
+}
