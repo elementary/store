@@ -9,7 +9,7 @@ export default {
     const form = this.el.form || this.el
 
     const fn = debounce(() => {
-      if (this.el.form != null && this.el.value == "") {
+      if (this.el.form != null && this.el.value === '') {
         return
       }
 
