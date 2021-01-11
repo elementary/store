@@ -26,6 +26,7 @@ msgid "Cart"
 msgstr ""
 
 #, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:1
 #: lib/store_web/templates/checkout/shipping.html.leex:20
 msgid "Checkout"
 msgstr ""
@@ -33,16 +34,6 @@ msgstr ""
 #, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:13
 msgid "City"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/templates/checkout/cart.html.leex:4
-msgid "Clear"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/templates/checkout/cart_item.html.leex:6
-msgid "Color: %{color}"
 msgstr ""
 
 #, elixir-format
@@ -76,11 +67,6 @@ msgid "Postal Code"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/cart_item.html.leex:24
-msgid "Remove"
-msgstr ""
-
-#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:2
 #: lib/store_web/templates/checkout/shipping.html.leex:9
 msgid "Shipping"
@@ -92,17 +78,12 @@ msgid "Shipping Address"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/cart_item.html.leex:10
-msgid "Size: %{size}"
-msgstr ""
-
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
 msgid "State or Province"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/cart_item.html.leex:33
+#: lib/store_web/templates/checkout/cart_item.html.leex:38
 msgid "Update"
 msgstr ""
 

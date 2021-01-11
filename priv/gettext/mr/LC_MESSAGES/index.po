@@ -87,12 +87,12 @@ msgstr ""
 msgid "Get Gear. Win/Win."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:57
 msgid "Hardware and software support for these devices are provided by the\n        retailer."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
 msgid "Support Development."
 msgstr ""
