@@ -15,14 +15,18 @@
   </ul>
 
   <ul>
-    <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
-      <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
+    <% if count(assigns) > 0 do %>
+      <li>
+        <%= form_for :reset, Routes.cart_path(Endpoint, :reset), fn _f -> %>
+          <%= submit dgettext "layout", "Clear Cart" %>
+        <% end %>
+      </li>
     <% end %>
 
-    <% if count(assigns) > 0 do %>
-      <%= form_for :reset, Routes.cart_path(Endpoint, :reset), fn _f -> %>
-        <%= submit dgettext "layout", "Clear Cart" %>
+    <li>
+      <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
+        <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
       <% end %>
-    <% end %>
+    </li>
   </ul>
 </nav>
