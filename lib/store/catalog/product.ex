@@ -41,18 +41,36 @@ defmodule Elementary.Store.Catalog.Product do
 
   """
   def compare(product_one, product_two) do
+    product_one_name = comparable_string_format(product_one.name)
+    product_two_name = comparable_string_format(product_two.name)
+
+    product_one_start_price = Enum.at(product_one.price_range, 0)
+    product_two_start_price = Enum.at(product_two.price_range, 0)
+
     cond do
       Category.compare(product_one.category, product_two.category) != :eq ->
         Category.compare(product_one.category, product_two.category)
 
-      product_one.name > product_two.name ->
+      product_one_start_price > product_two_start_price ->
         :gt
 
-      product_one.name < product_two.name ->
+      product_one_start_price < product_two_start_price ->
+        :lt
+
+      product_one_name > product_two_name ->
+        :gt
+
+      product_one_name < product_two_name ->
         :lt
 
       true ->
         :eq
     end
+  end
+
+  defp comparable_string_format(str) do
+    ~r/[^\w\s]/u
+    |> Regex.replace(str, "", global: false)
+    |> String.trim()
   end
 end
