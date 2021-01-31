@@ -2,9 +2,9 @@ const stripeToken = document.querySelector("meta[name='stripe-key']").getAttribu
 
 export default {
   mounted () {
-    this.handleEvent('sessionRedirect', ({ session_id }) => {
-      const stripe = Stripe(stripeToken)
-      return stripe.redirectToCheckout({ sessionId: session_id })
+    this.handleEvent('sessionRedirect', (params) => {
+      const stripe = window.Stripe(stripeToken)
+      return stripe.redirectToCheckout({ sessionId: params.session_id })
     })
   }
 }
