@@ -28,7 +28,8 @@ defmodule Printful.Cache do
         env |> cache_key() |> put(res_env, on_conflict: :override)
         {:ok, res_env}
 
-      res -> res
+      res ->
+        res
     end
   end
 
