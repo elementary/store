@@ -19,7 +19,17 @@ defmodule Printful.Api do
       {Tesla.Middleware.Headers,
        [
          {"Authorization", "Basic #{Base.encode64(config[:api_key])}"}
-       ]}
+       ]},
+      {Tesla.Middleware.Retry,
+        delay: 200,
+        max_retries: 2,
+        max_delay: 1_000,
+        should_retry: fn
+          {:ok, %{status: status}} when status in [400, 500] -> true
+          {:error, _} -> true
+          _ -> false
+        end
+      }
     ]
 
     Tesla.client(middleware, Application.get_env(:tesla, :adapter))
@@ -44,6 +54,9 @@ defmodule Printful.Api do
 
       {:ok, %{body: %{error: %{message: message}}}} ->
         raise ApiError, message: message
+
+      {:error, :timeout} ->
+        raise ApiError, message: "Printful servers are busy right now"
 
       _ ->
         raise ApiError, message: "Unable to communicate with Printful"

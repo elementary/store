@@ -26,9 +26,21 @@
                   title="<%= dgettext "product", "Unavailable for %{size}", size: @variant.size %>"
                   disabled
                 >
-                  <span class="color"></span>
+                  <span class="color" style="background-color:<%= color_code_for(@variants, color) %>;"></span>
                   <span class="name"><%= color %></span>
                   <span class="warning"><%= dgettext "product", "Unavailable for %{size}", size: @variant.size %></span>
+                </button>
+
+              <% not similar_variant.available -> %>
+                <button
+                  type="button"
+                  class="option disabled"
+                  title="<%= dgettext "product", "%{size} is out of stock", size: @variant.size %>"
+                  disabled
+                >
+                  <span class="color" style="background-color:<%= similar_variant.color_code %>;"></span>
+                  <span class="name"><%= color %></span>
+                  <span class="warning"><%= dgettext "product", "%{size} is out of stock", size: @variant.size %></span>
                 </button>
 
               <% similar_variant.id == @variant.id -> %>
@@ -71,6 +83,16 @@
                   <%= size %>
                 </button>
 
+              <% not similar_variant.available -> %>
+                <button
+                  type="button"
+                  class="option disabled"
+                  title="<%= dgettext "product", "%{color} is out of stock", color: @variant.color %>"
+                  disabled
+                >
+                  <%= size %>
+                </button>
+
               <% similar_variant.id == @variant.id -> %>
                 <button
                   type="button"
@@ -90,8 +112,17 @@
       </ul>
     <% end %>
 
+    <%= if not @variant.available do %>
+      <div class="alert alert--error alert--bubble">
+        <%= dgettext("product", "This product is currently unavailable") %>
+      </div>
+    <% end %>
+
     <%= hidden_input f, :quantity, value: 1 %>
-    <%= submit dgettext "product", "Add to Cart" %>
+    <%= submit dgettext("product", "Add to Cart"),
+      disabled: not @variant.available,
+      phx_disable_with: dgettext("product", "Adding to Cart")
+    %>
   </div>
 
   <div class="description">

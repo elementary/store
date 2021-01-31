@@ -22,4 +22,10 @@ defmodule Elementary.StoreWeb.ProductView do
     end)
     |> List.first()
   end
+
+  def color_code_for(variants, color) do
+    variants
+    |> Enum.find(fn v -> v.color == color end)
+    |> Map.get(:color_code)
+  end
 end
