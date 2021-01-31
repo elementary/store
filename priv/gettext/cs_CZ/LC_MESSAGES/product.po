@@ -48,7 +48,7 @@ msgstr ""
 msgid "%{size} is out of stock"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
 msgid "Adding to Cart"
 msgstr ""
