@@ -35,7 +35,7 @@ defmodule Elementary.Store.Catalog.Variant do
       color: catalog.variant.color,
       color_code: catalog.variant.color_code,
       price: store.retail_price,
-      available: (not catalog.product.is_discontinued and catalog.variant.in_stock),
+      available: not catalog.product.is_discontinued and catalog.variant.in_stock,
       thumbnail_url: mockup.thumbnail_url,
       preview_url: mockup.preview_url
     )

@@ -15,18 +15,28 @@
   </ul>
 
   <ul>
-    <% if count(assigns) > 0 do %>
+    <%= if count(assigns) > 0 do %>
       <li>
-        <%= form_for :reset, Routes.cart_path(Endpoint, :reset), fn _f -> %>
+        <%= form_for :delete, Routes.cart_path(Endpoint, :reset), [
+          id: "reset-cart",
+          method: :delete,
+          phx_hook: "SetSession"
+        ], fn _f -> %>
           <%= submit dgettext "layout", "Clear Cart" %>
         <% end %>
       </li>
-    <% end %>
 
-    <li>
-      <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
-        <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
-      <% end %>
-    </li>
+      <li>
+        <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
+          <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
+        <% end %>
+      </li>
+    <% else %>
+      <li>
+        <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
+          <%= dgettext "layout", "Cart empty" %>
+        <% end %>
+      </li>
+    <% end %>
   </ul>
 </nav>

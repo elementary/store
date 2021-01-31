@@ -21,15 +21,14 @@ defmodule Printful.Api do
          {"Authorization", "Basic #{Base.encode64(config[:api_key])}"}
        ]},
       {Tesla.Middleware.Retry,
-        delay: 200,
-        max_retries: 2,
-        max_delay: 1_000,
-        should_retry: fn
-          {:ok, %{status: status}} when status in [400, 500] -> true
-          {:error, _} -> true
-          _ -> false
-        end
-      }
+       delay: 200,
+       max_retries: 2,
+       max_delay: 1_000,
+       should_retry: fn
+         {:ok, %{status: status}} when status in [400, 500] -> true
+         {:error, _} -> true
+         _ -> false
+       end}
     ]
 
     Tesla.client(middleware, Application.get_env(:tesla, :adapter))
