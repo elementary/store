@@ -1,22 +1,26 @@
-<%= if @error do %>
-  <h1><%= dgettext "checkout", "Shipping" %></h1>
+<h2><%= dgettext "checkout", "Shipping" %></h2>
 
-  <p><%= dgettext "checkout", "We encountered an error getting your shipping rates" %></p>
-  <p><%= @error %>
-<% end %>
-
-<%= if @rates != nil do %>
-  <h1><%= dgettext "checkout", "Shipping" %></h1>
-
-  <%= form_for :shipping, "#", [phx_change: :change, phx_submit: :submit], fn f -> %>
-    <%= for rate <- @rates do %>
+<%= form_for :shipping, "#", [phx_change: :change, phx_submit: :submit, class: "shipping-checkout"], fn f -> %>
+  <%= for rate <- @shipping_rates do %>
+    <label for="<%= rate.id %>">
       <%= radio_button f, :id, rate.id, id: rate.id %>
-      <label for="<%= rate.id %>">
-        <h4><%= rate.name %></h4>
-        <p>For <%= rate.rate %> <%= rate.currency %></p>
-      </label>
-    <% end %>
-
-    <%= submit dgettext "checkout", "Checkout" %>
+      <span class="name"><%= rate.name %></span>
+      <span class="estimate">
+        <%= if rate.estimate do %>
+          Estimated delivery: <%= rate.estimate %>
+        <% else %>
+          Unknown delivery estimate
+        <% end %>
+      </span>
+      <span class="price">$<%= rate.price |> format_price() %></span>
+    </label>
   <% end %>
+
+  <div class="shipping-total">
+    Total: $<%= assigns |> cart_total() |> format_price() %>
+  </div>
+
+  <%= submit dgettext "checkout", "Checkout",
+    phx_disable_with: dgettext("checkout", "Checking Out")
+  %>
 <% end %>

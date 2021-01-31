@@ -1,13 +1,13 @@
 <h2><%= dgettext "checkout", "Cart" %></h2>
 
 <ul class="checkout-cart">
-  <%= for {variant_id, quantity} <- @cart do %>
+  <%= for {variant, quantity} <- fetch_cart_info(@cart) do %>
     <li class="checkout-product">
-      <%= live_component @socket, Checkout.CartItemComponent, variant_id: variant_id, quantity: quantity %>
+      <%= render Elementary.StoreWeb.CheckoutView, "cart_item.html", variant: variant, quantity: quantity %>
     </li>
   <% end %>
 </ul>
 
 <div class="cart-total">
-  Sub-Total: $<%= @cart |> fetch_cart_info() |> cart_total() |> format_price() %>
+  Sub-Total: $<%= assigns |> cart_subtotal() |> format_price() %>
 </div>

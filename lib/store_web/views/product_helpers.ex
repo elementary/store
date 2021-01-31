@@ -13,11 +13,23 @@ defmodule Elementary.StoreWeb.ProductHelpers do
   end
 
   def format_price(price) when is_binary(price) do
-    price |> String.replace(".00", "") |> String.replace(".0", "")
+    {float, _} = Float.parse(price)
+    format_price(float)
+  end
+
+  def format_price(price) when is_integer(price) do
+    to_string(price)
   end
 
   def format_price(price) when is_float(price) do
-    price |> to_string() |> format_price()
+    whole_rounded = Float.round(price, 0)
+    usd_rounded = Float.round(price, 2)
+
+    if whole_rounded == usd_rounded do
+      :erlang.float_to_binary(whole_rounded, decimals: 0)
+    else
+      :erlang.float_to_binary(usd_rounded, decimals: 2)
+    end
   end
 
   def total_price(price, quantity) do

@@ -3,6 +3,8 @@ defmodule Elementary.Store.Shipping do
   Entry point for handling all shipping data
   """
 
+  alias Elementary.Store.{Catalog, Shipping}
+
   def get_countries() do
     Printful.Shipping.countries()
   end
@@ -15,16 +17,11 @@ defmodule Elementary.Store.Shipping do
 
   def get_rates(address, cart) do
     items =
-      Enum.map(cart, fn {variant_id, quantity} ->
-        variant = Elementary.Store.Catalog.get_variant(variant_id)
+      cart
+      |> Enum.map(fn {v, q} -> {Catalog.get_variant(v), q} end)
+      |> Enum.map(fn {v, q} -> %{variant_id: v.catalog_variant_id, quantity: q} end)
 
-        %{
-          variant_id: variant.variant_id,
-          quantity: quantity
-        }
-      end)
-
-    Printful.Shipping.rates(%{
+    %{
       recipient: %{
         address1: address.line1,
         city: address.city,
@@ -33,6 +30,8 @@ defmodule Elementary.Store.Shipping do
         zip: address.postal
       },
       items: items
-    })
+    }
+    |> Printful.Shipping.rates()
+    |> Enum.map(&Shipping.Rate.from_printful/1)
   end
 end

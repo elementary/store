@@ -28,4 +28,11 @@
 
 .alert--error {
   background-color: var(--strawberry-500);
+  color: var(--silver-100);
+}
+
+.alert--bubble {
+  border-radius: 3px;
+  margin: 2rem auto;
+  max-width: 70ch;
 }

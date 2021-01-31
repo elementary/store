@@ -10,8 +10,9 @@ defmodule Elementary.StoreWeb.CheckoutView do
     |> Enum.into([])
   end
 
-  def cart_total(cart) do
+  def cart_subtotal(%{cart: cart}) do
     cart
+    |> fetch_cart_info()
     |> Enum.map(fn {variant, quantity} ->
       {value, _} = Float.parse(variant.price)
       value * quantity
@@ -27,6 +28,7 @@ defmodule Elementary.StoreWeb.CheckoutView do
     Enum.map(countries, &{&1.name, &1.code})
   end
 
-  defdelegate color_text(color), to: Elementary.StoreWeb.ProductView
-  defdelegate size_text(size), to: Elementary.StoreWeb.ProductView
+  def cart_total(%{shipping_rate: shipping_rate} = assigns) do
+    cart_subtotal(assigns) + shipping_rate.price
+  end
 end
