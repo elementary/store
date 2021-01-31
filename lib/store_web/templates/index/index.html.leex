@@ -72,6 +72,13 @@
           <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
             <img alt="<%= product.name %>" src="<%= product.thumbnail_url %>" />
             <h3><%= product.name %></h3>
+            <h4>
+              <%= if Enum.at(product.price_range, 0) == Enum.at(product.price_range, 1) do %>
+                $<%= product.price_range |> Enum.at(0) |> format_price() %>
+              <% else %>
+                $<%= product.price_range |> Enum.at(0) |> format_price() %>+
+              <% end %>
+            </h4>
           <% end %>
         </li>
       <% end %>
