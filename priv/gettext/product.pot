@@ -16,7 +16,7 @@ msgid "Colors"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:56
+#: lib/store_web/templates/product/index.html.leex:68
 msgid "Sizes"
 msgstr ""
 
@@ -27,11 +27,32 @@ msgid "Unavailable for %{size}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:68
+#: lib/store_web/templates/product/index.html.leex:80
 msgid "Unavailable in %{color}"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/product/index.html.leex:94
+#: lib/store_web/templates/product/index.html.leex:122
 msgid "Add to Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:90
+msgid "%{color} is out of stock"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:38
+#: lib/store_web/templates/product/index.html.leex:43
+msgid "%{size} is out of stock"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:124
+msgid "Adding to Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/product/index.html.leex:117
+msgid "This product is currently unavailable"
 msgstr ""

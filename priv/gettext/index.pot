@@ -31,7 +31,7 @@ msgid "Based in the United Kingdom"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:97
+#: lib/store_web/templates/index/index.html.leex:104
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods,\n        prices, and times vary by country. Shipments outside of the USA may incur\n        customs fees depending on the origin and destination countries."
 msgstr ""
 
@@ -72,12 +72,12 @@ msgid "Laptops, mini desktops"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:86
+#: lib/store_web/templates/index/index.html.leex:93
 msgid "We ship apparel and accessories all around the world! Orders are made\n      on-demand typically within 2–7 days and will be shipped with the method\n      you choose at checkout. Due to COVID-19, orders may be delayed.\n      Production is on schedule, but delays may still occur with fulfillment and\n      shipping depending on the order, shipping method, and destination."
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:83
+#: lib/store_web/templates/index/index.html.leex:90
 msgid "Worldwide Shipping"
 msgstr ""
 

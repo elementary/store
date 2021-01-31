@@ -27,7 +27,7 @@ msgid "Brand"
 msgstr ""
 
 #, elixir-format
-#: nav.html.leex:28
+#: nav.html.leex:31
 msgid "Cart (%{count})"
 msgstr ""
 
@@ -82,7 +82,7 @@ msgid "Language"
 msgstr ""
 
 #, elixir-format
-#: nav.html.leex:21
+#: nav.html.leex:25
 msgid "Clear Cart"
 msgstr ""
 
@@ -90,4 +90,9 @@ msgstr ""
 #: lib/store_web/templates/layout/app.html.leex:20
 #: lib/store_web/templates/layout/live.html.leex:33
 msgid "This website requires JavaScript enabled to checkout"
+msgstr ""
+
+#, elixir-format
+#: nav.html.leex:37
+msgid "Cart empty"
 msgstr ""

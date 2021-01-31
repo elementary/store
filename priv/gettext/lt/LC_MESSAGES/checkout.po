@@ -27,7 +27,7 @@ msgid "Cart"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/index.html.leex:1
+#: lib/store_web/templates/checkout/index.html.leex:9
 #: lib/store_web/templates/checkout/shipping.html.leex:23
 msgid "Checkout"
 msgstr ""
@@ -87,12 +87,22 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:24
 msgid "Checking Out"
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:82
 msgid "Fetching Shipping Rates"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:3
+msgid "Empty Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:6
+msgid "Go get yourself something nice!"
 msgstr ""
