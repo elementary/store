@@ -6,12 +6,13 @@ import NProgress from 'nprogress'
 import { LiveSocket } from 'phoenix_live_view'
 
 import SetSession from './set-session'
+import Stripe from './stripe'
 
 const csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute('content')
 
 const liveSocket = new LiveSocket('/live', Socket, {
   params: { _csrf_token: csrfToken },
-  hooks: { SetSession }
+  hooks: { SetSession, Stripe }
 })
 
 NProgress.configure({ showSpinner: false })

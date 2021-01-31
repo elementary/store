@@ -1,0 +1,5 @@
+<h1><%= dgettext "checkout", "Success" %></h1>
+
+<p>
+  <%= dgettext "checkout", "Watch your mail box!" %>
+</p>

@@ -1,6 +1,13 @@
 <h2><%= dgettext "checkout", "Shipping Address" %></h2>
 
-<%= form_for :address, "#", [phx_change: :change, phx_submit: :submit, class: "address-checkout"], fn f -> %>
+<%= form_for :address, Routes.address_path(Endpoint, :update), [
+  id: "address-form",
+  method: :patch,
+  phx_change: :change,
+  phx_submit: :submit,
+  phx_hook: "SetSession",
+  class: "address-checkout"
+], fn f -> %>
   <%= label f, :name, dgettext("checkout", "Name") %>
   <%= text_input f, :name,
     type: "text",

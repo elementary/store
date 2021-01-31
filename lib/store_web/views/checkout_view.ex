@@ -13,10 +13,7 @@ defmodule Elementary.StoreWeb.CheckoutView do
   def cart_subtotal(%{cart: cart}) do
     cart
     |> fetch_cart_info()
-    |> Enum.map(fn {variant, quantity} ->
-      {value, _} = Float.parse(variant.price)
-      value * quantity
-    end)
+    |> Enum.map(fn {v, q} -> v.price * q end)
     |> Enum.reduce(0, fn a, b -> a + b end)
   end
 

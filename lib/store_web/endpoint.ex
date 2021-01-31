@@ -20,7 +20,7 @@ defmodule Elementary.StoreWeb.Endpoint do
     at: "/",
     from: :store,
     gzip: Application.get_env(:store, __MODULE__)[:gzip],
-    only: ~w(favicon.ico images robots.txt scripts styles)
+    only: ~w(.well-known favicon.png images robots.txt scripts styles)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.

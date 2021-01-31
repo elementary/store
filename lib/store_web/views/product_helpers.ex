@@ -33,7 +33,6 @@ defmodule Elementary.StoreWeb.ProductHelpers do
   end
 
   def total_price(price, quantity) do
-    {value, _} = Float.parse(price)
-    Float.round(value * quantity, 2)
+    Float.round(price * quantity, 2)
   end
 end

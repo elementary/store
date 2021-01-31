@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <%= csrf_meta_tag() %>
+    <meta name="stripe-key" content="<%= stripe_key() %>">
 
     <%= live_title_tag assigns[:page_title] || "Store", suffix: " ⋅ elementary OS" %>
     <meta name="description" content="The fast, open, and privacy-respecting replacement for Windows and macOS">
@@ -16,6 +17,7 @@
     <meta property="og:description" content="The fast, open, and privacy-respecting replacement for Windows and macOS">
     <meta itemprop="description" content="The fast, open, and privacy-respecting replacement for Windows and macOS">
     <meta name="apple-mobile-web-app-title" content="elementary">
+    <link rel="shortcut icon" href="<%= Routes.static_path(Endpoint, "/favicon.png") %>">
 
     <link phx-track-static rel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
 
@@ -24,6 +26,7 @@
     <% end %>
 
     <script phx-track-static defer type="text/javascript" src="<%= Routes.static_path(Endpoint, "/scripts/app.js") %>"></script>
+    <script defer type="text/javascript" src="https://js.stripe.com/v3"></script>
   </head>
 
   <body>

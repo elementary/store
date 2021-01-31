@@ -25,8 +25,36 @@ printful_api_key =
     https://www.printful.com/dashboard/settings
     """
 
+stripe_secret_key =
+  System.get_env("STRIPE_SECRET_KEY") ||
+    raise """
+    environment variable STRIPE_SECRET_KEY is missing.
+    You can find yours in the Stripe API page
+    https://dashboard.stripe.com/apikeys
+    """
+
+stripe_public_key =
+  System.get_env("STRIPE_PUBLIC_KEY") ||
+    raise """
+    environment variable STRIPE_PUBLIC_KEY is missing.
+    You can find yours in the Stripe API page
+    https://dashboard.stripe.com/apikeys
+    """
+
+if String.starts_with?(stripe_public_key, "sk_") do
+  raise """
+  environment variable STRIPE_PUBLIC_KEY starts with sk_.
+  This indicates you accidently put your secret key instead.
+  Please double check to ensure you don't leak secret credentials.
+  """
+end
+
 config :store, Elementary.StoreWeb.Endpoint,
   url: [host: domain],
   secret_key_base: secret_key_base
 
 config :store, Printful.Api, api_key: printful_api_key
+
+config :stripity_stripe,
+  api_key: stripe_secret_key,
+  public_key: stripe_public_key

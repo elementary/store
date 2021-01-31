@@ -32,6 +32,8 @@ defmodule Elementary.StoreWeb.Router do
     get "/language", LanguageController, :index
     get "/language/:lang", LanguageController, :set
 
+    get "/checkout/success", Checkout.ResultController, :success
+
     patch "/checkout/address", Checkout.AddressController, :update
 
     delete "/checkout/cart", Checkout.CartController, :reset

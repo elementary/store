@@ -1,6 +1,12 @@
 <h2><%= dgettext "checkout", "Shipping" %></h2>
 
-<%= form_for :shipping, "#", [phx_change: :change, phx_submit: :submit, class: "shipping-checkout"], fn f -> %>
+<%= form_for :shipping, "#", [
+  id: "shipping-form",
+  phx_change: :change,
+  phx_submit: :submit,
+  phx_hook: "Stripe",
+  class: "shipping-checkout"
+], fn f -> %>
   <%= for rate <- @shipping_rates do %>
     <label for="<%= rate.id %>">
       <%= radio_button f, :id, rate.id, id: rate.id %>

@@ -56,5 +56,7 @@ export default {
         fn()
       })
     })
+
+    this.handleEvent('persist', () => fn())
   }
 }

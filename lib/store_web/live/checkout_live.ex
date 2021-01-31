@@ -4,13 +4,11 @@ defmodule Elementary.StoreWeb.CheckoutLive do
   use Elementary.StoreWeb, :live_view
 
   alias Elementary.Store.PubSub, as: StorePubSub
-  alias Elementary.Store.Shipping
+  alias Elementary.Store.{Fulfillment, Shipping}
   alias Phoenix.PubSub
 
-  @default_address %{"country" => "US"}
-
   @impl true
-  def mount(_params, %{"session_id" => session_id, "cart" => cart}, socket) do
+  def mount(_params, %{"session_id" => session_id, "cart" => cart, "address" => address}, socket) do
     Elementary.StoreWeb.Endpoint.subscribe(session_id)
 
     new_socket =
@@ -20,8 +18,8 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       |> assign(:error, nil)
       |> assign(:cart, cart)
       |> assign(:countries, Shipping.get_countries())
-      |> assign(:states, Shipping.get_states(grab_address(@default_address).country))
-      |> assign(:address, grab_address(@default_address))
+      |> assign(:states, Shipping.get_states(grab_address(address).country))
+      |> assign(:address, grab_address(address))
       |> assign(:shipping_rates, [])
       |> assign(:shipping_rate, nil)
 
@@ -78,12 +76,24 @@ defmodule Elementary.StoreWeb.CheckoutLive do
         rate.id == shipping_rate_id
       end)
 
-    new_socket =
-      socket
-      |> assign(:error, nil)
-      |> assign(:shipping_rate, shipping_rate)
+    stripe_res =
+      socket.assigns.cart
+      |> Fulfillment.Order.create(socket.assigns.address, shipping_rate)
+      |> Fulfillment.create_stripe_session()
 
-    {:noreply, new_socket}
+    case stripe_res do
+      {:ok, stripe_session} ->
+        new_socket =
+          socket
+          |> assign(:error, nil)
+          |> assign(:shipping_rate, shipping_rate)
+          |> push_event("sessionRedirect", %{session_id: stripe_session.id})
+
+        {:noreply, new_socket}
+
+      {:error, %{message: message}} ->
+        {:noreply, assign(socket, :error, message)}
+    end
   end
 
   @impl true
@@ -100,6 +110,11 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       |> assign(:shipping_rate, nil)
 
     {:noreply, new_socket}
+  end
+
+  @impl true
+  def handle_info(_update, socket) do
+    {:noreply, socket}
   end
 
   @impl true

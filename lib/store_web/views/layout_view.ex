@@ -6,6 +6,10 @@ defmodule Elementary.StoreWeb.LayoutView do
   def connection(%{conn: conn}), do: conn
   def connection(%{socket: socket}), do: socket
 
+  def stripe_key() do
+    Application.get_env(:stripity_stripe, :public_key)
+  end
+
   def categories() do
     Catalog.get_products()
     |> Enum.map(& &1.category)
