@@ -11,12 +11,12 @@ msgid ""
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:7
+#: lib/store_web/templates/checkout/address.html.leex:13
 msgid "Address Line 1"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:10
+#: lib/store_web/templates/checkout/address.html.leex:22
 msgid "Address Line 2"
 msgstr ""
 
@@ -27,27 +27,27 @@ msgstr ""
 
 #, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:1
-#: lib/store_web/templates/checkout/shipping.html.leex:20
+#: lib/store_web/templates/checkout/shipping.html.leex:23
 msgid "Checkout"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:13
+#: lib/store_web/templates/checkout/address.html.leex:30
 msgid "City"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:21
+#: lib/store_web/templates/checkout/address.html.leex:39
 msgid "Country"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:27
+#: lib/store_web/templates/checkout/address.html.leex:63
 msgid "Email"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:33
+#: lib/store_web/templates/checkout/address.html.leex:81
 msgid "Get Shipping Rates"
 msgstr ""
 
@@ -57,18 +57,17 @@ msgid "Name"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:30
+#: lib/store_web/templates/checkout/address.html.leex:72
 msgid "Phone Number"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:24
+#: lib/store_web/templates/checkout/address.html.leex:54
 msgid "Postal Code"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/shipping.html.leex:2
-#: lib/store_web/templates/checkout/shipping.html.leex:9
+#: lib/store_web/templates/checkout/shipping.html.leex:1
 msgid "Shipping"
 msgstr ""
 
@@ -78,7 +77,7 @@ msgid "Shipping Address"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:17
+#: lib/store_web/templates/checkout/address.html.leex:47
 msgid "State or Province"
 msgstr ""
 
@@ -88,6 +87,11 @@ msgid "Update"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/shipping.html.leex:4
-msgid "We encountered an error getting your shipping rates"
+#: lib/store_web/templates/checkout/shipping.html.leex:24
+msgid "Checking Out"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:82
+msgid "Fetching Shipping Rates"
 msgstr ""
