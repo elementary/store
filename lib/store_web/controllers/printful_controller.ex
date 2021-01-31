@@ -10,7 +10,7 @@ defmodule Elementary.StoreWeb.PrintfulController do
   )a
 
   def index(conn, %{"type" => "product_updated"}) do
-    Printful.Cache.clear()
+    Printful.Cache.flush()
 
     conn
     |> put_status(:ok)

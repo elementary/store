@@ -85,6 +85,12 @@ config :store, Printful.Api,
   api_key: "",
   enable_purchasing: false
 
+config :store, Printful.Cache,
+  primary: [
+    gc_interval: 3_600_000,
+    backend: :shards
+  ]
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"

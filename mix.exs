@@ -19,7 +19,7 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      extra_applications: [:cachex, :logger, :runtime_tools],
+      extra_applications: [:logger, :runtime_tools],
       mod: {Elementary.Store.Application, []}
     ]
   end
@@ -33,7 +33,6 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:cachex, "~> 3.3"},
       {:castore, "~> 0.1.0"},
       {:credo, "~> 1.5.4", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},
@@ -41,11 +40,13 @@ defmodule Elementary.Store.MixProject do
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.2.1"},
+      {:nebulex, "~> 2.0.0-rc.1"},
       {:phoenix_html, "~> 2.14.3"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.15.3"},
       {:phoenix, "~> 1.5.7"},
       {:plug_cowboy, "~> 2.4"},
+      {:shards, "~> 1.0"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 0.4"},
       {:tesla, "~> 1.4.0", override: true}

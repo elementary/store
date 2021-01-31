@@ -13,12 +13,12 @@ defmodule Elementary.Store.Application do
       Elementary.StoreWeb.Telemetry,
       # Start clustering logic
       {Cluster.Supervisor, [topologies, [name: Elementary.Store.ClusterSupervisor]]},
+      # Start the Printful API cache
+      Printful.Cache,
       # Start the PubSub system
       {Phoenix.PubSub, name: Elementary.Store.PubSub},
       # Start the Endpoint (http/https)
-      Elementary.StoreWeb.Endpoint,
-      # Start a worker by calling: Elementary.Store.Worker.start_link(arg)
-      {Cachex, name: Printful.Cache}
+      {Elementary.StoreWeb.Endpoint, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
