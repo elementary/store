@@ -1,7 +1,9 @@
 defmodule Elementary.StoreWeb.SecondaryNavLive do
   @moduledoc false
 
-  use Elementary.StoreWeb, :live_view
+  use Elementary.StoreWeb, :view_helpers
+  use Phoenix.LiveView,
+    container: {:div, class: "nav-sticky"}
 
   @impl true
   def mount(_params, %{"session_id" => session_id, "cart" => cart}, socket) do

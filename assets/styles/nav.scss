@@ -1,14 +1,13 @@
-body > div > header {
-  background-color: var(--header-bg-color);
-  color: var(--header-fg-color);
-  fill: var(--header-fg-color);
-
+body > div {
   nav {
+    background-color: var(--header-bg-color);
+    color: var(--header-fg-color);
     display: flex;
+    fill: var(--header-fg-color);
     font-size: 0;
     justify-content: space-between;
-    overflow-x: auto;
     padding: 0 1rem;
+    overflow-x: auto;
 
     ul {
       display: inline-block;
@@ -58,8 +57,10 @@ body > div > header {
     }
   }
 
-  .secondary {
+  nav.secondary {
     background-color: var(--secondary-bg-color);
+    color: var(--header-fg-color);
+    fill: var(--header-fg-color);
     flex-wrap: wrap;
     padding: 0.25rem 1rem;
 
@@ -72,5 +73,11 @@ body > div > header {
 
   nav a:hover {
     opacity: 0.7;
+  }
+
+  .nav-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
 }

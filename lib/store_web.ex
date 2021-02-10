@@ -74,7 +74,7 @@ defmodule Elementary.StoreWeb do
     end
   end
 
-  defp view_helpers do
+  def view_helpers do
     quote do
       use Phoenix.HTML
 

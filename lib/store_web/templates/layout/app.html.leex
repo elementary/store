@@ -1,26 +1,24 @@
 <div>
-  <header>
-    <%= render Elementary.StoreWeb.LayoutView, "primary-nav.html", assigns %>
-    <%= render Elementary.StoreWeb.LayoutView, "secondary-nav.html", assigns %>
+  <%= render Elementary.StoreWeb.LayoutView, "primary-nav.html", assigns %>
+  <%= render Elementary.StoreWeb.LayoutView, "secondary-nav.html", assigns %>
 
-    <%= if get_flash(@conn, :info) do %>
-      <div class="alert alert--success" role="alert">
-        <span><%= get_flash(@conn, :info) %></span>
-      </div>
-    <% end %>
+  <%= if get_flash(@conn, :info) do %>
+    <div class="alert alert--success" role="alert">
+      <span><%= get_flash(@conn, :info) %></span>
+    </div>
+  <% end %>
 
-    <%= if get_flash(@conn, :error) do %>
-      <div class="alert alert--error" role="alert">
-        <span><%= get_flash(@conn, :error) %></span>
-      </div>
-    <% end %>
+  <%= if get_flash(@conn, :error) do %>
+    <div class="alert alert--error" role="alert">
+      <span><%= get_flash(@conn, :error) %></span>
+    </div>
+  <% end %>
 
-    <noscript>
-      <div class="alert alert--info" role="alert">
-        <span><%= dgettext "layout", "This website requires JavaScript enabled to checkout" %></span>
-      </div>
-    </noscript>
-  </header>
+  <noscript>
+    <div class="alert alert--info" role="alert">
+      <span><%= dgettext "layout", "This website requires JavaScript enabled to checkout" %></span>
+    </div>
+  </noscript>
 
   <main role="main" class="container">
     <%= @inner_content %>
