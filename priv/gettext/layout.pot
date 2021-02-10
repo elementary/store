@@ -86,8 +86,8 @@ msgid "Clear Cart"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/layout/app.html.leex:20
-#: lib/store_web/templates/layout/live.html.leex:33
+#: lib/store_web/templates/layout/app.html.leex:19
+#: lib/store_web/templates/layout/live.html.leex:32
 msgid "This website requires JavaScript enabled to checkout"
 msgstr ""
 
