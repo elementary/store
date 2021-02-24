@@ -12,6 +12,7 @@ import Config
 config :store, Elementary.StoreWeb.Endpoint,
   url: [scheme: "https", port: 443],
   http: [port: 4000, transport_options: [socket_opts: [:inet6]]],
+  force_ssl: [hsts: true],
   cache_static_manifest: "priv/static/cache_manifest.json",
   gzip: true
 
@@ -31,3 +32,5 @@ config :libcluster,
   ]
 
 config :store, Printful.Api, enable_purchasing: true
+
+config :store, Elementary.Store.Mailer, adapter: Bamboo.MailgunAdapter

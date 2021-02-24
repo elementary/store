@@ -20,6 +20,10 @@ defmodule Elementary.StoreWeb.Router do
   scope "/", Elementary.StoreWeb do
     pipe_through :browser
 
+    if Mix.env() == :dev do
+      forward "/emails", Bamboo.SentEmailViewerPlug
+    end
+
     get "/_health", HealthController, :index
 
     live "/", IndexLive, :index

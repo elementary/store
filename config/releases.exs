@@ -49,6 +49,30 @@ if String.starts_with?(stripe_public_key, "sk_") do
   """
 end
 
+stripe_webhook_secret =
+  System.get_env("STRIPE_WEBHOOK_SECRET") ||
+    raise """
+    environment variable STRIPE_WEBHOOK_SECRET is missing.
+    You can find yours in the Stripe API page
+    https://dashboard.stripe.com/webhooks
+    """
+
+mailgun_api_key =
+  System.get_env("MAILGUN_API_KEY") ||
+    raise """
+    environment variable MAILGUN_API_KEY is missing.
+    You can find yours in the mailgun settings page
+    https://app.mailgun.com/app/account/security/api_keys
+    """
+
+mailgun_domain =
+  System.get_env("MAILGUN_DOMAIN") ||
+    raise """
+    environment variable MAILGUN_DOMAIN is missing.
+    You can find yours in the mailgun settings page
+    https://app.mailgun.com/app/sending/domains
+    """
+
 config :store, Elementary.StoreWeb.Endpoint,
   url: [host: domain],
   secret_key_base: secret_key_base
@@ -57,4 +81,9 @@ config :store, Printful.Api, api_key: printful_api_key
 
 config :stripity_stripe,
   api_key: stripe_secret_key,
-  public_key: stripe_public_key
+  public_key: stripe_public_key,
+  webhook_secret: stripe_webhook_secret
+
+config :store, Elementary.Store.Mailer,
+  api_key: mailgun_api_key,
+  domain: mailgun_domain
