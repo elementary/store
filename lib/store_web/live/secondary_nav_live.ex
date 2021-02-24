@@ -2,6 +2,7 @@ defmodule Elementary.StoreWeb.SecondaryNavLive do
   @moduledoc false
 
   use Elementary.StoreWeb, :view_helpers
+
   use Phoenix.LiveView,
     container: {:div, class: "nav-sticky"}
 

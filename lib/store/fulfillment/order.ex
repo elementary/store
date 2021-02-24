@@ -7,7 +7,6 @@ defmodule Elementary.Store.Fulfillment.Order do
     :id,
     :address,
     :email,
-    :phone,
     :items,
     :locale,
     :shipping_rate
@@ -15,9 +14,8 @@ defmodule Elementary.Store.Fulfillment.Order do
 
   def create(cart, address, shipping_rate) do
     %__MODULE__{
-      address: Map.drop(address, [:email, :phone]),
+      address: Map.drop(address, [:email]),
       email: address.email,
-      phone: address.phone,
       items: cart,
       locale: Gettext.get_locale(),
       shipping_rate: shipping_rate

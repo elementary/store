@@ -16,7 +16,8 @@ defmodule Elementary.Store.Catalog.Variant do
     :price,
     :available,
     :thumbnail_url,
-    :preview_url
+    :preview_url,
+    :printful_files
   ]
 
   @doc """
@@ -26,6 +27,11 @@ defmodule Elementary.Store.Catalog.Variant do
   def from_printful(store, catalog) do
     mockup = Enum.find(store.files, &(&1.type === "preview"))
     {price, _} = Float.parse(store.retail_price)
+
+    files =
+      Enum.map(store.files, fn file ->
+        Map.take(file, [:id, :preview_url, :thumbnail_url, :type])
+      end)
 
     struct(__MODULE__,
       id: store.id,
@@ -38,7 +44,8 @@ defmodule Elementary.Store.Catalog.Variant do
       price: price,
       available: not catalog.product.is_discontinued and catalog.variant.in_stock,
       thumbnail_url: mockup.thumbnail_url,
-      preview_url: mockup.preview_url
+      preview_url: mockup.preview_url,
+      printful_files: files
     )
   end
 end

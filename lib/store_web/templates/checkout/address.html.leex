@@ -76,14 +76,6 @@
     value: @address.email
   %>
 
-  <%= label f, :name, dgettext("checkout", "Phone Number") %>
-  <%= text_input f, :phone,
-    type: "tel",
-    autocomplete: "tel",
-    placeholder: "1 867 5309",
-    value: @address.phone
-  %>
-
   <%= if length(@shipping_rates) == 0 do %>
     <%= submit dgettext("checkout", "Get Shipping Rates"),
       phx_disable_with: dgettext("checkout", "Fetching Shipping Rates")

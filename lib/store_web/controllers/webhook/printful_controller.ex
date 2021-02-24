@@ -1,8 +1,8 @@
-defmodule Elementary.StoreWeb.PrintfulController do
+defmodule Elementary.StoreWeb.Webhook.PrintfulController do
   use Elementary.StoreWeb, :controller
 
   @address_fields ~w(
-    name email phone address1 address2 city state_code zip country_code
+    name email address1 address2 city state_code zip country_code
   )a
 
   @tracking_fields ~w(
@@ -11,6 +11,7 @@ defmodule Elementary.StoreWeb.PrintfulController do
 
   def index(conn, %{"type" => "product_updated"}) do
     Printful.Cache.flush()
+    Task.async(&Elementary.Store.Catalog.get_products/0)
 
     conn
     |> put_status(:ok)

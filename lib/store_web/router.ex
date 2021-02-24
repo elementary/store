@@ -42,8 +42,10 @@ defmodule Elementary.StoreWeb.Router do
     delete "/checkout/cart/:id", Checkout.CartController, :delete
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Elementary.StoreWeb do
-  #   pipe_through :api
-  # end
+  scope "/webhook", Elementary.StoreWeb.Webhook do
+    pipe_through :api
+
+    post "/printful", PrintfulController, :index
+    post "/stripe", StripeController, :index
+  end
 end

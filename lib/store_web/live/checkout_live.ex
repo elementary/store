@@ -79,7 +79,7 @@ defmodule Elementary.StoreWeb.CheckoutLive do
     stripe_res =
       socket.assigns.cart
       |> Fulfillment.Order.create(socket.assigns.address, shipping_rate)
-      |> Fulfillment.create_stripe_session()
+      |> Fulfillment.create_order()
 
     case stripe_res do
       {:ok, stripe_session} ->
@@ -131,8 +131,7 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       state: Map.get(params, "state", ""),
       country: Map.get(params, "country", ""),
       postal: Map.get(params, "postal", ""),
-      email: Map.get(params, "email", ""),
-      phone: Map.get(params, "phone", "")
+      email: Map.get(params, "email", "")
     }
   end
 end
