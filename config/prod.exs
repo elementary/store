@@ -10,7 +10,7 @@ import Config
 # which you should run after static files are built and
 # before starting your production server.
 config :store, Elementary.StoreWeb.Endpoint,
-  url: [port: 443],
+  url: [scheme: "https", port: 443],
   http: [port: 4000, transport_options: [socket_opts: [:inet6]]],
   cache_static_manifest: "priv/static/cache_manifest.json",
   gzip: true
