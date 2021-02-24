@@ -48,18 +48,13 @@ msgid "Email"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:88
+#: lib/store_web/templates/checkout/address.html.leex:80
 msgid "Get Shipping Rates"
 msgstr ""
 
 #, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:11
 msgid "Name"
-msgstr ""
-
-#, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:79
-msgid "Phone Number"
 msgstr ""
 
 #, elixir-format
@@ -93,7 +88,7 @@ msgid "Checking Out"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:89
+#: lib/store_web/templates/checkout/address.html.leex:81
 msgid "Fetching Shipping Rates"
 msgstr ""
 
