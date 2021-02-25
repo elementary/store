@@ -4,7 +4,9 @@ defmodule Elementary.StoreWeb.FooterLive do
   use Elementary.StoreWeb, :live_view
 
   @impl true
-  def mount(_params, _session, socket) do
+  def mount(_params, %{"locale" => locale}, socket) do
+    Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
+
     {:ok, socket}
   end
 

@@ -6,6 +6,9 @@ defmodule Elementary.Store.Session do
   import Plug.Conn
 
   def init(conn) do
+    locale = Gettext.get_locale(Elementary.StoreWeb.Gettext)
+    conn = put_session(conn, :locale, locale)
+
     if id(conn) == nil do
       put_session(conn, :session_id, generate_id())
     else
