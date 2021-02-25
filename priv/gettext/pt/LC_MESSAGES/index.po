@@ -72,27 +72,27 @@ msgstr ""
 msgid "Support Development."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:88
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 
-#, elixir-format, fuzzy
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:83
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
