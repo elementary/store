@@ -1,0 +1,24 @@
+<%= dgettext "email", "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!" %>
+
+<%= if not is_nil(@shipment) and not is_nil(@shipment.tracking_number) do %>
+<%= dgettext "email", "Here's your tracking number:" %>
+<%= @shipment.tracking_number %> (<%= @shipment.carrier %>) <%= @shipment.service %>
+<%= @shipment.tracking_url %>
+
+<%= dgettext "email", "Tracking information can take up to 48 hours to be updated after the order is shipped." %>
+<% end %>
+
+<%= dgettext "email", "Here's what we shipped in this order:" %>
+<%= for item <- @order.items do %>
+  - <%= item.quantity %>x <%= item.name %> @ $<%= item.retail_price %>
+<% end %>
+
+
+<%= dgettext "email", "Shipping Address:" %>
+<%= for line <- address_template(@order.recipient) do %>
+  - <%= line %>
+<% end %>
+
+
+<%= dgettext "email", "Looking forward to your next order!" %>
+<%= dgettext "email", "The elementary Team" %>

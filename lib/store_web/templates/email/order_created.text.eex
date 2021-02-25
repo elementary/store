@@ -1,0 +1,17 @@
+<%= dgettext "email", "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!" %>
+
+
+<%= dgettext "email", "Here's what we shipped in this order:" %>
+<%= for item <- @order.items do %>
+  - <%= item.quantity %>x <%= item.name %> @ $<%= item.retail_price %>
+<% end %>
+
+
+<%= dgettext "email", "Shipping Address:" %>
+<%= for line <- address_template(@order.recipient) do %>
+  - <%= line %>
+<% end %>
+
+
+<%= dgettext "email", "Looking forward to your next order!" %>
+<%= dgettext "email", "The elementary Team" %>

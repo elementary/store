@@ -36,6 +36,10 @@ defmodule Elementary.StoreWeb.Webhook.StripeController do
         type: "checkout.session.completed",
         data: %{object: %{metadata: %{"source" => "elementary/store#v1"}} = checkout_session}
       }) do
+    checkout_session.metadata
+    |> Map.get("locale", "en")
+    |> Gettext.put_locale()
+
     Fulfillment.fulfill_order(checkout_session)
   end
 

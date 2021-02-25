@@ -11,6 +11,10 @@ defmodule Printful.Order do
     Api.get("/orders", opts)
   end
 
+  def get(id) do
+    Api.get("/orders/#{id}")
+  end
+
   def create(params) do
     Api.post("/orders", Map.put(params, :confirm, false))
   end
