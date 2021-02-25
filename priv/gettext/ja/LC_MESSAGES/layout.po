@@ -8,25 +8,25 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-24 20:52+0000\n"
-"Last-Translator: Blake Kostner <btkostner@gmail.com>\n"
+"PO-Revision-Date: 2021-02-25 04:07+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/layout/ja/"
 ">\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/footer.html.leex:4
 #, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
 #: nav.html.leex:35
 #, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "ブログ"
 
 #: lib/store_web/templates/layout/footer.html.leex:26
 #, elixir-format
@@ -36,7 +36,7 @@ msgstr "ブランド"
 #: nav.html.leex:31
 #, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "カート (%{count}項目)"
 
 #: nav.html.leex:17
 #, elixir-format
@@ -51,7 +51,7 @@ msgstr "開発に参加"
 #: lib/store_web/templates/layout/footer.html.leex:32
 #, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "OEM"
 
 #: lib/store_web/templates/layout/footer.html.leex:50
 #, elixir-format
@@ -61,7 +61,7 @@ msgstr "オープンソース"
 #: lib/store_web/templates/layout/footer.html.leex:20
 #, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "プレス資料"
 
 #: lib/store_web/templates/layout/footer.html.leex:38
 #, elixir-format
@@ -91,15 +91,15 @@ msgstr "言語"
 #: nav.html.leex:25
 #, elixir-format
 msgid "Clear Cart"
-msgstr ""
+msgstr "カートを空にする"
 
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
 #, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
+msgstr "この Web サイトを閲覧するには JavaScript を有効にする必要があります"
 
 #: nav.html.leex:37
 #, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "カートは空です"
