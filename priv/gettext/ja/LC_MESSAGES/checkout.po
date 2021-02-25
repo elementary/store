@@ -18,103 +18,103 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/store_web/templates/checkout/address.html.leex:20
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:20
 msgid "Address Line 1"
 msgstr "市町村以下の住所 (番地など)"
 
-#: lib/store_web/templates/checkout/address.html.leex:29
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:29
 msgid "Address Line 2"
 msgstr "部屋番号と建物名 (アパートやマンションにお住まいの場合)"
 
-#: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/cart.html.leex:1
 msgid "Cart"
 msgstr "カート"
 
+#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:29
-#, elixir-format
 msgid "Checkout"
 msgstr "購入手続き"
 
-#: lib/store_web/templates/checkout/address.html.leex:37
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:37
 msgid "City"
 msgstr "市町村"
 
-#: lib/store_web/templates/checkout/address.html.leex:46
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:46
 msgid "Country"
 msgstr "国"
 
-#: lib/store_web/templates/checkout/address.html.leex:70
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:70
 msgid "Email"
 msgstr "メールアドレス"
 
-#: lib/store_web/templates/checkout/address.html.leex:80
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:80
 msgid "Get Shipping Rates"
 msgstr "送料を計算"
 
-#: lib/store_web/templates/checkout/address.html.leex:11
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:11
 msgid "Name"
 msgstr "氏名"
 
-#: lib/store_web/templates/checkout/address.html.leex:61
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:61
 msgid "Postal Code"
 msgstr "郵便番号"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:1
 msgid "Shipping"
 msgstr "発送"
 
-#: lib/store_web/templates/checkout/address.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:1
 msgid "Shipping Address"
 msgstr "発送先住所"
 
-#: lib/store_web/templates/checkout/address.html.leex:54
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:54
 msgid "State or Province"
 msgstr "都道府県 (日本国外は州)"
 
-#: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:38
 msgid "Update"
 msgstr "更新"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:30
 #, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:30
 msgid "Checking Out"
 msgstr "購入手続きを完了しています"
 
-#: lib/store_web/templates/checkout/address.html.leex:81
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:81
 msgid "Fetching Shipping Rates"
 msgstr "送料を計算しています"
 
-#: lib/store_web/templates/checkout/index.html.leex:2
 #, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:2
 msgid "Empty Cart"
 msgstr "カートは空です"
 
-#: lib/store_web/templates/checkout/index.html.leex:5
 #, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:5
 msgid "Go get yourself something nice!"
 msgstr "お買い物をお楽しみください！"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/result/success.html.eex:1
 msgid "Success"
 msgstr "購入手続きが完了しました"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-format
+#: lib/store_web/templates/checkout/result/success.html.eex:4
 msgid "Watch your mail box!"
 msgstr "発送時にメールをお送りします！"
