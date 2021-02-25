@@ -8,52 +8,59 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-02-25 04:07+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/store/product/"
+"ja/>\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "カラーバリエーション"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-format
+msgid "Sizes"
+msgstr "サイズ"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "%{size} サイズはご利用いただけません"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "カラーバリエーションのうち %{color} はご利用いただけません"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "カートに追加"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-msgid "%{color} is out of stock"
-msgstr ""
-
 #, elixir-format
+msgid "%{color} is out of stock"
+msgstr "カラーバリエーションのうち %{color} は在庫がありません"
+
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} サイズは在庫がありません"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Adding to Cart"
+msgstr "カートに追加しています"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "この製品は現在ご利用いただけません"
