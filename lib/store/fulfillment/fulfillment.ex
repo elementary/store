@@ -4,7 +4,7 @@ defmodule Elementary.Store.Fulfillment do
   Printful.
   """
 
-  alias Elementary.Store.{Catalog, Shipping}
+  alias Elementary.Store.{Catalog, Email, Mailer, Shipping}
   alias Elementary.StoreWeb.Router.Helpers, as: Routes
   alias __MODULE__
 
@@ -34,7 +34,8 @@ defmodule Elementary.Store.Fulfillment do
       mode: "payment",
       metadata: %{
         source: "elementary/store#v1",
-        printful_id: printful_response.id
+        printful_id: printful_response.id,
+        locale: Gettext.get_locale()
       }
     })
   end
@@ -93,6 +94,11 @@ defmodule Elementary.Store.Fulfillment do
   end
 
   def fulfill_order(%Stripe.Session{livemode: livemode, metadata: %{"printful_id" => printful_id}}) do
+    printful_id
+    |> Printful.Order.get()
+    |> Email.order_created()
+    |> Mailer.deliver_later()
+
     if livemode do
       fulfill_order(printful_id)
     else

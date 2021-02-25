@@ -19,8 +19,7 @@ defmodule Elementary.StoreWeb.Endpoint do
   plug Plug.Static,
     at: "/",
     from: :store,
-    gzip: Application.get_env(:store, __MODULE__)[:gzip],
-    only: ~w(.well-known favicon.png images robots.txt scripts styles)
+    gzip: Application.get_env(:store, __MODULE__)[:gzip]
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.

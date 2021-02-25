@@ -1,0 +1,134 @@
+<tr>
+	<td valign="top" id="templateHeader">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+			<tbody class="mcnTextBlockOuter">
+				<tr>
+					<td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+						<!--[if mso]><table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;"><tr><![endif]-->
+						<!--[if mso]><td valign="top" width="600" style="width:600px;"><![endif]-->
+						<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+							<tbody>
+								<tr>
+									<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+										<h1><%= dgettext "email", "We Have Shipped Your Order!" %></h1>
+										<br>
+										<%= dgettext "email", "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!" %>
+										<br>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if mso]></td><![endif]-->
+						<!--[if mso]></tr></table><![endif]-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" id="templateBody">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+			<tbody class="mcnTextBlockOuter">
+				<tr>
+					<td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+						<!--[if mso]><table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;"><tr><![endif]-->
+						<!--[if mso]><td valign="top" width="600" style="width:600px;"><![endif]-->
+						<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+							<tbody>
+								<tr>
+									<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                    <%= if not is_nil(@shipment) and not is_nil(@shipment.tracking_number) do %>
+                      <strong><%= dgettext "email", "Here's your tracking number:" %></strong>
+
+                      <p style="background-color:#f8f8f8;margin-top:0;margin-bottom:0;padding:20px;font-weight:100;font-size:30px;color:#222222;line-height:30px;">
+                        <%= @shipment.tracking_number %>
+                        <br>
+                        <a href="<%= @shipment.tracking_url %>" style="outline:0;font-weight:300;font-size:18px;color: #08c;line-height:30px;text-decoration:none;">
+                          (<%= @shipment.carrier %>) <%= @shipment.service %>
+                        </a>
+                      </p>
+
+                      <p>
+                        <span style="font-size:12px">
+                          <em><%= dgettext "email", "Tracking information can take up to 48 hours to be updated after the order is shipped." %></em>
+                        </span>
+                      </p>
+                    <% end %>
+
+                    <p><%= dgettext "email", "Here's what we shipped in this order:" %></p>
+
+										<%= for item <- @order.items do %>
+											<table cellpadding="0" cellspacing="0" width="100%">
+												<tbody>
+													<tr>
+														<td style="padding-top:10px;padding-bottom:10px;" valign="top" width="25%">
+															<img alt="<%= item.name %>" src="<%= product_preview(item) %>" style="background-color:#f0f0f0;" width="100%">
+														</td>
+														<td colspan="3" style="padding-bottom:10px;" valign="top" width="75%">
+															<p style="padding-left:20px;font-weight:300;font-size:13px;color:#222222;line-height:20px;"><%= item.name %></p>
+														</td>
+													</tr>
+													<tr>
+														<td style="border-bottom:1px solid #e1e1e1;" width="25%"><strong><%= dgettext "email", "Qty" %></strong>
+															<p style="margin:5px 0 10px 0;font-weight:300;font-size:13px;color:#222222;line-height:20px;"><%= item.quantity %></p>
+														</td>
+														<td style="border-bottom:1px solid #e1e1e1;" width="25%"><strong><%= dgettext "email", "Price" %></strong>
+															<p style="margin:5px 0 10px 0;font-weight:300;font-size:13px;color:#222222;line-height:20px;">$<%= item.retail_price %></p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										<% end %>
+
+										<table bgcolor="f8f8f8" cellpadding="0" cellspacing="0" style="margin:25px 0;padding:25px;" width="100%">
+											<tbody>
+												<tr>
+													<td valign="top">
+														<p style="margin-left:10px;font-weight:300;font-size:15px;color:#222222;line-height:20px;">
+															<strong><%= dgettext "email", "Shipping Address:" %></strong>
+															<br>
+															<%= for line <- address_template(@order.recipient) do %>
+																<%= line %><br>
+															<% end %>
+														</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if mso]></td><![endif]-->
+						<!--[if mso]></tr></table><![endif]-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+			<tbody class="mcnTextBlockOuter">
+				<tr>
+					<td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+						<!--[if mso]><table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;"><tr><![endif]-->
+						<!--[if mso]><td valign="top" width="600" style="width:600px;"><![endif]-->
+						<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+							<tbody>
+								<tr>
+									<td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+										<p><span style="line-height:1.6"><%= dgettext "email", "Looking forward to your next order!" %></span></p>
+										<%= dgettext "email", "The elementary Team" %>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if mso]></td><![endif]-->
+						<!--[if mso]></tr></table><![endif]-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>

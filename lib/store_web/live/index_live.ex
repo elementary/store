@@ -6,7 +6,9 @@ defmodule Elementary.StoreWeb.IndexLive do
   alias Elementary.Store.Catalog
 
   @impl true
-  def mount(_params, _session, socket) do
+  def mount(_params, %{"locale" => locale}, socket) do
+    Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
+
     new_socket =
       socket
       |> assign(:products, Catalog.get_products())

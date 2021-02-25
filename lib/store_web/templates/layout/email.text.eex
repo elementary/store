@@ -1,0 +1,5 @@
+<%= @inner_content %>
+
+<%= dgettext "email", "Copyright © %{year} elementary, Inc. All rights reserved.", year: year() %>
+
+<%= dgettext "email", "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list." %>

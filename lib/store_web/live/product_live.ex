@@ -6,13 +6,17 @@ defmodule Elementary.StoreWeb.ProductLive do
   alias Elementary.Store.Catalog
 
   @impl true
-  def mount(%{"product" => product_id, "variant" => variant_id}, _session, socket) do
+  def mount(%{"product" => product_id, "variant" => variant_id}, %{"locale" => locale}, socket) do
+    Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
+
     new_socket = assign_data(socket, product_id, variant_id)
     {:ok, new_socket}
   end
 
   @impl true
-  def mount(%{"product" => product_id}, _session, socket) do
+  def mount(%{"product" => product_id}, %{"locale" => locale}, socket) do
+    Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
+
     new_socket = assign_data(socket, product_id, nil)
     {:ok, new_socket}
   end

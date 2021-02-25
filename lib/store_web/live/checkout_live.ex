@@ -8,7 +8,12 @@ defmodule Elementary.StoreWeb.CheckoutLive do
   alias Phoenix.PubSub
 
   @impl true
-  def mount(_params, %{"session_id" => session_id, "cart" => cart, "address" => address}, socket) do
+  def mount(
+        _params,
+        %{"locale" => locale, "session_id" => session_id, "cart" => cart, "address" => address},
+        socket
+      ) do
+    Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
     Elementary.StoreWeb.Endpoint.subscribe(session_id)
 
     new_socket =

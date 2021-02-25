@@ -17,12 +17,16 @@ defmodule Elementary.StoreWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", Elementary.StoreWeb do
-    pipe_through :browser
+  if Mix.env() == :dev do
+    scope "/" do
+      pipe_through :browser
 
-    if Mix.env() == :dev do
       forward "/emails", Bamboo.SentEmailViewerPlug
     end
+  end
+
+  scope "/", Elementary.StoreWeb do
+    pipe_through :browser
 
     get "/_health", HealthController, :index
 

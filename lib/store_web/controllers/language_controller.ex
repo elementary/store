@@ -15,6 +15,7 @@ defmodule Elementary.StoreWeb.LanguageController do
 
       conn
       |> Gtext.put_language(lang)
+      |> put_session(:locale, lang)
       |> put_flash(
         :info,
         Gtext.dgettext("language", "Your language has been set to %{language}",
