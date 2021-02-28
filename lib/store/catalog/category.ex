@@ -21,6 +21,8 @@ defmodule Elementary.Store.Catalog.Category do
       String.contains?(type, "poster") -> "Poster"
       String.contains?(type, "jacket") -> "Outerwear"
       String.contains?(type, "sweatshirt") -> "Outerwear"
+      String.contains?(type, "hoodie") -> "Outerwear"
+      String.contains?(type, "mug") -> "Mug"
       true -> catalog.product.type_name
     end
   end
