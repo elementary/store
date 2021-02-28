@@ -7,9 +7,9 @@ defmodule Elementary.StoreWeb.SecondaryNavLive do
     container: {:div, class: "nav-sticky"}
 
   @impl true
-  def mount(_params, %{"locale" => locale, "session_id" => session_id, "cart" => cart}, socket) do
+  def mount(_params, %{"locale" => locale, "cart" => cart}, socket) do
     Gettext.put_locale(Elementary.StoreWeb.Gettext, locale)
-    Elementary.StoreWeb.Endpoint.subscribe(session_id)
+    Elementary.StoreWeb.Endpoint.subscribe(cart.id)
 
     {:ok, assign(socket, :cart, cart)}
   end

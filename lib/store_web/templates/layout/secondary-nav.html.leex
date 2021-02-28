@@ -15,7 +15,7 @@
   </ul>
 
   <ul>
-    <%= if count(assigns) > 0 do %>
+    <%= if count = Checkout.get_cart_quantity(@cart), when: count > 0 do %>
       <li>
         <%= form_for :delete, Routes.cart_path(Endpoint, :reset), [
           id: "reset-cart",
@@ -28,7 +28,7 @@
 
       <li>
         <%= live_patch to: Routes.checkout_path(Endpoint, :index) do %>
-          <%= dgettext "layout", "Cart (%{count})", count: count(assigns) %>
+          <%= dgettext "layout", "Cart (%{count})", count: count %>
         <% end %>
       </li>
     <% else %>
