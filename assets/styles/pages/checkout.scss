@@ -75,7 +75,7 @@
   border: none;
   color: #fff;
   display: block;
-  display: inline-block;
+  height: 100%;
   margin: 0 0.5ch;
   padding: 0.5em;
   text-align: center;
@@ -243,5 +243,24 @@ form.shipping-checkout button:disabled {
   .shipping-checkout .price,
   .shipping-total {
     text-align: right;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .checkout-product,
+  .shipping-total {
+    border-color: var(--slate-500);
+  }
+
+  .checkout-product .price-row input,
+  form.address-checkout input,
+  form.address-checkout select {
+    background: linear-gradient(to bottom, #252525, #272727);
+    color: var(--fg-color);
+  }
+
+  form.address-checkout select option {
+    background-color: #252525;
+    color: var(--fg-color);
   }
 }
