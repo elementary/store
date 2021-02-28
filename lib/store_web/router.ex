@@ -10,7 +10,7 @@ defmodule Elementary.StoreWeb.Router do
     plug :put_secure_browser_headers
 
     plug Elementary.StoreWeb.GettextPlug
-    plug Elementary.StoreWeb.InitPlug
+    plug Elementary.StoreWeb.CartPlug
   end
 
   pipeline :api do

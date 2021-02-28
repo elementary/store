@@ -17,20 +17,6 @@ defmodule Elementary.StoreWeb.LayoutView do
     |> Enum.sort(Catalog.Category)
   end
 
-  def count(%{cart: cart}), do: count(cart)
-
-  def count(%{conn: conn}) do
-    conn
-    |> Cart.get_items()
-    |> count()
-  end
-
-  def count(items) when is_map(items) do
-    items
-    |> Map.values()
-    |> Enum.reduce(0, &(&1 + &2))
-  end
-
   def available_languages() do
     Elementary.StoreWeb.Gettext.known_languages()
   end
