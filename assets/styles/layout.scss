@@ -23,6 +23,7 @@ body > div > main {
   flex: 1 0 auto;
   margin: 0 auto;
   max-width: var(--page-width);
+  overflow-x: hidden;
   padding: 0 1rem;
 }
 
@@ -74,5 +75,17 @@ body > div > footer {
       height: 1.4em;
       margin-right: 1ch;
     }
+  }
+}
+
+#nprogress {
+  flex: 0 0 0%;
+  height: 0;
+  width: 0;
+}
+
+@media (min-width: 900px) {
+  body > div > main {
+    padding: 0 2rem;
   }
 }

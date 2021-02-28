@@ -120,6 +120,8 @@ section.products {
 
   > h1 {
     grid-area: title;
+    position: relative;
+    z-index: 2;
   }
 
   > img {
