@@ -13,7 +13,7 @@
     type: "text",
     autocomplete: "name",
     required: true,
-    placeholder: "Ellie Mendez",
+    placeholder: dgettext("checkout", "Ellie Mendez"),
     value: @address.name
   %>
 
@@ -22,7 +22,7 @@
     type: "text",
     autocomplete: "shipping address-line1",
     required: true,
-    placeholder: "Street Address, P.O. Box, Company Name",
+    placeholder: dgettext("checkout", "Street Address, P.O. Box, Company Name"),
     value: @address.line1
   %>
 
@@ -30,7 +30,7 @@
   <%= text_input f, :line2,
     type: "text",
     autocomplete: "shipping address-line2",
-    placeholder: "Apartment, Suite, Unit, Building, Floor",
+    placeholder: dgettext("checkout", "Apartment, Suite, Unit, Building, Floor"),
     value: @address.line2
   %>
 
@@ -38,7 +38,7 @@
   <%= text_input f, :city,
     type: "text",
     autocomplete: "shipping address-level2",
-    placeholder: "Anytown",
+    placeholder: dgettext("checkout", "Anytown"),
     required: true,
     value: @address.city
   %>
@@ -63,7 +63,7 @@
     type: "text",
     autocomplete: "shipping postal-code",
     required: true,
-    placeholder: "12345",
+    placeholder: dgettext("checkout", "12345"),
     value: @address.postal
   %>
 
