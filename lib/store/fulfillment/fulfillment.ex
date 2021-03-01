@@ -13,12 +13,18 @@ defmodule Elementary.Store.Fulfillment do
   @stripe_payment_types ["card"]
 
   def create_order(%Fulfillment.Order{} = order) do
+    tax_price =
+      %{recipient: printful_recipient(order)}
+      |> Printful.Tax.get()
+      |> calculate_taxes(order)
+
     printful_response =
       Printful.Order.create(%{
         shipping: order.shipping_rate.id,
         recipient: printful_recipient(order),
         items: Enum.map(order.items, &printful_line_item/1),
         retail_costs: %{
+          tax: tax_price,
           shipping: order.shipping_rate.price
         }
       })
@@ -52,6 +58,25 @@ defmodule Elementary.Store.Fulfillment do
       email: order.email
     }
   end
+
+  defp calculate_taxes(%{rate: tax_rate} = tax, order) do
+    item_total =
+      order.items
+      |> Enum.map(fn {variant_id, quantity} -> {Catalog.get_variant(variant_id), quantity} end)
+      |> Enum.map(fn {variant, quantity} -> variant.price * quantity end)
+      |> Enum.reduce(0, fn a, b -> a + b end)
+
+    taxable_amount =
+      if tax.shipping_taxable do
+        item_total + order.shipping_rate.price
+      else
+        item_total
+      end
+
+    Float.ceil(taxable_amount * tax_rate, 2)
+  end
+
+  defp calculate_taxes(_, _order), do: 0
 
   defp printful_line_item({variant_id, quantity}) do
     variant = Catalog.get_variant(variant_id)

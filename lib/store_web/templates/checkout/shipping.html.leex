@@ -22,10 +22,6 @@
     </label>
   <% end %>
 
-  <div class="shipping-total">
-    Total: $<%= assigns |> cart_total() |> format_price() %>
-  </div>
-
   <%= submit dgettext "checkout", "Checkout",
     phx_disable_with: dgettext("checkout", "Checking Out")
   %>
