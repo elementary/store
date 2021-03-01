@@ -18,7 +18,7 @@ defmodule Elementary.Store.Address do
     if conn |> get_session(@session_key) |> initialized?() do
       conn
     else
-      put_session(conn, @session_key, %{})
+      put_session(conn, @session_key, %{"country" => "US"})
     end
   end
 
