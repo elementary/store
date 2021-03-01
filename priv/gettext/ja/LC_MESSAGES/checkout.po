@@ -35,7 +35,7 @@ msgstr "カート"
 
 #, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
-#: lib/store_web/templates/checkout/shipping.html.leex:29
+#: lib/store_web/templates/checkout/shipping.html.leex:25
 msgid "Checkout"
 msgstr "購入手続き"
 
@@ -90,7 +90,7 @@ msgid "Update"
 msgstr "更新"
 
 #, elixir-format
-#: lib/store_web/templates/checkout/shipping.html.leex:30
+#: lib/store_web/templates/checkout/shipping.html.leex:26
 msgid "Checking Out"
 msgstr "購入手続きを完了しています"
 
@@ -118,3 +118,28 @@ msgstr "購入手続きが完了しました"
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 msgid "Watch your mail box!"
 msgstr "発送時にメールをお送りします！"
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:66
+msgid "12345"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:41
+msgid "Anytown"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:33
+msgid "Apartment, Suite, Unit, Building, Floor"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:16
+msgid "Ellie Mendez"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:25
+msgid "Street Address, P.O. Box, Company Name"
+msgstr ""
