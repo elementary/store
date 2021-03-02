@@ -51,12 +51,6 @@ defmodule Elementary.Store.Catalog.Product do
       Category.compare(product_one.category, product_two.category) != :eq ->
         Category.compare(product_one.category, product_two.category)
 
-      product_one_start_price > product_two_start_price ->
-        :gt
-
-      product_one_start_price < product_two_start_price ->
-        :lt
-
       product_one_name > product_two_name ->
         :gt
 
