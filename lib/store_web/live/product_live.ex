@@ -61,6 +61,7 @@ defmodule Elementary.StoreWeb.ProductLive do
       |> assign(:variants, variants)
       |> assign(:variant, selected_variant)
       |> assign(:page_title, selected_variant.name)
+      |> assign(:page_image, selected_variant.preview_url)
 
     new_socket
   end

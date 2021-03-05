@@ -41,3 +41,6 @@ npm-debug.log
 
 # asdf package manager files
 .tool-versions
+
+# elementary Code and Gedit temporary files
+*~
