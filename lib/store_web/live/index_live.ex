@@ -13,7 +13,7 @@ defmodule Elementary.StoreWeb.IndexLive do
       socket
       |> assign(:products, Catalog.get_products())
       |> assign(:page_title, "Store")
-      |> assign(:page_image, "/images/card.png")
+      |> assign(:page_image, nil)
 
     {:ok, new_socket}
   end

@@ -19,7 +19,7 @@ defmodule Elementary.StoreWeb.CheckoutLive do
     new_socket =
       socket
       |> assign(:page_title, "Cart")
-      |> assign(:page_image, "/images/card.png")
+      |> assign(:page_image, nil)
       |> assign(:session_id, session_id)
       |> assign(:error, nil)
       |> assign(:cart, cart)
