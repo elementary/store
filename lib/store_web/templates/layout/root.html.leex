@@ -9,13 +9,13 @@
 
     <%= live_title_tag assigns[:page_title] || "Store", suffix: " ⋅ elementary Store" %>
     <meta name="description" content="Support Development. Get Gear. Win/Win.">
-    <meta itemprop="image" content="<%= @page_image %>" />
-
     <meta property="og:description" content="Support Development. Get Gear. Win/Win.">
-    <meta property="og:image" content="<%= @page_image %>" />
 
     <meta name="twitter:site" content="@elementary">
     <meta name="twitter:creator" content="@elementary">
+
+    <meta itemprop="image" content="<%= @page_image %>" />
+    <meta property="og:image" content="<%= @page_image %>" />
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:image" content="<%= @page_image %>" />
 
