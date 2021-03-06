@@ -52,6 +52,10 @@ defmodule Elementary.StoreWeb.LayoutView do
     Routes.static_url(Endpoint, absolute_path)
   end
 
+  def meta_image(%{assigns: %{page_image: page_image}}), do: page_image
+  def meta_image(%{page_image: page_image}), do: page_image
+  def meta_image(_conn), do: Routes.static_url(Endpoint, "/images/card.png")
+
   defp year() do
     Map.get(DateTime.utc_now(), :year)
   end

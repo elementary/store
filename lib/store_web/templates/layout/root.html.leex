@@ -14,12 +14,10 @@
     <meta name="twitter:site" content="@elementary">
     <meta name="twitter:creator" content="@elementary">
 
-    <%= if @page_image do %>
-      <meta itemprop="image" content="<%= @page_image %>" />
-      <meta property="og:image" content="<%= @page_image %>" />
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="twitter:image" content="<%= @page_image %>" />
-    <% end %>
+    <meta itemprop="image" content="<%= meta_image(connection(assigns)) %>" />
+    <meta property="og:image" content="<%= meta_image(connection(assigns)) %>" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="<%= meta_image(connection(assigns)) %>" />
 
     <meta name="author" content="elementary, Inc.">
     <meta name="theme-color" content="#3689e6">
