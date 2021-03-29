@@ -8,91 +8,113 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-29 11:27+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/store/"
+"index/nb/>\n"
 "Language: nb\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-format, fuzzy
 msgid "Based in Spain"
-msgstr ""
+msgstr "Med base i Spania"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-format, fuzzy
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Med base i Nederland"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-format, fuzzy
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Med base i Storbritannia"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
+#, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Enheter"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
-msgid "Free shipping within EU"
-msgstr ""
-
 #, elixir-format
+msgid "Free shipping within EU"
+msgstr "Gratis frakt innen EU"
+
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Internasjonal forsendelse"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Bærbare"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Bærbare, skrivebordsmaskiner, minimaskiner, innebygde skjermer"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Bærbare, minimaskiner"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:80
+#, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Frakt i hele verden"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Kjøp stæsj. Vinn-vinn."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
-msgid "Support Development."
-msgstr ""
-
 #, elixir-format
+msgid "Support Development."
+msgstr "Støtt utviklingen."
+
 #: lib/store_web/templates/index/index.html.leex:88
+#, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Krim, Kuba, Iran, Syria og Nord-Korea er ekskludert. Fraktmetoder, priser og "
+"tider varierer for forskjellige land. Det kan tilkomme tollavgifter for "
+"forsendelser utenfor USA, avhengig av opphavet og hvor det skal."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Hvert kjøp hjelper utviklingen av elementary OS, dets programmer, og "
+"tjenester. Vi er et lite lag av for det meste frivillige, som hele tiden "
+"jobber for at elementary skal bli bedre. Din støtte gjør det hele mer "
+"bærekraftig."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-format, fuzzy
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "Maskin- og programvarestøtte for disse maskinene tilbys av tilvirkeren."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
+#, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Maskinvare med elementary OS kan kjøpes fra følgende tilvirkere. Å kjøpe fra "
+"disse støtter elementary OS."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:83
+#, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Vi sender bekledning og utstyr til hele verden. Ordrer blir tilvirket "
+"ettersom behovet melder seg, typisk innen 2-7 dager, og blir sendt med "
+"forsendelsesmåten du velger når du går til kassen. Som følge av COVID-19 kan "
+"ordrer bli forsinket. Produksjonen holder stand, men forsinkelser kan "
+"fremdeles oppstå i fraktleddet, avhengig av ordren, forsendelse, og hvor det "
+"skal."
