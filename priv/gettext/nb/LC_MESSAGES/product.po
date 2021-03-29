@@ -8,52 +8,59 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-29 20:32+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/store/"
+"product/nb/>\n"
 "Language: nb\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "Farger"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-format
+msgid "Sizes"
+msgstr "Størrelser"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "Utilgjengelig for %{size}"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "Utilgjengelig i %{size}"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Legg til i handlekurv"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-msgid "%{color} is out of stock"
-msgstr ""
-
 #, elixir-format
+msgid "%{color} is out of stock"
+msgstr "%{color} er utsolgt"
+
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} er utsolgt"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Adding to Cart"
+msgstr "Legger til i handlekurv"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "Dette produktet er for tiden utilgjengelig"

@@ -8,80 +8,88 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-29 20:32+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/store/"
+"errors/nb/>\n"
 "Language: nb\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "kan ikke stå tom"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "har allerede blitt brukt"
 
 msgid "is invalid"
-msgstr ""
+msgstr "er ugyldig"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "må godtas"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "har ugyldig format"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "har en ugyldig oppføring"
 
 msgid "is reserved"
-msgstr ""
+msgstr "er reservert"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "samsvarer ikke med bekreftelse"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "er fremdeles tilknyttet denne oppføringen"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "er fremdeles tilknyttet denne oppføringen"
 
+#, fuzzy
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skal være ett tegn"
+msgstr[1] "skal være %{count} tegn"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skal være ett element"
+msgstr[1] "skal være %{count} elementer"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skal være minst ett tegn"
+msgstr[1] "skal være minst %{count} tegn"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skall være minst ett element"
+msgstr[1] "skal være minst %{count} elementer"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skal ikke være mer enn ett tegn"
+msgstr[1] "skal ikke være mer enn %{count} tegn"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "skal ikke være mer enn ett element"
+msgstr[1] "skal ikke være mer enn %{count} elementer"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "må være mindre enn %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "må være større enn %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "må være mindre enn eller lik %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "må være større enn eller lik %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "må være like %{number}"
