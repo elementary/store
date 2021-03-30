@@ -8,91 +8,98 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-30 04:32+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <https://l10n.elementary.io/projects/store/layout/"
+"pt/>\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
-#, elixir-format
 #: nav.html.leex:35
+#, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Blogue"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "Marca"
 
-#, elixir-format
 #: nav.html.leex:31
+#, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Carrinho (%{count})"
 
-#, elixir-format
 #: nav.html.leex:17
+#, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Programador"
 
-#, elixir-format
 #: nav.html.leex:23
+#, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "Participe"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "OEMs"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Código Aberto"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Imprensa"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidade"
 
-#, elixir-format
 #: nav.html.leex:29
+#, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Loja"
 
-#, elixir-format
 #: nav.html.leex:11
+#, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Assistência"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Equipa"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
-#, elixir-format
 #: nav.html.leex:25
-msgid "Clear Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Clear Cart"
+msgstr "Limpar carrinho"
+
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
-
 #, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr "Este website requer Javascript ativado para fazer o checkout"
+
 #: nav.html.leex:37
+#, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Carrinho vazio"
