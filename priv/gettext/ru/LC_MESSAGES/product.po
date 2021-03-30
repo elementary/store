@@ -8,52 +8,60 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-30 18:03+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/store/product/ru/"
+">\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "Цвета"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-format
+msgid "Sizes"
+msgstr "Размеры"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
 msgid "Unavailable for %{size}"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
 msgid "Unavailable in %{color}"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Добавить в корзину"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-msgid "%{color} is out of stock"
-msgstr ""
-
 #, elixir-format
+msgid "%{color} is out of stock"
+msgstr "%{color} нет в наличии"
+
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} нет в наличии"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Adding to Cart"
+msgstr "Добавление в корзину"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "Этот продукт временно не доступен"
