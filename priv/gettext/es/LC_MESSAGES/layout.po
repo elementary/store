@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 10:22+0000\n"
+"PO-Revision-Date: 2021-04-01 20:53+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/layout/es/>"
 "\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/footer.html.leex:4
 #, elixir-format
@@ -34,14 +34,14 @@ msgid "Brand"
 msgstr "Marca"
 
 #: nav.html.leex:31
-#, elixir-format
+#, elixir-format, fuzzy
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Carrito (%{count})"
 
 #: nav.html.leex:17
 #, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Desarrollador"
 
 #: nav.html.leex:23
 #, elixir-format
@@ -56,50 +56,50 @@ msgstr ""
 #: lib/store_web/templates/layout/footer.html.leex:50
 #, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Código abierto"
 
 #: lib/store_web/templates/layout/footer.html.leex:20
 #, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Prensa"
 
 #: lib/store_web/templates/layout/footer.html.leex:38
 #, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidad"
 
 #: nav.html.leex:29
 #, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Tienda"
 
 #: nav.html.leex:11
 #, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Soporte"
 
 #: lib/store_web/templates/layout/footer.html.leex:44
 #, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Equipo"
 
 #: lib/store_web/templates/layout/footer.html.leex:12
 #, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: nav.html.leex:25
 #, elixir-format
 msgid "Clear Cart"
-msgstr ""
+msgstr "Vaciar carrito"
 
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
 #, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
+msgstr "Este sitio web requiere tener JavaScript habilitado para poder pagar"
 
 #: nav.html.leex:37
 #, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Carrito vacío"

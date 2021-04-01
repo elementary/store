@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 10:22+0000\n"
+"PO-Revision-Date: 2021-04-01 20:53+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/product/es/"
 ">\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/product/index.html.leex:14
 #, elixir-format
@@ -37,12 +37,12 @@ msgstr "No disponible en %{size}"
 #: lib/store_web/templates/product/index.html.leex:80
 #, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "No disponible en %{color}"
 
 #: lib/store_web/templates/product/index.html.leex:122
 #, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Añadir al carrito"
 
 #: lib/store_web/templates/product/index.html.leex:90
 #, elixir-format
@@ -63,4 +63,4 @@ msgstr ""
 #: lib/store_web/templates/product/index.html.leex:117
 #, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "Este producto actualmente no esta disponible"

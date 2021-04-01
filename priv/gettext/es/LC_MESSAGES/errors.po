@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 10:22+0000\n"
+"PO-Revision-Date: 2021-04-01 20:53+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/errors/es/>"
 "\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
 msgstr "no puede estar en blanco"
@@ -28,16 +28,17 @@ msgid "is invalid"
 msgstr "no es válido"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "debe ser aceptado"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "tiene un formato no válido"
 
+#, fuzzy
 msgid "has an invalid entry"
-msgstr ""
+msgstr "tiene una entrada no válida"
 
 msgid "is reserved"
-msgstr ""
+msgstr "está reservado"
 
 msgid "does not match confirmation"
 msgstr ""
@@ -48,47 +49,52 @@ msgstr ""
 msgid "are still associated with this entry"
 msgstr ""
 
+#, fuzzy
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debe tener %{count} carácter"
+msgstr[1] "debe tener %{count} caracteres"
 
+#, fuzzy
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debería tener %{count} artículo"
+msgstr[1] "debería tener %{count} artículos"
 
+#, fuzzy
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debe tener al menos %{count} carácter"
+msgstr[1] "debe tener al menos %{count} caracteres"
 
+#, fuzzy
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debe tener al menos %{count} artículo"
+msgstr[1] "debe tener al menos %{count} artículos"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debe tener como máximo %{count} carácter"
+msgstr[1] "debe tener como máximo %{count} caracteres"
 
+#, fuzzy
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "debe tener como máximo %{count} artículo"
+msgstr[1] "debe tener como máximo %{count} artículos"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "debe ser menor que %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "debe ser mayor que %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "debe ser menor o igual que %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "debe ser mayor o igual que %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "debe ser igual a %{number}"
