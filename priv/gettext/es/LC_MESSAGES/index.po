@@ -8,91 +8,98 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-01 10:22+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/store/index/es/>"
+"\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Con sede en España"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Con sede en los Países Bajos"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Con sede en Reino Unido"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
-msgid "Devices"
-msgstr ""
-
 #, elixir-format
+msgid "Devices"
+msgstr "Dispositivos"
+
 #: lib/store_web/templates/index/index.html.leex:25
+#, elixir-format
 msgid "Free shipping within EU"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-format
 msgid "International shipping"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-format
 msgid "Laptops"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-format
 msgid "Laptops, mini desktops"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:80
+#, elixir-format
 msgid "Worldwide Shipping"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
+#, elixir-format
 msgid "Support Development."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:88
+#, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
+#, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:83
+#, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""

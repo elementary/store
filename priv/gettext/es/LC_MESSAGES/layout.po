@@ -8,91 +8,98 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-01 10:22+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/store/layout/es/>"
+"\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
-#, elixir-format
 #: nav.html.leex:35
+#, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
-msgid "Brand"
-msgstr ""
-
 #, elixir-format
+msgid "Brand"
+msgstr "Marca"
+
 #: nav.html.leex:31
+#, elixir-format
 msgid "Cart (%{count})"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:17
+#, elixir-format
 msgid "Developer"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:23
+#, elixir-format
 msgid "Get Involved"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-format
 msgid "OEMs"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-format
 msgid "Open Source"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-format
 msgid "Press"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-format
 msgid "Privacy"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:29
+#, elixir-format
 msgid "Store"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:11
+#, elixir-format
 msgid "Support"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-format
 msgid "Team"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-format
 msgid "Language"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:25
+#, elixir-format
 msgid "Clear Cart"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
+#, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr ""
 
-#, elixir-format
 #: nav.html.leex:37
+#, elixir-format
 msgid "Cart empty"
 msgstr ""
