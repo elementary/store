@@ -8,106 +8,121 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-05 23:41+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/store/email/ca/>"
+"\n"
 "Language: ca\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
-msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
-
 #, elixir-format
+msgid "Copyright © %{year} elementary, Inc. All rights reserved."
+msgstr "Copyright © d'elementary, Inc., %{year}. Tots els drets reservats."
+
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4 lib/store_web/templates/email/package_shipped.html.eex:60
 #: lib/store_web/templates/email/package_shipped.text.eex:11
-msgid "Here's what we shipped in this order:"
-msgstr ""
-
 #, elixir-format
+msgid "Here's what we shipped in this order:"
+msgstr "Això és el que hem enviat per a aquesta comanda:"
+
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
-msgid "Here's your tracking number:"
-msgstr ""
-
 #, elixir-format
+msgid "Here's your tracking number:"
+msgstr "Aquí teniu el número de seguiment:"
+
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
+#, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
+"Hola, gràcies per fer una comanda a la botiga de l'elementary. Us fem saber "
+"que hem rebut la comanda!"
 
-#, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
+#, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
+"Hola, gràcies per fer la comanda a la botiga de l'elementary. Us fem saber "
+"que la comanda ja s’ha enviat!"
 
-#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:103
 #: lib/store_web/templates/email/order_created.text.eex:16 lib/store_web/templates/email/package_shipped.html.eex:121
 #: lib/store_web/templates/email/package_shipped.text.eex:23
-msgid "Looking forward to your next order!"
-msgstr ""
-
 #, elixir-format
+msgid "Looking forward to your next order!"
+msgstr "Esperem la propera comanda!"
+
 #: lib/store_web/templates/email/order_created.html.eex:59
 #: lib/store_web/templates/email/package_shipped.html.eex:77
-msgid "Price"
-msgstr ""
-
 #, elixir-format
+msgid "Price"
+msgstr "Preu"
+
 #: lib/store_web/templates/email/order_created.html.eex:56
 #: lib/store_web/templates/email/package_shipped.html.eex:74
-msgid "Qty"
-msgstr ""
-
 #, elixir-format
+msgid "Qty"
+msgstr "Quantitat"
+
 #: lib/store_web/templates/email/order_created.html.eex:72
 #: lib/store_web/templates/email/order_created.text.eex:10 lib/store_web/templates/email/package_shipped.html.eex:90
 #: lib/store_web/templates/email/package_shipped.text.eex:17
-msgid "Shipping Address:"
-msgstr ""
-
 #, elixir-format
+msgid "Shipping Address:"
+msgstr "Adreça d'enviament:"
+
 #: lib/store_web/templates/email/order_created.html.eex:104
 #: lib/store_web/templates/email/order_created.text.eex:17 lib/store_web/templates/email/package_shipped.html.eex:122
 #: lib/store_web/templates/email/package_shipped.text.eex:24
-msgid "The elementary Team"
-msgstr ""
-
 #, elixir-format
+msgid "The elementary Team"
+msgstr "L'equip de l'elementary"
+
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
+#, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"La informació de seguiment pot trigar fins a 48 hores a actualitzar-se "
+"després d’enviar la comanda."
 
-#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:13
+#, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "Hem rebut la comanda!"
 
-#, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:13
-msgid "We Have Shipped Your Order!"
-msgstr ""
-
 #, elixir-format
+msgid "We Have Shipped Your Order!"
+msgstr "Hem enviat la comanda!"
+
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
+#, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"Rebeu aquest correu electrònic perquè heu fet una comanda a la botiga de "
+"l'elementary. No esteu subscrit a cap llista de correu."
 
-#, elixir-format
 #: lib/store/email.ex:16 lib/store/email.ex:20
+#, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Hem rebut la comanda!"
 
-#, elixir-format
 #: lib/store/email.ex:28
-msgid "Your order has been shipped!"
-msgstr ""
-
 #, elixir-format
+msgid "Your order has been shipped!"
+msgstr "La comanda s'ha enviat!"
+
 #: lib/store/email.ex:32
+#, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "El paquet ja ha sortit!"

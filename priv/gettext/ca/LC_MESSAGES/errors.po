@@ -8,80 +8,87 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-05 23:41+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/store/errors/ca/>"
+"\n"
 "Language: ca\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "no es pot deixar en blanc"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "ja s'ha usat"
 
 msgid "is invalid"
-msgstr ""
+msgstr "no és vàlid"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "s'ha d'acceptar"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "té un format no vàlid"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "té una entrada no vàlida"
 
 msgid "is reserved"
-msgstr ""
+msgstr "està reservat"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "no coincideix amb la confirmació"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "encara s'associa amb aquesta entrada"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "encara s'associen amb aquesta entrada"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir %{count} caràcter/s"
+msgstr[1] "haurien de tenir %{count} caràcter/s"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir %{count} element/s"
+msgstr[1] "haurien de tenir %{count} element/s"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir almenys %{count} caràcter/s"
+msgstr[1] "haurien de tenir almenys %{count} caràcter/s"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir almenys %{count} element/s"
+msgstr[1] "haurien de tenir almenys %{count} element/s"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir com a màxim %{count} caràcter/s"
+msgstr[1] "haurien de tenir com a màxim %{count} caràcter/s"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hauria de tenir com a màxim %{count} element/s"
+msgstr[1] "haurien de tenir com a màxim %{count} element/s"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "hauria de ser inferior a %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "hauria de ser superior a %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "hauria de ser inferior o igual a %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "hauria de ser superior o igual a %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "hauria de ser igual a %{number}"
