@@ -8,52 +8,59 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-07 01:15+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/store/product/mr/"
+">\n"
 "Language: mr\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "रंग"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-format
+msgid "Sizes"
+msgstr "आकार"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "%{size} साठी अनुपलब्ध"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "%{color} मध्ये अनुपलब्ध"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "कार्टमध्ये जोडा"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-msgid "%{color} is out of stock"
-msgstr ""
-
 #, elixir-format
+msgid "%{color} is out of stock"
+msgstr "%{color} संपला आहे"
+
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} संपला आहे"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Adding to Cart"
+msgstr "कार्ट मध्ये जोडत आहे"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "हे उत्पादन सध्या उपलब्ध नाही"
