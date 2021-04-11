@@ -8,16 +8,16 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 18:03+0000\n"
+"PO-Revision-Date: 2021-04-11 17:55+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/product/ru/"
 ">\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/product/index.html.leex:14
 #, elixir-format
@@ -33,12 +33,12 @@ msgstr "Размеры"
 #: lib/store_web/templates/product/index.html.leex:31
 #, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "Не доступно для %{size}"
 
 #: lib/store_web/templates/product/index.html.leex:80
 #, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "Не доступно в %{color}"
 
 #: lib/store_web/templates/product/index.html.leex:122
 #, elixir-format

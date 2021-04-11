@@ -8,26 +8,26 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 18:03+0000\n"
+"PO-Revision-Date: 2021-04-11 17:55+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/checkout/"
 "ru/>\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.leex:20
 #, elixir-format
 msgid "Address Line 1"
-msgstr ""
+msgstr "Адресная строка 1"
 
 #: lib/store_web/templates/checkout/address.html.leex:29
 #, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "Адресная строка 2"
 
 #: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-format
@@ -93,7 +93,7 @@ msgstr "Обновить"
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "Проверка"
 
 #: lib/store_web/templates/checkout/address.html.leex:81
 #, elixir-format
@@ -128,19 +128,19 @@ msgstr "12345"
 #: lib/store_web/templates/checkout/address.html.leex:41
 #, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "ЛюбойГородск"
 
 #: lib/store_web/templates/checkout/address.html.leex:33
 #, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "Квартира, Люкс, Блок, Здание, Этаж"
 
 #: lib/store_web/templates/checkout/address.html.leex:16
 #, elixir-format
 msgid "Ellie Mendez"
-msgstr "Элли Мендес"
+msgstr "Вася Пупкин"
 
 #: lib/store_web/templates/checkout/address.html.leex:25
 #, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "Адрес улицы, Абонентский ящик, Название компании"
