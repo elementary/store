@@ -40,7 +40,7 @@ key to your `config/dev.secret.exs` file like so:
 ```ex
 import Config
 
-config :store, Printful.Api, 
+config :store, Printful.Api,
   api_key: "aaaaaaaa-bbbb-cccc:dddd-eeeeeeeeeeee"
 ```
 
