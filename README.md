@@ -34,13 +34,13 @@ this step.
 command and after you run steps 1 and 2, you should only need to run this
 command to get back up and running.
 
-3) **OPTIONAL** If you have access to a printful account, you can add the API
+3) For the store to work and display products, you must add your Printful API
 key to your `config/dev.secret.exs` file like so:
 
 ```ex
 import Config
 
-config :store, Elementary.Store.Printful,
+config :store, Printful.Api, 
   api_key: "aaaaaaaa-bbbb-cccc:dddd-eeeeeeeeeeee"
 ```
 
