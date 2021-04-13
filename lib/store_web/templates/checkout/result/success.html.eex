@@ -1,5 +1,5 @@
 <h1><%= dgettext "checkout", "Order Placed" %></h1>
 
 <p>
-  <%= dgettext "checkout", "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to your email." %>
+  <%= dgettext "checkout", "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address." %>
 </p>
