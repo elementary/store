@@ -21,6 +21,23 @@
 This repository is an elixir website for `https://store.elementary.io`. It
 connects to Printful for products, and Stripe for payment processing.
 
+## Developing on elementary OS (or Ubuntu)
+
+This guide assumes elementary OS 6 or Ubuntu 20.04; the steps should be similar for any Ubuntu-based OS, but may differ bassed on the exact distribution or version.
+
+1. **Install Docker**
+
+   You can install Docker however you'd like, but we recommend following [this DigitalOcean guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04), including adding your user to the `docker` group.
+
+2. **Install `docker-compose`**
+
+   Similarly, you can install docker-compose however you see fit, but the fastest way is probably via Python's `pip`:
+
+   1. `sudo apt install python3-pip`
+   2. `pip3 install docker-compose`
+
+That's it, you're all set to start contributing.
+
 ## Running
 
 This repository contains a `docker-compose.yml` file for easier development.
