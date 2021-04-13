@@ -48,7 +48,6 @@ msgstr "er fremdeles tilknyttet denne oppføringen"
 msgid "are still associated with this entry"
 msgstr "er fremdeles tilknyttet denne oppføringen"
 
-#, fuzzy
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
 msgstr[0] "skal være ett tegn"

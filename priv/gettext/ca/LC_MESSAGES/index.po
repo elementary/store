@@ -18,70 +18,70 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:33
 msgid "Based in Spain"
 msgstr "Amb seu a Espanya"
 
-#: lib/store_web/templates/index/index.html.leex:24
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:24
 msgid "Based in the Netherlands"
 msgstr "Amb seu als Països Baixos"
 
-#: lib/store_web/templates/index/index.html.leex:42
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:42
 msgid "Based in the United Kingdom"
 msgstr "Amb seu al Regne Unit"
 
-#: lib/store_web/templates/index/index.html.leex:13
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:13
 msgid "Devices"
 msgstr "Dispositius"
 
-#: lib/store_web/templates/index/index.html.leex:25
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:25
 msgid "Free shipping within EU"
 msgstr "Enviament gratuït a la UE"
 
+#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
-#, elixir-format
 msgid "International shipping"
 msgstr "Enviament internacional"
 
-#: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:41
 msgid "Laptops"
 msgstr "Portàtils"
 
-#: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:32
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr ""
 "Portàtils, ordinadors de sobretaula, miniordinadors de sobretaula i tot en un"
 
-#: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:23
 msgid "Laptops, mini desktops"
 msgstr "Portàtils, miniordinadors de sobretaula"
 
-#: lib/store_web/templates/index/index.html.leex:80
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:80
 msgid "Worldwide Shipping"
 msgstr "Enviament a tot el món"
 
-#: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:4
 msgid "Get Gear. Win/Win."
 msgstr "Aconsegueix equip. Tothom hi guanya."
 
-#: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:3
 msgid "Support Development."
 msgstr "Suport al desenvolupament"
 
-#: lib/store_web/templates/index/index.html.leex:88
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:88
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "S'exclouen Crimea, Cuba, Iran, Síria i Corea del Nord. Els mètodes d’"
@@ -89,8 +89,8 @@ msgstr ""
 "fora dels EUA poden comportar taxes de duana segons els països d’origen i "
 "destinació."
 
-#: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:8
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 "Cada compra va destinada al desenvolupament d'elementary OS, les seves "
@@ -98,23 +98,23 @@ msgstr ""
 "treballem constantment per millorar l'elementary OS. El vostre suport ajuda "
 "que el sistema operatiu d'elementary sigui més sostenible."
 
-#: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:50
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 "El distribuïdor proporciona assistència de maquinari i programari per a "
 "aquests dispositius."
 
-#: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:16
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 "Els dispositius de maquinari amb elementary OS es poden comprar als "
 "minoristes següents. La compra en aquestes empreses ajuda a donar suport a "
 "l'elementary OS."
 
-#: lib/store_web/templates/index/index.html.leex:83
 #, elixir-format
+#: lib/store_web/templates/index/index.html.leex:83
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "Enviem roba i accessoris a tot el món. Les comandes es fan segons la demanda "

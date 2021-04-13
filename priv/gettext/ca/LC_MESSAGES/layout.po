@@ -18,88 +18,88 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/store_web/templates/layout/footer.html.leex:4
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:4
 msgid "%{year} elementary, Inc"
 msgstr "elementary, Inc, %{year}"
 
-#: nav.html.leex:35
 #, elixir-format
+#: nav.html.leex:35
 msgid "Blog"
 msgstr "Blog"
 
-#: lib/store_web/templates/layout/footer.html.leex:26
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:26
 msgid "Brand"
 msgstr "Marca"
 
-#: nav.html.leex:31
 #, elixir-format
+#: nav.html.leex:31
 msgid "Cart (%{count})"
 msgstr "Cistell: (%{count})"
 
-#: nav.html.leex:17
 #, elixir-format
+#: nav.html.leex:17
 msgid "Developer"
 msgstr "Desenvolupador"
 
-#: nav.html.leex:23
 #, elixir-format
+#: nav.html.leex:23
 msgid "Get Involved"
 msgstr "Involucreu-vos-hi"
 
-#: lib/store_web/templates/layout/footer.html.leex:32
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:32
 msgid "OEMs"
 msgstr "OEM"
 
-#: lib/store_web/templates/layout/footer.html.leex:50
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:50
 msgid "Open Source"
 msgstr "Codi obert"
 
-#: lib/store_web/templates/layout/footer.html.leex:20
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:20
 msgid "Press"
 msgstr "Premsa"
 
-#: lib/store_web/templates/layout/footer.html.leex:38
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:38
 msgid "Privacy"
 msgstr "Privadesa"
 
-#: nav.html.leex:29
 #, elixir-format
+#: nav.html.leex:29
 msgid "Store"
 msgstr "Botiga"
 
-#: nav.html.leex:11
 #, elixir-format
+#: nav.html.leex:11
 msgid "Support"
 msgstr "Assistència"
 
-#: lib/store_web/templates/layout/footer.html.leex:44
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:44
 msgid "Team"
 msgstr "Equip"
 
-#: lib/store_web/templates/layout/footer.html.leex:12
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:12
 msgid "Language"
 msgstr "Llengua"
 
-#: nav.html.leex:25
 #, elixir-format
+#: nav.html.leex:25
 msgid "Clear Cart"
 msgstr "Buida el cistell"
 
+#, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-#, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Aquest lloc web requereix el JavaScript habilitat per pagar."
 
-#: nav.html.leex:37
 #, elixir-format
+#: nav.html.leex:37
 msgid "Cart empty"
 msgstr "Cistell buit"

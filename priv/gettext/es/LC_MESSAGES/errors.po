@@ -33,7 +33,6 @@ msgstr "debe ser aceptado"
 msgid "has invalid format"
 msgstr "tiene un formato no válido"
 
-#, fuzzy
 msgid "has an invalid entry"
 msgstr "tiene una entrada no válida"
 
@@ -49,25 +48,21 @@ msgstr ""
 msgid "are still associated with this entry"
 msgstr ""
 
-#, fuzzy
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
 msgstr[0] "debe tener %{count} carácter"
 msgstr[1] "debe tener %{count} caracteres"
 
-#, fuzzy
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
 msgstr[0] "debería tener %{count} artículo"
 msgstr[1] "debería tener %{count} artículos"
 
-#, fuzzy
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
 msgstr[0] "debe tener al menos %{count} carácter"
 msgstr[1] "debe tener al menos %{count} caracteres"
 
-#, fuzzy
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
 msgstr[0] "debe tener al menos %{count} artículo"
@@ -78,7 +73,6 @@ msgid_plural "should be at most %{count} character(s)"
 msgstr[0] "debe tener como máximo %{count} carácter"
 msgstr[1] "debe tener como máximo %{count} caracteres"
 
-#, fuzzy
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
 msgstr[0] "debe tener como máximo %{count} artículo"

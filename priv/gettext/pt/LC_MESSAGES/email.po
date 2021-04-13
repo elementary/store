@@ -18,111 +18,111 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#, elixir-format
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
-#, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
 msgstr "Copyright © %{year} elementary, Inc. Todos os direitos reservados."
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4 lib/store_web/templates/email/package_shipped.html.eex:60
 #: lib/store_web/templates/email/package_shipped.text.eex:11
-#, elixir-format
 msgid "Here's what we shipped in this order:"
 msgstr "Aqui está o que enviamos nesta encomenda:"
 
+#, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
-#, elixir-format
 msgid "Here's your tracking number:"
 msgstr "Este é o seu número de rastreio:"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
-#, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
 "Olá, obrigado por encomendar na loja do elementary. Apenas para que saiba "
 "que recebemos o seu pedido!"
 
+#, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
-#, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
 "Olá, obrigado por fazer o pedido na loja do elementary. Apenas para o avisar "
 "que a sua encomenda foi enviada!"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:103
 #: lib/store_web/templates/email/order_created.text.eex:16 lib/store_web/templates/email/package_shipped.html.eex:121
 #: lib/store_web/templates/email/package_shipped.text.eex:23
-#, elixir-format
 msgid "Looking forward to your next order!"
 msgstr "Aguardamos o seu próximo pedido!"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:59
 #: lib/store_web/templates/email/package_shipped.html.eex:77
-#, elixir-format
 msgid "Price"
 msgstr "Preço"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:56
 #: lib/store_web/templates/email/package_shipped.html.eex:74
-#, elixir-format
 msgid "Qty"
 msgstr "Qtd"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:72
 #: lib/store_web/templates/email/order_created.text.eex:10 lib/store_web/templates/email/package_shipped.html.eex:90
 #: lib/store_web/templates/email/package_shipped.text.eex:17
-#, elixir-format
 msgid "Shipping Address:"
 msgstr "Endereço de envio:"
 
+#, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:104
 #: lib/store_web/templates/email/order_created.text.eex:17 lib/store_web/templates/email/package_shipped.html.eex:122
 #: lib/store_web/templates/email/package_shipped.text.eex:24
-#, elixir-format
 msgid "The elementary Team"
 msgstr "A equipa do elementary"
 
+#, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
-#, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
 "A informação de rastreio pode demorar até 48 horas a ser atualizada após a "
 "encomenda ser enviada."
 
-#: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-format
+#: lib/store_web/templates/email/order_created.html.eex:13
 msgid "We Have Received Your Order!"
 msgstr "Recebemos o seu pedido!"
 
-#: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-format
+#: lib/store_web/templates/email/package_shipped.html.eex:13
 msgid "We Have Shipped Your Order!"
 msgstr "Enviamos a sua encomenda!"
 
+#, elixir-format
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
-#, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
 "Está a receber este e-mail porque efetuou uma encomenda na loja do "
 "elementary. Não está inscrito em nenhuma lista de correio."
 
-#: lib/store/email.ex:16 lib/store/email.ex:20
 #, elixir-format
+#: lib/store/email.ex:16 lib/store/email.ex:20
 msgid "Your order has been received!"
 msgstr "O seu pedido foi recebido!"
 
-#: lib/store/email.ex:28
 #, elixir-format
+#: lib/store/email.ex:28
 msgid "Your order has been shipped!"
 msgstr "A sua encomenda foi enviada!"
 
-#: lib/store/email.ex:32
 #, elixir-format
+#: lib/store/email.ex:32
 msgid "Your package shipped!"
 msgstr "A sua encomenda enviada!"

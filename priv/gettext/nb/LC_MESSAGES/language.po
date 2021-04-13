@@ -18,12 +18,12 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#, elixir-format
 #: lib/store_web/controllers/language_controller.ex:30
-#, elixir-format, fuzzy
 msgid "Unknown language code %{code}"
 msgstr "%{code} er en ukjent språkkode"
 
-#: lib/store_web/controllers/language_controller.ex:21
 #, elixir-format
+#: lib/store_web/controllers/language_controller.ex:21
 msgid "Your language has been set to %{language}"
 msgstr "Språk satt til %{language}"
