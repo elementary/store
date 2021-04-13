@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 20:53+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-04-13 07:04+0000\n"
+"Last-Translator: Zang Jiucheng <zangjiucheng@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/layout/zh_Hans/>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/footer.html.leex:4
 #, elixir-format
@@ -61,7 +61,7 @@ msgstr "开源"
 #: lib/store_web/templates/layout/footer.html.leex:20
 #, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "点击"
 
 #: lib/store_web/templates/layout/footer.html.leex:38
 #, elixir-format
