@@ -83,6 +83,7 @@ config :libcluster,
 config :store, Printful.Api,
   baseUrl: "https://api.printful.com/",
   api_key: "",
+  webhook_secret: "",
   enable_purchasing: false
 
 config :store, Printful.Cache,

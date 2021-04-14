@@ -25,6 +25,14 @@ printful_api_key =
     https://www.printful.com/dashboard/settings
     """
 
+printful_webhook_secret =
+  System.get_env("PRINTFUL_WEBHOOK_SECRET") ||
+    raise """
+    environment variable PRINTFUL_WEBHOOK_SECRET is missing.
+    You must create one and add it to the webhook path at
+    https://www.printful.com/docs/webhooks
+    """
+
 stripe_secret_key =
   System.get_env("STRIPE_SECRET_KEY") ||
     raise """
@@ -77,7 +85,9 @@ config :store, Elementary.StoreWeb.Endpoint,
   url: [host: domain],
   secret_key_base: secret_key_base
 
-config :store, Printful.Api, api_key: printful_api_key
+config :store, Printful.Api,
+  api_key: printful_api_key,
+  webhook_secret: printful_webhook_secret
 
 config :stripity_stripe,
   api_key: stripe_secret_key,

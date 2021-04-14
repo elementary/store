@@ -25,8 +25,9 @@ defmodule Printful.Cache do
   defp call_cached_set(res, env) do
     case res do
       {:ok, res_env} ->
-        env |> cache_key() |> put(res_env, on_conflict: :override)
-        {:ok, res_env}
+        with :ok <- env |> cache_key() |> put(res_env, on_conflict: :override) do
+          {:ok, res_env}
+        end
 
       res ->
         res

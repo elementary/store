@@ -53,7 +53,7 @@ defmodule Elementary.StoreWeb.Router do
   scope "/webhook", Elementary.StoreWeb.Webhook do
     pipe_through :api
 
-    post "/printful", PrintfulController, :index
+    post "/printful/:secret", PrintfulController, :index
     post "/stripe", StripeController, :index
   end
 end
