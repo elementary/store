@@ -21,7 +21,10 @@ defmodule Elementary.StoreWeb.Webhook.PrintfulController do
   end
 
   def handle_event(%{"type" => "package_shipped", "data" => data}) do
-    data = Jason.decode(data, keys: :atoms)
+    data =
+      data
+      |> Jason.encode!()
+      |> Jason.decode!(keys: :atoms)
 
     data.order
     |> Email.package_shipped(data.shipment)
