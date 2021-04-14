@@ -33,6 +33,7 @@ defmodule Elementary.Store.Fulfillment do
       cancel_url: Routes.checkout_url(Elementary.StoreWeb.Endpoint, :index),
       success_url: Routes.result_url(Elementary.StoreWeb.Endpoint, :success),
       payment_method_types: @stripe_payment_types,
+      allow_promotion_codes: true,
       customer_email: order.email,
       line_items:
         Enum.map(order.items, &stripe_line_item/1) ++ stripe_extra_lines(printful_response),
