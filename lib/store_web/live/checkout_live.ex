@@ -62,6 +62,11 @@ defmodule Elementary.StoreWeb.CheckoutLive do
   end
 
   @impl true
+  def handle_event("change", _params, socket) do
+    {:noreply, socket}
+  end
+
+  @impl true
   def handle_event("submit", %{"address" => address}, socket) do
     updated_address = grab_address(address)
 
