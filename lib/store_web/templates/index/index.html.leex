@@ -64,11 +64,8 @@
             <h3>
               <%= product.name %>
               <span class="price">
-                <%= if Enum.at(product.price_range, 0) == Enum.at(product.price_range, 1) do %>
-                  $<%= product.price_range |> Enum.at(0) |> format_price() %>
-                <% else %>
-                  $<%= product.price_range |> Enum.at(0) |> format_price() %>+
-                <% end %>
+                $<%= product.price_range |> Enum.at(0) |> format_price() %>
+                <%= if not Enum.at(product.price_range, 0) == Enum.at(product.price_range, 1) do %>+<% end %>
               </span>
             </h3>
           <% end %>
