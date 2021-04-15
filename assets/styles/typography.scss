@@ -6,15 +6,19 @@
 
 html {
   font-family: var(--ui-font);
-  font-size: 5.625vw;
+  font-size: 5vw;
   font-weight: 400;
   word-spacing: -0.05em;
 
   @media (min-width: 320px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1920px) {
     font-size: 20px;
   }
 
