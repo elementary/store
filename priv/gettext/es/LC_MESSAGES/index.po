@@ -67,7 +67,7 @@ msgid "Laptops, mini desktops"
 msgstr "Ordenadores portátiles, mini ordenadores de sobremesa"
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:80
+#: lib/store_web/templates/index/index.html.leex:79
 msgid "Worldwide Shipping"
 msgstr "Envíos a todo el mundo"
 
@@ -82,7 +82,7 @@ msgid "Support Development."
 msgstr "Apoya el desarrollo."
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:88
+#: lib/store_web/templates/index/index.html.leex:87
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "Se excluyen Crimea, Cuba, Irán, Siria y Corea del Norte. Los métodos de "
@@ -115,7 +115,7 @@ msgstr ""
 "OS."
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:83
+#: lib/store_web/templates/index/index.html.leex:82
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "¡Enviamos ropa y accesorios a todo el mundo! Los pedidos se realizan bajo "

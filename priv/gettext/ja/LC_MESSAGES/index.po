@@ -65,7 +65,7 @@ msgid "Laptops, mini desktops"
 msgstr "ノートパソコン、小型デスクトップ"
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:80
+#: lib/store_web/templates/index/index.html.leex:79
 msgid "Worldwide Shipping"
 msgstr "海外発送"
 
@@ -80,7 +80,7 @@ msgid "Support Development."
 msgstr "開発を支援しましょう。"
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:88
+#: lib/store_web/templates/index/index.html.leex:87
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "クリミア半島・キューバ・イラン・シリア・北朝鮮への発送はしておりません。発送方法や料金、お届けまでの時間は発送先の国によって異なります。アメリカ国外への発"
@@ -107,7 +107,7 @@ msgstr ""
 "の支援に役立ちます。"
 
 #, elixir-format
-#: lib/store_web/templates/index/index.html.leex:83
+#: lib/store_web/templates/index/index.html.leex:82
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "衣服と小物は世界中どこへでも発送できます！　商品はご注文に応じて通常2〜7日以内に製造され、注文時にお客様が選択された配送方法でお送りいたします。新型コロ"
