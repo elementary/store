@@ -27,7 +27,7 @@ body > div {
       color: var(--header-fg-color);
       display: inline-block;
       font-family: var(--ui-font);
-      font-size: 0.85rem;
+      font-size: 0.95rem;
       line-height: 2.9em;
       opacity: 1;
       padding: 0 0.65rem;
@@ -41,7 +41,7 @@ body > div {
     }
 
     svg {
-      height: 1em;
+      height: 1rem;
 
       * {
         fill: inherit !important;
@@ -67,7 +67,7 @@ body > div {
     a,
     button {
       color: var(--secondary-fg-color);
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
   }
 
