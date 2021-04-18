@@ -8,46 +8,53 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-18 01:39+0000\n"
+"Last-Translator: taksas <takuminakayama4869@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/store/errors/ja/"
+">\n"
 "Language: ja\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "空白にすることはできません"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "すでに取得されているため利用できません"
 
 msgid "is invalid"
-msgstr ""
+msgstr "無効です"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "許可する必要があります"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "書式が無効です"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "無効な入力です"
 
 msgid "is reserved"
-msgstr ""
+msgstr "予約済みです"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "先ほどの入力と合致していません"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "この入力と関連付けられたままです"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "この入力と関連付けられたままです"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "%{count} 文字である必要があります"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "%{count} 個の項目が必要です"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
