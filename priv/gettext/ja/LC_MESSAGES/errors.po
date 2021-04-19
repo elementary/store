@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-18 01:39+0000\n"
-"Last-Translator: taksas <takuminakayama4869@gmail.com>\n"
+"PO-Revision-Date: 2021-04-19 01:54+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/errors/ja/"
 ">\n"
 "Language: ja\n"
@@ -50,39 +50,39 @@ msgstr "この入力と関連付けられたままです"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] "%{count} 文字である必要があります"
+msgstr[0] "%{count}文字である必要があります"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] "%{count} 個の項目が必要です"
+msgstr[0] "%{count}個が必要です"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "少なくとも%{count}文字以上である必要があります"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "少なくとも%{count}個以上である必要があります"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "%{count}文字以下にする必要があります"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "%{count}個以下にする必要があります"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "%{number}未満である必要があります"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "%{number}より多くする必要があります"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "%{number}以下にする必要があります"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "%{number}以上にする必要があります"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "%{number}にする必要があります"
