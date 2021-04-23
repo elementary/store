@@ -144,7 +144,7 @@ form.address-checkout {
   justify-content: space-between;
 
   label {
-    align-self: flex-end;
+    align-self: flex-end; // bottom-aligned in case the em wraps
     margin: 0.25rem 0.5rem;
     flex-grow: 1;
     min-width: calc(50% - 1rem);
