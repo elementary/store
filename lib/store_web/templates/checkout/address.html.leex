@@ -8,73 +8,97 @@
   phx_hook: "SetSession",
   class: "address-checkout"
 ], fn f -> %>
-  <%= label f, :name, dgettext("checkout", "Name") %>
-  <%= text_input f, :name,
-    type: "text",
-    autocomplete: "name",
-    required: true,
-    placeholder: dgettext("checkout", "Ellie Mendez"),
-    value: @address.name
-  %>
-
-  <%= label f, :name, dgettext("checkout", "Address Line 1") %>
-  <%= text_input f, :line1,
-    type: "text",
-    autocomplete: "shipping address-line1",
-    required: true,
-    placeholder: dgettext("checkout", "Street Address, P.O. Box, Company Name"),
-    value: @address.line1
-  %>
-
-  <%= label f, :name, dgettext("checkout", "Address Line 2") %>
-  <%= text_input f, :line2,
-    type: "text",
-    autocomplete: "shipping address-line2",
-    placeholder: dgettext("checkout", "Apartment, Suite, Unit, Building, Floor"),
-    value: @address.line2
-  %>
-
-  <%= label f, :name, dgettext("checkout", "City") %>
-  <%= text_input f, :city,
-    type: "text",
-    autocomplete: "shipping address-level2",
-    placeholder: dgettext("checkout", "Anytown"),
-    required: true,
-    value: @address.city
-  %>
-
-  <%= label f, :name, dgettext("checkout", "Country") %>
-  <%= select f, :country, country_inputs(@countries),
-    autocomplete: "shipping country",
-    required: true,
-    value: @address.country
-  %>
-
-  <%= if @states != nil do %>
-    <%= label f, :name, dgettext("checkout", "State or Province") %>
-    <%= select f, :state, state_inputs(@states),
-      autocomplete: "shipping address-level1",
-      value: @address.state
+  <%= label f, :name do %>
+    <span><%= dgettext("checkout", "Name") %></span>
+    <%= text_input f, :name,
+      type: "text",
+      autocomplete: "name",
+      required: true,
+      placeholder: dgettext("checkout", "Ellie Mendez"),
+      value: @address.name
     %>
   <% end %>
 
-  <%= label f, :name, dgettext("checkout", "Postal Code") %>
-  <%= text_input f, :postal,
-    type: "text",
-    autocomplete: "shipping postal-code",
-    required: true,
-    placeholder: dgettext("checkout", "12345"),
-    value: @address.postal
-  %>
+  <%= label f, :line1 do %>
+    <span><%= dgettext("checkout", "Address Line 1") %></span>
+    <%= text_input f, :line1,
+      type: "text",
+      autocomplete: "shipping address-line1",
+      required: true,
+      placeholder: dgettext("checkout", "Street Address, P.O. Box, Company Name"),
+      value: @address.line1
+    %>
+  <% end %>
 
-  <%= label f, :name, dgettext("checkout", "Email") %>
-  <%= text_input f, :email,
-    type: "email",
-    autocomplete: "email",
-    required: true,
-    placeholder: "elliemendez@example.com",
-    value: @address.email
-  %>
+  <%= label f, :line2 do %>
+    <span><%= dgettext("checkout", "Address Line 2") %></span>
+    <%= text_input f, :line2,
+      type: "text",
+      autocomplete: "shipping address-line2",
+      placeholder: dgettext("checkout", "Apartment, Suite, Unit, Building, Floor"),
+      value: @address.line2
+    %>
+  <% end %>
+
+  <%= label f, :city do %>
+    <span><%= dgettext("checkout", "City") %></span>
+    <%= text_input f, :city,
+      type: "text",
+      autocomplete: "shipping address-level2",
+      placeholder: dgettext("checkout", "Anytown"),
+      required: true,
+      value: @address.city
+    %>
+  <% end %>
+
+  <%= label f, :country do %>
+    <span><%= dgettext("checkout", "Country") %></span>
+    <%= select f, :country, country_inputs(@countries),
+      autocomplete: "shipping country",
+      required: true,
+      value: @address.country
+    %>
+  <% end %>
+
+  <%= if @states != nil do %>
+    <%= label f, :state do %>
+      <span><%= dgettext("checkout", "State or Province") %></span>
+      <%= select f, :state, state_inputs(@states),
+        autocomplete: "shipping address-level1",
+        value: @address.state
+      %>
+    <% end %>
+  <% end %>
+
+  <%= label f, :postal do %>
+    <span><%= dgettext("checkout", "Postal Code") %></span>
+    <%= text_input f, :postal,
+      type: "text",
+      autocomplete: "shipping postal-code",
+      required: true,
+      placeholder: dgettext("checkout", "12345"),
+      value: @address.postal
+    %>
+  <% end %>
+
+  <%= label f, :email do %>
+    <span>
+      <%= dgettext("checkout", "Email") %>
+      <em>For receipt; never used for marketing</em>
+    </span>
+    <%= text_input f, :email,
+      type: "email",
+      autocomplete: "email",
+      required: true,
+      placeholder: "elliemendez@example.com",
+      value: @address.email
+    %>
+  <% end %>
+
+  <label for="address_phone">
+    <span>Phone <em>Required by shipping partners</em></span>
+    <input type="tel" placeholder="555-867-5309" pattern="[0-9,-]." required />
+  </label>
 
   <%= if length(@shipping_rates) == 0 do %>
     <%= submit dgettext("checkout", "Get Shipping Rates"),

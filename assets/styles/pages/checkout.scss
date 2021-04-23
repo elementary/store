@@ -137,33 +137,57 @@ form.shipping-checkout {
   max-width: 800px;
 }
 
-form.address-checkout label {
-  display: block;
-  font-size: 0.8em;
-  margin: 1em 0.5ch 0.5em;
-}
+form.address-checkout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-form.address-checkout input {
-  background: linear-gradient(to bottom, #fafafa, #fdfdfd);
-  border-radius: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.22);
-  display: block;
-  font-size: 1em;
-  height: 1.8em;
-  margin: 0.5ch 0;
-  padding: 0.5em;
-  width: 100%;
-}
+  label {
+    align-self: flex-end;
+    margin: 0.25rem 0.5rem;
+    flex-grow: 1;
+    min-width: calc(50% - 1rem);
 
-form.address-checkout select {
-  background: linear-gradient(to bottom, #fafafa, #fdfdfd);
-  border-radius: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.22);
-  display: block;
-  font-size: 1rem;
-  margin: 0.5ch 0;
-  padding: 0.3em;
-  width: 100%;
+    span {
+      display: flex;
+      font-size: 0.8rem;
+      padding: 0.25em 0;
+
+      em {
+        flex-grow: 1;
+        font-style: normal;
+        opacity: 0.75;
+        text-align: right;
+      }
+    }
+
+    &[for="address_name"]{
+      width: 100%;
+    }
+
+  }
+
+  input {
+    background: linear-gradient(to bottom, #fafafa, #fdfdfd);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 3px;
+    display: block;
+    font-size: 1rem;
+    height: 1.8em;
+    padding: 0.5em;
+    width: 100%;
+  }
+
+  select {
+    background: linear-gradient(to bottom, #fafafa, #fdfdfd);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 3px;
+    display: block;
+    font-size: 1rem;
+    padding: 0.3em;
+    width: 100%;
+  }
 }
 
 form.address-checkout button,
@@ -172,10 +196,9 @@ form.shipping-checkout button {
   border-radius: 3px;
   border: none;
   color: #fff;
-  display: block;
   display: inline-block;
-  font-size: 1em;
-  margin: 1rem 0;
+  font-size: 1rem;
+  margin: 1.5rem 0.5rem;
   padding: 0.5em;
   text-align: center;
   text-decoration: none;
