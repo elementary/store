@@ -163,7 +163,7 @@ form.address-checkout {
     }
 
     // So we don't get a weird case where addr line 1 is wrapped next to name
-    &[for="address_name"]{
+    &[for="address_name"] {
       width: 100%;
     }
 
