@@ -12,12 +12,12 @@ msgstr ""
 "Plural-Forms: nplurals=3\n"
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:20
+#: lib/store_web/templates/checkout/address.html.leex:23
 msgid "Address Line 1"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:29
+#: lib/store_web/templates/checkout/address.html.leex:34
 msgid "Address Line 2"
 msgstr ""
 
@@ -33,32 +33,32 @@ msgid "Checkout"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:37
+#: lib/store_web/templates/checkout/address.html.leex:44
 msgid "City"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:46
+#: lib/store_web/templates/checkout/address.html.leex:55
 msgid "Country"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:70
+#: lib/store_web/templates/checkout/address.html.leex:86
 msgid "Email"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:80
+#: lib/store_web/templates/checkout/address.html.leex:114
 msgid "Get Shipping Rates"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:11
+#: lib/store_web/templates/checkout/address.html.leex:12
 msgid "Name"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:61
+#: lib/store_web/templates/checkout/address.html.leex:74
 msgid "Postal Code"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgid "Shipping Address"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:54
+#: lib/store_web/templates/checkout/address.html.leex:65
 msgid "State or Province"
 msgstr ""
 
@@ -88,7 +88,7 @@ msgid "Checking Out"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:81
+#: lib/store_web/templates/checkout/address.html.leex:115
 msgid "Fetching Shipping Rates"
 msgstr ""
 
@@ -103,27 +103,27 @@ msgid "Go get yourself something nice!"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:66
+#: lib/store_web/templates/checkout/address.html.leex:79
 msgid "12345"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:41
+#: lib/store_web/templates/checkout/address.html.leex:48
 msgid "Anytown"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:33
+#: lib/store_web/templates/checkout/address.html.leex:38
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:16
+#: lib/store_web/templates/checkout/address.html.leex:17
 msgid "Ellie Mendez"
 msgstr ""
 
 #, elixir-format
-#: lib/store_web/templates/checkout/address.html.leex:25
+#: lib/store_web/templates/checkout/address.html.leex:28
 msgid "Street Address, P.O. Box, Company Name"
 msgstr ""
 
@@ -135,4 +135,19 @@ msgstr ""
 #, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:87
+msgid "For receipt; never used for marketing"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:100
+msgid "Phone"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:101
+msgid "Required by shipping partners"
 msgstr ""
