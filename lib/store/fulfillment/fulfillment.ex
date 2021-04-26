@@ -39,6 +39,14 @@ defmodule Elementary.Store.Fulfillment do
         Enum.map(order.items, &stripe_line_item/1) ++ stripe_extra_lines(printful_response),
       locale: order.locale,
       mode: "payment",
+      payment_intent_data: %{
+        description: "elementary Store",
+        metadata: %{
+          source: "elementary/store#v1",
+          printful_id: printful_response.id,
+          locale: Gettext.get_locale()
+        }
+      },
       metadata: %{
         source: "elementary/store#v1",
         printful_id: printful_response.id,
