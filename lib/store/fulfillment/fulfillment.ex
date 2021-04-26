@@ -56,7 +56,8 @@ defmodule Elementary.Store.Fulfillment do
       state_code: order.address.state,
       country_code: order.address.country,
       zip: order.address.postal,
-      email: order.email
+      email: order.email,
+      phone: order.phone_number
     }
   end
 
