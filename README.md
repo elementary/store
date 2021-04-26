@@ -36,6 +36,25 @@ This guide assumes elementary OS 6 or Ubuntu 20.04; the steps should be similar 
    1. `sudo apt install python3-pip`
    2. `pip3 install docker-compose`
 
+3. **Configure secrets** for development
+
+   Add your Printful API key to `config/dev.secret.exs` like so:
+
+   ```ex
+   import Config
+
+   config :store, Printful.Api,
+     api_key: "aaaaaaaa-bbbb-cccc:dddd-eeeeeeeeeeee"
+   ```
+   
+   To test Stripe integration as well, add your Stripe test keys to `config/dev.secret.exs`:
+
+   ```ex
+   config :stripity_stripe,
+     api_key: "sk_test_aBcDeFgHiJkLmNoPqRsTuVwX",
+     public_key: "pk_test_zYxWvUtSrQpOnMlKjIhGfEdC"
+   ```
+
 That's it, you're all set to start contributing.
 
 ## Running
@@ -51,17 +70,7 @@ this step.
 command and after you run steps 1 and 2, you should only need to run this
 command to get back up and running.
 
-3) For the store to work and display products, you must add your Printful API
-key to your `config/dev.secret.exs` file like so:
-
-```ex
-import Config
-
-config :store, Printful.Api,
-  api_key: "aaaaaaaa-bbbb-cccc:dddd-eeeeeeeeeeee"
-```
-
-You will need to restart `docker-compose up` for this to take effect
+If you change any configuration/secrets, you need to restart `docker-compose up` for it to take effect.
 
 ## Translations
 
