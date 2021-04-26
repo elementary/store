@@ -146,7 +146,8 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       state: Map.get(params, "state", ""),
       country: Map.get(params, "country", ""),
       postal: Map.get(params, "postal", ""),
-      email: Map.get(params, "email", "")
+      email: Map.get(params, "email", ""),
+      phone_number: Map.get(params, "phone_number", "")
     }
   end
 end

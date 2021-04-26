@@ -97,7 +97,14 @@
 
   <label for="address_phone">
     <span>Phone <em>Required by shipping partners</em></span>
-    <input type="tel" placeholder="555-867-5309" pattern="[0-9,-]." required />
+    <%= text_input f, :phone_number,
+      type: "tel",
+      autocomplete: "tel",
+      required: true,
+      placeholder: "555-867-5309",
+      pattern: "[0-9,-]{9,}",
+      value: @address.phone_number
+    %>
   </label>
 
   <%= if length(@shipping_rates) == 0 do %>
