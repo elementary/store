@@ -84,7 +84,7 @@
   <%= label f, :email do %>
     <span>
       <%= dgettext("checkout", "Email") %>
-      <em>For receipt; never used for marketing</em>
+      <em><%= dgettext("checkout", "For receipt; never used for marketing") %></em>
     </span>
     <%= text_input f, :email,
       type: "email",
@@ -96,7 +96,10 @@
   <% end %>
 
   <label for="address_phone">
-    <span>Phone <em>Required by shipping partners</em></span>
+    <span>
+      <%= dgettext("checkout", "Phone") %>
+      <em><%= dgettext("checkout", "Required by shipping partners") %></em>
+    </span>
     <%= text_input f, :phone_number,
       type: "tel",
       autocomplete: "tel",
