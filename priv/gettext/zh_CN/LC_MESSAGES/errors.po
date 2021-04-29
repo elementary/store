@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-29 10:53+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-04-29 16:53+0000\n"
+"Last-Translator: Mei Yu <meiyujack@msn.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/errors/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -82,7 +82,7 @@ msgid "must be less than or equal to %{number}"
 msgstr "不能大于 %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr "不能小于 %{number}"
+msgstr "必须大于或等于%{number}"
 
 msgid "must be equal to %{number}"
 msgstr "必须等于 %{number}"

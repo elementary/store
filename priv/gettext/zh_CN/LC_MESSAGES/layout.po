@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-29 10:49+0000\n"
-"Last-Translator: Harrison Xu <xuhaifeng1998@gmail.com>\n"
+"PO-Revision-Date: 2021-04-29 16:53+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/layout/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -97,9 +97,9 @@ msgstr "清空购物车"
 #: lib/store_web/templates/layout/live.html.leex:32
 #, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr "此网站需要开启 Javascript 以进行结账"
+msgstr "此网站的结账功能需要开启 Javascript"
 
 #: nav.html.leex:37
 #, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "购物车为空"

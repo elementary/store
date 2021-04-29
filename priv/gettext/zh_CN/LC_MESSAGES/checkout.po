@@ -8,146 +8,153 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-04-29 16:53+0000\n"
+"Last-Translator: Harrison Xu <xuhaifeng1998@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
+"store/checkout/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
+#, elixir-format
 msgid "Address Line 1"
-msgstr ""
+msgstr "地址行 1"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
+#, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "地址行 2"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
-msgid "Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Cart"
+msgstr "购物车"
+
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
+#, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "结账"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
+#, elixir-format
 msgid "City"
-msgstr ""
+msgstr "城市"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
+#, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "国家或地区"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
+#, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "电子邮箱"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
+#, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "获取运输费率"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
+#, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
+#, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "邮政编码"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
+#, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "送货"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
+#, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "送货地址"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
+#, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "州或省"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
+#, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
+#, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "结账"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
+#, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr ""
+msgstr "正在获取运输费率"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
+#, elixir-format
 msgid "Empty Cart"
-msgstr ""
+msgstr "清空购物车"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
+#, elixir-format
 msgid "Go get yourself something nice!"
-msgstr ""
+msgstr "给自己买点好东西！"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:79
+#, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
+#, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "任何城镇"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
+#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "公寓、套房、单元、楼栋、楼层"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
+#, elixir-format
 msgid "Ellie Mendez"
-msgstr ""
+msgstr "Ellie Mendez"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
+#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "街道地址、邮箱、公司名称"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
+#, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "订单完成"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
-msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
-msgstr ""
-
 #, elixir-format
+msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
+msgstr "您的订单已收到，我们的履约合作伙伴正在努力工作以尽快送到您的手上。一封包含了确认信息和收据的电子邮件已经发送至您提供的电子邮箱。"
+
 #: lib/store_web/templates/checkout/address.html.leex:87
+#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
+#, elixir-format
 msgid "Phone"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
+#, elixir-format
 msgid "Required by shipping partners"
 msgstr ""

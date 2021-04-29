@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-29 10:47+0000\n"
+"PO-Revision-Date: 2021-04-29 16:53+0000\n"
 "Last-Translator: Harrison Xu <xuhaifeng1998@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/index/zh_Hans/>\n"
 "Language: zh_CN\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
@@ -72,7 +72,7 @@ msgstr "全球送货"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "购买设备，双赢！"
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
@@ -88,20 +88,22 @@ msgstr "不包括克里米亚、古巴、伊朗、叙利亚、朝鲜。送货方
 #, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"每次购买都是在支持 elementary OS 及其应用程序和服务的开发工作。我们是一个小团队，主要由志愿者组成，始终致力于让 elementary "
-"变得更好——你的支持可以帮助 elementary OS 更加长久。"
+"每一笔订单都是在支持 elementary OS 及其应用程序和服务的开发工作。我们是一个小团队，主要由志愿者组成，始终致力于让 elementary "
+"变得更好——您的支持可以帮助 elementary OS 可持续发展。"
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "这些设备的硬件和软件支持由零售商提供。"
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
-msgstr ""
+msgstr "搭载 elementary OS 的硬件设备可从以下零售商处购买。从这些公司购买可以帮助支持 elementary OS。"
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"我们可以把衣服和配件送到全世界！订单通常会在发出请求后 2-7 天内生成，以您结账时所选的送货方式发出。由于 COVID-19 "
+"新型冠状病毒肺炎疫情，订单也许会延期。生产已如期进行，但在履约和送货环节仍有可能发生延期，具体取决于订单、送货方式和目的地。"
