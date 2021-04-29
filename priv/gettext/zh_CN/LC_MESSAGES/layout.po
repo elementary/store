@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-14 01:38+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-04-29 10:49+0000\n"
+"Last-Translator: Harrison Xu <xuhaifeng1998@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/layout/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,88 +18,88 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
-#, elixir-format
 #: nav.html.leex:35
-msgid "Blog"
-msgstr ""
-
 #, elixir-format
+msgid "Blog"
+msgstr "博客"
+
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-format
 msgid "Brand"
 msgstr "品牌"
 
-#, elixir-format
 #: nav.html.leex:31
-msgid "Cart (%{count})"
-msgstr ""
-
 #, elixir-format
+msgid "Cart (%{count})"
+msgstr "购物车 (%{count})"
+
 #: nav.html.leex:17
+#, elixir-format
 msgid "Developer"
 msgstr "开发"
 
-#, elixir-format
 #: nav.html.leex:23
+#, elixir-format
 msgid "Get Involved"
 msgstr "加入"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
-msgid "OEMs"
-msgstr ""
-
 #, elixir-format
+msgid "OEMs"
+msgstr "制造商"
+
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-format
 msgid "Open Source"
 msgstr "开源"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-format
 msgid "Press"
 msgstr "媒体"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-format
 msgid "Privacy"
 msgstr "隐私"
 
-#, elixir-format
 #: nav.html.leex:29
+#, elixir-format
 msgid "Store"
 msgstr "商店"
 
-#, elixir-format
 #: nav.html.leex:11
+#, elixir-format
 msgid "Support"
 msgstr "支持"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-format
 msgid "Team"
 msgstr "团队"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-format
 msgid "Language"
 msgstr "语言"
 
-#, elixir-format
 #: nav.html.leex:25
-msgid "Clear Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Clear Cart"
+msgstr "清空购物车"
+
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
-
 #, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr "此网站需要开启 Javascript 以进行结账"
+
 #: nav.html.leex:37
+#, elixir-format
 msgid "Cart empty"
 msgstr ""
