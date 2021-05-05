@@ -8,21 +8,21 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-05 07:42+0000\n"
+"PO-Revision-Date: 2021-05-05 19:51+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/store/email/fi/>"
 "\n"
 "Language: fi\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "Tekijänoikeus © %{year} elementary, Inc. Kaikki oikeudet pidätetään."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4 lib/store_web/templates/email/package_shipped.html.eex:60
@@ -42,19 +42,23 @@ msgstr "Tässä seurantanumero:"
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
+"Hei, kiitos kun tilasit elementary-kaupasta. Halusimme ilmoittaa, että "
+"olemme vastaanottaneet tilauksesi!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
+"Hei, kiitos kun tilasit elementary-kaupasta. Halusimme ilmoittaa, että "
+"tilauksesi on lähetetty!"
 
 #: lib/store_web/templates/email/order_created.html.eex:103
 #: lib/store_web/templates/email/order_created.text.eex:16 lib/store_web/templates/email/package_shipped.html.eex:121
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "Olemme valmiit seuraavaa tilaustasi varten!"
 
 #: lib/store_web/templates/email/order_created.html.eex:59
 #: lib/store_web/templates/email/package_shipped.html.eex:77
@@ -87,6 +91,8 @@ msgstr "elementary-tiimi"
 #, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"Seurantatietojen päivittyminen voi kestää jopa 48 tuntia tilauksen "
+"lähettämisen jälkeen."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-format
