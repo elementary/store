@@ -8,32 +8,39 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-05-06 07:54+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/store/errors/fi/>"
+"\n"
 "Language: fi\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "ei voi olla tyhjä"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "on jo otettu"
 
 msgid "is invalid"
-msgstr ""
+msgstr "on virheellinen"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "tulee hyväksyä"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "on virheellisessä muodossa"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "sisältää virheellisen merkinnän"
 
 msgid "is reserved"
-msgstr ""
+msgstr "on varattu"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "ei vastaa vahvistusta"
 
 msgid "is still associated with this entry"
 msgstr ""
@@ -43,8 +50,8 @@ msgstr ""
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "tulee olla %{count} merkki"
+msgstr[1] "tulee olla %{count} merkkiä"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
@@ -53,8 +60,8 @@ msgstr[1] ""
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "tulee olla vähintään %{count} merkki"
+msgstr[1] "tulee olla vähintään %{count} merkkiä"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
@@ -63,8 +70,8 @@ msgstr[1] ""
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "tulee olla enintään %{count} merkki"
+msgstr[1] "tulee olla enintään %{count} merkkiä"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
@@ -72,16 +79,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "tulee olla vähemmän kuin %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "tulee olla enemmän kuin %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "tulee olla vähemmän kuin tai yhtä kuin %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "tulee olla enemmän kuin tai yhtä kuin %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "tulee olla yhtä kuin %{number}"

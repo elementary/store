@@ -8,30 +8,30 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-05 07:42+0000\n"
+"PO-Revision-Date: 2021-05-06 07:54+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/store/index/fi/>"
 "\n"
 "Language: fi\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Toimii Espanjassa"
 
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Toimii Alankomaissa"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Toimii Yhdistyneessä kuningaskunnassa"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-format
@@ -57,12 +57,12 @@ msgstr "Kannettavat"
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Kannettavat, työpöytäkoneet, pienet pöytäkoneet, all-in-one-laitteet"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Kannettavat, pienet pöytäkoneet"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-format
@@ -72,7 +72,7 @@ msgstr "Maailmanlaajuinen toimitus"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Saa vastinetta. Win/Win-tilanne."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
@@ -83,23 +83,39 @@ msgstr "Tue kehitystä."
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Ei myyntiä tai kuljetusta Krimin niemimaalle, Iraniin, Syyriaan tai Pohjois-"
+"Koreaan. Toimitustavat, -maksut ja -ajat saattavat vaihdella maiden välillä. "
+"Toimitukset Yhdysvaltain ulkopuolelle saattavat aiheuttaa tullimaksuja "
+"riippuen lähetysmaasta ja määränpäästä."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Jokainen ostos hyödyttää elementary OS:n, sen sovellusten ja palvelujen "
+"kehitystä. Olemme pieni tiimi, enimmäkseen vapaaehtoisia, jotka "
+"työskentelevät tehdäkseen elementarysta entistä paremman — tukesi auttaa "
+"tekemään elementary OS:stä aiempaa kestävämmän."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "Laitteisto- ja ohjelmistotuen näille laitteille tarjoaa jälleenmyyjä."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Laitteita elementary OS:llä varustettuna voi ostaa seuraavilta "
+"jälleenmyyjiltä. Ostoksen tekeminen näiltä yrityksiltä auttaa elementary OS:"
+"n kehitystä."
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Toimitamme vaatteita ja tarvikkeita ympäri maailman! Tilaukset hoidetaan "
+"tyypillisesti 2-7 päivän kuluessa ja lähetetään valitsemallasi "
+"toimitustavalla. COVID-19-pandemian vuoksi tilausten käsittelyssä saattaa "
+"ilmetä viivettä. Tuotanto on aikataulussa, mutta toimituksessa saattaa "
+"kestää riippuen tilauksen sisällöstä, toimitustavasta ja määränpäästä."
