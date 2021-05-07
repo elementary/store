@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-19 01:54+0000\n"
+"PO-Revision-Date: 2021-05-07 02:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/errors/ja/"
 ">\n"
@@ -25,16 +25,16 @@ msgid "has already been taken"
 msgstr "すでに取得されているため利用できません"
 
 msgid "is invalid"
-msgstr "無効です"
+msgstr "不適切です"
 
 msgid "must be accepted"
 msgstr "許可する必要があります"
 
 msgid "has invalid format"
-msgstr "書式が無効です"
+msgstr "書式が不適切です"
 
 msgid "has an invalid entry"
-msgstr "無効な入力です"
+msgstr "不適切な入力です"
 
 msgid "is reserved"
 msgstr "予約済みです"
