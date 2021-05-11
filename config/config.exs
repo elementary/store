@@ -65,20 +65,7 @@ config :phoenix, :json_library, Jason
 
 config :tesla, adapter: Tesla.Adapter.Hackney
 
-config :libcluster,
-  topologies: [
-    local: [
-      strategy: Elixir.Cluster.Strategy.Gossip,
-      config: [
-        port: 45892,
-        if_addr: "0.0.0.0",
-        multicast_if: "192.168.1.1",
-        multicast_addr: "230.1.1.251",
-        multicast_ttl: 1,
-        secret: "elementary_store"
-      ]
-    ]
-  ]
+config :libcluster, topologies: []
 
 config :store, Printful.Api,
   baseUrl: "https://api.printful.com/",
