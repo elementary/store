@@ -24,7 +24,7 @@ defmodule Printful.Cache do
 
   defp call_cached_set(res, env) do
     case res do
-      {:ok, res_env} ->
+      {:ok, %{status: status} = res_env} when status in 200..299 ->
         with :ok <- env |> cache_key() |> put(res_env, on_conflict: :override) do
           {:ok, res_env}
         end
