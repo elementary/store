@@ -18,146 +18,146 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/checkout/address.html.leex:23
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:23
 msgid "Address Line 1"
 msgstr "Osoiterivi 1"
 
-#: lib/store_web/templates/checkout/address.html.leex:34
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:34
 msgid "Address Line 2"
 msgstr "Osoiterivi 2"
 
-#: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/cart.html.leex:1
 msgid "Cart"
 msgstr "Ostoskori"
 
+#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
-#, elixir-format
 msgid "Checkout"
 msgstr "Kassalle"
 
-#: lib/store_web/templates/checkout/address.html.leex:44
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:44
 msgid "City"
 msgstr "Kaupunki"
 
-#: lib/store_web/templates/checkout/address.html.leex:55
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:55
 msgid "Country"
 msgstr "Maa"
 
-#: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:86
 msgid "Email"
 msgstr "Sähköposti"
 
-#: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:114
 msgid "Get Shipping Rates"
 msgstr "Selvitä toimituskulut"
 
-#: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:12
 msgid "Name"
 msgstr "Nimi"
 
-#: lib/store_web/templates/checkout/address.html.leex:74
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:74
 msgid "Postal Code"
 msgstr "Postinumero"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:1
 msgid "Shipping"
 msgstr "Toimitus"
 
-#: lib/store_web/templates/checkout/address.html.leex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:1
 msgid "Shipping Address"
 msgstr "Toimitusosoite"
 
-#: lib/store_web/templates/checkout/address.html.leex:65
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:65
 msgid "State or Province"
 msgstr "Maakunta tai lääni"
 
-#: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-format
+#: lib/store_web/templates/checkout/cart_item.html.leex:38
 msgid "Update"
 msgstr "Päivitä"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-format
+#: lib/store_web/templates/checkout/shipping.html.leex:26
 msgid "Checking Out"
 msgstr "Siirrytään kassalle"
 
-#: lib/store_web/templates/checkout/address.html.leex:115
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:115
 msgid "Fetching Shipping Rates"
 msgstr "Noudetaan toimituskuluja"
 
-#: lib/store_web/templates/checkout/index.html.leex:2
 #, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:2
 msgid "Empty Cart"
 msgstr "Tyhjä ostoskori"
 
-#: lib/store_web/templates/checkout/index.html.leex:5
 #, elixir-format
+#: lib/store_web/templates/checkout/index.html.leex:5
 msgid "Go get yourself something nice!"
 msgstr "Hanki jotain kivaa!"
 
-#: lib/store_web/templates/checkout/address.html.leex:79
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:79
 msgid "12345"
 msgstr "12345"
 
-#: lib/store_web/templates/checkout/address.html.leex:48
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:48
 msgid "Anytown"
 msgstr "Kaupungin nimi"
 
-#: lib/store_web/templates/checkout/address.html.leex:38
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:38
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "Asunto, huoneisto, rakennus, kerros"
 
-#: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:17
 msgid "Ellie Mendez"
 msgstr "Matti Meikäläinen"
 
-#: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:28
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "Katuosoite, yrityksen nimi"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-format
+#: lib/store_web/templates/checkout/result/success.html.eex:1
 msgid "Order Placed"
 msgstr "Tilaus asetettu"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-format
+#: lib/store_web/templates/checkout/result/success.html.eex:4
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "Tilauksesi on vastaanotettu ja yhteistyökumppanimme tekee parhaansa "
 "toimittaakseen tilauksen sinulle mahdollisimman nopeasti. Vahvistusviesti ja "
 "kuitti on lähetetty antamaasi sähköpostiosoitteeseen."
 
-#: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:87
 msgid "For receipt; never used for marketing"
 msgstr ""
 
-#: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:100
 msgid "Phone"
 msgstr ""
 
-#: lib/store_web/templates/checkout/address.html.leex:101
 #, elixir-format
+#: lib/store_web/templates/checkout/address.html.leex:101
 msgid "Required by shipping partners"
 msgstr ""

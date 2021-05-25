@@ -18,88 +18,88 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/layout/footer.html.leex:4
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:4
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#: nav.html.leex:35
 #, elixir-format
+#: nav.html.leex:35
 msgid "Blog"
 msgstr "博客"
 
-#: lib/store_web/templates/layout/footer.html.leex:26
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:26
 msgid "Brand"
 msgstr "品牌"
 
-#: nav.html.leex:31
 #, elixir-format
+#: nav.html.leex:31
 msgid "Cart (%{count})"
 msgstr "购物车 (%{count})"
 
-#: nav.html.leex:17
 #, elixir-format
+#: nav.html.leex:17
 msgid "Developer"
 msgstr "开发"
 
-#: nav.html.leex:23
 #, elixir-format
+#: nav.html.leex:23
 msgid "Get Involved"
 msgstr "加入"
 
-#: lib/store_web/templates/layout/footer.html.leex:32
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:32
 msgid "OEMs"
 msgstr "制造商"
 
-#: lib/store_web/templates/layout/footer.html.leex:50
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:50
 msgid "Open Source"
 msgstr "开源"
 
-#: lib/store_web/templates/layout/footer.html.leex:20
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:20
 msgid "Press"
 msgstr "媒体"
 
-#: lib/store_web/templates/layout/footer.html.leex:38
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:38
 msgid "Privacy"
 msgstr "隐私"
 
-#: nav.html.leex:29
 #, elixir-format
+#: nav.html.leex:29
 msgid "Store"
 msgstr "商店"
 
-#: nav.html.leex:11
 #, elixir-format
+#: nav.html.leex:11
 msgid "Support"
 msgstr "支持"
 
-#: lib/store_web/templates/layout/footer.html.leex:44
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:44
 msgid "Team"
 msgstr "团队"
 
-#: lib/store_web/templates/layout/footer.html.leex:12
 #, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:12
 msgid "Language"
 msgstr "语言"
 
-#: nav.html.leex:25
 #, elixir-format
+#: nav.html.leex:25
 msgid "Clear Cart"
 msgstr "清空购物车"
 
+#, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-#, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "此网站的结账功能需要开启 Javascript"
 
-#: nav.html.leex:37
 #, elixir-format
+#: nav.html.leex:37
 msgid "Cart empty"
 msgstr "购物车为空"
