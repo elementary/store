@@ -4,10 +4,12 @@ defmodule Elementary.Store.Catalog.Category do
   """
 
   @category_order [
-    "T-Shirt",
+    "T-Shirts",
     "Outerwear",
-    "Mug",
-    "Poster"
+    "Mugs",
+    "Laptop Sleeves",
+    "Posters",
+    "Pillows"
   ]
 
   @doc """
@@ -18,11 +20,13 @@ defmodule Elementary.Store.Catalog.Category do
     type = String.downcase(catalog.product.type_name)
 
     cond do
-      String.contains?(type, "poster") -> "Poster"
       String.contains?(type, "jacket") -> "Outerwear"
       String.contains?(type, "sweatshirt") -> "Outerwear"
       String.contains?(type, "hoodie") -> "Outerwear"
-      String.contains?(type, "mug") -> "Mug"
+      String.contains?(type, "mug") -> "Mugs"
+      String.contains?(type, "laptop sleeve") -> "Laptop Sleeves"
+      String.contains?(type, "poster") -> "Posters"
+      String.contains?(type, "pillow") -> "Pillows"
       true -> catalog.product.type_name
     end
   end
@@ -33,7 +37,7 @@ defmodule Elementary.Store.Catalog.Category do
   ## Example
 
     iex> Enum.sort(categories, Category)
-    ["T-Shirt", "Outerwear"]
+    ["T-Shirts", "Outerwear"]
 
   """
   def compare(category_one, category_two) do
