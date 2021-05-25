@@ -20,6 +20,7 @@ defmodule Elementary.Store.Catalog.Category do
     type = String.downcase(catalog.product.type_name)
 
     cond do
+      String.contains?(type, "t-shirt") -> "T-Shirts"
       String.contains?(type, "jacket") -> "Outerwear"
       String.contains?(type, "sweatshirt") -> "Outerwear"
       String.contains?(type, "hoodie") -> "Outerwear"
