@@ -46,7 +46,7 @@
 												<tbody>
 													<tr>
 														<td style="padding-top:10px;padding-bottom:10px;" valign="top" width="25%">
-															<%= if not item |> product_preview() |> is_nil() do %>
+															<%= if not (item |> product_preview() |> is_nil()) do %>
 																<img alt="<%= item.name %>" src="<%= product_preview(item) %>" style="background-color:#f0f0f0;" width="100%">
 															<% end %>
 														</td>
