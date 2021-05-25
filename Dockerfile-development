@@ -1,7 +1,7 @@
 # Dockerfile
 # A dockerfile for development
 
-FROM elixir:alpine
+FROM elixir:1.12-alpine
 
 RUN mkdir -p /opt/app
 

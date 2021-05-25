@@ -49,7 +49,7 @@ defmodule Elementary.Store.MixProject do
       {:phoenix, "~> 1.5.7"},
       {:plug_cowboy, "~> 2.4"},
       {:shards, "~> 1.0"},
-      {:stripity_stripe, "~> 2.0"},
+      {:stripity_stripe, "~> 2.10"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 0.4"},
       {:tesla, "~> 1.4.0", override: true}
