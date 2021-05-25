@@ -17,7 +17,7 @@ defmodule Elementary.StoreWeb.Webhook.StripeController do
 
     case Stripe.Webhook.construct_event(payload, signature, secret) do
       {:ok, event} ->
-        Task.async(fn -> handle_event(event) end)
+        handle_event(event)
 
         conn
         |> put_status(:ok)
