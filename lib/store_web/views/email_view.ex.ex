@@ -12,7 +12,10 @@ defmodule Elementary.StoreWeb.EmailView do
   ]
 
   def product_preview(item) do
-    Enum.find(item.files, &(&1.type === "preview")).thumbnail_url
+    case Enum.find(item.files, &(&1.type === "preview")) do
+      nil -> nil
+      product -> product.thumbnail_url
+    end
   end
 
   def address_template(recipient) do
