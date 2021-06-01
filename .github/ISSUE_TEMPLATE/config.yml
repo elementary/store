@@ -1,0 +1,4 @@
+contact_links:
+  - name: Suggest a product
+    url: https://github.com/elementary/store/discussions/categories/product-ideas
+    about: View and submit product ideas for new products to carry in the store
