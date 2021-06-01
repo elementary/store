@@ -4,7 +4,7 @@ about: Suggest a new idea or request a missing feature for the Store site
 title: ''
 labels: 'Priority: Wishlist, Needs Design'
 assignees: ''
-
+# Adapted from https://github.com/elementary/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md
 ---
 
 <!--
