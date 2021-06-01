@@ -4,7 +4,7 @@ about: Report an unexpected behavior or failure on the Store site
 title: ''
 labels: ''
 assignees: ''
-# Copied from https://github.com/elementary/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md
+# Adapted from https://github.com/elementary/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md
 ---
 
 <!--
@@ -38,10 +38,7 @@ assignees: ''
 
 ## Platform Information
 <!--
-* The version of elementary OS you are using, or other operating system
-* The version of the software you are using such as "1.0", "Compiled from git", or "Latest release" if you're not sure but you have run updates
-* Relevant hardware information such as graphics drivers, unconventional setups, etc.
-* If you're unsure, copy or screenshot information at System Settings -> About
+* The browswer name, version, and operating system you're accessing the store from
 -->
 
 
