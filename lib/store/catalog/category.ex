@@ -4,6 +4,7 @@ defmodule Elementary.Store.Catalog.Category do
   """
 
   @category_order [
+    "elementary Developer Weekend",
     "T-Shirts",
     "Outerwear",
     "Mugs",
@@ -28,6 +29,7 @@ defmodule Elementary.Store.Catalog.Category do
       String.contains?(type, "laptop sleeve") -> "Laptop Sleeves"
       String.contains?(type, "poster") -> "Posters"
       String.contains?(type, "pillow") -> "Pillows"
+      String.contains?(type, "edw") -> "elementary Developer Weekend"
       true -> catalog.product.type_name
     end
   end
