@@ -25,7 +25,7 @@ defmodule Elementary.Store.Catalog.Product do
       id: product.sync_product.id,
       name: product.sync_product.name,
       description: catalog.product.description,
-      category: Category.from_printful(catalog),
+      category: Category.from_printful(catalog, product),
       price_range: [hd(price_range), List.last(price_range)],
       thumbnail_url: product.sync_product.thumbnail_url
     )

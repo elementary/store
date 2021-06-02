@@ -17,10 +17,13 @@ defmodule Elementary.Store.Catalog.Category do
   Converts a printful catalog value to a category. This condenses a lot of ugly
   ones.
   """
-  def from_printful(catalog) do
+  # credo:disable-for-next-line Credo.Check.Refactor.CyclomaticComplexity
+  def from_printful(catalog, product) do
     type = String.downcase(catalog.product.type_name)
+    name = String.downcase(product.sync_product.name)
 
     cond do
+      String.contains?(name, "edw") -> "elementary Developer Weekend"
       String.contains?(type, "t-shirt") -> "T-Shirts"
       String.contains?(type, "jacket") -> "Outerwear"
       String.contains?(type, "sweatshirt") -> "Outerwear"
@@ -29,7 +32,6 @@ defmodule Elementary.Store.Catalog.Category do
       String.contains?(type, "laptop sleeve") -> "Laptop Sleeves"
       String.contains?(type, "poster") -> "Posters"
       String.contains?(type, "pillow") -> "Pillows"
-      String.contains?(type, "edw") -> "elementary Developer Weekend"
       true -> catalog.product.type_name
     end
   end
