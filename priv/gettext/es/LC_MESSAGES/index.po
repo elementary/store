@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-13 11:39+0000\n"
-"Last-Translator: Carlos <tolo130@gmail.com>\n"
+"PO-Revision-Date: 2021-06-14 09:00+0000\n"
+"Last-Translator: Daniel Carril <danicarril@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/index/es/>"
 "\n"
 "Language: es\n"
@@ -74,7 +74,7 @@ msgstr "Envíos a todo el mundo"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "Optén equipamiento. Ganar/Ganar"
+msgstr "Obtenga productos elementary. Todo el mundo gana."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
