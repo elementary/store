@@ -17,7 +17,7 @@ RUN apk --no-cache --update add \
   libc-dev \
   make \
   nodejs \
-  nodejs-npm \
+  npm \
   python3
 
 RUN cd /opt/app && \
