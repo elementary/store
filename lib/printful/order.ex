@@ -23,6 +23,10 @@ defmodule Printful.Order do
     Api.put("/orders/#{id}", params)
   end
 
+  def delete(id) do
+    Api.delete("/orders/#{id}")
+  end
+
   def confirm(id) do
     if Application.get_env(:store, Printful.Api)[:enable_purchasing] do
       Api.post("/orders/#{id}/confirm", %{})

@@ -15,6 +15,8 @@ defmodule Elementary.Store.Application do
       {Cluster.Supervisor, [topologies, [name: Elementary.Store.ClusterSupervisor]]},
       # Start the Printful API cache
       Printful.Cache,
+      # Start the fulfillment cleaner
+      Elementary.Store.Fulfillment.Cleaner,
       # Start the PubSub system
       {Phoenix.PubSub, name: Elementary.Store.PubSub},
       # Start the Endpoint (http/https)
