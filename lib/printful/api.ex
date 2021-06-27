@@ -46,6 +46,12 @@ defmodule Printful.Api do
     |> parse_result!()
   end
 
+  def delete(url) do
+    new()
+    |> Tesla.delete(url)
+    |> parse_result!()
+  end
+
   defp parse_result!(res) do
     case res do
       {:ok, %{status: 200, body: %{result: result}}} ->
