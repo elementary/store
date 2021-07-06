@@ -82,3 +82,8 @@ pushed to master. If you would like to help translate this site, please see the
 This repository is setup with continuous integration and deployment. If you want
 to deploy your changes, all you need to do is open a PR to the master branch.
 Once your PR is accepted and merged in, it will automatically be deployed.
+
+## License
+
+This repository is made available under the terms of the GNU Affero General
+Public License version 3 or any later version. See `LICENSE` for details.
