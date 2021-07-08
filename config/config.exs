@@ -51,7 +51,7 @@ config :store, Elementary.StoreWeb.Gettext,
     "sk" => "Slovak",
     "sv" => "Swedish",
     "tr-TR" => "Türkçe",
-    "uk" => "Українська",
+    "uk" => "українська",
     "zh-CN" => "简体中文",
     "zh-TW" => "繁體中文"
   }
