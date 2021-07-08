@@ -1,0 +1,97 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+msgid ""
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:4
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/primary-nav.html.leex:35
+msgid "Blog"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:26
+msgid "Brand"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/secondary-nav.html.leex:31
+msgid "Cart (%{count})"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/primary-nav.html.leex:17
+msgid "Developer"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/primary-nav.html.leex:23
+msgid "Get Involved"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:32
+msgid "OEMs"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:50
+msgid "Open Source"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:20
+msgid "Press"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:38
+msgid "Privacy"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/primary-nav.html.leex:29
+msgid "Store"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/primary-nav.html.leex:11
+msgid "Support"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:44
+msgid "Team"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/footer.html.leex:12
+msgid "Language"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/secondary-nav.html.leex:25
+msgid "Clear Cart"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/app.html.leex:19
+#: lib/store_web/templates/layout/live.html.leex:32
+msgid "This website requires JavaScript enabled to checkout"
+msgstr ""
+
+#, elixir-format
+#: lib/store_web/templates/layout/secondary-nav.html.leex:37
+msgid "Cart empty"
+msgstr ""
