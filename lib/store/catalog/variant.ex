@@ -7,6 +7,7 @@ defmodule Elementary.Store.Catalog.Variant do
 
   defstruct [
     :id,
+    :product_id,
     :catalog_variant_id,
     :name,
     :description,
@@ -35,6 +36,7 @@ defmodule Elementary.Store.Catalog.Variant do
 
     struct(__MODULE__,
       id: store.id,
+      product_id: store.sync_product_id,
       catalog_variant_id: store.variant_id,
       name: store.name,
       description: catalog.product.description,

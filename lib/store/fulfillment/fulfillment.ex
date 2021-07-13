@@ -13,18 +13,12 @@ defmodule Elementary.Store.Fulfillment do
   @stripe_payment_types ["card"]
 
   def create_order(%Fulfillment.Order{} = order) do
-    tax_price =
-      %{recipient: printful_recipient(order)}
-      |> Printful.Tax.get()
-      |> calculate_taxes(order)
-
     printful_response =
       Printful.Order.create(%{
         shipping: order.shipping_rate.id,
         recipient: printful_recipient(order),
         items: Enum.map(order.items, &printful_line_item/1),
         retail_costs: %{
-          tax: tax_price,
           shipping: order.shipping_rate.price
         }
       })
@@ -38,6 +32,9 @@ defmodule Elementary.Store.Fulfillment do
       line_items:
         Enum.map(order.items, &stripe_line_item/1) ++ stripe_extra_lines(printful_response),
       locale: order.locale,
+      automatic_tax: %{
+        enabled: true
+      },
       mode: "payment",
       payment_intent_data: %{
         description: "elementary Store",
@@ -69,25 +66,6 @@ defmodule Elementary.Store.Fulfillment do
     }
   end
 
-  defp calculate_taxes(%{rate: tax_rate} = tax, order) do
-    item_total =
-      order.items
-      |> Enum.map(fn {variant_id, quantity} -> {Catalog.get_variant(variant_id), quantity} end)
-      |> Enum.map(fn {variant, quantity} -> variant.price * quantity end)
-      |> Enum.reduce(0, fn a, b -> a + b end)
-
-    taxable_amount =
-      if tax.shipping_taxable do
-        item_total + order.shipping_rate.price
-      else
-        item_total
-      end
-
-    Float.ceil(taxable_amount * tax_rate, 2)
-  end
-
-  defp calculate_taxes(_, _order), do: 0
-
   defp printful_line_item({variant_id, quantity}) do
     variant = Catalog.get_variant(variant_id)
 
@@ -100,33 +78,57 @@ defmodule Elementary.Store.Fulfillment do
     }
   end
 
+  # credo:disable-for-next-line Credo.Check.Refactor.CyclomaticComplexity
+  defp stripe_tax_code(%{type: type}) do
+    cond do
+      String.contains?(type, "t-shirt") -> "txcd_30011000"
+      String.contains?(type, "jacket") -> "txcd_30011000"
+      String.contains?(type, "sweatshirt") -> "txcd_30011000"
+      String.contains?(type, "hoodie") -> "txcd_30011000"
+      String.contains?(type, "laptop sleeve") -> "txcd_30060001"
+      true -> "txcd_99999999"
+    end
+  end
+
   defp stripe_line_item({variant_id, quantity}) do
     variant = Catalog.get_variant(variant_id)
+    product = Catalog.get_product(variant.product_id)
 
     %{
-      amount: round(variant.price * 100),
-      currency: "USD",
-      name: variant.name,
-      quantity: quantity,
-      images: [variant.preview_url]
+      price_data: %{
+        currency: "USD",
+        unit_amount: round(variant.price * 100),
+        tax_behavior: "exclusive",
+        product_data: %{
+          name: variant.name,
+          images: [variant.preview_url],
+          tax_code: stripe_tax_code(product)
+        }
+      },
+      quantity: quantity
     }
   end
 
-  defp stripe_extra_lines(printful_response) do
-    printful_response.retail_costs
-    |> Map.take([:shipping, :tax, :vat])
-    |> Enum.reject(fn {_k, v} -> is_nil(v) end)
-    |> Enum.map(fn {name, value} ->
-      {amount, _} = Float.parse(value)
+  defp stripe_extra_lines(%{retail_costs: %{shipping: shipping}}) when not is_nil(shipping) do
+    {amount, _} = Float.parse(shipping)
 
+    [
       %{
-        amount: round(amount * 100),
-        currency: "USD",
-        name: String.capitalize(to_string(name)),
+        price_data: %{
+          currency: "USD",
+          unit_amount: round(amount * 100),
+          tax_behavior: "exclusive",
+          product_data: %{
+            name: "Shipping",
+            tax_code: "txcd_92010001"
+          }
+        },
         quantity: 1
       }
-    end)
+    ]
   end
+
+  defp stripe_extra_lines(_printful_response), do: []
 
   def fulfill_order(%Stripe.Session{livemode: livemode, metadata: %{"printful_id" => printful_id}}) do
     printful_id

@@ -7,7 +7,7 @@ defmodule Elementary.Store.Catalog.Product do
 
   @enforce_keys [:id]
 
-  defstruct [:id, :name, :description, :category, :price_range, :thumbnail_url, :variants]
+  defstruct [:id, :name, :description, :category, :type, :price_range, :thumbnail_url, :variants]
 
   @doc """
   Converts some Printful API data to an `Elementary.Store.Catalog.Product`
@@ -26,6 +26,7 @@ defmodule Elementary.Store.Catalog.Product do
       name: product.sync_product.name,
       description: catalog.product.description,
       category: Category.from_printful(catalog, product),
+      type: String.downcase(catalog.product.type_name),
       price_range: [hd(price_range), List.last(price_range)],
       thumbnail_url: product.sync_product.thumbnail_url
     )
