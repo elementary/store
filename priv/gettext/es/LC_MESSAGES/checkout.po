@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 11:24+0000\n"
+"PO-Revision-Date: 2021-07-16 05:14+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/checkout/"
 "es/>\n"
@@ -18,143 +18,146 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
+#, elixir-format
 msgid "Address Line 1"
 msgstr "Línea de dirección 1"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
+#, elixir-format
 msgid "Address Line 2"
 msgstr "Línea de dirección 2"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
+#, elixir-format
 msgid "Cart"
 msgstr "Carro"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
+#, elixir-format
 msgid "Checkout"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
+#, elixir-format
 msgid "City"
 msgstr "Ciudad"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
+#, elixir-format
 msgid "Country"
 msgstr "País"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
+#, elixir-format
 msgid "Email"
 msgstr "Email"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
+#, elixir-format
 msgid "Get Shipping Rates"
 msgstr "Obtener tarifas de envío"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
+#, elixir-format
 msgid "Name"
 msgstr "Nombre"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
+#, elixir-format
 msgid "Postal Code"
 msgstr "Código Postal"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
+#, elixir-format
 msgid "Shipping"
 msgstr "Envío"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
+#, elixir-format
 msgid "Shipping Address"
 msgstr "Dirección de envío"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
+#, elixir-format
 msgid "State or Province"
 msgstr "Estado o Provincia"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
+#, elixir-format
 msgid "Update"
 msgstr "Actualizar"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
+#, elixir-format
 msgid "Checking Out"
 msgstr "Comprobando"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
+#, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "Obteniendo las tarifas de envío"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
+#, elixir-format
 msgid "Empty Cart"
 msgstr "Vaciar el carrito"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
-msgid "Go get yourself something nice!"
-msgstr ""
-
 #, elixir-format
+msgid "Go get yourself something nice!"
+msgstr "¡Ve a buscar algo bonito!"
+
 #: lib/store_web/templates/checkout/address.html.leex:79
+#, elixir-format
 msgid "12345"
 msgstr "12345"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
+#, elixir-format
 msgid "Anytown"
 msgstr "Cualquier pueblo o ciudad"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
+#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "Apartamento, Suite, Unidad, Edificio, Piso"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
+#, elixir-format
 msgid "Ellie Mendez"
 msgstr "Ellie Méndez"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
+#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "Dirección postal, Apdo. de Correos, Nombre de la empresa"
 
-#, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
-msgid "Order Placed"
-msgstr ""
-
 #, elixir-format
+msgid "Order Placed"
+msgstr "Pedido realizado"
+
 #: lib/store_web/templates/checkout/result/success.html.eex:4
+#, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"Su pedido ha sido recibido y nuestro socio responsable del cumplimiento está "
+"trabajando duro para llevárselo lo más pronto posible. Un correo de "
+"confirmación y el recibo han sido enviados a la casilla de correo provista."
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:87
+#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
+#, elixir-format
 msgid "Phone"
 msgstr ""
 
-#, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
+#, elixir-format
 msgid "Required by shipping partners"
 msgstr ""
