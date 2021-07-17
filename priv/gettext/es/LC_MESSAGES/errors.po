@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-17 02:00+0000\n"
-"Last-Translator: Marco AP <marcoantoniop@hotmail.com>\n"
+"PO-Revision-Date: 2021-07-17 05:54+0000\n"
+"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/errors/es/>"
 "\n"
 "Language: es\n"
@@ -55,8 +55,8 @@ msgstr[1] "debe tener %{count} caracteres"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] "debería tener %{count} artículo"
-msgstr[1] "debería tener %{count} artículos"
+msgstr[0] "debe tener %{count} artículo"
+msgstr[1] "debe tener %{count} artículos"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"

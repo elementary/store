@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-16 05:14+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"PO-Revision-Date: 2021-07-17 05:54+0000\n"
+"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/checkout/"
 "es/>\n"
 "Language: es\n"
@@ -143,9 +143,9 @@ msgstr "Pedido realizado"
 #, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
-"Su pedido ha sido recibido y nuestro socio responsable del cumplimiento está "
-"trabajando duro para llevárselo lo más pronto posible. Un correo de "
-"confirmación y el recibo han sido enviados a la casilla de correo provista."
+"Su pedido ha sido recibido y nuestro socio responsable está trabajando duro "
+"para llevárselo lo más pronto posible. Un correo de confirmación y el recibo "
+"han sido al correo electrónico provisto."
 
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-format
@@ -155,9 +155,9 @@ msgstr ""
 #: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "Teléfono"
 
 #: lib/store_web/templates/checkout/address.html.leex:101
 #, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "Requerido por los socios de entrega"
