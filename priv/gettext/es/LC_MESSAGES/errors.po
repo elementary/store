@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-07-17 02:00+0000\n"
-"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
+"Last-Translator: Marco AP <marcoantoniop@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/errors/es/>"
 "\n"
 "Language: es\n"
@@ -43,7 +43,7 @@ msgid "does not match confirmation"
 msgstr "no coincide con la confirmación"
 
 msgid "is still associated with this entry"
-msgstr "todavía está asociado/a a esta entrada"
+msgstr "sigue asociada a esta entrada"
 
 msgid "are still associated with this entry"
 msgstr "todavía están asociados/as con esta entrada"
