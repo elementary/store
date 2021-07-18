@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-16 11:06+0000\n"
+"PO-Revision-Date: 2021-07-18 18:53+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/product/es/"
 ">\n"
@@ -18,49 +18,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
 msgid "Colors"
 msgstr "Colores"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
+#, elixir-format
 msgid "Sizes"
 msgstr "Tallas"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
 msgid "Unavailable for %{size}"
 msgstr "No disponible en %{size}"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
 msgid "Unavailable in %{color}"
 msgstr "No disponible en %{color}"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
 msgid "Add to Cart"
 msgstr "Añadir al carrito"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
+#, elixir-format
 msgid "%{color} is out of stock"
 msgstr "El color %{color} está fuera de stock"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "La talla %{size} está fuera de stock"
 
-#, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Adding to Cart"
+msgstr "Añadiendo al carrito"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
 msgid "This product is currently unavailable"
 msgstr "Este producto actualmente no esta disponible"

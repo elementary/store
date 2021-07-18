@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-17 05:54+0000\n"
-"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
+"PO-Revision-Date: 2021-07-18 18:53+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/checkout/"
 "es/>\n"
 "Language: es\n"
@@ -37,7 +37,7 @@ msgstr "Carro"
 #: lib/store_web/templates/checkout/shipping.html.leex:25
 #, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "Caja"
 
 #: lib/store_web/templates/checkout/address.html.leex:44
 #, elixir-format
@@ -150,7 +150,7 @@ msgstr ""
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr ""
+msgstr "Para facturas únicamente, nunca será usado para campañas de marketing"
 
 #: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-format
