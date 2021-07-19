@@ -8,14 +8,14 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-19 07:25+0000\n"
-"Last-Translator: Patrick <invarianztheorem@web.de>\n"
+"PO-Revision-Date: 2021-07-19 07:29+0000\n"
+"Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/store/index/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
@@ -30,58 +30,61 @@ msgstr "In den Niederlanden ansässig"
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-format
 msgid "Based in the United Kingdom"
-msgstr "In England ansässig"
+msgstr "Im Vereinigten Königreich (UK) ansässig"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Geräte"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "Kostenloser Versand innerhalb der EU"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
 #, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Internationaler Versand"
 
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Laptops"
 
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Laptops, Desktops, Mini Desktops, All-in-Ones"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Laptops, Mini Desktops"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Weltweiter Versand"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Hol dir deine Ausrüstung. Win/Win."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Unterstütze die Entwicklung."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Krim, Kuba, Iran, Syrien und Nordkorea ausgeschlossen. Versandarten, "
+"Versandkosten und Versanddauer variieren auf Länderbasis. Versand außerhalb "
+"der USA kann, abhängig von Ursprungs- und Zielland, Zollkosten beinhalten."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
