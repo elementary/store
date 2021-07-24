@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-24 12:25+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2021-07-24 19:35+0000\n"
+"Last-Translator: Vsevolod <sevauserg.com@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/errors/ru/>"
 "\n"
 "Language: ru\n"
@@ -81,21 +81,21 @@ msgstr[2] "должно быть не более %{count} символов"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "должен иметь не более %{count} элемент"
+msgstr[1] "должен иметь не более %{count} элементов"
+msgstr[2] "должен иметь не более %{count} элементов"
 
 msgid "must be less than %{number}"
-msgstr "должно быть менее  %{number}"
+msgstr "должно быть менее %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "должно быть больше чем %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "должно быть менее или равно %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "должно быть более или равно %{number}"
 
 msgid "must be equal to %{number}"
 msgstr "должен быть равен %{number}"
