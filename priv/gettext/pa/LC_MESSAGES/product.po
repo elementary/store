@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-28 05:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
+
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+
+#: lib/store_web/templates/product/index.html.leex:14
+#, elixir-format
+msgid "Colors"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:68
+#, elixir-format
+msgid "Sizes"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:26
+#: lib/store_web/templates/product/index.html.leex:31
+#, elixir-format
+msgid "Unavailable for %{size}"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:80
+#, elixir-format
+msgid "Unavailable in %{color}"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:122
+#, elixir-format
+msgid "Add to Cart"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:90
+#, elixir-format
+msgid "%{color} is out of stock"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:38
+#: lib/store_web/templates/product/index.html.leex:43
+#, elixir-format
+msgid "%{size} is out of stock"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:124
+#, elixir-format
+msgid "Adding to Cart"
+msgstr ""
+
+#: lib/store_web/templates/product/index.html.leex:117
+#, elixir-format
+msgid "This product is currently unavailable"
+msgstr ""
