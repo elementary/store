@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-20 07:54+0000\n"
+"PO-Revision-Date: 2021-08-23 19:29+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/store/checkout/de/"
 ">\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.leex:23
 #, elixir-format
@@ -143,8 +143,8 @@ msgstr "Bestellung abgeschickt"
 #, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
-"Deine Bestellung wurde empfangen und unser Dienstleister arbeitet mit "
-"Hochdruck daran, sie so schnell wie möglich zu dir zu bringen. Eine "
+"Ihre Bestellung wurde empfangen und unser Dienstleister arbeitet mit "
+"Hochdruck daran, sie so schnell wie möglich zu Ihnen zu bringen. Eine "
 "Auftragsbestätigung wurde an die angegebene Email-Adresse geschickt."
 
 #: lib/store_web/templates/checkout/address.html.leex:87

@@ -8,14 +8,14 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-20 07:54+0000\n"
+"PO-Revision-Date: 2021-08-23 19:29+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/store/email/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -34,22 +34,22 @@ msgstr "Das haben wir in dieser Bestellung versandt:"
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-format
 msgid "Here's your tracking number:"
-msgstr "Hier ist deine Tracking-Nummer:"
+msgstr "Hier ist Ihre Tracking-Nummer:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
-"Hallo! Danke, dass du im elementary Store bestellt hast. Gern bestätigen wir "
-"den Bestellungseingang."
+"Hallo! Danke, dass Sie im elementary Store bestellt haben. Gern bestätigen "
+"wir den Bestellungseingang."
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
-"Hallo! Danke, dass du im elementary Store bestellt hast. Deine Bestellung "
+"Hallo! Danke, dass Sie im elementary Store bestellt haben. Ihre Bestellung "
 "wurde versandt!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
@@ -57,7 +57,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-format
 msgid "Looking forward to your next order!"
-msgstr "Wir freuen uns auf deine nächste Bestellung!"
+msgstr "Wir freuen uns auf Ihre nächste Bestellung!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
@@ -96,32 +96,32 @@ msgstr ""
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-format
 msgid "We Have Received Your Order!"
-msgstr "Wir haben deine Bestellung erhalten!"
+msgstr "Wir haben Ihre Bestellung erhalten!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr "Deine Bestellung wurde versandt!"
+msgstr "Ihre Bestellung wurde versandt!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
-"Du erhältst diese Mail, weil du eine Bestellung im elementary Store getätigt "
-"hast. Du bist bei keiner Mailingliste angemeldet."
+"Sie erhalten diese Mail, weil Sie eine Bestellung im elementary Store "
+"getätigt haben. Sie sind bei keiner Mailingliste angemeldet."
 
 #: lib/store/email.ex:16 lib/store/email.ex:20
 #, elixir-format
 msgid "Your order has been received!"
-msgstr "Deine Bestellung wurde aufgenommen!"
+msgstr "Ihre Bestellung wurde aufgenommen!"
 
 #: lib/store/email.ex:28
 #, elixir-format
 msgid "Your order has been shipped!"
-msgstr "Deine Bestellung wurde versandt!"
+msgstr "Ihre Bestellung wurde versandt!"
 
 #: lib/store/email.ex:32
 #, elixir-format
 msgid "Your package shipped!"
-msgstr "Dein Paket wurde versandt!"
+msgstr "Ihr Paket wurde versandt!"

@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-20 07:54+0000\n"
+"PO-Revision-Date: 2021-08-23 19:29+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/store/index/de/>\n"
 "Language: de\n"
@@ -71,12 +71,12 @@ msgstr "Weltweiter Versand"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "Hol dir deine Ausrüstung. Win/Win."
+msgstr "Ausstattung erhalten. Win/Win."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
 msgid "Support Development."
-msgstr "Unterstütze die Entwicklung."
+msgstr "Entwicklung unterstützen."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-format
@@ -94,7 +94,8 @@ msgstr ""
 "Der Erlös kommt der Entwicklung von elementary OS, seiner Apps und Dienste "
 "zugute. Wir sind ein kleines Team, größtenteils bestehend aus "
 "Ehrenamtlichen, das unaufhörlich daran arbeitet, elementary immer besser zu "
-"machen—deine Unterstützung hilft, elementary OS noch nachhaltiger zu machen."
+"machen. Ihre Unterstützung hilft dabei, elementary OS noch nachhaltiger zu "
+"machen."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
@@ -115,7 +116,7 @@ msgstr ""
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "Wir liefern Mode und Accessoires in die ganze Welt! Bestellungen werden "
-"innerhalb von 2-7 Tagen mit dem Service verschickt, den du an der Kasse "
-"wählst. Aufgrund der COVID-19-Situation kann es zu Verzögerungen kommen. Wir "
+"innerhalb von 2-7 Tagen mit dem Service verschickt, den Sie an der Kasse "
+"wählen. Aufgrund der COVID-19-Situation kann es zu Verzögerungen kommen. Wir "
 "sind im Produktionszeitplan, dennoch kann es abhängig von der Bestellung, "
 "Versandmethode oder Zieladresse zu Verspätungen kommen."
