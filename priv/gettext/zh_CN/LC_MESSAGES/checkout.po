@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-07 09:33+0000\n"
-"Last-Translator: contemplator <mistylinux@qq.com>\n"
+"PO-Revision-Date: 2021-09-08 09:55+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "store/checkout/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -147,14 +147,14 @@ msgstr "您的订单已收到，我们的履约合作伙伴正在努力工作以
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr "收据;从未用于市场营销"
+msgstr "仅用于收据; 从未用于市场营销"
 
 #: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "电话"
 
 #: lib/store_web/templates/checkout/address.html.leex:101
 #, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "运输合作伙伴要求"
