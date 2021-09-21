@@ -23,6 +23,7 @@ defmodule Elementary.Store.Catalog.Category do
     name = String.downcase(product.sync_product.name)
 
     cond do
+      String.contains?(name, "Seasonal") -> "Seasonal"
       String.contains?(name, "edw") -> "elementary Developer Weekend"
       String.contains?(type, "t-shirt") -> "T-Shirts"
       String.contains?(type, "jacket") -> "Outerwear"
