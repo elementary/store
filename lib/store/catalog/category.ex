@@ -5,6 +5,7 @@ defmodule Elementary.Store.Catalog.Category do
 
   @category_order [
     "elementary Developer Weekend",
+    "Seasonal",
     "T-Shirts",
     "Outerwear",
     "Mugs",
