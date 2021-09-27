@@ -92,20 +92,24 @@ msgstr ""
 #, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"Każde zakupy wpierają rozwój elementary OS, jego aplikacji oraz usług. "
-"Jesteśmy małym zespołem, złożonym głównie z wolontariuszy, którzy "
-"nieustannie pracują nad udoskonaleniem elementary. Dzieki twojemu wsparciu "
-"elementary OS może być bardziej niezależny i samowystarczalny."
+"Każdy zakup wpiera rozwój elementary OS, jego aplikacji oraz usług. Jesteśmy "
+"małym zespołem, złożonym głównie z wolontariuszy, którzy nieustannie pracują "
+"nad udoskonaleniem elementary. Dzieki twojemu wsparciu elementary OS może "
+"być bardziej niezależny i samowystarczalny."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Wsparcie techniczne oraz oprogramowanie dla tych urządzeń jest dostarczane "
+"przez sprzedawce."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Sprzęt z elementary OS może być kupiony przez wymienionych sprzedawców. "
+"Zakupy u tych firm wspierają elementary OS."
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-format
