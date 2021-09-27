@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-27 09:27+0000\n"
-"Last-Translator: Victoria Tomzik <wiktoria.tomzik@gmail.com>\n"
+"PO-Revision-Date: 2021-09-27 09:28+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/store/index/pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,22 +72,30 @@ msgstr "Globalna dostawa"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "Dostań sprzęt. Każdy wygrywa."
+msgstr "Zdobądź sprzęt. Każdy wygrywa."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Wspieraj rozwój."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Brak dostawy do: Krymu, Kuby, Iranu, Syrii oraz Korei Północnej. Metoda i "
+"czas dostawy jak i również cena są zależne od kraju. W przypadku dostawy "
+"poza terenem Stanów Zjednoczonych możą występować cło zależne od kraju "
+"pochodzenia i kraju docelowego."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Każde zakupy wpierają rozwój elementary OS, jego aplikacji oraz usług. "
+"Jesteśmy małym zespołem, złożonym głównie z wolontariuszy, którzy "
+"nieustannie pracują nad udoskonaleniem elementary. Dzieki twojemu wsparciu "
+"elementary OS może być bardziej niezależny i samowystarczalny."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
