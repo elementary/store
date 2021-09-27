@@ -8,91 +8,100 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-09-27 10:41+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/store/layout/pl/>"
+"\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
-#, elixir-format
 #: nav.html.leex:35
+#, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "Marka"
 
-#, elixir-format
 #: nav.html.leex:31
+#, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Koszyk (%{count})"
 
-#, elixir-format
 #: nav.html.leex:17
+#, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Dla twórców"
 
-#, elixir-format
 #: nav.html.leex:23
+#, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "Zaangażuj się"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "Producenci sprzętu"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Otwarte oprogramowanie"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Prasa"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Prywatność"
 
-#, elixir-format
 #: nav.html.leex:29
+#, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Sklep"
 
-#, elixir-format
 #: nav.html.leex:11
+#, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Wsparcie"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Zespół"
 
-#, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Język"
 
-#, elixir-format
 #: nav.html.leex:25
-msgid "Clear Cart"
-msgstr ""
-
 #, elixir-format
+msgid "Clear Cart"
+msgstr "Wyczyść koszyk"
+
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
+#, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr ""
+"Ta strona internetowa wymaga JavaScript włączonego, aby sfinalizować zakup"
 
-#, elixir-format
 #: nav.html.leex:37
+#, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Pusty koszyk"
