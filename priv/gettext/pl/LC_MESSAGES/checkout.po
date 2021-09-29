@@ -53,12 +53,12 @@ msgstr "Kraj"
 #: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-format
 msgid "Email"
-msgstr "Konto mailowe"
+msgstr "Adres E-mail"
 
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "Uzyskaj taryfy wysyłki"
 
 #: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-format
