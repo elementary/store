@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-29 09:24+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"PO-Revision-Date: 2021-09-29 20:55+0000\n"
+"Last-Translator: Mateusz G <mateusz5641@onet.pl>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/store/email/pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,41 +84,45 @@ msgstr "Adres wysyłki:"
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-format
 msgid "The elementary Team"
-msgstr "Zespół Elementary"
+msgstr "Zespół elementary"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
 #, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"Informacje o śledzeniu przesyłki mogą potrzebować nawet 48 godzin do "
+"aktualizacji po wysłaniu produktu."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "Otrzymałyśmy Twoje zamówienie!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "Wysłałyśmy Twoje zamówienie!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"Otrzymujesz tego maila, ponieważ w sklepie elementary zostało złożone przez "
+"Ciebie zamówienie. Nie dodano cię do żadnej listy mailingowej."
 
 #: lib/store/email.ex:16 lib/store/email.ex:20
 #, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Twoje zamówienie zostało zarejestrowane!"
 
 #: lib/store/email.ex:28
 #, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "Twoje zamówienie zostało wysłane!"
 
 #: lib/store/email.ex:32
 #, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "Twoja paczka została wysłana!"
