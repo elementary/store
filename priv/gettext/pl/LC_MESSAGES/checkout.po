@@ -9,25 +9,25 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-09-29 09:11+0000\n"
-"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/store/checkout/pl/"
 ">\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.leex:23
 #, elixir-format
 msgid "Address Line 1"
-msgstr "Adres, pierwsza linijka"
+msgstr "Adres, pierwsza linia"
 
 #: lib/store_web/templates/checkout/address.html.leex:34
 #, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "Adres, druga linijka"
 
 #: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-format
