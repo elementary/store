@@ -27,33 +27,33 @@ msgstr "Adres, pierwsza linia"
 #: lib/store_web/templates/checkout/address.html.leex:34
 #, elixir-format
 msgid "Address Line 2"
-msgstr "Adres, druga linijka"
+msgstr "Adres, druga linia"
 
 #: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-format
 msgid "Cart"
-msgstr ""
+msgstr "Koszyk"
 
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
 #, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "Kasa"
 
 #: lib/store_web/templates/checkout/address.html.leex:44
 #, elixir-format
 msgid "City"
-msgstr ""
+msgstr "Miasto"
 
 #: lib/store_web/templates/checkout/address.html.leex:55
 #, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "Kraj"
 
 #: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "Konto mailowe"
 
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-format
