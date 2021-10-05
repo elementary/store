@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-05 10:06+0000\n"
-"Last-Translator: Kdwk <kdwkleung@protonmail.com>\n"
+"PO-Revision-Date: 2021-10-05 10:13+0000\n"
+"Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "store/index/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -41,7 +41,7 @@ msgstr "裝置"
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-format
 msgid "Free shipping within EU"
-msgstr "歐盟內運貨免運費"
+msgstr "歐盟內運送免運費"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
@@ -52,37 +52,38 @@ msgstr "國際配送"
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "筆記型電腦"
 
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "筆記型電腦、桌上型電腦、迷你桌上型電腦、多合一電腦"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "筆記型電腦、迷你桌上型電腦"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "全球配送"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "購買設備。雙贏。"
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "支持開發。"
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"克里米亞、古巴、伊朗、敘利亞和北韓除外。 運輸方式、價格和時間因國家/地區而異。 在美國境外裝運可能要支付海關費用，視乎原產國和目的地國家/地區。"
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
