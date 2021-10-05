@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-05 10:04+0000\n"
-"Last-Translator: XXTXTOP <xxtxtop@gmail.com>\n"
+"PO-Revision-Date: 2021-10-05 10:06+0000\n"
+"Last-Translator: Kdwk <kdwkleung@protonmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "store/index/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -21,33 +21,33 @@ msgstr ""
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
 msgid "Based in Spain"
-msgstr "位于西班牙"
+msgstr "位於西班牙"
 
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "位於荷蘭"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "位於英國"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "裝置"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "歐盟內運貨免運費"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
 #, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "國際配送"
 
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
