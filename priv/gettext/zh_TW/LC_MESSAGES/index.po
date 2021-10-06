@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-05 10:13+0000\n"
+"PO-Revision-Date: 2021-10-06 01:05+0000\n"
 "Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "store/index/zh_Hant/>\n"
@@ -82,8 +82,7 @@ msgstr "支持開發。"
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
-msgstr ""
-"克里米亞、古巴、伊朗、敘利亞和北韓除外。 運輸方式、價格和時間因國家/地區而異。 在美國境外裝運可能要支付海關費用，視乎原產國和目的地國家/地區。"
+msgstr "克里米亞、古巴、伊朗、敘利亞和北韓除外。 運輸方式、價格和時間因國家/地區而異。按出口國及進口國的不同，配送至美國以外可能要支付海關費用。"
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
