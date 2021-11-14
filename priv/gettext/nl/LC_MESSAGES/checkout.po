@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-14 08:36+0000\n"
+"PO-Revision-Date: 2021-11-14 08:37+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/store/checkout/nl/>"
 "\n"
@@ -107,27 +107,27 @@ msgstr "Winkelwagentje Legen"
 #: lib/store_web/templates/checkout/index.html.leex:5
 #, elixir-format
 msgid "Go get yourself something nice!"
-msgstr "Ga jezelf iets leuks halen!"
+msgstr "Koop iets leuks voor jezelf!"
 
 #: lib/store_web/templates/checkout/address.html.leex:79
 #, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
 #: lib/store_web/templates/checkout/address.html.leex:48
 #, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "Elkestad"
 
 #: lib/store_web/templates/checkout/address.html.leex:38
 #, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "Appartement, Suite, Eenheid, Gebouw, Verdieping"
 
 #: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-format
 msgid "Ellie Mendez"
-msgstr ""
+msgstr "Ellie Mendez"
 
 #: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-format
