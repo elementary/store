@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-14 08:37+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"PO-Revision-Date: 2021-11-14 09:51+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/store/checkout/nl/>"
 "\n"
 "Language: nl\n"
@@ -127,34 +127,37 @@ msgstr "Appartement, Suite, Eenheid, Gebouw, Verdieping"
 #: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-format
 msgid "Ellie Mendez"
-msgstr "Ellie Mendez"
+msgstr "Ingrid Peters"
 
 #: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "Adres, Postbus, Bedrijfsnaam"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "Bestelling is geplaatst"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"Uw bestelling is ontvangen en onze partners zijn hard aan het werk om te "
+"zorgen dat u uw bestelling zo spoedig mogelijk krijgt. Een "
+"ontvangstbevestiging is verzonden naar het opgegeven emailadres."
 
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr ""
+msgstr "Om de factuur te verzenden; niet voor marketingdoeleinden"
 
 #: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "Telefoon"
 
 #: lib/store_web/templates/checkout/address.html.leex:101
 #, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "Nodig voor de verzender"
