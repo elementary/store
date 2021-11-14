@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-14 08:33+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"PO-Revision-Date: 2021-11-14 08:34+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/store/checkout/nl/>"
 "\n"
 "Language: nl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.leex:23
 #, elixir-format
@@ -57,37 +57,37 @@ msgstr "Email"
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-format
 msgid "Get Shipping Rates"
-msgstr "Vraag Verzendtarrieven Op"
+msgstr "Vraag Verzendtarieven Op"
 
 #: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: lib/store_web/templates/checkout/address.html.leex:74
 #, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "Postcode"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:1
 #, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "Verzending"
 
 #: lib/store_web/templates/checkout/address.html.leex:1
 #, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "Verzendadres"
 
 #: lib/store_web/templates/checkout/address.html.leex:65
 #, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "Staat of Provincie"
 
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "Update"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-format
