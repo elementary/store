@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 20:53+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"PO-Revision-Date: 2021-07-17 05:54+0000\n"
+"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/errors/es/>"
 "\n"
 "Language: es\n"
@@ -22,7 +22,7 @@ msgid "can't be blank"
 msgstr "no puede estar en blanco"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "ya ha sido tomado"
 
 msgid "is invalid"
 msgstr "no es válido"
@@ -34,19 +34,19 @@ msgid "has invalid format"
 msgstr "tiene un formato no válido"
 
 msgid "has an invalid entry"
-msgstr "tiene una entrada no válida"
+msgstr "tiene una entrada inválida"
 
 msgid "is reserved"
 msgstr "está reservado"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "no coincide con la confirmación"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "sigue asociada a esta entrada"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "todavía están asociados/as con esta entrada"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
@@ -55,8 +55,8 @@ msgstr[1] "debe tener %{count} caracteres"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] "debería tener %{count} artículo"
-msgstr[1] "debería tener %{count} artículos"
+msgstr[0] "debe tener %{count} artículo"
+msgstr[1] "debe tener %{count} artículos"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
