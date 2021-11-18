@@ -19,6 +19,10 @@ defmodule Printful.Order do
     Api.post("/orders", Map.put(params, :confirm, false))
   end
 
+  def estimate(params) do
+    Api.post("/orders/estimate-costs", params)
+  end
+
   def update(id, params) do
     Api.put("/orders/#{id}", params)
   end
