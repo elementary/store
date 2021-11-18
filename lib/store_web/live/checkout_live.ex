@@ -25,8 +25,6 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       |> assign(:countries, Shipping.get_countries())
       |> assign(:states, Shipping.get_states(grab_address(address).country))
       |> assign(:address, grab_address(address))
-      |> assign(:shipping_rates, [])
-      |> assign(:shipping_rate, nil)
 
     {:ok, new_socket}
   end
@@ -45,20 +43,8 @@ defmodule Elementary.StoreWeb.CheckoutLive do
       |> assign(:error, nil)
       |> assign(:states, Shipping.get_states(updated_address.country))
       |> assign(:address, updated_address)
-      |> assign(:shipping_rates, [])
-      |> assign(:shipping_rate, nil)
 
     {:noreply, new_socket}
-  end
-
-  @impl true
-  def handle_event("change", %{"shipping" => %{"id" => shipping_rate_id}}, socket) do
-    shipping_rate =
-      Enum.find(socket.assigns.shipping_rates, fn rate ->
-        rate.id == shipping_rate_id
-      end)
-
-    {:noreply, assign(socket, :shipping_rate, shipping_rate)}
   end
 
   @impl true
@@ -70,30 +56,9 @@ defmodule Elementary.StoreWeb.CheckoutLive do
   def handle_event("submit", %{"address" => address}, socket) do
     updated_address = grab_address(address)
 
-    shipping_rates = Shipping.get_rates(updated_address, socket.assigns.cart)
-
-    new_socket =
-      socket
-      |> assign(:error, nil)
-      |> assign(:address, updated_address)
-      |> assign(:shipping_rates, shipping_rates)
-      |> assign(:shipping_rate, hd(shipping_rates))
-
-    {:noreply, new_socket}
-  rescue
-    e in Printful.ApiError -> {:noreply, assign(socket, :error, e.message)}
-  end
-
-  @impl true
-  def handle_event("submit", %{"shipping" => %{"id" => shipping_rate_id}}, socket) do
-    shipping_rate =
-      Enum.find(socket.assigns.shipping_rates, fn rate ->
-        rate.id == shipping_rate_id
-      end)
-
     stripe_res =
       socket.assigns.cart
-      |> Fulfillment.Order.create(socket.assigns.address, shipping_rate)
+      |> Fulfillment.Order.create(updated_address)
       |> Fulfillment.create_order()
 
     case stripe_res do
@@ -101,12 +66,15 @@ defmodule Elementary.StoreWeb.CheckoutLive do
         new_socket =
           socket
           |> assign(:error, nil)
-          |> assign(:shipping_rate, shipping_rate)
+          |> assign(:address, updated_address)
           |> push_event("sessionRedirect", %{session_id: stripe_session.id})
 
         {:noreply, new_socket}
 
       {:error, %{message: message}} ->
+        {:noreply, assign(socket, :error, message)}
+
+      {:error, message} ->
         {:noreply, assign(socket, :error, message)}
     end
   end
@@ -118,13 +86,7 @@ defmodule Elementary.StoreWeb.CheckoutLive do
 
   @impl true
   def handle_info({:cart_update, cart}, socket) do
-    new_socket =
-      socket
-      |> assign(:cart, cart)
-      |> assign(:shipping_rates, [])
-      |> assign(:shipping_rate, nil)
-
-    {:noreply, new_socket}
+    {:noreply, assign(socket, :cart, cart)}
   end
 
   @impl true

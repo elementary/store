@@ -11,10 +11,6 @@
 
   <%= render Elementary.StoreWeb.CheckoutView, "address.html", assigns %>
 
-  <%= if length(@shipping_rates) > 0 do %>
-    <%= render Elementary.StoreWeb.CheckoutView, "shipping.html", assigns %>
-  <% end %>
-
   <%= if @error != nil do %>
     <div class="alert alert--error alert--bubble">
       <%= @error %>

@@ -2,10 +2,9 @@
 
 <%= form_for :address, Routes.address_path(Endpoint, :update), [
   id: "address-form",
-  method: :patch,
   phx_change: :change,
   phx_submit: :submit,
-  phx_hook: "SetSession",
+  phx_hook: "Stripe",
   class: "address-checkout"
 ], fn f -> %>
   <%= label f, :name do %>
@@ -110,9 +109,7 @@
     %>
   </label>
 
-  <%= if length(@shipping_rates) == 0 do %>
-    <%= submit dgettext("checkout", "Get Shipping Rates"),
-      phx_disable_with: dgettext("checkout", "Fetching Shipping Rates")
-    %>
-  <% end %>
+  <%= submit dgettext("checkout", "Check Out"),
+    phx_disable_with: dgettext("checkout", "Checking Out")
+  %>
 <% end %>
