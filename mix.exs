@@ -35,24 +35,24 @@ defmodule Elementary.Store.MixProject do
     [
       {:bamboo, "~> 2.2.0"},
       {:bamboo_phoenix, "~> 1.0.0"},
-      {:castore, "~> 0.1.0"},
-      {:credo, "~> 1.5.4", only: :dev, runtime: false},
+      {:castore, "~> 0.1.13"},
+      {:credo, "~> 1.6.0", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},
-      {:hackney, "~> 1.14"},
+      {:hackney, "~> 1.18"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.3.0"},
-      {:nebulex, "~> 2.1.0"},
-      {:phoenix_html, "~> 2.14.3"},
-      {:phoenix_live_reload, "~> 1.3", only: :dev},
-      {:phoenix_live_view, "~> 0.15.3"},
-      {:phoenix, "~> 1.5.7"},
-      {:plug_cowboy, "~> 2.4"},
+      {:nebulex, "~> 2.3.0"},
+      {:phoenix_html, "~> 3.1.0"},
+      {:phoenix_live_reload, "~> 1.3.3", only: :dev},
+      {:phoenix_live_view, "~> 0.17.5"},
+      {:phoenix, "~> 1.6.2"},
+      {:plug_cowboy, "~> 2.5.2"},
       {:shards, "~> 1.0"},
-      {:stripity_stripe, "~> 2.10"},
-      {:telemetry_metrics, "~> 0.6"},
-      {:telemetry_poller, "~> 0.4"},
-      {:tesla, "~> 1.4.0", override: true}
+      {:stripity_stripe, "~> 2.12.1"},
+      {:telemetry_metrics, "~> 0.6.1"},
+      {:telemetry_poller, "~> 1.0.0"},
+      {:tesla, "~> 1.4.3", override: true}
     ]
   end
 
