@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 02:11+0000\n"
+"PO-Revision-Date: 2021-11-22 04:23+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/errors/ja/"
 ">\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 
 msgid "can't be blank"
-msgstr "空白にすることはできません"
+msgstr "空白にはできません"
 
 msgid "has already been taken"
 msgstr "すでに取得されているため利用できません"
