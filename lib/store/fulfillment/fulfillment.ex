@@ -13,21 +13,17 @@ defmodule Elementary.Store.Fulfillment do
   @stripe_payment_types ["card"]
 
   def create_order(%Fulfillment.Order{} = order) do
-    tax_price =
-      %{recipient: printful_recipient(order)}
-      |> Printful.Tax.get()
-      |> calculate_taxes(order)
+    printful_estimates =
+      order
+      |> printful_request_object()
+      |> Printful.Order.estimate()
+      |> Map.get(:costs, %{})
 
-    printful_response =
-      Printful.Order.create(%{
-        shipping: order.shipping_rate.id,
-        recipient: printful_recipient(order),
-        items: Enum.map(order.items, &printful_line_item/1),
-        retail_costs: %{
-          tax: tax_price,
-          shipping: order.shipping_rate.price
-        }
-      })
+    printful_order =
+      order
+      |> printful_request_object()
+      |> printful_add_costs(printful_estimates)
+      |> Printful.Order.create()
 
     Stripe.Session.create(%{
       cancel_url: Routes.checkout_url(Elementary.StoreWeb.Endpoint, :index),
@@ -36,23 +32,36 @@ defmodule Elementary.Store.Fulfillment do
       allow_promotion_codes: true,
       customer_email: order.email,
       line_items:
-        Enum.map(order.items, &stripe_line_item/1) ++ stripe_extra_lines(printful_response),
+        Enum.map(order.items, &stripe_line_item/1) ++ stripe_extra_lines(printful_estimates),
       locale: order.locale,
       mode: "payment",
       payment_intent_data: %{
         description: "elementary Store",
         metadata: %{
           source: "elementary/store#v1",
-          printful_id: printful_response.id,
+          printful_id: printful_order.id,
           locale: Gettext.get_locale()
         }
       },
       metadata: %{
         source: "elementary/store#v1",
-        printful_id: printful_response.id,
+        printful_id: printful_order.id,
         locale: Gettext.get_locale()
       }
     })
+  end
+
+  defp printful_request_object(order) do
+    %{
+      shipping: order.shipping_rate.id,
+      recipient: printful_recipient(order),
+      items: Enum.map(order.items, &printful_line_item/1)
+    }
+  end
+
+  defp printful_add_costs(order, estimate) do
+    customer_costs = Map.take(estimate, [:currency, :shipping, :tax, :vat])
+    Map.put(order, :retail_costs, customer_costs)
   end
 
   defp printful_recipient(order) do
@@ -68,25 +77,6 @@ defmodule Elementary.Store.Fulfillment do
       phone: order.phone_number
     }
   end
-
-  defp calculate_taxes(%{rate: tax_rate} = tax, order) do
-    item_total =
-      order.items
-      |> Enum.map(fn {variant_id, quantity} -> {Catalog.get_variant(variant_id), quantity} end)
-      |> Enum.map(fn {variant, quantity} -> variant.price * quantity end)
-      |> Enum.reduce(0, fn a, b -> a + b end)
-
-    taxable_amount =
-      if tax.shipping_taxable do
-        item_total + order.shipping_rate.price
-      else
-        item_total
-      end
-
-    Float.ceil(taxable_amount * tax_rate, 2)
-  end
-
-  defp calculate_taxes(_, _order), do: 0
 
   defp printful_line_item({variant_id, quantity}) do
     variant = Catalog.get_variant(variant_id)
@@ -112,15 +102,14 @@ defmodule Elementary.Store.Fulfillment do
     }
   end
 
-  defp stripe_extra_lines(printful_response) do
-    printful_response.retail_costs
+  defp stripe_extra_lines(estimate) do
+    estimate
     |> Map.take([:shipping, :tax, :vat])
     |> Enum.reject(fn {_k, v} -> is_nil(v) end)
+    |> Enum.reject(fn {_k, v} -> v == 0 end)
     |> Enum.map(fn {name, value} ->
-      {amount, _} = Float.parse(value)
-
       %{
-        amount: round(amount * 100),
+        amount: round(value * 100),
         currency: "USD",
         name: String.capitalize(to_string(name)),
         quantity: 1
