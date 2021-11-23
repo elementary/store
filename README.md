@@ -13,7 +13,9 @@
 
 <p align="center">
   <img src="https://github.com/elementary/store/workflows/Update/badge.svg" alt="Update">
-</p>
+<a href="https://l10n.elementary.io/engage/store/">
+<img src="https://l10n.elementary.io/widgets/store/-/svg-badge.svg" alt="Translation status" />
+</a></p>
 
 ---
 
