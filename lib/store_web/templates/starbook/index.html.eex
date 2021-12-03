@@ -48,7 +48,7 @@
   </section>
 
   <section id="elementary">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/back.png") %>" />
+    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
     <h2>Designed for elementary OS</h2>
     <p>This isn’t just any laptop with elementary OS slapped on; Star Labs and elementary worked for months to ensure the best possible unity of hardware and software. Plus, a portion of each purchase goes to elementary to support sustained development of elementary OS.</p>
   </section>
