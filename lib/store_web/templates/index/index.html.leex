@@ -12,8 +12,22 @@
 <section id="devices">
   <h2><%= dgettext "index", "Devices"%></h2>
 
+  <section class="products">
+    <ul>
+      <li>
+        <a href="/devices/starbook">
+          <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
+          <h3>
+            StarBook <small>Mk V</small>
+            <span class="price">$929+</span>
+          </h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+
   <p>
-    <%= dgettext "index", "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS." %>
+    <%= dgettext "index", "Purchasing devices with elementary OS from these companies also helps support elementary OS:" %>
   </p>
 
   <ul>

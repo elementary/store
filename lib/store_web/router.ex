@@ -32,7 +32,7 @@ defmodule Elementary.StoreWeb.Router do
 
     live "/", IndexLive, :index
 
-    get "/computers/starlabs", StarLabsController, :index
+    get "/devices/starbook", StarbookController, :index
 
     live "/products/:product", ProductLive, :index
     live "/products/:product/:variant", ProductLive, :index
