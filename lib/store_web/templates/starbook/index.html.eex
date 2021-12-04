@@ -60,7 +60,7 @@
   <section id="elementary">
     <img alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
     <h2>Designed for elementary OS</h2>
-    <p>This isn’t just any laptop with elementary OS slapped on; Star Labs and elementary have partnered to ensure the best possible unity of hardware and software.  And with our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
+    <p>Star Labs and elementary have partnered to ensure the best possible unity of hardware and software.  And with our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
     <p>Plus, each purchase supports the sustained development of elementary OS.</p>
   </section>
 
