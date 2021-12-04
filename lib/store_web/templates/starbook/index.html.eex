@@ -2,17 +2,17 @@
   <h1>StarBook <small>Mk V</small></h1>
   <p>with elementary OS</p>
   <div>
-    <a href="https://starlabs.systems/products/starbook?variant=39599067136164&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a href="https://en.starlabs.systems/products/starbook/elementary?rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
   </div>
 
   <section id="stealth">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
+    <img alt="StarBook Mk V, partially closed, from top" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
     <h3>Stealth power.</h3>
     <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. 11th-gen Intel Core processors deliver performance on demand while sipping power. Low-latency memory keeps everything snappy. And the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
   </section>
 
   <section id="display">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hinge.png") %>" />
+    <img alt="StarBook Mk V open 180 degrees" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hinge.png") %>" />
     <div>
       <h3>Matte or glossy—why not both?</h3>
       <p>The 14-inch ARC display features a protective hard coating that lets color shine through like glass while diffusing ambient light like a matte display. Combined with IPS technology and 400 nits of brightness, the display is visible in nearly any light and angle. Which is convenient, because the 180° hinge lets you get some pretty wild angles.</p>
@@ -22,13 +22,15 @@
   <section id="trackpad">
     <div>
       <h3>Slip and swipe.</h3>
-      <p>Glide across the 5.5-inch-diagonal glass trackpad for precise and smooth multi-touch gestures. Scroll through documents or web pages, fly through your workspaces, and swipe to go back throughout elementary OS—all with 1:1 gestures that perfectly track your fingers.</p>
+      <p>Glide across the large glass trackpad for precise and smooth multi-touch gestures. Scroll through documents or web pages, fly through your workspaces, and swipe to go back throughout elementary OS—all with 1:1 gestures that perfectly track your fingers.</p>
     </div>
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/trackpad.png") %>" />
+    <figure>
+      <span>5.5&Prime;</span>
+    </figure>
   </section>
 
   <section id="keyboard">
-  <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
+  <img alt="StarBook Mk V top-down with keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
   <div>
     <h3>A keyboard that’s pure function.</h3>
     <p>Choose a US or UK layout featuring comfortable backlit keys with snappy scissor mechanisms. Tap a single key to switch between F1 through F12 or function keys that control volume, media, brightness, and more. Plus, an extra column of handy keys including Home, End, and Page Up/Down.</p>
@@ -36,25 +38,34 @@
   </section>
 
   <section id="privacy">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/privacy.png") %>" />
+    <img alt="StarBook Mk V webcam with illuminated privacy light" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/privacy.png") %>" />
+    <hr />
     <h3>Ready for remote, with privacy built-in.</h3>
     <p>The HD webcam is flanked by stereo microphones for clear video and voice calls. The bright white indicator shines any time the camera is on, while elementary OS lets you know any time the mics are being accessed.</p>
   </section>
 
   <section id="connectivity">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
+    <img alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
   <h3>Versatile connectivity.</h3>
-  <p>Wi-Fi 6 and Bluetooth 5.1 for all things wireless. USB-C with Thunderbolt 4, power delivery, and display support for charging, accessories, output all in one. Full-size USB 3 on each side. HDMI for easy output virtually everywhere. Combination headphone/microphone jack. And a microSD card slot for expansion, mobile device file transfers, or flashing maker projects—you name it.</p>
+  <ul>
+    <li><strong>Wi-Fi 6</strong> and <strong>Bluetooth 5.1</strong> for all things wireless</li>
+    <li><strong>USB-C</strong> with <strong>Thunderbolt 4</strong>, power delivery, and display support for charging, accessories, and output all in one
+    <li><strong>Full-size USB 3</strong> on each side, and an extra USB 2 on the right</li>
+    <li><strong>3.5 mm headphone/<wbr>microphone jack</strong> for all the audio devices you need</li>
+    <li><strong>HDMI</strong> for easy output virtually everywhere</li>
+    <li><strong>microSD</strong> slot for expansion, mobile device file transfers, or flashing maker projects—you name it</li>
+  </ul>
   </section>
 
   <section id="elementary">
-    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
+    <img alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
     <h2>Designed for elementary OS</h2>
-    <p>This isn’t just any laptop with elementary OS slapped on; Star Labs and elementary worked for months to ensure the best possible unity of hardware and software. Plus, a portion of each purchase goes to elementary to support sustained development of elementary OS.</p>
+    <p>This isn’t just any laptop with elementary OS slapped on; Star Labs and elementary have partnered to ensure the best possible unity of hardware and software.  And with our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
+    <p>Plus, each purchase supports the sustained development of elementary OS.</p>
   </section>
 
   <div class="buttons">
     <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Tech Specs</a>
-    <a href="https://starlabs.systems/products/starbook?variant=39599067136164&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a href="https://en.starlabs.systems/products/starbook/elementary?rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
   </div>
 </div>
