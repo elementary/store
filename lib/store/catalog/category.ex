@@ -7,6 +7,7 @@ defmodule Elementary.Store.Catalog.Category do
     "elementary Developer Weekend",
     "Seasonal",
     "T-Shirts",
+    "Hats",
     "Outerwear",
     "Mugs",
     "Laptop Sleeves",
@@ -27,6 +28,7 @@ defmodule Elementary.Store.Catalog.Category do
       String.contains?(name, "seasonal") -> "Seasonal"
       String.contains?(name, "edw") -> "elementary Developer Weekend"
       String.contains?(type, "t-shirt") -> "T-Shirts"
+      String.contains?(type, "hat") -> "Hats"
       String.contains?(type, "jacket") -> "Outerwear"
       String.contains?(type, "sweatshirt") -> "Outerwear"
       String.contains?(type, "hoodie") -> "Outerwear"
