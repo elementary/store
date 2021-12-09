@@ -7,21 +7,30 @@
 
   <section id="stealth">
     <img alt="StarBook Mk V, partially closed, from top" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
-    <h3>Stealth power.</h3>
-    <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. 11th-gen Intel Core processors deliver performance on demand while sipping power. Low-latency memory keeps everything snappy. And the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
+    <h2>Stealth power.</h2>
+    <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. The latest 11th-gen Intel Core processors deliver performance on demand while sipping power. Intel® Xe Graphics And the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
   </section>
 
   <section id="display">
     <img alt="StarBook Mk V open 180 degrees" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hinge.png") %>" />
     <div>
-      <h3>Matte or glossy—why not both?</h3>
-      <p>The 14-inch ARC display features a protective hard coating that lets color shine through like glass while diffusing ambient light like a matte display. Combined with IPS technology and 400 nits of brightness, the display is visible in nearly any light and angle. Which is convenient, because the 180° hinge lets you get some pretty wild angles.</p>
+      <h2>Matte or glossy—why not both?</h2>
+      <dl>
+        <dt>14-inch ARC display with a protective hard coating</dt>
+        <dd>Colors shine through like glass while the Anti-Reflective Coating diffuses ambient light like a matte display</dd>
+
+        <dt>400 nits of brightness with anti-glare</dt>
+        <dd>Visible in nearly any light so you can work indoors and out—wherever you’re most productive</dd>
+
+        <dt>178° viewing angles and a 180° hinge</dt>
+        <dd>Get comfy on the couch, share your screen with a buddy, or work however you’re most comfortable</dd>
+      </dl>
     </div>
   </section>
 
   <section id="trackpad">
     <div>
-      <h3>Slip and swipe.</h3>
+      <h2>Slip and swipe.</h2>
       <p>Glide across the large glass trackpad for precise and smooth multi-touch gestures. Scroll through documents or web pages, fly through your workspaces, and swipe to go back throughout elementary OS—all with 1:1 gestures that perfectly track your fingers.</p>
     </div>
     <figure>
@@ -30,30 +39,33 @@
   </section>
 
   <section id="keyboard">
-  <img alt="StarBook Mk V top-down with keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
-  <div>
-    <h3>A keyboard that’s pure function.</h3>
-    <p>Choose a US or UK layout featuring comfortable backlit keys with snappy scissor mechanisms. Tap a single key to switch between F1 through F12 or function keys that control volume, media, brightness, and more. Plus, an extra column of handy keys including Home, End, and Page Up/Down.</p>
-  </div>
+    <img alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
+    <h2>A keyboard that’s pure function.</h2>
+    <div>
+      <p>Comfortable backlit keys with snappy scissor mechanisms</p>
+      <p>Media keys for playback and volume, brightness, screenshots, and more</p>
+      <p>Switch between media and traditional function keys with one tap</p>
+      <p>Available in US English, UK English, French, German, Nordic, and Spanish layouts</p>
+    </div>
   </section>
 
   <section id="privacy">
     <img alt="StarBook Mk V webcam with illuminated privacy light" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/privacy.png") %>" />
     <hr />
-    <h3>Ready for remote, with privacy built-in.</h3>
+    <h2>Ready for remote, with privacy built-in.</h2>
     <p>The HD webcam is flanked by stereo microphones for clear video and voice calls. The bright white indicator shines any time the camera is on, while elementary OS lets you know any time the mics are being accessed.</p>
   </section>
 
   <section id="connectivity">
     <img alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
-  <h3>Versatile connectivity.</h3>
+  <h2>Versatile connectivity.</h2>
   <ul>
     <li><strong>Wi-Fi 6</strong> and <strong>Bluetooth 5.1</strong> for all things wireless</li>
-    <li><strong>USB-C</strong> with <strong>Thunderbolt 4</strong>, power delivery, and display support for charging, accessories, and output all in one
+    <li><strong>USB-C</strong> with <strong>Thunderbolt 4</strong> for charging, display output, and expansion all in one</li>
     <li><strong>Full-size USB 3</strong> on each side, and an extra USB 2 on the right</li>
     <li><strong>3.5 mm headphone/<wbr>microphone jack</strong> for all the audio devices you need</li>
     <li><strong>HDMI</strong> for easy output virtually everywhere</li>
-    <li><strong>microSD</strong> slot for expansion, mobile device file transfers, or flashing maker projects—you name it</li>
+    <li><strong>microSD</strong> slot for importing from a camera, mobile device transfers, or flashing maker projects—you name it</li>
   </ul>
   </section>
 

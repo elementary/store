@@ -49,20 +49,39 @@
     margin: 0 auto;
   }
 
+  dl {
+    // max-width: 20em;
+
+    dt {
+      font-weight: bold;
+    }
+
+    dd {
+      padding: 0;
+      margin: 0 0 1em;
+    }
+  }
+
   #display {
     font-size: 0;
+    margin-top: 8rem;
 
     img {
       display: inline-block;
-      margin-right: 10%;
-      max-width: 12.5%;
+      margin-right: 15%;
+      max-width: 20%;
       vertical-align: middle;
     }
 
     div {
       display: inline-block;
       font-size: 1rem;
-      max-width: 77.5%;
+      max-width: 65%;
+      vertical-align: middle;
+    }
+
+    dt {
+      margin-top: 3em;
     }
   }
 
@@ -74,6 +93,7 @@
       display: inline-block;
       font-size: 1rem;
       max-width: 65%;
+      vertical-align: middle;
     }
 
     figure {
@@ -117,20 +137,24 @@
   }
 
   #keyboard {
-    font-size: 0;
     margin-top: 8rem;
+    position: relative;
 
     img {
-      filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.1));
-      max-width: 45%;
-      margin-right: 5%;
-      vertical-align: top;
+      max-width: 90vw;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     div {
-      display: inline-block;
-      font-size: 1rem;
-      max-width: 50%;
+      columns: 2;
+      margin: 0 auto;
+      max-width: var(--content-width);
+
+      p {
+        margin-top: 0;
+      }
     }
   }
 
@@ -159,6 +183,7 @@
       filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.1));
       margin: 0 auto;
       width: var(--content-width);
+      width: 100vw;
     }
 
     ul {
