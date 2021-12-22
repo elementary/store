@@ -2,7 +2,7 @@
   <h1>StarBook <small>Mk V</small></h1>
   <p>with elementary OS</p>
   <div>
-    <a href="https://en.starlabs.systems/products/starbook/elementary?rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
   </div>
 
   <section id="stealth">
@@ -78,6 +78,6 @@
 
   <div class="buttons">
     <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Tech Specs</a>
-    <a href="https://en.starlabs.systems/products/starbook/elementary?rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
   </div>
 </div>

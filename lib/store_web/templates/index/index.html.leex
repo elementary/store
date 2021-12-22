@@ -5,29 +5,30 @@
   </h1>
 
   <p>
-    <%= dgettext "index", "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable." %>
+    <%= dgettext "index", "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team working constantly to make elementary better—your support helps make elementary OS more sustainable." %>
   </p>
 </section>
 
 <section id="devices">
-  <h2><%= dgettext "index", "Devices"%></h2>
-
   <section class="products">
+    <h2><%= dgettext "index", "Devices"%></h2>
+    <p>Hardware and software designed to work together. Experience the best elementary OS has to offer on these partner devices:</p>
+
     <ul>
       <li>
         <a href="/devices/starbook">
           <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
-          <h3>
+          <h4>
             StarBook <small>Mk V</small>
             <span class="price">$929+</span>
-          </h3>
+          </h4>
         </a>
       </li>
     </ul>
   </section>
 
   <p>
-    <%= dgettext "index", "Purchasing devices with elementary OS from these companies also helps support elementary OS:" %>
+    <%= dgettext "index", "Purchasing any device with elementary OS from these retailers also helps support elementary OS:" %>
   </p>
 
   <ul>
@@ -58,42 +59,18 @@
       </ul>
     </li>
   </ul>
-
   <p>
     <small>
-      <%= dgettext "index", "Hardware and software support for these devices are provided by the retailer." %>
+      <%= dgettext "index", "Hardware and software support for devices are provided by the retailer." %>
     </small>
   </p>
 </section>
 
-<%= for {category, products} <- group_by_category(@products) do %>
-  <section class="products" id="<%= category_slug(hd(products).category) %>">
-    <h2><%= hd(products).category %></h2>
-
-    <ul>
-      <%= for product <- products do %>
-        <li>
-          <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
-            <img alt="<%= product.name %>" loading="lazy" src="<%= product.thumbnail_url %>" />
-            <h3>
-              <%= product.name %>
-              <span class="price">
-                $<%= product.price_range |> Enum.at(0) |> format_price() %>
-                <%= if Enum.at(product.price_range, 0) != Enum.at(product.price_range, 1) do %>+<% end %>
-              </span>
-            </h3>
-          <% end %>
-        </li>
-      <% end %>
-    </ul>
-  </section>
-<% end %>
-
-<section id="shipping">
-  <h2><%= dgettext "index", "Worldwide Shipping"%></h2>
+<section id="merch">
+  <h2><%= dgettext "index", "Merch"%></h2>
 
   <p>
-    <%= dgettext "index", "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination." %>
+    <%= dgettext "index", "We ship merch all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout." %>
   </p>
 
   <p>
@@ -101,4 +78,27 @@
       <%= dgettext "index", "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries." %>
     </small>
   </p>
+
+  <%= for {category, products} <- group_by_category(@products) do %>
+    <section class="products" id="<%= category_slug(hd(products).category) %>">
+      <h3><%= hd(products).category %></h3>
+
+      <ul>
+        <%= for product <- products do %>
+          <li>
+            <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
+              <img alt="<%= product.name %>" loading="lazy" src="<%= product.thumbnail_url %>" />
+              <h4>
+                <%= product.name %>
+                <span class="price">
+                  $<%= product.price_range |> Enum.at(0) |> format_price() %>
+                  <%= if Enum.at(product.price_range, 0) != Enum.at(product.price_range, 1) do %>+<% end %>
+                </span>
+              </h4>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    </section>
+  <% end %>
 </section>
