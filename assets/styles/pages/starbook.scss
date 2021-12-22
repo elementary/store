@@ -140,26 +140,34 @@
     margin-top: 8rem;
     position: relative;
 
-    img {
-      max-width: 90vw;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
+    div p {
+      margin-top: 0;
+
     }
 
-    div {
-      columns: 2;
-      margin: 0 auto;
-      max-width: var(--content-width);
+    @media (min-width: 600px) {
+      img {
+        left: 0;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 100%;
+      }
 
-      p {
+      div {
+        height: 50%;
         margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 12rem;
+        margin-left: auto;
+        max-width: var(--content-width);
+        padding-top: 3rem;
+        width: 50%;
       }
     }
   }
 
   #privacy {
-    margin-top: 8rem;
+    margin-top: 16rem;
 
     img {
       display: block;

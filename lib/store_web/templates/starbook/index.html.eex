@@ -8,7 +8,7 @@
   <section id="stealth">
     <img alt="StarBook Mk V, partially closed, from top" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
     <h2>Stealth power.</h2>
-    <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. The latest 11th-gen Intel Core processors deliver performance on demand while sipping power. Intel® Xe Graphics And the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
+    <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. The latest 11th-gen Intel Core processors deliver performance on demand while sipping power. Intel® Xe Graphics and the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
   </section>
 
   <section id="display">
@@ -40,8 +40,8 @@
 
   <section id="keyboard">
     <img alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
-    <h2>A keyboard that’s pure function.</h2>
     <div>
+      <h2>A keyboard that’s pure function.</h2>
       <p>Comfortable backlit keys with snappy scissor mechanisms</p>
       <p>Media keys for playback and volume, brightness, screenshots, and more</p>
       <p>Switch between media and traditional function keys with one tap</p>
