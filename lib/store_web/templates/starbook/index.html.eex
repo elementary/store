@@ -52,8 +52,14 @@
   <section id="privacy">
     <img alt="StarBook Mk V webcam with illuminated privacy light" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/privacy.png") %>" />
     <hr />
-    <h2>Ready for remote, with privacy built-in.</h2>
-    <p>The HD webcam is flanked by stereo microphones for clear video and voice calls. The bright white indicator shines any time the camera is on, while elementary OS lets you know any time the mics are being accessed.</p>
+    <div>
+      <h2>Ready for remote.</h2>
+      <p>The HD webcam is flanked by stereo microphones for crisp and clear video and voice calls.</p>
+    </div>
+    <div>
+      <h2>Privacy built-in.</h2>
+      <p>The bright light shines any time the camera is on, while elementary OS shows if the mics are being accessed.</p>
+    </div>
   </section>
 
   <section id="connectivity">
