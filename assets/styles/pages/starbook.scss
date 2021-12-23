@@ -12,11 +12,6 @@
     }
   }
 
-  // background protection on dark style
-  .glow {
-    filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.1));
-  }
-
   img {
     max-width: 100%;
   }
@@ -90,17 +85,19 @@
       line-height: 1.125em;
     }
 
-    dl {
-      columns: 2;
-      column-gap: 3em;
+    @media (min-width: 600px) {
+      dl {
+        columns: 2;
+        column-gap: 3em;
 
-      div {
-        break-inside: avoid-column;
-        display: inline-block;
-      }
+        div {
+          break-inside: avoid-column;
+          display: inline-block;
+        }
 
-      dd {
-        margin-bottom: 1.25em;
+        dd {
+          margin-bottom: 1.25em;
+        }
       }
     }
   }
@@ -132,6 +129,10 @@
     font-size: 0;
     margin-top: 4rem;
 
+    h2 {
+      margin-top: 0;
+    }
+
     div {
       display: inline-block;
       font-size: 1rem;
@@ -156,7 +157,7 @@
       padding-top: 7%;
       position: relative;
       text-align: center;
-      vertical-align: top;
+      vertical-align: middle;
       width: 30%;
 
       @media (min-width: 1200px) {
@@ -303,7 +304,7 @@
       img {
         left: 0;
         position: absolute;
-        transform: translateX(calc(50% + 33%));
+        transform: translateX(88%);
         width: 67%;
       }
 
@@ -332,10 +333,6 @@
 
   #specs {
     margin-top: 8rem;
-
-    h3 {
-      text-align: center;
-    }
 
     table {
       margin: 0 auto;

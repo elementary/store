@@ -60,7 +60,7 @@
   </section>
 
   <section id="keyboard">
-    <img class="glow" alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
+    <img alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
     <div>
       <h2>A keyboard that’s pure function.</h2>
       <p>Comfortable backlit keys with snappy scissor mechanisms</p>
@@ -85,7 +85,7 @@
 
   <section id="connectivity">
   <div class="full-bleed">
-    <img class="glow" alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
+    <img alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
   </div>
   <h2>Versatile connectivity.</h2>
   <ul>
