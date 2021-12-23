@@ -110,15 +110,25 @@
     </div>
   </section>
 
+  <section id="open">
+    <img alt="StarBook Mk V" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/open.png") %>" />
+    <div>
+      <h2>Open.</h2>
+      <p>Comes with open source elementary OS, the thoughtful, capable, and ethical OS</p>
+      <p>Open source firmware with updates built into elementary OS</p>
+      <p>Take it apart to replace parts without voiding the warranty</p>
+      <p>Disassembly guide provided; all you need is a Phillips screwdriver</p>
+    </div>
+  </section>
+
   <section id="elementary">
-    <img class="glow" alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
+    <img alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
     <h2>Designed for elementary OS</h2>
     <p>Star Labs and elementary have partnered to ensure the best possible unity of hardware and software. With our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
     <p>Plus, each purchase supports the sustained development of elementary OS.</p>
   </section>
 
   <div class="buttons">
-    <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Full Tech Specs</a>
     <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now <small>$929+</small></a>
   </div>
 
@@ -277,6 +287,11 @@
       </tr>
     </table>
   </section>
+
+  <div class="buttons">
+    <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Full Tech Specs</a>
+    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now <small>$929+</small></a>
+  </div>
 
   <p class="disclaimer">Pricing, specifications, and battery life estimate provided by Star Labs. Intel, Intel Core, Iris, and Thunderbolt are trademarks of Intel Corporation or its subsidiaries.</p>
 </div>
