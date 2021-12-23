@@ -2,13 +2,31 @@
   <h1>StarBook <small>Mk V</small></h1>
   <p>with elementary OS</p>
   <div>
-    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now <small>$929+</small></a>
   </div>
 
   <section id="stealth">
     <img alt="StarBook Mk V, partially closed, from top" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
     <h2>Stealth power.</h2>
-    <p>StarBook Mk V looks unassuming in matte black anodized aluminum, but it’s engineered to pack a punch. The latest 11th-gen Intel Core processors deliver performance on demand while sipping power. Intel® Xe Graphics and the over-provisioned solid state StarDrive offers incredible speeds for opening your apps and files.</p>
+    <p>Unassuming matte black aluminum, but engineered to pack a punch.</p>
+    <dl>
+      <div>
+        <dt>11th-gen Intel® Core™ processors</dt>
+        <dd>The latest processors deliver performance on demand while sipping power</dd>
+      </div>
+      <div>
+        <dt>Intel® Iris® Xe graphics</dt>
+        <dd>Game and edit video with 180% faster performance than the previous generation</dd>
+      </div>
+      <div>
+        <dt>Up to 64 GB memory at 3.2 GHz</dt>
+        <dd>Keep everything snappy, no matter how many tabs are open </dd>
+      </div>
+      <div>
+        <dt>Over-provisioned Star Drive storage</dt>
+        <dd>Up to 6.85GB/s read speeds and more reliable than typical a SSD</dd>
+      </div>
+    </dl>
   </section>
 
   <section id="display">
@@ -39,7 +57,7 @@
   </section>
 
   <section id="keyboard">
-    <img alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
+    <img class="glow" alt="StarBook Mk V keyboard" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/keyboard-us.png") %>" />
     <div>
       <h2>A keyboard that’s pure function.</h2>
       <p>Comfortable backlit keys with snappy scissor mechanisms</p>
@@ -63,11 +81,13 @@
   </section>
 
   <section id="connectivity">
-    <img alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
+  <div class="full-bleed">
+    <img class="glow" alt="StarBook Mk V side with ports visible" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/side.png") %>" />
+  </div>
   <h2>Versatile connectivity.</h2>
   <ul>
     <li><strong>Wi-Fi 6</strong> and <strong>Bluetooth 5.1</strong> for all things wireless</li>
-    <li><strong>USB-C</strong> with <strong>Thunderbolt 4</strong> for charging, display output, and expansion all in one</li>
+    <li><strong>USB-C</strong> with <strong>Thunderbolt™ 4</strong> for charging, display output, and expansion all in one</li>
     <li><strong>Full-size USB 3</strong> on each side, and an extra USB 2 on the right</li>
     <li><strong>3.5 mm headphone/<wbr>microphone jack</strong> for all the audio devices you need</li>
     <li><strong>HDMI</strong> for easy output virtually everywhere</li>
@@ -75,15 +95,129 @@
   </ul>
   </section>
 
+  <section id="battery">
+    <img alt="StarBook Mk V charger" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/charger.png") %>" />
+    <div>
+      <h2>Minuscule charger.</h2>
+      <p>The gallium nitride charger provides <strong>60 watts over USB-C</strong> while clocking in at a fraction of the size.</p>
+    </div>
+    <div>
+      <h2>Massive battery.</h2>
+      <p><strong>11 hours</strong> of daily battery life, meaning you won't need to use that charger as often.</p>
+    </div>
+  </section>
+
   <section id="elementary">
-    <img alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
+    <img class="glow" alt="StarBook Mk V head-on running elementary OS" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/hero.png") %>" />
     <h2>Designed for elementary OS</h2>
-    <p>Star Labs and elementary have partnered to ensure the best possible unity of hardware and software.  And with our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
+    <p>Star Labs and elementary have partnered to ensure the best possible unity of hardware and software. With our ongoing partnership, both StarBook Mk V and elementary OS continue to get better, together.</p>
     <p>Plus, each purchase supports the sustained development of elementary OS.</p>
   </section>
 
   <div class="buttons">
-    <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Tech Specs</a>
-    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now</a>
+    <a target="_blank" href="https://starlabs.systems/pages/starbook-specification?rfsn=4227837.e8f025" class="button flat">Full Tech Specs</a>
+    <a href="https://us.starlabs.systems/products/starbook?partner=elementary&rfsn=4227837.e8f025" class="button suggested">Buy Now <small>$929+</small></a>
   </div>
+
+  <section id="specs">
+    <h2>Tech Specs</h2>
+    <table>
+      <tr>
+        <th>Display</th>
+        <th>14-inch ARC display, LED-backlit, IPS technology</th>
+      </tr>
+      <tr>
+        <td>resolution</td>
+        <td>1920×1080, 157 pixels per inch, 16:9 aspect ratio</td>
+      </tr>
+      <tr>
+        <td>coating</td>
+        <td>Anti-reflective coating, 3H hard coat, 21% haze</td>
+      </tr>
+      <tr>
+        <td>brightness</td>
+        <td>400 nits, 1,000:1 contrast, 178° viewing angle</td>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>100% sRGB color depth, 72% NTSC color depth</td>
+      </tr>
+      <tr>
+        <th>Processor</th>
+        <th>11th-generation Intel Core processor, 28 watt TDP</th>
+      </tr>
+      <tr>
+        <td>from</td>
+        <td>i3-1110G4, 2.4 GHz up to 4.1 GHz, 2 cores, 4 threads, 6 MB cache</td>
+      </tr>
+      <tr>
+        <td>up to</td>
+        <td>i7-1165G7, 2.8 GHz up to 4.7 GHz, 4 cores, 8 threads, 12 MB cache</td>
+      </tr>
+      <tr>
+        <th>Graphics</th>
+        <th>Intel graphics</th>
+      </tr>
+      <tr>
+        <td>from</td>
+        <td>Intel UHD graphics, 1.1 GHz max dynamic frequency</td>
+      <tr>
+        <td>up to</td>
+        <td>Intel Iris Xe graphics, 1.3 GHz max dynamic frequency</td>
+      </tr>
+      <tr>
+        <th>Memory</th>
+        <th>3.2 GHz DDR4 RAM</th>
+      </tr>
+      <tr>
+        <td>from</td>
+        <td>8 GB single-channel</td>
+      <tr>
+        <td>up to</td>
+        <td>64 GB dual-channel</td>
+      </tr>
+      <tr>
+        <th>Storage</th>
+        <th>Over-provisioned Star Drive SSD, M2 2280 size</th>
+      </tr>
+      <tr>
+        <td>from</td>
+        <td>240 GB SATA SSD, 560 MB/s read, 540 MB/s write, B key type</td>
+      </tr>
+      <tr>
+        <td>up to</td>
+        <td>1 TB Gen4 PCIe SSD, 7 GB/s read, 5.5 GB/s write, M key type</td>
+      </tr>
+      <tr>
+        <th>Power</th>
+        <th>Up to 11 hours battery life</th>
+      </tr>
+      <tr>
+        <td>battery</td>
+        <td>65-watt-hour lithium-polymer battery, 40 watt minimum for charging</td>
+      </tr>
+      <tr>
+        <td>charger</td>
+        <td>60 watt gallium nitride charger with USB-C Power Delivery, USB-A port with Quick Charge</td>
+      </tr>
+      <tr>
+        <td>DC input</td>
+        <td>19 volts, 2.1 amps, 3.5 mm barrel</td>
+      </tr>
+      <tr>
+        <th>Dimensions</th>
+        <th>Size, weight</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>1.80 cm × 32.63 cm × 22.04 cm, 1.4 kg</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>0.70" × 12.84" × 8.67", 3.08 lbs</td>
+      </tr>
+    </table>
+  </section>
+
+  <p class="disclaimer">Pricing, specifications, and battery life estimate provided by Star Labs. Intel, Intel Core, Iris, and Thunderbolt are trademarks of Intel Corporation or its subsidiaries.</p>
 </div>

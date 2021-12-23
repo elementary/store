@@ -1,4 +1,22 @@
 .starbook {
+  .full-bleed {
+    position: relative;
+
+    img {
+      left: 50%;
+      max-width: calc(100vw - 4rem);
+      overflow: hidden;
+      position: relative;
+      transform: translateX(-50%);
+      width: calc(100vw - 4rem);
+    }
+  }
+
+  // background protection on dark style
+  .glow {
+    filter: drop-shadow(0 0 100px rgba(255, 255, 255, 0.1));
+  }
+
   img {
     max-width: 100%;
   }
@@ -30,6 +48,12 @@
     &.flat {
       border: none;
     }
+
+    small {
+      display: inline-block;
+      margin-left: 0.25em;
+      opacity: 0.8;
+    }
   }
 
   .hero {
@@ -50,8 +74,6 @@
   }
 
   dl {
-    // max-width: 20em;
-
     dt {
       font-weight: bold;
     }
@@ -59,6 +81,27 @@
     dd {
       padding: 0;
       margin: 0 0 1em;
+    }
+  }
+
+  #stealth {
+    h2 + p {
+      font-size: 1.25em;
+      line-height: 1.125em;
+    }
+
+    dl {
+      columns: 2;
+      column-gap: 3em;
+
+      div {
+        break-inside: avoid-column;
+        display: inline-block;
+      }
+
+      dd {
+        margin-bottom: 1.25em;
+      }
     }
   }
 
@@ -167,7 +210,11 @@
   }
 
   #privacy {
-    margin-top: 16rem;
+    margin-top: 8rem;
+
+    @media (min-width: 600px) {
+      margin-top: 16rem;
+    }
 
     img {
       display: block;
@@ -180,6 +227,7 @@
       border: none;
       height: 1px;
       margin: 0;
+      opacity: 0.67;
     }
 
     @media (min-width: 600px) {
@@ -188,7 +236,7 @@
       div {
         display: inline-block;
         font-size: 1rem;
-        padding: 0 1rem;
+        padding: 0 2rem;
         vertical-align: top;
         width: 50%;
       }
@@ -200,14 +248,12 @@
 
     img {
       display: block;
-      filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.1));
-      margin: 0 auto;
-      width: var(--content-width);
-      width: 100vw;
+      object-fit: contain;
+      max-height: 75vh;
     }
 
     ul {
-      margin: auto;
+      margin: 1.5rem auto 0;
       max-width: var(--content-width);
       padding-left: 1.25em;
 
@@ -218,7 +264,59 @@
     }
 
     li {
-      margin: 1em 0 0;
+      margin: 0 0 1em;
+      break-inside: avoid-column;
+    }
+  }
+
+  #battery {
+    margin-top: 8rem;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 500px;
+      max-width: 90%;
+    }
+
+    @media (min-width: 600px) {
+      font-size: 0; with 
+
+      div {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 0 2rem;
+        vertical-align: top;
+        width: 50%;
+      }
+    }
+  }
+
+  #specs {
+    margin-top: 8rem;
+
+    table {
+      margin: 0 auto;
+      max-width: var(--content-width);
+
+      th,
+      td {
+        padding: 0.25em;
+        text-align: left;
+
+        &:first-child {
+          text-align: right;
+        }
+      }
+
+      th {
+        padding-top: 1.5em;
+      }
+
+      td:first-child {
+        font-size: 0.85em;
+        opacity: 0.8;
+      }
     }
   }
 
@@ -227,9 +325,14 @@
 
     img {
       display: block;
-      filter: drop-shadow(0 2px 10px rgba(255, 255, 255, 0.1));
       margin: 0 auto;
       width: var(--content-width);
     }
   }
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  margin-top: 8rem;
+  opacity: 0.67;
 }
