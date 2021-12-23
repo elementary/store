@@ -8,14 +8,14 @@
   <section id="stealth">
     <img alt="StarBook Mk V, partially closed, from top" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/stealth.png") %>" />
     <h2>Stealth power.</h2>
-    <p>Unassuming matte black aluminum, but engineered to pack a punch.</p>
+    <p>Unassuming in matte black aluminum, but engineered to pack a punch.</p>
     <dl>
       <div>
         <dt>11th-gen Intel® Core™ processors</dt>
         <dd>The latest processors deliver performance on demand while sipping power</dd>
       </div>
       <div>
-        <dt>Intel® Iris® Xe graphics</dt>
+        <dt>Up to Intel® Iris® Xe graphics</dt>
         <dd>Game and edit video with 180% faster performance than the previous generation</dd>
       </div>
       <div>
@@ -24,7 +24,7 @@
       </div>
       <div>
         <dt>Over-provisioned Star Drive storage</dt>
-        <dd>Up to 6.85GB/s read speeds and more reliable than typical a SSD</dd>
+        <dd>Up to 6.85 GB/s read speeds and more reliable than typical a SSD</dd>
       </div>
     </dl>
   </section>
@@ -34,14 +34,17 @@
     <div>
       <h2>Matte or glossy—why not both?</h2>
       <dl>
-        <dt>14-inch ARC display with a protective hard coating</dt>
+        <dt>ARC display with a protective hard coating</dt>
         <dd>Colors shine through like glass while the Anti-Reflective Coating diffuses ambient light like a matte display</dd>
 
-        <dt>400 nits of brightness with anti-glare</dt>
+        <dt>400 nits of brightness</dt>
         <dd>Visible in nearly any light so you can work indoors and out—wherever you’re most productive</dd>
 
         <dt>178° viewing angles and a 180° hinge</dt>
         <dd>Get comfy on the couch, share your screen with a buddy, or work however you’re most comfortable</dd>
+
+        <dt>14-inch display in a 13-inch body</dt>
+        <dd>Slim bezels mean you can slip StarBook Mk V into most 13" laptop sleeves</dd>
       </dl>
     </div>
   </section>
@@ -99,11 +102,11 @@
     <img alt="StarBook Mk V charger" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/charger.png") %>" />
     <div>
       <h2>Minuscule charger.</h2>
-      <p>The gallium nitride charger provides <strong>60 watts over USB-C</strong> while clocking in at a fraction of the size.</p>
+      <p>The gallium nitride charger provides <strong>65 watts over USB-C</strong> while clocking in at a fraction of the size.</p>
     </div>
     <div>
       <h2>Massive battery.</h2>
-      <p><strong>11 hours</strong> of daily battery life, meaning you won't need to use that charger as often.</p>
+      <p><strong>Up to 11 hours</strong> of battery life, meaning you won't need to use that charger as often.</p>
     </div>
   </section>
 
@@ -120,7 +123,7 @@
   </div>
 
   <section id="specs">
-    <h2>Tech Specs</h2>
+    <h3>Tech Specs</h3>
     <table>
       <tr>
         <th>Display</th>
@@ -140,7 +143,35 @@
       </tr>
       <tr>
         <td>color</td>
-        <td>100% sRGB color depth, 72% NTSC color depth</td>
+        <td>100% sRGB color depth, 72% NTSC color depth, Night Light in elementary OS</td>
+      </tr>
+      <tr>
+        <th>Keyboard</th>
+        <th>Backlit scissor switch keys</th>
+      </tr>
+      <tr>
+        <td>layouts</td>
+        <td>US English, UK English, French, German, Nordic, and Spanish</td>
+      </tr>
+      <tr>
+        <td>media keys</td>
+        <td>Volume mute/down/up, cycle displays, previous/next track, play/pause, display brightness down/up, toggle trackpad, keyboard backlight, screenshot</td>
+      </tr>
+      <tr>
+        <td>function keys</td>
+        <td>F1–F12 on media keys with one-tap function lock</td>
+      </tr>
+      <tr>
+        <th>Trackpad</th>
+        <th>Glass multi-touch trackpad</th>
+      </tr>
+      <tr>
+        <td>size</td>
+        <td>5.5-inch diagonal</td>
+      </tr>
+      <tr>
+        <td>gestures</td>
+        <td>two-finger scroll and horizontal swipe between pages, three-finger swipe up for multitasking view, three-finger horizontal swipe to switch workspaces; configurable four-finger, horizontal, swipe up, and pinch gestures</td>
       </tr>
       <tr>
         <th>Processor</th>
@@ -189,6 +220,26 @@
         <td>1 TB Gen4 PCIe SSD, 7 GB/s read, 5.5 GB/s write, M key type</td>
       </tr>
       <tr>
+        <th>Wireless</th>
+        <th>Wi-Fi 6 and Bluetooth 5.1</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Intel Wi-Fi 6 AX201, up to 2.4 Gbps, 802.11ax, 802.11ac/a/b/g/n compatible</td>
+      </tr>
+      <tr>
+        <th>Webcam</th>
+        <th>HD camera and stereo microphones</th>
+      </tr>
+      <tr>
+        <td>resolution</td>
+        <td>1280×720 video</td>
+      </tr>
+      <tr>
+        <td>privacy</td>
+        <td>bright white camera access light, microphone indicator in elementary OS</td>
+      </tr>
+      <tr>
         <th>Power</th>
         <th>Up to 11 hours battery life</th>
       </tr>
@@ -198,11 +249,19 @@
       </tr>
       <tr>
         <td>charger</td>
-        <td>60 watt gallium nitride charger with USB-C Power Delivery, USB-A port with Quick Charge</td>
+        <td>65 watt gallium nitride charger with USB-C Power Delivery, USB-A port with Quick Charge</td>
+      </tr>
+      <tr>
+        <td>plugs</td>
+        <td>US (type A), UK (type G), EU (type F), AU (type I)</td>
+      </tr>
+      <tr>
+        <td>cable</td>
+        <td>2-meter USB-C to DC jack standard, optional USB-C to USB-C charge cable</td>
       </tr>
       <tr>
         <td>DC input</td>
-        <td>19 volts, 2.1 amps, 3.5 mm barrel</td>
+        <td>19 volts, 2.1 amps, 3.5 mm barrel jack</td>
       </tr>
       <tr>
         <th>Dimensions</th>
