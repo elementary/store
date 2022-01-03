@@ -1,9 +1,9 @@
 <section>
   <header class="error">
-    <h1>Internal Server Error</h1>
+    <h1>We’ll be right back…</h1>
 
     <p>
-      Something happened that prevented us from showing you this page.
+      The store is being updated and will be available again shortly.
     </p>
   </header>
 </section>
