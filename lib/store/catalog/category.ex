@@ -4,6 +4,7 @@ defmodule Elementary.Store.Catalog.Category do
   """
 
   @category_order [
+    "New",
     "elementary Developer Weekend",
     "Seasonal",
     "T-Shirts",
@@ -25,6 +26,8 @@ defmodule Elementary.Store.Catalog.Category do
     name = String.downcase(product.sync_product.name)
 
     cond do
+      String.contains?(name, "odin") -> "New"
+      String.contains?(name, "jólnir") -> "New"
       String.contains?(name, "seasonal") -> "Seasonal"
       String.contains?(name, "edw") -> "elementary Developer Weekend"
       String.contains?(type, "t-shirt") -> "T-Shirts"
