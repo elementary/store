@@ -82,7 +82,7 @@ msgstr "Adresa pro doručení"
 #: lib/store_web/templates/checkout/address.html.leex:65
 #, elixir-format
 msgid "State or Province"
-msgstr "Kraj"
+msgstr "Stát (nebo provincie)"
 
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-format
@@ -92,7 +92,7 @@ msgstr "Aktualizovat"
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-format
 msgid "Checking Out"
-msgstr "Placení"
+msgstr "Dokončuji nákup"
 
 #: lib/store_web/templates/checkout/address.html.leex:115
 #, elixir-format
