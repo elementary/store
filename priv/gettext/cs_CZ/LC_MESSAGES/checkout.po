@@ -127,12 +127,12 @@ msgstr "Číslo bytu, budovy nebo patra"
 #: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-format
 msgid "Ellie Mendez"
-msgstr "Hynek Polívka"
+msgstr "Jan Novák"
 
 #: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr "Adresa, P.O. Box, název společnosti"
+msgstr "Adresa, P.O Box, Název firmy"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-format
