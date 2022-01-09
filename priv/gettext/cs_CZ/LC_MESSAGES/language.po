@@ -9,14 +9,14 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-01-09 15:08+0000\n"
-"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/language/cs/>"
 "\n"
 "Language: cs_CZ\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/controllers/language_controller.ex:30
 #, elixir-format
@@ -26,4 +26,4 @@ msgstr "Neznámý kód jazyka %{code}"
 #: lib/store_web/controllers/language_controller.ex:21
 #, elixir-format
 msgid "Your language has been set to %{language}"
-msgstr "Jazyk byl nastaven na %{language}"
+msgstr "Váš jazyk byl nastaven na %{language}"
