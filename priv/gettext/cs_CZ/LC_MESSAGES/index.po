@@ -8,14 +8,14 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 15:01+0000\n"
-"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2022-01-09 15:02+0000\n"
+"Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/index/cs/>\n"
 "Language: cs_CZ\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-format
@@ -46,7 +46,7 @@ msgstr "Doprava v ceně v rámci EU"
 #: lib/store_web/templates/index/index.html.leex:43
 #, elixir-format
 msgid "International shipping"
-msgstr "Zasílání po celém světě"
+msgstr "Mezinárodní doprava"
 
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
