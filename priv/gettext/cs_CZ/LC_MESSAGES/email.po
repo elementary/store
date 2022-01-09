@@ -49,8 +49,8 @@ msgstr ""
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
-"Dobrý den, děkujeme za Vaši objednávku z obchodu elementary. Jen vám chceme "
-"oznámit, že vaše objednávka byla právě odeslána!"
+"Zdravíme, děkujeme za objednání z obchodu elementary. Chceme vám jen dát "
+"vědět, že vaše objednávka byla odeslána!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16 lib/store_web/templates/email/package_shipped.html.eex:121
@@ -69,7 +69,7 @@ msgstr "Cena"
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-format
 msgid "Qty"
-msgstr "Množství"
+msgstr "Počet"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10 lib/store_web/templates/email/package_shipped.html.eex:90
