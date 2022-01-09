@@ -56,12 +56,12 @@ msgstr "Notebooky"
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr "Laptopy, stolní počítače, mini počítače, vše v jednom"
+msgstr "Notebooky, (mini) stolní počítače, vestavěné do obrazovek"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
 msgid "Laptops, mini desktops"
-msgstr "Notebooky, mini stolní počítače"
+msgstr "Laptopy, mini počítače"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-format
