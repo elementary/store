@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 15:03+0000\n"
+"PO-Revision-Date: 2022-01-09 15:04+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/index/cs/>\n"
 "Language: cs_CZ\n"
@@ -82,22 +82,24 @@ msgstr "Podpořte vývoj."
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
-"S výjimkou Krymu, Kuby, Íránu, Sýrie a Severní Koreje. Způsoby dopravy, ceny "
-"a časy doručení se mohou mezi různými zeměmi lišit. Při dopravě mimo USA "
-"mohou v závislosti na zemi odesílatele a příjemce vzniknout celní poplatky."
+"Vyjma Krymu, Kuby, Íránu, Sýrie a Severní Korei. Metody dopravy, ceny a doby "
+"dodání se liší podle státu. Zasílání mimo Spojené Státy Americké může "
+"podléhat clům v závislosti na zemi původu a doručení."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"Každý nákup podpoří vývoj elementary OS, jeho aplikací a služeb. Jsme malý "
-"tým, povětšinou dobrovolníků, neustále pracující na vylepšování elementary – "
-"vaše podpora pomůže k lepší udržitelnosti elementary OS."
+"Peníze z každého nákupu jdou na vývoj elementary OS, jeho aplikací a služeb. "
+"Jsme malý tým složený převážně z dobrovolníků, kteří neustále pracují a "
+"vylepšují elementary. Vaše podpora zajišťuje udržitelnost vývoje elementary "
+"OS."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr "Podpora hardware a software pro tato zařízení je poskytována prodejcem."
+msgstr ""
+"Hardwarová a softwarová podpora pro tato zařízení je zajištěna výrobcem."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format
