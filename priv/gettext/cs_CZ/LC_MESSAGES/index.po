@@ -66,7 +66,7 @@ msgstr "Notebooky, mini stolní počítače"
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-format
 msgid "Worldwide Shipping"
-msgstr "Doprava po celém světě"
+msgstr "Zasílání do celého světa"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-format
@@ -82,9 +82,9 @@ msgstr "Podpořte vývoj."
 #, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
-"Vyjma Krymu, Kuby, Íránu, Sýrie a Severní Korei. Metody dopravy, ceny a doby "
-"dodání se liší podle státu. Zasílání mimo Spojené Státy Americké může "
-"podléhat clům v závislosti na zemi původu a doručení."
+"S výjimkou Krymu, Kuby, Íránu, Sýrie a Severní Koreje. Způsoby dopravy, ceny "
+"a časy doručení se mohou mezi různými zeměmi lišit. Při dopravě mimo USA "
+"mohou v závislosti na zemi odesílatele a příjemce vzniknout celní poplatky."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-format
