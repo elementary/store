@@ -34,15 +34,15 @@ msgstr "V této objednávce bylo odesláno:"
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-format
 msgid "Here's your tracking number:"
-msgstr "Zde je vaše sledovací číslo:"
+msgstr "Zde je číslo pro sledování zásilky:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
-"Zdravíme, děkujeme za objednání z obchodu elementary. Chceme vám jen dát "
-"vědět, že jsme vaší objednávku obdrželi!"
+"Dobrý den, děkujeme za Vaši objednávku z obchodu elementary. Jen vám chceme "
+"oznámit, že jsme obdrželi Vaši objednávku!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
