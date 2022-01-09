@@ -51,12 +51,12 @@ msgstr "Zasílání po celém světě"
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-format
 msgid "Laptops"
-msgstr "Laptopy"
+msgstr "Notebooky"
 
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr "Notebooky, (mini) stolní počítače, vestavěné do obrazovek"
+msgstr "Laptopy, stolní počítače, mini počítače, vše v jednom"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-format
