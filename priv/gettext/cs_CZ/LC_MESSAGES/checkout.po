@@ -92,12 +92,12 @@ msgstr "Aktualizovat"
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-format
 msgid "Checking Out"
-msgstr "Dokončuji nákup"
+msgstr "Dokončování nákupu"
 
 #: lib/store_web/templates/checkout/address.html.leex:115
 #, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr "Načítání dopravného"
+msgstr "Stahuji data o dopravě"
 
 #: lib/store_web/templates/checkout/index.html.leex:2
 #, elixir-format
