@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 15:04+0000\n"
+"PO-Revision-Date: 2022-01-09 20:03+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/index/cs/>\n"
 "Language: cs_CZ\n"
@@ -99,7 +99,7 @@ msgstr ""
 #, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
-"Hardwarová a softwarová podpora pro tato zařízení je zajištěna výrobcem."
+"Hardwarová a softwarová podpora pro tato zařízení je zajišťována výrobcem."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-format

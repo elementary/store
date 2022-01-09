@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 15:08+0000\n"
-"Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
+"PO-Revision-Date: 2022-01-09 20:03+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/language/cs/>"
 "\n"
 "Language: cs_CZ\n"
@@ -26,4 +26,4 @@ msgstr "Neznámý kód jazyka %{code}"
 #: lib/store_web/controllers/language_controller.ex:21
 #, elixir-format
 msgid "Your language has been set to %{language}"
-msgstr "Váš jazyk byl nastaven na %{language}"
+msgstr "Jazyk byl nastaven na %{language}"

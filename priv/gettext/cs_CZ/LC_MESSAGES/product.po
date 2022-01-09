@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 15:06+0000\n"
-"Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
+"PO-Revision-Date: 2022-01-09 20:03+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/product/cs/>"
 "\n"
 "Language: cs_CZ\n"
@@ -58,9 +58,9 @@ msgstr "%{size} momentálně není na skladě"
 #: lib/store_web/templates/product/index.html.leex:124
 #, elixir-format
 msgid "Adding to Cart"
-msgstr "Přidávám do košíku"
+msgstr "Přidává se do košíku"
 
 #: lib/store_web/templates/product/index.html.leex:117
 #, elixir-format
 msgid "This product is currently unavailable"
-msgstr "Tento produkt nyní není k dispozici"
+msgstr "Tento produkt je momentálně nedostupný"
