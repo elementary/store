@@ -117,12 +117,12 @@ msgstr "12345"
 #: lib/store_web/templates/checkout/address.html.leex:48
 #, elixir-format
 msgid "Anytown"
-msgstr "Město"
+msgstr "Nějaká obec"
 
 #: lib/store_web/templates/checkout/address.html.leex:38
 #, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr "Pokoj, apartmá, byt, budova, podlaží"
+msgstr "Číslo bytu, Budovy nebo Patra"
 
 #: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-format
