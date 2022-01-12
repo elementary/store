@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-09 20:03+0000\n"
+"PO-Revision-Date: 2022-01-12 19:39+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/store/index/cs/>\n"
 "Language: cs_CZ\n"
@@ -25,7 +25,7 @@ msgstr "Nachází se ve Španělsku"
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-format
 msgid "Based in the Netherlands"
-msgstr "Nachází se v Nizozemsko"
+msgstr "Nachází se v Nizozemsku"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-format
