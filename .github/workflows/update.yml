@@ -6,6 +6,12 @@ on:
   push:
     branches:
       - master
+    paths:
+      - lib/**
+
+concurrency: 
+  group: Update
+  cancel-in-progress: true
 
 jobs:
   Translations:

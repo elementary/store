@@ -8,91 +8,112 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-12 19:39+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/store/index/cs/>\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Nachází se ve Španělsku"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Nachází se v Nizozemsku"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Nachází se ve Velké Británii"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
+#, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Zařízení"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
-msgid "Free shipping within EU"
-msgstr ""
-
 #, elixir-format
+msgid "Free shipping within EU"
+msgstr "Doprava v ceně v rámci EU"
+
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Zasílání po celém světě"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Notebooky"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Notebooky, (mini) stolní počítače, vestavěné do obrazovek"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Notebooky, mini stolní počítače"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:79
+#, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Zasílání do celého světa"
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Získejte zboží. Výhodné pro obě strany."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
-msgid "Support Development."
-msgstr ""
-
 #, elixir-format
+msgid "Support Development."
+msgstr "Podpořte vývoj."
+
 #: lib/store_web/templates/index/index.html.leex:87
+#, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Vyjma Krymu, Kuby, Íránu, Sýrie a Severní Korei. Metody dopravy, ceny a doby "
+"dodání se liší podle státu. Zasílání mimo Spojené Státy Americké může "
+"podléhat clům v závislosti na zemi původu a doručení."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Peníze z každého nákupu jdou na vývoj elementary OS, jeho aplikací a služeb. "
+"Jsme malý tým složený převážně z dobrovolníků, kteří neustále pracují a "
+"vylepšují elementary. Vaše podpora zajišťuje udržitelnost vývoje elementary "
+"OS."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Hardwarová a softwarová podpora pro tato zařízení je zajišťována výrobcem."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
+#, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Hardwarová zařízení s elementary OS je možné zakoupit od následujících "
+"prodejců. Nakupování od těchto společností pomůže podpořit elementary OS."
 
-#, elixir-format
 #: lib/store_web/templates/index/index.html.leex:82
+#, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Příslušenství a oblečení dodáváme do celého světa! Objednávky se dějí na "
+"základě poptávky, typicky během 2-7 dnů a budou vypraveny metodou, kterou "
+"jste zvolili při placení. Kvůli situaci ohledně COVID-19 může být dodání "
+"opožděno. Vyrobeno je včas, ale pořád může docházet ke zpožděním v rámci "
+"vyskladňování a dopravování v závislosti na pořadí, způsobu dopravy a cíli."

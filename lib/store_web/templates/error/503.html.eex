@@ -1,10 +1,9 @@
 <section>
   <header class="error">
-    <h1>Temporarily Unavailable</h1>
+    <h1>We’ll be right back…</h1>
 
     <p>
-      Our store is unable to load right now, but it should be back soon. Please
-      check in again later.
+      The store is temporarily unavailable, but it should be back shortly. Consider trying again in a few minutes.
     </p>
   </header>
 </section>

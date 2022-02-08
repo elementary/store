@@ -8,80 +8,86 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-14 05:34+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/store/errors/nl/>\n"
 "Language: nl\n"
-"Plural-Forms: nplurals=2\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "kan niet leeg zijn"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "is al ingenomen"
 
 msgid "is invalid"
-msgstr ""
+msgstr "is ongeldig"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "moet worden geaccepteerd"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "ongeldig formaat"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "is ongeldig ingevoerd"
 
 msgid "is reserved"
-msgstr ""
+msgstr "is gereserveerd"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "komt niet overeen met bevestiging"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "wordt nog steeds geassocieerd met deze item"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "zijn nog steeds geassocieerd met dit item"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moet %{count} character(s) zijn"
+msgstr[1] "moet %{count} character(s) zijn"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moet %{count} item(s) bevatten"
+msgstr[1] "moet %{count} item(s) bevatten"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moet tenminste %{count} character(s) zijn"
+msgstr[1] "moet tenminste %{count} character(s) zijn"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moet tenmiste %{count} item(s) bevatten"
+msgstr[1] "moet tenmiste %{count} item(s) bevatten"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moet uiterlijk %{count} character(s) bevatten"
+msgstr[1] "moet uiterlijk %{count} character(s) bevatten"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mag uiterlijk %{count} item(s) bevatten"
+msgstr[1] "mag uiterlijk %{count} item(s) bevatten"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "moet minder zijn dan %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "moet meer zijn dan %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "moet minder of gelijk zijn aan %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "moet meer of gelijk zijn aan %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "moet gelijk zijn aan %{number}"
