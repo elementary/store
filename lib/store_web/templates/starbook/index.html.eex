@@ -24,7 +24,7 @@
       </div>
       <div>
         <dt>Over-provisioned Star Drive storage</dt>
-        <dd>Up to 6.85 GB/s read speeds and more reliable than typical a SSD</dd>
+        <dd>Up to 6.85 GB/s read speeds and more reliable than a typical SSD</dd>
       </div>
     </dl>
   </section>
@@ -44,7 +44,7 @@
         <dd>Get comfy on the couch, share your screen with a buddy, or work however you’re most comfortable</dd>
 
         <dt>14-inch display in a 13-inch body</dt>
-        <dd>Slim bezels mean you can slip StarBook Mk V into most 13" laptop sleeves</dd>
+        <dd>Slim bezels mean you can slip StarBook Mk V into most 13" laptop sleeves, including ours</dd>
       </dl>
     </div>
   </section>
@@ -75,11 +75,11 @@
     <hr />
     <div>
       <h2>Ready for remote.</h2>
-      <p>The HD webcam is flanked by stereo microphones for crisp calls, while quad stereo speakers provide clear audio.</p>
+      <p>The HD webcam is flanked by dual digital microphones for crisp calls, while quad stereo speakers provide clear audio</p>
     </div>
     <div>
       <h2>Privacy built-in.</h2>
-      <p>The bright light shines any time the camera is on, and elementary OS shows you any time the mics are being accessed.</p>
+      <p>The bright light shines any time the camera is on, and elementary OS shows you any time the mics are being accessed</p>
     </div>
   </section>
 
@@ -238,8 +238,8 @@
         <td>Intel Wi-Fi 6 AX201, up to 2.4 Gbps, 802.11ax, 802.11ac/a/b/g/n compatible</td>
       </tr>
       <tr>
-        <th>Webcam</th>
-        <th>HD camera and stereo microphones</th>
+        <th>Camera</th>
+        <th>HD webcam</th>
       </tr>
       <tr>
         <td>resolution</td>
@@ -247,7 +247,15 @@
       </tr>
       <tr>
         <td>privacy</td>
-        <td>bright white camera access light, microphone indicator in elementary OS</td>
+        <td>bright white camera access light</td>
+      </tr>
+      <tr>
+        <th>Audio</th>
+        <th>Quad stereo speakers, dual digital microphones</th>
+      </tr>
+      <tr>
+        <td>privacy</td>
+        <td>microphone usage indicator in elementary OS with mute switch</td>
       </tr>
       <tr>
         <th>Power</th>
