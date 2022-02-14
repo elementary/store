@@ -181,6 +181,9 @@
   }
 
   #keyboard {
+    // To help with dark style visibility
+    background-image: radial-gradient(farthest-side at top, rgba(white, 0.05), rgba(white, 0));
+
     margin-top: 8rem;
     position: relative;
 
@@ -189,6 +192,9 @@
     }
 
     @media (min-width: 600px) {
+      // To help with dark style visibility
+      background-image: radial-gradient(farthest-side at left, rgba(white, 0.05), rgba(white, 0));
+
       img {
         left: 0;
         position: absolute;
@@ -244,6 +250,8 @@
   }
 
   #connectivity {
+    // To help with dark style visibility
+    background-image: radial-gradient(farthest-side, rgba(white, 0.05), rgba(white, 0));
     margin-top: 8rem;
 
     img {

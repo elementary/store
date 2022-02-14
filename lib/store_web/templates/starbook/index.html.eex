@@ -99,7 +99,10 @@
   </section>
 
   <section id="battery">
+  <picture>
+    <source srcset="<%= Routes.static_path(Endpoint, "/images/devices/starbook/charger-dark.png") %>" media="(prefers-color-scheme: dark)" />
     <img alt="StarBook Mk V charger" loading="lazy" src="<%= Routes.static_path(Endpoint, "/images/devices/starbook/charger.png") %>" />
+    </picture>
     <div>
       <h2>Minuscule charger.</h2>
       <p>The gallium nitride charger provides <strong>65 watts over USB-C</strong> while clocking in at a fraction of the size.</p>
