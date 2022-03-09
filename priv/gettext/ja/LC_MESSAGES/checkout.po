@@ -18,144 +18,144 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
-#, elixir-format
 msgid "Address Line 1"
 msgstr "市町村以下の住所 (番地など)"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
-#, elixir-format
 msgid "Address Line 2"
 msgstr "部屋番号と建物名 (アパートやマンションにお住まいの場合)"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
-#, elixir-format
 msgid "Cart"
 msgstr "カート"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
-#, elixir-format
 msgid "Checkout"
 msgstr "購入手続き"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
-#, elixir-format
 msgid "City"
 msgstr "市町村"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
-#, elixir-format
 msgid "Country"
 msgstr "国"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
-#, elixir-format
 msgid "Email"
 msgstr "メールアドレス"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
-#, elixir-format
 msgid "Get Shipping Rates"
 msgstr "送料を計算"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
-#, elixir-format
 msgid "Name"
 msgstr "氏名"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
-#, elixir-format
 msgid "Postal Code"
 msgstr "郵便番号"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
-#, elixir-format
 msgid "Shipping"
 msgstr "発送"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
-#, elixir-format
 msgid "Shipping Address"
 msgstr "発送先住所"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
-#, elixir-format
 msgid "State or Province"
 msgstr "都道府県 (日本国外は州)"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
-#, elixir-format
 msgid "Update"
 msgstr "更新"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
-#, elixir-format
 msgid "Checking Out"
 msgstr "購入手続きを完了しています"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
-#, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "送料を計算しています"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
-#, elixir-format
 msgid "Empty Cart"
 msgstr "カートは空です"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
-#, elixir-format
 msgid "Go get yourself something nice!"
 msgstr "お買い物をお楽しみください！"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:79
-#, elixir-format
 msgid "12345"
 msgstr "郵便番号を入力"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
-#, elixir-format
 msgid "Anytown"
 msgstr "都道府県名を入力"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
-#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "アパート名・建物名・フロアを入力"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
-#, elixir-format
 msgid "Ellie Mendez"
 msgstr "氏名を入力"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
-#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "番地・私書箱・会社名を入力"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
-#, elixir-format
 msgid "Order Placed"
 msgstr "ご注文を承りました"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
-#, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "注文をお受けしました。可能な限り早くお届けできるように尽力いたします。指定されたメールアドレスにご注文の確認と領収証のメールをお送りしております。"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:87
-#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr "領収書をお送りします。営業目的では使用しません"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
-#, elixir-format
 msgid "Phone"
 msgstr "携帯電話"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
-#, elixir-format
 msgid "Required by shipping partners"
 msgstr "発送業者が必要な情報です"

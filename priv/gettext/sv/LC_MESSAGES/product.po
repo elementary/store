@@ -11,49 +11,49 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
 msgid "Colors"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
 msgid "Sizes"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
 msgid "Unavailable for %{size}"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
 msgid "Unavailable in %{color}"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
 msgid "Add to Cart"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
 msgid "%{color} is out of stock"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
 msgid "%{size} is out of stock"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
 msgid "Adding to Cart"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
 msgid "This product is currently unavailable"
 msgstr ""

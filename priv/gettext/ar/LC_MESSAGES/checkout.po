@@ -19,145 +19,145 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
-#, elixir-format
 msgid "Address Line 1"
 msgstr "العنوان 1"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
-#, elixir-format
 msgid "Address Line 2"
 msgstr "العنوان 2"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
-#, elixir-format
 msgid "Cart"
 msgstr "السلة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
-#, elixir-format
 msgid "Checkout"
 msgstr "ادفع"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
-#, elixir-format
 msgid "City"
 msgstr "المدينة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
-#, elixir-format
 msgid "Country"
 msgstr "الدولة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
-#, elixir-format
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
-#, elixir-format
 msgid "Get Shipping Rates"
 msgstr "احصل على أسعار الشحن"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
-#, elixir-format
 msgid "Name"
 msgstr "الاسم"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
-#, elixir-format
 msgid "Postal Code"
 msgstr "الرمز البريدي"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
-#, elixir-format
 msgid "Shipping"
 msgstr "الشحن"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
-#, elixir-format
 msgid "Shipping Address"
 msgstr "عنوان الشحن"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
-#, elixir-format
 msgid "State or Province"
 msgstr "الولاية أو المقاطعة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
-#, elixir-format
 msgid "Update"
 msgstr "تحديث"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
-#, elixir-format
 msgid "Checking Out"
 msgstr "قيد الدفع"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
-#, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "قيد إحضار أسعار الشحن"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
-#, elixir-format
 msgid "Empty Cart"
 msgstr "السلة فارغة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
-#, elixir-format
 msgid "Go get yourself something nice!"
 msgstr "اذهب واجلب لنفسك شيئاً جميلاً!"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:79
-#, elixir-format
 msgid "12345"
 msgstr "12345"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
-#, elixir-format
 msgid "Anytown"
 msgstr "أي بلدة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
-#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "الشقة، والجناح، والوحدة، والبناية، والطابق"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
-#, elixir-format
 msgid "Ellie Mendez"
 msgstr "Ellie Mendez"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
-#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "عنوان الشارع، والصندوق البريدي، واسم الشركة"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
-#, elixir-format
 msgid "Order Placed"
 msgstr "تم تأكيد الطلب"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
-#, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "تم استلام طلبك وشريك التعبئة الخاص بنا يعمل بجهد لتوصيله إليك في أقرب وقت "
 "ممكن. لقد تم إرسال رسالة التأكيد والفاتورة لبريدك الإلكتروني."
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:87
-#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr "للفاتورة؛ لن يتم استعماله لأغراض تسويقية"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
-#, elixir-format
 msgid "Phone"
 msgstr "الهاتف"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
-#, elixir-format
 msgid "Required by shipping partners"
 msgstr "مطلوب من شركاء الشحن"

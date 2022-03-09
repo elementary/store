@@ -19,146 +19,146 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
-#, elixir-format
 msgid "Address Line 1"
 msgstr "Адресная строка 1"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
-#, elixir-format
 msgid "Address Line 2"
 msgstr "Адресная строка 2"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
-#, elixir-format
 msgid "Cart"
 msgstr "Корзина"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
-#, elixir-format
 msgid "Checkout"
 msgstr "Оформить заказ"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
-#, elixir-format
 msgid "City"
 msgstr "Город"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
-#, elixir-format
 msgid "Country"
 msgstr "Страна"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
-#, elixir-format
 msgid "Email"
 msgstr "Эл. почта"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
-#, elixir-format
 msgid "Get Shipping Rates"
 msgstr "Получить тарифы на доставку"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
-#, elixir-format
 msgid "Name"
 msgstr "Имя"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
-#, elixir-format
 msgid "Postal Code"
 msgstr "Почтовый индекс"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
-#, elixir-format
 msgid "Shipping"
 msgstr "Доставка"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
-#, elixir-format
 msgid "Shipping Address"
 msgstr "Адрес доставки"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
-#, elixir-format
 msgid "State or Province"
 msgstr "Штат или провинция"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
-#, elixir-format
 msgid "Update"
 msgstr "Обновить"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
-#, elixir-format
 msgid "Checking Out"
 msgstr "Проверка"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
-#, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "Получение тарифов на доставку"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
-#, elixir-format
 msgid "Empty Cart"
 msgstr "Корзина пуста"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
-#, elixir-format
 msgid "Go get yourself something nice!"
 msgstr "Выберите себе что-нибудь классное!"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:79
-#, elixir-format
 msgid "12345"
 msgstr "12345"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
-#, elixir-format
 msgid "Anytown"
 msgstr "ЛюбойГородск"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
-#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "Квартира, Люкс, Блок, Здание, Этаж"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
-#, elixir-format
 msgid "Ellie Mendez"
 msgstr "Вася Пупкин"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
-#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "Адрес улицы, Абонентский ящик, Название компании"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
-#, elixir-format
 msgid "Order Placed"
 msgstr "Заказ принят"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
-#, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "Ваш заказ был получен, наш партнер по выполнению заказа усердно работает над "
 "тем, чтобы как можно быстрее доставить его Вам. Подтверждение и квитанция "
 "были отправлены на указанный электронный адрес."
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:87
-#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr "Для квитанции; никогда не используется для маркетинга"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
-#, elixir-format
 msgid "Phone"
 msgstr "Телефон"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
-#, elixir-format
 msgid "Required by shipping partners"
 msgstr "Требуется партнерам по доставке"

@@ -18,49 +18,49 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
 msgid "Colors"
 msgstr "रंग"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
 msgid "Sizes"
 msgstr "आकार"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
 msgid "Unavailable for %{size}"
 msgstr "%{size} साठी अनुपलब्ध"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
 msgid "Unavailable in %{color}"
 msgstr "%{color} मध्ये अनुपलब्ध"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
 msgid "Add to Cart"
 msgstr "कार्टमध्ये जोडा"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
 msgid "%{color} is out of stock"
 msgstr "%{color} संपला आहे"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
 msgid "%{size} is out of stock"
 msgstr "%{size} संपला आहे"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
 msgid "Adding to Cart"
 msgstr "कार्ट मध्ये जोडत आहे"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
 msgid "This product is currently unavailable"
 msgstr "हे उत्पादन सध्या उपलब्ध नाही"

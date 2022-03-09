@@ -18,49 +18,49 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
-#, elixir-format
 msgid "Colors"
 msgstr "Barvy"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-#, elixir-format
 msgid "Sizes"
 msgstr "Velikosti"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
-#, elixir-format
 msgid "Unavailable for %{size}"
 msgstr "Velikost %{size} není dostupná"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
-#, elixir-format
 msgid "Unavailable in %{color}"
 msgstr "Nedostupné v %{color}"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
-#, elixir-format
 msgid "Add to Cart"
 msgstr "Přidat do košíku"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-#, elixir-format
 msgid "%{color} is out of stock"
 msgstr "%{color} momentálně není na skladě"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
-#, elixir-format
 msgid "%{size} is out of stock"
 msgstr "%{size} momentálně není na skladě"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-#, elixir-format
 msgid "Adding to Cart"
 msgstr "Přidává se do košíku"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
-#, elixir-format
 msgid "This product is currently unavailable"
 msgstr "Tento produkt je momentálně nedostupný"

@@ -18,88 +18,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:35
 msgid "Blog"
 msgstr "Blogue"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
 msgid "Brand"
 msgstr "Marca"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:31
 msgid "Cart (%{count})"
 msgstr "Carrinho (%{count})"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:17
 msgid "Developer"
 msgstr "Desenvolvimento"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:23
 msgid "Get Involved"
 msgstr "Participe"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
 msgid "OEMs"
 msgstr "OEMs"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
 msgid "Open Source"
 msgstr "Código Aberto"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
 msgid "Press"
 msgstr "Imprensa"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
 msgid "Privacy"
 msgstr "Privacidade"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:29
 msgid "Store"
 msgstr "Loja"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:11
 msgid "Support"
 msgstr "Assistência"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
 msgid "Team"
 msgstr "Equipa"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
 msgid "Language"
 msgstr "Idioma"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:25
 msgid "Clear Cart"
 msgstr "Limpar carrinho"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Este website requer Javascript ativado para fazer o checkout"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:37
 msgid "Cart empty"
 msgstr "Carrinho vazio"

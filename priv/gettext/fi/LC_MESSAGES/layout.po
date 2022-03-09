@@ -18,88 +18,88 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:35
 msgid "Blog"
 msgstr "Blogi"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
 msgid "Brand"
 msgstr "Brändi"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:31
 msgid "Cart (%{count})"
 msgstr "Ostoskori (%{count})"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:17
 msgid "Developer"
 msgstr "Kehitä"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:23
 msgid "Get Involved"
 msgstr "Osallistu"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
 msgid "OEMs"
 msgstr "OEM-valmistajat"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
 msgid "Open Source"
 msgstr "Avoin lähdekoodi"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
 msgid "Press"
 msgstr "Lehdistö"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
 msgid "Privacy"
 msgstr "Yksityisyys"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:29
 msgid "Store"
 msgstr "Kauppa"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:11
 msgid "Support"
 msgstr "Tuki"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
 msgid "Team"
 msgstr "Tiimi"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
 msgid "Language"
 msgstr "Kieli"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:25
 msgid "Clear Cart"
 msgstr "Tyhjennä ostoskori"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Tämä verkkosivusto vaatii JavaScriptin verkko-ostoksia varten"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: nav.html.leex:37
 msgid "Cart empty"
 msgstr "Tyhjä ostoskori"

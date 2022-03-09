@@ -19,49 +19,49 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
 msgid "Colors"
 msgstr "Цвета"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
 msgid "Sizes"
 msgstr "Размеры"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
 msgid "Unavailable for %{size}"
 msgstr "Не доступно для %{size}"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
 msgid "Unavailable in %{color}"
 msgstr "Не доступно в %{color}"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
 msgid "Add to Cart"
 msgstr "Добавить в корзину"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
 msgid "%{color} is out of stock"
 msgstr "%{color} нет в наличии"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
 msgid "%{size} is out of stock"
 msgstr "%{size} нет в наличии"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
 msgid "Adding to Cart"
 msgstr "Добавление в корзину"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
 msgid "This product is currently unavailable"
 msgstr "Этот продукт временно не доступен"

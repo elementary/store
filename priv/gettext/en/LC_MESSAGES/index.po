@@ -11,88 +11,88 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2\n"
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
 msgid "Based in Spain"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
 msgid "Based in the Netherlands"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
 msgid "Based in the United Kingdom"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
 msgid "Devices"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
 msgid "Free shipping within EU"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
 msgid "International shipping"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
 msgid "Laptops"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
 msgid "Laptops, mini desktops"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:79
 msgid "Worldwide Shipping"
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
 msgid "Get Gear. Win/Win."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
 msgid "Support Development."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:87
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 
-#, elixir-format
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:82
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""

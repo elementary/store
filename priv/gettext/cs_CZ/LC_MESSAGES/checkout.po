@@ -18,146 +18,146 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:23
-#, elixir-format
 msgid "Address Line 1"
 msgstr "1. řádek adresy"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:34
-#, elixir-format
 msgid "Address Line 2"
 msgstr "2. řádek adresy"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart.html.leex:1
-#, elixir-format
 msgid "Cart"
 msgstr "Košík"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
-#, elixir-format
 msgid "Checkout"
 msgstr "Dokončit nákup"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:44
-#, elixir-format
 msgid "City"
 msgstr "Obec"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:55
-#, elixir-format
 msgid "Country"
 msgstr "Země"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:86
-#, elixir-format
 msgid "Email"
 msgstr "E-mail"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:114
-#, elixir-format
 msgid "Get Shipping Rates"
 msgstr "Spočítat cenu dopravy"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:12
-#, elixir-format
 msgid "Name"
 msgstr "Jméno"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:74
-#, elixir-format
 msgid "Postal Code"
 msgstr "PSČ"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:1
-#, elixir-format
 msgid "Shipping"
 msgstr "Doprava"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:1
-#, elixir-format
 msgid "Shipping Address"
 msgstr "Adresa pro doručení"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:65
-#, elixir-format
 msgid "State or Province"
 msgstr "Stát (nebo provincie)"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
-#, elixir-format
 msgid "Update"
 msgstr "Aktualizovat"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/shipping.html.leex:26
-#, elixir-format
 msgid "Checking Out"
 msgstr "Dokončování nákupu"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:115
-#, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "Načítání dopravného"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:2
-#, elixir-format
 msgid "Empty Cart"
 msgstr "Prázdný košík"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/index.html.leex:5
-#, elixir-format
 msgid "Go get yourself something nice!"
 msgstr "Kupte si něco hezkého!"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:79
-#, elixir-format
 msgid "12345"
 msgstr "12345"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:48
-#, elixir-format
 msgid "Anytown"
 msgstr "Nějaká obec"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:38
-#, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "Číslo bytu, budovy nebo patra"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:17
-#, elixir-format
 msgid "Ellie Mendez"
 msgstr "Jan Novák"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:28
-#, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "Adresa, P.O. Box, název společnosti"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:1
-#, elixir-format
 msgid "Order Placed"
 msgstr "Objednávka odeslána"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/result/success.html.eex:4
-#, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "Vaše objednávka byla přijata a náš partner, který ji plní pilně pracuje na "
 "tom, aby vám přišla co nejdříve. Potvrzení a daňový doklad byl odeslán na "
 "poskytnutou e-mailovou adresu."
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:87
-#, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr "Slouží k doručení faktury – nikdy nebude použit pro marketingové účely"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:100
-#, elixir-format
 msgid "Phone"
 msgstr "Telefon"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/checkout/address.html.leex:101
-#, elixir-format
 msgid "Required by shipping partners"
 msgstr "Vyžadováno dopravci"

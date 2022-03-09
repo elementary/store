@@ -21,50 +21,49 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
-#, elixir-format
 msgid "Colors"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-#, elixir-format
 msgid "Sizes"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
-#, elixir-format
 msgid "Unavailable for %{size}"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
-#, elixir-format
 msgid "Unavailable in %{color}"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
-#, elixir-format
 msgid "Add to Cart"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-#, elixir-format
 msgid "%{color} is out of stock"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
-#, elixir-format
 msgid "%{size} is out of stock"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-#, elixir-format
 msgid "Adding to Cart"
 msgstr ""
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
-#, elixir-format
 msgid "This product is currently unavailable"
 msgstr ""

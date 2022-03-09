@@ -18,49 +18,49 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
-#, elixir-format
 msgid "Colors"
 msgstr "Farben"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-#, elixir-format
 msgid "Sizes"
 msgstr "Größen"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
-#, elixir-format
 msgid "Unavailable for %{size}"
 msgstr "Nicht verfügbar für Größe %{size}"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
-#, elixir-format
 msgid "Unavailable in %{color}"
 msgstr "Nicht erhältlich in %{color}"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
-#, elixir-format
 msgid "Add to Cart"
 msgstr "Zum Warenkorb hinzufügen"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-#, elixir-format
 msgid "%{color} is out of stock"
 msgstr "%{color} ist ausverkauft"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
-#, elixir-format
 msgid "%{size} is out of stock"
 msgstr "%{size} ist ausverkauft"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-#, elixir-format
 msgid "Adding to Cart"
 msgstr "Füge zum Warenkorb hinzu"
 
+#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
-#, elixir-format
 msgid "This product is currently unavailable"
 msgstr "Dieser Artikel ist derzeit nicht erhältlich"
