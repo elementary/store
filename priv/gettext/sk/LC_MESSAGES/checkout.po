@@ -107,17 +107,17 @@ msgstr "Prázdny košík"
 #: lib/store_web/templates/checkout/index.html.leex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
-msgstr "Zaobstarajte si niečo pekné!"
+msgstr "Poďte si kúpiť niečo pekné!"
 
 #: lib/store_web/templates/checkout/address.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
 #: lib/store_web/templates/checkout/address.html.leex:48
 #, elixir-autogen, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "Akékoľvek mesto"
 
 #: lib/store_web/templates/checkout/address.html.leex:38
 #, elixir-autogen, elixir-format
