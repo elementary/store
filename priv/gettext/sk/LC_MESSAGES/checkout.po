@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:13+0000\n"
+"PO-Revision-Date: 2022-04-22 15:14+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/checkout/sk/"
 ">\n"
@@ -52,12 +52,12 @@ msgstr "Krajina"
 #: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "Získajte sadzby za dopravu"
 
 #: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-autogen, elixir-format
