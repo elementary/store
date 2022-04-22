@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 14:35+0000\n"
+"PO-Revision-Date: 2022-04-22 14:36+0000\n"
 "Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/index/sk/>\n"
 "Language: sk\n"
@@ -56,12 +56,12 @@ msgstr "Notebooky"
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr "Notebooky, stolové počítače, mini desktopy, všetko v jednom"
+msgstr "Notebooky, (malé) stolné počítače, počítače typu „všetko v jednom“"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Notebooky, mini stolné počítače"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
