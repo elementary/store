@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:14+0000\n"
+"PO-Revision-Date: 2022-04-22 15:15+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/checkout/sk/"
 ">\n"
@@ -57,47 +57,47 @@ msgstr "E-mail"
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr "Získajte sadzby za dopravu"
+msgstr "Vypočítať cenu dopravy"
 
 #: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-autogen, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 #: lib/store_web/templates/checkout/address.html.leex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "PSČ"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "Doprava"
 
 #: lib/store_web/templates/checkout/address.html.leex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "Dodacia adresa"
 
 #: lib/store_web/templates/checkout/address.html.leex:65
 #, elixir-autogen, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "Štát alebo provincia"
 
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-autogen, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "Aktualizovať"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-autogen, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "Prebieha platba"
 
 #: lib/store_web/templates/checkout/address.html.leex:115
 #, elixir-autogen, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr ""
+msgstr "Načítavajú sa sadzby za dopravu"
 
 #: lib/store_web/templates/checkout/index.html.leex:2
 #, elixir-autogen, elixir-format
