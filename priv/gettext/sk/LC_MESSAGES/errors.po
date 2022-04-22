@@ -43,10 +43,10 @@ msgid "does not match confirmation"
 msgstr "nezhoduje sa s potvrdením"
 
 msgid "is still associated with this entry"
-msgstr "je stále spojený s týmto záznamom"
+msgstr "je stále priradené k tejto položke"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "sú stále spojené s touto položkou"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
