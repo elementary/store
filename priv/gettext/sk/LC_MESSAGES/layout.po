@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 14:53+0000\n"
-"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"PO-Revision-Date: 2022-04-22 17:23+0000\n"
+"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/layout/sk/>"
 "\n"
 "Language: sk\n"
@@ -97,9 +97,9 @@ msgstr "Vyprázdniť košík"
 #: lib/store_web/templates/layout/live.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr "Táto webová stránka vyžaduje pri platbe povolený JavaScript"
+msgstr "Táto webová stránka potrebuje pri platbe zapnutý JavaScript"
 
 #: nav.html.leex:37
 #, elixir-autogen, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Prázdny košík"

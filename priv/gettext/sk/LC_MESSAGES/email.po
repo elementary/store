@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:07+0000\n"
-"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"PO-Revision-Date: 2022-04-22 17:23+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/email/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,4 +130,4 @@ msgstr "Vaša objednávka bola odoslaná!"
 #: lib/store/email.ex:32
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr "Váš balík bol odoslaný!"
+msgstr "Vaša zásielka bola odoslaná!"

@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:33+0000\n"
+"PO-Revision-Date: 2022-04-22 17:23+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/errors/sk/>"
 "\n"
@@ -56,9 +56,9 @@ msgstr[2] "malo by byť %{count} znakov"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] "mala by byť %{count} položka"
-msgstr[1] "mali by byť %{count} položky"
-msgstr[2] "malo by byť %{count} položiek"
+msgstr[0] "malo by mať %{count} položku"
+msgstr[1] "malo by mať %{count} položky"
+msgstr[2] "malo by mať %{count} položiek"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
@@ -97,4 +97,4 @@ msgid "must be greater than or equal to %{number}"
 msgstr "musí byť väčšie alebo rovné %{number}"
 
 msgid "must be equal to %{number}"
-msgstr "musí sa rovnať %{number}"
+msgstr "musí byť rovné %{number}"

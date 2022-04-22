@@ -8,15 +8,22 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-22 17:23+0000\n"
+"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/store/language/sk/"
+">\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/controllers/language_controller.ex:30
-msgid "Unknown language code %{code}"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Unknown language code %{code}"
+msgstr "Neznámy kód jazyka %{code}"
+
 #: lib/store_web/controllers/language_controller.ex:21
+#, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
-msgstr ""
+msgstr "Váš jazyk bol nastavený na %{language}"
