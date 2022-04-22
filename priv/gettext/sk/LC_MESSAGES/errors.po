@@ -88,13 +88,13 @@ msgid "must be less than %{number}"
 msgstr "musí byť menej ako %{number}"
 
 msgid "must be greater than %{number}"
-msgstr "musí byť viacej ako %{number}"
+msgstr "musí byť viac ako %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "musí byť menšie alebo rovné %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "musí byť väčšie alebo rovné %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "musí sa rovnať %{number}"
