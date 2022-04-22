@@ -8,52 +8,59 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-22 14:56+0000\n"
+"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/store/product/sk/>"
+"\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-autogen, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "Farby"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Sizes"
+msgstr "Veľkosti"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "Nedostupné pre veľkosť %{size}"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
-msgid "Unavailable in %{color}"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Unavailable in %{color}"
+msgstr "Nedostupné vo farbe  %{color}"
+
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-autogen, elixir-format
 msgid "Add to Cart"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
+#, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
+#, elixir-autogen, elixir-format
 msgid "Adding to Cart"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
 msgstr ""
