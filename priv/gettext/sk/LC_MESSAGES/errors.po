@@ -8,11 +8,18 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-22 15:25+0000\n"
+"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/store/errors/sk/>"
+"\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "nesmie byť prázdne"
 
 msgid "has already been taken"
 msgstr ""
