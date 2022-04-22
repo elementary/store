@@ -94,13 +94,13 @@ msgstr "Tím elementary"
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
-"Aktualizácia sledovania zásielky po odoslaní objednávky môže trvať až 48 "
-"hodín."
+"Aktualizácia informácií pre sledovanie zásielky môže trvať až 48 hodín od "
+"jej odoslania."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "Dostali sme Vašu objednávku!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
