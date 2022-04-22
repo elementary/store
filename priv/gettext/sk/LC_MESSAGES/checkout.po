@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-04-22 15:13+0000\n"
-"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/checkout/sk/"
 ">\n"
 "Language: sk\n"
@@ -42,17 +42,17 @@ msgstr "Platba"
 #: lib/store_web/templates/checkout/address.html.leex:44
 #, elixir-autogen, elixir-format
 msgid "City"
-msgstr "Mesto"
+msgstr "Obec"
 
 #: lib/store_web/templates/checkout/address.html.leex:55
 #, elixir-autogen, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "Krajina"
 
 #: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-autogen, elixir-format
