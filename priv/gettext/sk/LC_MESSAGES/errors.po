@@ -34,10 +34,10 @@ msgid "has invalid format"
 msgstr "má neplatný formát"
 
 msgid "has an invalid entry"
-msgstr "má neplatný záznam"
+msgstr "má neplatný údaj"
 
 msgid "is reserved"
-msgstr ""
+msgstr "je vyhradené"
 
 msgid "does not match confirmation"
 msgstr ""
