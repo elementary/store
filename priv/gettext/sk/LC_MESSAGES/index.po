@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 14:36+0000\n"
-"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"PO-Revision-Date: 2022-04-22 14:38+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/index/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,27 +61,30 @@ msgstr "Notebooky, (malé) stolné počítače, počítače typu „všetko v je
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr "Notebooky, mini stolné počítače"
+msgstr "Notebooky, malé stolné počítače"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Celosvetová doprava"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Získajte vybavenie. Výhodné pre obe strany."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Podporte vývoj."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Vylúčený je Krym, Kuba, Irán, Sýria a Severná Kórea. Spôsoby dopravy, ceny a "
+"časy sa líšia v závislosti od krajiny. Za zásielky mimo USA môžu byť "
+"účtované colné poplatky v závislosti od krajiny pôvodu a cieľovej krajiny."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-autogen, elixir-format
