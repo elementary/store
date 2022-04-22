@@ -8,20 +8,20 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 14:58+0000\n"
-"Last-Translator: Igor Stefanko <istefanko@outlook.com>\n"
+"PO-Revision-Date: 2022-04-22 14:59+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/email/sk/>\n"
 "Language: sk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr "Copyright ©% {year} elementary, Inc. Všetky práva vyhradené."
+msgstr "Copyright © %{year} elementary, Inc. Všetky práva vyhradené."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -29,7 +29,7 @@ msgstr "Copyright ©% {year} elementary, Inc. Všetky práva vyhradené."
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "Tu sme dodali v tomto poradí:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
