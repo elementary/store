@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:27+0000\n"
+"PO-Revision-Date: 2022-04-22 15:28+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/errors/sk/>"
 "\n"
@@ -40,10 +40,10 @@ msgid "is reserved"
 msgstr "je rezervované"
 
 msgid "does not match confirmation"
-msgstr "nezodpovedá potvrdeniu"
+msgstr "nezhoduje sa s potvrdením"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "je stále spojený s týmto záznamom"
 
 msgid "are still associated with this entry"
 msgstr ""
