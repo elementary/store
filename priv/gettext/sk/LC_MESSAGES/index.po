@@ -90,14 +90,15 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"Každý nákup smeruje k vývoju elementary OS, jeho aplikácií a služieb. Sme "
-"malý tím, väčšinou dobrovoľnícky, neustále pracujúci na zlepšovaní systému - "
-"Vaša podpora pomáha zvyšovať udržateľnosť elementary OS."
+"Peniaze z každého nákupu sú použité na vývoj elementary OS, jeho aplikácií a "
+"služieb. Sme malý tím zložený prevažne z dobrovoľníkov, ktorí neustále "
+"pracujú na zlepšovaní elementary. Vaša podpora zvyšuje udržateľnosť vývoja "
+"elementary OS."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "Hardvér a softvér pre tieto zariadenia poskytuje maloobchod."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-autogen, elixir-format
