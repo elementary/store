@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 14:41+0000\n"
+"PO-Revision-Date: 2022-04-22 14:42+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/index/sk/>\n"
 "Language: sk\n"
@@ -98,12 +98,15 @@ msgstr ""
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr "Hardvér a softvér pre tieto zariadenia poskytuje maloobchod."
+msgstr ""
+"Hardvérová a softvérová podpora pre tieto zariadenia je poskytovaná výrobcom."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Hardvérové zariadenia s elementary OS si môžete kúpiť u nasledujúcich "
+"predajcov. Nákup od týchto spoločností pomáha podporovať elementary OS."
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-autogen, elixir-format
