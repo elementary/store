@@ -100,12 +100,12 @@ msgstr ""
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr "Dostali sme Vašu objednávku!"
+msgstr "Zaznamenali sme vašu objednávku!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "Vašu objednávku sme odoslali!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
