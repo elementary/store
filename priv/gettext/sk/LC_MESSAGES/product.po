@@ -53,12 +53,12 @@ msgstr "%{color} momentálne nie je na sklade"
 #: lib/store_web/templates/product/index.html.leex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr "%{size} nie je na sklade"
+msgstr "%{size} momentálne nie je na sklade"
 
 #: lib/store_web/templates/product/index.html.leex:124
 #, elixir-autogen, elixir-format
 msgid "Adding to Cart"
-msgstr ""
+msgstr "Pridávanie do košíka"
 
 #: lib/store_web/templates/product/index.html.leex:117
 #, elixir-autogen, elixir-format
