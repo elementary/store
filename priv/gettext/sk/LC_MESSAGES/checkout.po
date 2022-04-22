@@ -132,12 +132,12 @@ msgstr "Ján Novák"
 #: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr "Ulica, P.O. Box, Názov spoločnosti"
+msgstr "Adresa, ulica, P.O. Box, názov spoločnosti"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "Objednávka zadaná"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-autogen, elixir-format
