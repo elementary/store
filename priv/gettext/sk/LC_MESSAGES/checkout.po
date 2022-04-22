@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-22 15:21+0000\n"
+"PO-Revision-Date: 2022-04-22 15:23+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/store/checkout/sk/"
 ">\n"
@@ -137,12 +137,15 @@ msgstr "Adresa, ulica, P.O. Box, názov spoločnosti"
 #: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
-msgstr "Objednávka zadaná"
+msgstr "Objednávka odoslaná"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-autogen, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"Vaša objednávka bola prijatá a náš realizačný partner usilovne pracuje na "
+"tom, aby ste ju dostali čo najskôr. Na uvedenú e-mailovú adresu bolo zaslané "
+"potvrdenie a faktúra."
 
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-autogen, elixir-format
