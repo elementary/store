@@ -113,13 +113,14 @@ msgstr "Odoslali sme vašu objednávku!"
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
 "Tento e-mail ste dostali, pretože ste zadali objednávku v obchode "
-"elementary. Nie ste prihlásený na odber žiadneho mailing listu."
+"elementary. Nie ste prihlásený na odber žiadneho reklamného e-mailového "
+"kanálu."
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:20
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Vaša objednávka bola prijatá!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
