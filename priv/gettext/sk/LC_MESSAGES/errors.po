@@ -37,10 +37,10 @@ msgid "has an invalid entry"
 msgstr "má neplatný údaj"
 
 msgid "is reserved"
-msgstr "je vyhradené"
+msgstr "je rezervované"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "nezodpovedá potvrdeniu"
 
 msgid "is still associated with this entry"
 msgstr ""
