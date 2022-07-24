@@ -8,52 +8,59 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-07-24 18:40+0000\n"
+"Last-Translator: Vincent Yu <coolplayyhj@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"store/product/zh_Hant/>\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-autogen, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "顏色"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
-msgid "Sizes"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Sizes"
+msgstr "尺碼"
+
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "對 %{size} 不可用"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-autogen, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "%{color} 不可用"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-autogen, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "添加到購物車"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
-msgid "%{color} is out of stock"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "%{color} is out of stock"
+msgstr "%{color} 暫缺"
+
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} 暫缺"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
-msgid "Adding to Cart"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Adding to Cart"
+msgstr "正在加入購物車"
+
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "該產品目前不可用"

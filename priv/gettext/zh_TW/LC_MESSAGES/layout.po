@@ -8,91 +8,98 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-07-24 18:40+0000\n"
+"Last-Translator: Vincent Yu <coolplayyhj@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"store/layout/zh_Hant/>\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:35
+#, elixir-autogen, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-autogen, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "品牌"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "購物車 (%{count})"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:17
+#, elixir-autogen, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "開發者"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "參與"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "製造商"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "開源"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-autogen, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "新聞"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-autogen, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "隱私"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:29
+#, elixir-autogen, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "店鋪"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:11
+#, elixir-autogen, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "支持"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-autogen, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "團隊"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-autogen, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:25
-msgid "Clear Cart"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Clear Cart"
+msgstr "清空購物車"
+
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr "該網站需要啟用 JavaScript 才能結帳"
+
 #: nav.html.leex:37
+#, elixir-autogen, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "購物車是空的"

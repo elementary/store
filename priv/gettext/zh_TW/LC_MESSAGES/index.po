@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-06 01:05+0000\n"
-"Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
+"PO-Revision-Date: 2022-07-24 18:40+0000\n"
+"Last-Translator: Vincent Yu <coolplayyhj@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "store/index/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -18,88 +18,92 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-autogen, elixir-format
 msgid "Based in Spain"
 msgstr "位於西班牙"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
 msgstr "位於荷蘭"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
 msgstr "位於英國"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
+#, elixir-autogen, elixir-format
 msgid "Devices"
 msgstr "裝置"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
 msgstr "歐盟內運送免運費"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "International shipping"
 msgstr "國際配送"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-autogen, elixir-format
 msgid "Laptops"
 msgstr "筆記型電腦"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr "筆記型電腦、桌上型電腦、迷你桌上型電腦、多合一電腦"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
 msgstr "筆記型電腦、迷你桌上型電腦"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:79
+#, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
 msgstr "全球配送"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr "購買設備。雙贏。"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
+#, elixir-autogen, elixir-format
 msgid "Support Development."
 msgstr "支持開發。"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:87
+#, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr "克里米亞、古巴、伊朗、敘利亞和北韓除外。 運輸方式、價格和時間因國家/地區而異。按出口國及進口國的不同，配送至美國以外可能要支付海關費用。"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"每次購買都用於開發elementary OS操作系統、其應用程序和服務。 我們是一個小團隊，大部分是志願者，通过不斷地努力使elementary "
+"變得更好——您的支持有助於使elementary OS 操作系統更具可持續性。"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "這些設備的硬件和軟件支持由零售商提供。"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
-msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
-msgstr ""
-
 #, elixir-autogen, elixir-format
+msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
+msgstr "可以從以下零售商處購買預載elementary OS操作系統的硬件設備。 從這些公司購買有助於支持elementary OS操作系統。"
+
 #: lib/store_web/templates/index/index.html.leex:82
+#, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"我們在世界各地運送服裝和配件！ 訂單通常在 2-7 天內按需生成，並將以您在結賬時選擇的方式發貨。 由於 COVID-19，訂單可能會延遲。 "
+"生產按計劃進行，但根據訂單、運輸方式和目的地，實行和運輸仍可能出現延遲。"
