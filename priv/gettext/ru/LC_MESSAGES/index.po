@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-30 09:52+0000\n"
+"PO-Revision-Date: 2022-09-30 23:29+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/index/ru/>"
 "\n"
@@ -94,7 +94,7 @@ msgstr ""
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 "Каждая покупка помогает развитию elementary OS, её приложений и сервисов. Мы "
-"- небольшая команда, состоящая в основном из волонтёров, мы упорно работаем "
+"— небольшая команда, состоящая в основном из волонтёров, мы упорно работаем "
 "над тем, чтобы сделать elementary лучше. Ваша поддержка помогает сделать "
 "elementary OS гораздо стабильнее."
 

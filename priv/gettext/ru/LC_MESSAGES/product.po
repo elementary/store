@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-11 17:55+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2022-09-30 23:29+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/product/ru/"
 ">\n"
 "Language: ru\n"
@@ -19,49 +19,49 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-autogen, elixir-format
 msgid "Colors"
 msgstr "Цвета"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
+#, elixir-autogen, elixir-format
 msgid "Sizes"
 msgstr "Размеры"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr "Не доступно для %{size}"
+msgstr "Недоступно для %{size}"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
-msgid "Unavailable in %{color}"
-msgstr "Не доступно в %{color}"
-
 #, elixir-autogen, elixir-format
+msgid "Unavailable in %{color}"
+msgstr "Недоступно в %{color}"
+
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-autogen, elixir-format
 msgid "Add to Cart"
 msgstr "Добавить в корзину"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
+#, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
 msgstr "%{color} нет в наличии"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
 msgstr "%{size} нет в наличии"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
+#, elixir-autogen, elixir-format
 msgid "Adding to Cart"
 msgstr "Добавление в корзину"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr "Этот продукт временно не доступен"
+msgstr "Этот продукт временно недоступен"

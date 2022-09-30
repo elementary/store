@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-01 10:22+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2022-09-30 23:29+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/store/layout/ru/>"
 "\n"
 "Language: ru\n"
@@ -19,88 +19,88 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:35
+#, elixir-autogen, elixir-format
 msgid "Blog"
 msgstr "Блог"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-autogen, elixir-format
 msgid "Brand"
 msgstr "Бренд"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
 msgstr "Корзина (%{count})"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:17
+#, elixir-autogen, elixir-format
 msgid "Developer"
 msgstr "Разработчикам"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Get Involved"
 msgstr "Принять участие"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "OEMs"
 msgstr "OEM-производителям"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Open Source"
 msgstr "Открытый код"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-autogen, elixir-format
 msgid "Press"
 msgstr "Пресса"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "Конфиденциальность"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:29
+#, elixir-autogen, elixir-format
 msgid "Store"
 msgstr "Магазин"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:11
+#, elixir-autogen, elixir-format
 msgid "Support"
 msgstr "Поддержка"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-autogen, elixir-format
 msgid "Team"
 msgstr "Команда"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Язык"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Clear Cart"
 msgstr "Очистить корзину"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
-msgid "This website requires JavaScript enabled to checkout"
-msgstr "Этот веб-сайт требует включения JavaScript для оплаты"
-
 #, elixir-autogen, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr "Этот веб-сайт требует включённого JavaScript для оплаты"
+
 #: nav.html.leex:37
+#, elixir-autogen, elixir-format
 msgid "Cart empty"
 msgstr "Корзина пуста"
