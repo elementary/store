@@ -42,7 +42,7 @@ defmodule Elementary.Store.MixProject do
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
       {:libcluster, "~> 3.3.0"},
-      {:nebulex, "~> 2.3.0"},
+      {:nebulex, "~> 2.4.2"},
       {:phoenix_html, "~> 2.14.3"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.15.3"},
