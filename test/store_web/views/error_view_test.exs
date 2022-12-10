@@ -10,6 +10,6 @@ defmodule Elementary.StoreWeb.ErrorViewTest do
 
   test "renders 500.html" do
     assert render_to_string(Elementary.StoreWeb.ErrorView, "500.html", []) =~
-             "Internal Server Error"
+             "There was a server error"
   end
 end

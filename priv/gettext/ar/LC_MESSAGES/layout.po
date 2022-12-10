@@ -19,88 +19,88 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:35
+#, elixir-autogen, elixir-format
 msgid "Blog"
 msgstr "المدونة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-autogen, elixir-format
 msgid "Brand"
 msgstr "العلامة التجارية"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
 msgstr "السلة (%{count})"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:17
+#, elixir-autogen, elixir-format
 msgid "Developer"
 msgstr "المطور"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Get Involved"
 msgstr "شارك معنا"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "OEMs"
 msgstr "صانعو العتاد"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Open Source"
 msgstr "المصدر المفتوح"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-autogen, elixir-format
 msgid "Press"
 msgstr "الإعلام"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "الخصوصية"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:29
+#, elixir-autogen, elixir-format
 msgid "Store"
 msgstr "المتجر"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:11
+#, elixir-autogen, elixir-format
 msgid "Support"
 msgstr "الدعم"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-autogen, elixir-format
 msgid "Team"
 msgstr "الفريق"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "اللغة"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Clear Cart"
 msgstr "أفرغ السلة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "هذا الموقع يتطلب بأن يكون JavaScript فعالاً للدفع"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:37
+#, elixir-autogen, elixir-format
 msgid "Cart empty"
 msgstr "السلة فارغة"

@@ -24,49 +24,49 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:14
+#, elixir-autogen, elixir-format
 msgid "Colors"
 msgstr "Кольори"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:68
+#, elixir-autogen, elixir-format
 msgid "Sizes"
 msgstr "Розміри"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:26
 #: lib/store_web/templates/product/index.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
 msgstr "Недоступно для %{size}"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:80
+#, elixir-autogen, elixir-format
 msgid "Unavailable in %{color}"
 msgstr "Недоступно в %{color}"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:122
+#, elixir-autogen, elixir-format
 msgid "Add to Cart"
 msgstr "Додати до кошика"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:90
+#, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
 msgstr "%{color} немає в наявності"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:38
 #: lib/store_web/templates/product/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
 msgstr "%{size} немає в наявності"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:124
+#, elixir-autogen, elixir-format
 msgid "Adding to Cart"
 msgstr "Додавання до кошика"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/product/index.html.leex:117
+#, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
 msgstr "Зараз цей товар недоступний"

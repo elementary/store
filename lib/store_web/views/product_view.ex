@@ -15,9 +15,7 @@ defmodule Elementary.StoreWeb.ProductView do
 
     variants
     |> Enum.filter(fn v ->
-      Enum.all?(same_keys, &(Map.get(variant, &1) === Map.get(v, &1)))
-    end)
-    |> Enum.filter(fn v ->
+      Enum.all?(same_keys, &(Map.get(variant, &1) === Map.get(v, &1))) and
       Enum.all?(changes, fn {ck, cv} -> Map.get(v, ck) === cv end)
     end)
     |> List.first()

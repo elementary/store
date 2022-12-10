@@ -11,12 +11,12 @@ msgstr ""
 "Language: tr_TR\n"
 "Plural-Forms: nplurals=2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/controllers/language_controller.ex:30
+#, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/controllers/language_controller.ex:21
+#, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
 msgstr ""

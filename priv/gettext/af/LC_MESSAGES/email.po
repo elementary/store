@@ -11,108 +11,108 @@ msgstr ""
 "Language: af\n"
 "Plural-Forms: nplurals=2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
+#, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
 #: lib/store_web/templates/email/package_shipped.html.eex:60
 #: lib/store_web/templates/email/package_shipped.text.eex:11
+#, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
+#, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
+#, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
+#, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
 #: lib/store_web/templates/email/package_shipped.html.eex:121
 #: lib/store_web/templates/email/package_shipped.text.eex:23
+#, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
+#, elixir-autogen, elixir-format
 msgid "Price"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
+#, elixir-autogen, elixir-format
 msgid "Qty"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
 #: lib/store_web/templates/email/package_shipped.html.eex:90
 #: lib/store_web/templates/email/package_shipped.text.eex:17
+#, elixir-autogen, elixir-format
 msgid "Shipping Address:"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
 #: lib/store_web/templates/email/package_shipped.html.eex:122
 #: lib/store_web/templates/email/package_shipped.text.eex:24
+#, elixir-autogen, elixir-format
 msgid "The elementary Team"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
+#, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/order_created.html.eex:13
+#, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/email/package_shipped.html.eex:13
+#, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
+#, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store/email.ex:16
 #: lib/store/email.ex:20
+#, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store/email.ex:28
+#, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr ""
 
-#, elixir-autogen, elixir-format
 #: lib/store/email.ex:32
+#, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr ""

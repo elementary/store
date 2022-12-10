@@ -18,97 +18,97 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-autogen, elixir-format
 msgid "Based in Spain"
 msgstr "مقرها في إسبانيا"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
 msgstr "مقرها في هولندا"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
 msgstr "مقرها في المملكة المتحدة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
+#, elixir-autogen, elixir-format
 msgid "Devices"
 msgstr "الأجهزة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
 msgstr "شحن مجاني داخل الاتحاد الأوروبي"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "International shipping"
 msgstr "شحن دولي"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-autogen, elixir-format
 msgid "Laptops"
 msgstr "حواسيب محمولة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr "حواسيب محمولة، وحواسيب مكتبية، وحواسيب صغيرة، وحواسيب الكل في واحد"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
 msgstr "حواسيب محمولة، وحواسيب صغيرة"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:79
+#, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
 msgstr "الشحن الدولي"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr "احصل على معدات. إنها صفقة رابحة للجميع."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
+#, elixir-autogen, elixir-format
 msgid "Support Development."
 msgstr "ادعم عملية التطوير."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:87
+#, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "القرم، وكوبا، وإيران، وكوريا الشمالية جميعها مستثناة. طرق الشحن، والأسعار، "
 "والأوقات تختلف باختلاف الدولة. الشحنات خارج الولايات المتحدة الأمريكية قد "
 "يترتب عليها رسوم جمركية اعتماداً على بلاد المصدر والوجهة."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 "كل عملية شراء تذهب لتطوير elementary OS، وتطبيقاته، وخدماته. نحن عبارة عن "
 "فريق صغير، معظمنا متطوعون، نعمل بشكل مستمر لجعل elementary أفضل. دعمك سيساعد "
 "على جعل elementary OS مستداماً أكثر."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr "الدعم الفني الخاص بالعتاد والبرمجيات لهذه الأجهزة متوفر من البائع."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
+#, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 "الأجهزة التي تأتي مع elementary OS يمكن شراءها من البائعين التاليين. الشراء "
 "من هؤلاء البائعين يساعد في دعم elementary OS."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:82
+#, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "نحن نقوم بشحن الملابس والأكسسوارات لجميع أنحاء العالم! المنتجات يتم إنتاجها "
