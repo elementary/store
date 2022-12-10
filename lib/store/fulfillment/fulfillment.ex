@@ -105,8 +105,7 @@ defmodule Elementary.Store.Fulfillment do
   defp stripe_extra_lines(estimate) do
     estimate
     |> Map.take([:shipping, :tax, :vat])
-    |> Enum.reject(fn {_k, v} -> is_nil(v) end)
-    |> Enum.reject(fn {_k, v} -> v == 0 end)
+    |> Enum.reject(fn {_k, v} -> is_nil(v) or v == 0 end)
     |> Enum.map(fn {name, value} ->
       %{
         amount: round(value * 100),

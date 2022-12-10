@@ -26,8 +26,7 @@ defmodule Elementary.StoreWeb.EmailView do
 
   def address_line_template(recipient, fields) do
     fields
-    |> Enum.map(&Map.get(recipient, &1, ""))
-    |> Enum.join(" ")
+    |> Enum.map_join(" ", &Map.get(recipient, &1, ""))
     |> String.replace(~r/\s+/, " ")
     |> String.trim()
   end
