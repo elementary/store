@@ -18,88 +18,88 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
 msgstr "elementary, Inc, %{year}"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:35
+#, elixir-autogen, elixir-format
 msgid "Blog"
 msgstr "Blog"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-autogen, elixir-format
 msgid "Brand"
 msgstr "Marca"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
 msgstr "Cistell: (%{count})"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:17
+#, elixir-autogen, elixir-format
 msgid "Developer"
 msgstr "Desenvolupador"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Get Involved"
 msgstr "Involucreu-vos-hi"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "OEMs"
 msgstr "OEM"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Open Source"
 msgstr "Codi obert"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-autogen, elixir-format
 msgid "Press"
 msgstr "Premsa"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "Privadesa"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:29
+#, elixir-autogen, elixir-format
 msgid "Store"
 msgstr "Botiga"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:11
+#, elixir-autogen, elixir-format
 msgid "Support"
 msgstr "Assistència"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-autogen, elixir-format
 msgid "Team"
 msgstr "Equip"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Llengua"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Clear Cart"
 msgstr "Buida el cistell"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Aquest lloc web requereix el JavaScript habilitat per pagar."
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:37
+#, elixir-autogen, elixir-format
 msgid "Cart empty"
 msgstr "Cistell buit"

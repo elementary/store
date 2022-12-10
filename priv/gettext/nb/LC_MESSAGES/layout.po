@@ -18,88 +18,88 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:35
+#, elixir-autogen, elixir-format
 msgid "Blog"
 msgstr "Blogg"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:26
+#, elixir-autogen, elixir-format
 msgid "Brand"
 msgstr "Merke"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:31
+#, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
 msgstr "Handlevogn (%{count})"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:17
+#, elixir-autogen, elixir-format
 msgid "Developer"
 msgstr "Utvikler"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Get Involved"
 msgstr "Involver deg"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "OEMs"
 msgstr "Tilvirkere"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Open Source"
 msgstr "Fri programvare"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:20
+#, elixir-autogen, elixir-format
 msgid "Press"
 msgstr "Presse"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:38
+#, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "Personvern"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:29
+#, elixir-autogen, elixir-format
 msgid "Store"
 msgstr "Butikk"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:11
+#, elixir-autogen, elixir-format
 msgid "Support"
 msgstr "Støtte"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:44
+#, elixir-autogen, elixir-format
 msgid "Team"
 msgstr "Laget"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/footer.html.leex:12
+#, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Språk"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Clear Cart"
 msgstr "Tøm handlevogn"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Denne nettsiden krever JavaScript for ordrefullføring"
 
-#, elixir-autogen, elixir-format
 #: nav.html.leex:37
+#, elixir-autogen, elixir-format
 msgid "Cart empty"
 msgstr "Tom handlekurv"

@@ -24,79 +24,79 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:33
+#, elixir-autogen, elixir-format
 msgid "Based in Spain"
 msgstr "Розташовано в Іспанії"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:24
+#, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
 msgstr "Розташовано в Нідерландах"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:42
+#, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
 msgstr "Розташовано у Великій Британії"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:13
+#, elixir-autogen, elixir-format
 msgid "Devices"
 msgstr "Пристрої"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:25
+#, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
 msgstr "Безплатне доставлення у межах ЄС"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
+#, elixir-autogen, elixir-format
 msgid "International shipping"
 msgstr "Міжнародне доставлення"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:41
+#, elixir-autogen, elixir-format
 msgid "Laptops"
 msgstr "Ноутбуки"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:32
+#, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr ""
 "Ноутбуки, настільні комп'ютери, настільні мінікомп'ютери, "
 "багатофункціональні пристрої"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:23
+#, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
 msgstr "Ноутбуки, настільні мінікомп'ютери"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:79
+#, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
 msgstr "Доставлення по всьому світу"
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:4
+#, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr "Отримуйте пристрої. Це справжня допомога."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:3
+#, elixir-autogen, elixir-format
 msgid "Support Development."
 msgstr "Підтримайте розробку."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:87
+#, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "Крим, Куба, Іран, Сирія та Північна Корея виключені. Способи доставлення, "
 "ціни та тривалість залежать від країни. За доставлення за межами США можуть "
 "стягуватися митні збори залежно від країн походження та призначення."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:8
+#, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 "Кожна покупка безпосередньо допомагає розвитку elementary OS, її застосунків "
@@ -104,22 +104,22 @@ msgstr ""
 "працює над вдосконаленням elementary OS. Ваша підтримка допомагає зробити "
 "elementary OS стійкішою."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:50
+#, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 "Обладнання та програмне забезпечення для цих пристроїв надаються роздрібним "
 "продавцем."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:16
+#, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 "Пристрої з elementary OS можна придбати у цих продавців. Купівля у цих "
 "компаній допомагає підтримувати elementary OS."
 
-#, elixir-autogen, elixir-format
 #: lib/store_web/templates/index/index.html.leex:82
+#, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "Ми відправляємо одяг та аксесуари по всьому світу! Замовлення здійснюються "
