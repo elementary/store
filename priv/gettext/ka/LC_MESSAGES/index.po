@@ -9,19 +9,19 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-03-12 07:16+0000\n"
-"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
 "Language: ka\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr "ოფისი ესპანეთში"
+msgstr "დაფუძნებულია ესპანეთში"
 
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-autogen, elixir-format
