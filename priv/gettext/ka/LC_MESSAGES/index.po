@@ -8,59 +8,70 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-12 07:16+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
+"\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "ოფისი ესპანეთში"
 
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "ოფისი ნიდერლანდებში"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "ოფისი გაერთიანებულ სამეფოში"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "მოწყობილობა"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "უფასო მიწოდება ევროკავშირის ფარგლებში"
+>>>>>>> 91dbd49 (Translated using Weblate (Georgian))
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "საერთაშორისო მიწოდება"
 
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "ლაპტოპები"
 
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "ლეპტოპები, კომპიუტერები, მინი დესკტოპები, ყველა"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "ნოუთბუქები, მინი დესკტოპები"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "მსოფლიოს მასშტაბით"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-autogen, elixir-format
@@ -70,7 +81,7 @@ msgstr ""
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "განვითარების მხარდაჭერა."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-autogen, elixir-format
