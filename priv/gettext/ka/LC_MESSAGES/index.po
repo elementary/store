@@ -41,11 +41,7 @@ msgstr "მოწყობილობა"
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "უფასო მიწოდება ევროკავშირის ფარგლებში"
->>>>>>> 91dbd49 (Translated using Weblate (Georgian))
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
