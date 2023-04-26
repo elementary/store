@@ -18,7 +18,7 @@ defmodule Printful.Api do
       {Tesla.Middleware.BaseUrl, config[:baseUrl]},
       {Tesla.Middleware.Headers,
        [
-         {"Authorization", "Basic #{Base.encode64(config[:api_key])}"}
+         {"Authorization", "Bearer #{config[:api_key]}"}
        ]},
       {Tesla.Middleware.Retry,
        delay: 200,
