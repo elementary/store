@@ -18,7 +18,7 @@ defmodule Elementary.Store.Shipping do
   def get_rates(address, cart) do
     items =
       cart
-      |> Enum.map(fn {v, q} -> {Catalog.get_variant(v), q} end)
+      |> Enum.map(fn {v, q} -> {Catalog.get_variant!(v), q} end)
       |> Enum.map(fn {v, q} -> %{variant_id: v.catalog_variant_id, quantity: q} end)
 
     %{

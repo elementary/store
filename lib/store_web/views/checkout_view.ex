@@ -6,7 +6,7 @@ defmodule Elementary.StoreWeb.CheckoutView do
 
   def fetch_cart_info(cart) do
     cart
-    |> Enum.map(fn {v, q} -> {Catalog.get_variant(v), q} end)
+    |> Enum.map(fn {v, q} -> {Catalog.get_variant!(v), q} end)
     |> Enum.into([])
   end
 

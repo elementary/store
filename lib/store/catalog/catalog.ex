@@ -79,4 +79,12 @@ defmodule Elementary.Store.Catalog do
       {:error, reason} -> {:error, reason}
     end
   end
+
+  def get_variant!(variant_id) do
+    store = Printful.Store.variant(variant_id)
+    case Printful.Catalog.variant(store.product.variant_id) do
+      {:ok, catalog} -> Variant.from_printful(store, catalog)
+      {:error, reason} -> throw(reason)
+    end
+  end
 end

@@ -4,7 +4,7 @@ defmodule Elementary.StoreWeb.Checkout.CartController do
   alias Elementary.Store.{Cart, Catalog}
 
   def create(conn, %{"id" => variant_id, "cart" => %{"quantity" => quantity}}) do
-    variant = Catalog.get_variant(variant_id)
+    variant = Catalog.get_variant!(variant_id)
     current_quantity = Cart.get_item(conn, variant.id)
 
     conn
@@ -13,7 +13,7 @@ defmodule Elementary.StoreWeb.Checkout.CartController do
   end
 
   def update(conn, %{"id" => variant_id, "cart" => %{"quantity" => quantity}}) do
-    variant = Catalog.get_variant(variant_id)
+    variant = Catalog.get_variant!(variant_id)
 
     conn
     |> Cart.set_item(variant.id, String.to_integer(quantity))
@@ -21,7 +21,7 @@ defmodule Elementary.StoreWeb.Checkout.CartController do
   end
 
   def delete(conn, %{"id" => variant_id}) do
-    variant = Catalog.get_variant(variant_id)
+    variant = Catalog.get_variant!(variant_id)
 
     conn
     |> Cart.clear_item(variant.id)

@@ -79,7 +79,7 @@ defmodule Elementary.Store.Fulfillment do
   end
 
   defp printful_line_item({variant_id, quantity}) do
-    variant = Catalog.get_variant(variant_id)
+    variant = Catalog.get_variant!(variant_id)
 
     %{
       sync_variant_id: variant.id,
@@ -91,7 +91,7 @@ defmodule Elementary.Store.Fulfillment do
   end
 
   defp stripe_line_item({variant_id, quantity}) do
-    variant = Catalog.get_variant(variant_id)
+    variant = Catalog.get_variant!(variant_id)
 
     %{
       amount: round(variant.price * 100),
