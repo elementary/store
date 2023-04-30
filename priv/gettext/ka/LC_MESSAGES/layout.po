@@ -91,21 +91,13 @@ msgstr "ენა"
 #: nav.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Clear Cart"
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "კალათის გასუფთავება"
->>>>>>> 04155a8 (Translated using Weblate (Georgian))
 
 #: lib/store_web/templates/layout/app.html.leex:19
 #: lib/store_web/templates/layout/live.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "ამ საიტს გადახდისთვის ჩართული JavaScript-ი ესაჭიროება"
->>>>>>> 04155a8 (Translated using Weblate (Georgian))
 
 #: nav.html.leex:37
 #, elixir-autogen, elixir-format
