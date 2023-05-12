@@ -3,14 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-11 16:07+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-12 17:06+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/store/index/"
+"id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.8.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
 
 ## This file is a PO Template file.
 ##
@@ -21,89 +24,105 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/index/index.html.leex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Berbasis di Spanyol"
 
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Berbasis di Belanda"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Berbasis di Inggris"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Perangkat"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "Pengiriman gratis di Uni Eropa"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Pengiriman Internasional"
 
 #: lib/store_web/templates/index/index.html.leex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Laptop"
 
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Laptop, desktop, desktop mini, all-in-one"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Laptop, desktop mini"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Pengiriman Seluruh Dunia"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Dapatkan Perlengkapan. Menang/Menang."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Dukung Pengembangan."
 
 #: lib/store_web/templates/index/index.html.leex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Krimea, Kuba, Iran, Suriah, dan Korea Utara dikecualikan. Metode pengiriman, "
+"harga, dan waktu berbeda-beda di setiap negara. Pengiriman di luar AS dapat "
+"dikenakan biaya bea cukai tergantung pada negara asal dan tujuan."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Setiap pembelian digunakan untuk mengembangkan elementary OS, aplikasinya, "
+"dan layanannya. Kami adalah tim kecil, sebagian besar sukarelawan, bekerja "
+"terus-menerus untuk membuat elementary menjadi lebih baik—dukungan Anda "
+"membantu membuat elementary OS lebih berkelanjutan."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Dukungan perangkat keras dan perangkat lunak untuk perangkat ini disediakan "
+"oleh pengecer."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Perangkat keras dengan elementary OS dapat dibeli dari pengecer berikut. "
+"Membeli dari perusahaan-perusahaan ini membantu mendukung elementary OS."
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Kami mengirimkan pakaian dan aksesoris ke seluruh dunia! Pesanan dibuat "
+"sesuai permintaan biasanya dalam 2-7 hari dan akan dikirim dengan metode "
+"yang Anda pilih saat checkout. Karena COVID-19, pesanan mungkin tertunda. "
+"Produksi sesuai jadwal, tetapi penundaan masih dapat terjadi dengan "
+"pemenuhan dan pengiriman tergantung pada pesanan, metode pengiriman, dan "
+"tujuan."
