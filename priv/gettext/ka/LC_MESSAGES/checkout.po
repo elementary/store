@@ -8,146 +8,156 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-05-13 07:37+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/store/checkout/"
+"ka/>\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Address Line 1"
-msgstr ""
+msgstr "მისამართი 1"
 
 #: lib/store_web/templates/checkout/address.html.leex:34
 #, elixir-autogen, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "მისამართი 2"
 
 #: lib/store_web/templates/checkout/cart.html.leex:1
 #, elixir-autogen, elixir-format
 msgid "Cart"
-msgstr ""
+msgstr "კალათა"
 
 #: lib/store_web/templates/checkout/index.html.leex:8
 #: lib/store_web/templates/checkout/shipping.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "წამოღება"
 
 #: lib/store_web/templates/checkout/address.html.leex:44
 #, elixir-autogen, elixir-format
 msgid "City"
-msgstr ""
+msgstr "ქალაქი"
 
 #: lib/store_web/templates/checkout/address.html.leex:55
 #, elixir-autogen, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "ქვეყანა"
 
 #: lib/store_web/templates/checkout/address.html.leex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "ელფოტა"
 
 #: lib/store_web/templates/checkout/address.html.leex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "გადაზიდვის ტარიფების მიღება"
 
 #: lib/store_web/templates/checkout/address.html.leex:12
 #, elixir-autogen, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "სახელი"
 
 #: lib/store_web/templates/checkout/address.html.leex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "საფოსტო კოდი"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "მიწოდება"
 
 #: lib/store_web/templates/checkout/address.html.leex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "გადაზიდვის მისამართი"
 
 #: lib/store_web/templates/checkout/address.html.leex:65
 #, elixir-autogen, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "სახელმწიფო ან ოლქი"
 
 #: lib/store_web/templates/checkout/cart_item.html.leex:38
 #, elixir-autogen, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "განახლება"
 
 #: lib/store_web/templates/checkout/shipping.html.leex:26
 #, elixir-autogen, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "შემოწმება"
 
 #: lib/store_web/templates/checkout/address.html.leex:115
 #, elixir-autogen, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr ""
+msgstr "გადაზიდვის ტარიფების მიღება"
 
 #: lib/store_web/templates/checkout/index.html.leex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
-msgstr ""
+msgstr "კალათა ცარიელია"
 
 #: lib/store_web/templates/checkout/index.html.leex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
-msgstr ""
+msgstr "აირჩიეთ თქვენთვის რამე ლამაზი!"
 
 #: lib/store_web/templates/checkout/address.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
 #: lib/store_web/templates/checkout/address.html.leex:48
 #, elixir-autogen, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "ნებისმიერიქალაქი"
 
 #: lib/store_web/templates/checkout/address.html.leex:38
 #, elixir-autogen, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "ბინა, ლუქსი, სახლი, კორპუსი, სართული"
 
 #: lib/store_web/templates/checkout/address.html.leex:17
 #, elixir-autogen, elixir-format
 msgid "Ellie Mendez"
-msgstr ""
+msgstr "ელი მენდესი"
 
 #: lib/store_web/templates/checkout/address.html.leex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "ქუჩის მისამართი, საფოსტო ყუთი, კომპანიის სახელი"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "შეკვეთა განთავსებულია"
 
 #: lib/store_web/templates/checkout/result/success.html.eex:4
 #, elixir-autogen, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"თქვენი შეკვეთა მიღებულია და ჩვენი შესრულების პარტნიორი ბევრს მუშაობს, რომ "
+"რაც შეიძლება მალე მიგიყვანოთ. დადასტურება და ჩეკი მითითებულ ელფოსტის "
+"მისამართზე გაიგზავნა."
 
 #: lib/store_web/templates/checkout/address.html.leex:87
 #, elixir-autogen, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr ""
+msgstr "ჩეკისთვის. მარკეტინგში არ გამოიყენება"
 
 #: lib/store_web/templates/checkout/address.html.leex:100
 #, elixir-autogen, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "ტელეფონი"
 
 #: lib/store_web/templates/checkout/address.html.leex:101
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "მოთხოვნილია გადაზიდვის პარტნიორების მიერ"

@@ -8,74 +8,87 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-05-13 07:37+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/store/errors/ka/"
+">\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "არ შეიძლება ცარიელი იყოს"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "უკვე აღებულია"
 
 msgid "is invalid"
-msgstr ""
+msgstr "არასწორია"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "უნდა დაეთანხმოთ"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "აქვს არასწორი ფორმატი"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "აქვს არასწორი ელემენტი"
 
 msgid "is reserved"
-msgstr ""
+msgstr "დაცულია"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "არ ემთხვევა დადასტურებას"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "ჯერ კიდევ ასოცირდება ამ ელემენტთან"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "ჯერ კიდევ ასოცირდება ამ ელემენტთან"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "უნდა იყოს %{count} სიმბოლო"
+msgstr[1] "უნდა იყოს %{count} სიმბოლო"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "უნდა ჰქონდეს %{count} ელემენტი"
+msgstr[1] "უნდა ჰქონდეს %{count} ელემენტი"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "უნდა იყოს %{count} სიმბოლო მაინც"
+msgstr[1] "უნდა იყოს %{count} სიმბოლო მაინც"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "უნდა ჰქონდეს %{count} ელემენტი მაინც"
+msgstr[1] "უნდა ჰქონდეს %{count} ელემენტი მაინც"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "უნდა იყოს არა უმეტეს %{count} სიმბოლო"
+msgstr[1] "უნდა იყოს არა უმეტეს %{count} სიმბოლო"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "უნდა ჰქონდეს არა უმეტეს %{count} ელემენტი"
+msgstr[1] "უნდა ჰქონდეს არა უმეტეს %{count} ელემენტი"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "უნდა იყოს %{number} ნაკლები"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "უნდა იყოს იმაზე მეტი, ვიდრე %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "უნდა იყოს %{number}-ზე ნაკლები ან ტოლი"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "უნდა იყოს %{number}-ზე მეტი ან ტოლი"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "უნდა იყოს %{number}-ის ტოლი"

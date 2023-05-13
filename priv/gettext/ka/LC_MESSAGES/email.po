@@ -8,14 +8,21 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-05-13 07:37+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/store/email/ka/>"
+"\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "© %{year} elementary, Inc. ყველა უფლება დაცულია."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -23,13 +30,13 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "აი, რა გავაგზავნეთ ამ ამანათით:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr ""
+msgstr "თქვენი ტრეკინგის ნომერი:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
@@ -55,13 +62,13 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.html.eex:77
 #, elixir-autogen, elixir-format
 msgid "Price"
-msgstr ""
+msgstr "ფასი"
 
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-autogen, elixir-format
 msgid "Qty"
-msgstr ""
+msgstr "რა-ბა"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
@@ -69,7 +76,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "Shipping Address:"
-msgstr ""
+msgstr "მისამართი:"
 
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
@@ -77,7 +84,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-autogen, elixir-format
 msgid "The elementary Team"
-msgstr ""
+msgstr "Elementary-ის გუნდი"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
@@ -88,12 +95,12 @@ msgstr ""
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "ჩვენ მივიღეთ თქვენი შეკვეთა!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "ჩვენ გავაგზავნეთ თქვენი შეკვეთა!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
@@ -105,14 +112,14 @@ msgstr ""
 #: lib/store/email.ex:20
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "თქვენი შეკვეთა მიღებულია!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "თქვენი შეკვეთა გამოგზავნილია!"
 
 #: lib/store/email.ex:32
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "თქვენი პაკეტი გამოგზავნილია!"
