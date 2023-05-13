@@ -43,7 +43,7 @@ msgstr "თქვენი ტრეკინგის ნომერი:"
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
-"გამარჯობა, მადლობა elementary  მაღაზიიდან შეკვეთისთვის. უბრალოდ "
+"გამარჯობა, მადლობა elementary მაღაზიიდან შეკვეთისთვის. უბრალოდ "
 "შეგატყობინებთ, რომ ჩვენ მივიღეთ თქვენი შეკვეთა!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
@@ -51,6 +51,8 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
+"გამარჯობა, მადლობა elementary  -ის  მაღაზიიდან შეკვეთისთვის. უბრალოდ "
+"შეგატყობინებთ, რომ თქვენი შეკვეთა გამოგზავნილია!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
