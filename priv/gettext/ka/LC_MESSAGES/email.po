@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-05-13 07:38+0000\n"
-"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/email/ka/>"
 "\n"
 "Language: ka\n"
@@ -30,13 +30,13 @@ msgstr "© %{year} elementary, Inc. ყველა უფლება დაც
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr "აი გამოვგზავნეთ ამ შეკვეთაში"
+msgstr "აი, რა გავაგზავნეთ ამ ამანათით:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr "თქვენი ტრეკინგის ნომერი:"
+msgstr "ესაა თქვენი ტრეკინგის კოდი"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
