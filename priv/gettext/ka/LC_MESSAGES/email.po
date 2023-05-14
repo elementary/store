@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-13 07:38+0000\n"
+"PO-Revision-Date: 2023-05-14 08:06+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/email/ka/>"
 "\n"
@@ -51,7 +51,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
-"გამარჯობა, მადლობა elementary  -ის  მაღაზიიდან შეკვეთისთვის. უბრალოდ "
+"გამარჯობა, მადლობა elementary -ის მაღაზიიდან შეკვეთისთვის. უბრალოდ "
 "შეგატყობინებთ, რომ თქვენი შეკვეთა გამოგზავნილია!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
