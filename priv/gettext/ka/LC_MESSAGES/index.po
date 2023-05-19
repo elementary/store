@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-19 03:53+0000\n"
-"Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
+"PO-Revision-Date: 2023-05-19 03:54+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
 "Language: ka\n"
@@ -72,7 +72,7 @@ msgstr "მსოფლიოს მასშტაბით"
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "მიიღეთ აღჭურვილობა. მოგება/მოგება."
+msgstr "აირჩიეთ სუვენირი."
 
 #: lib/store_web/templates/index/index.html.leex:3
 #, elixir-autogen, elixir-format
@@ -83,6 +83,10 @@ msgstr "განვითარების მხარდაჭერა."
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"ყირიმი, კუბა, ირანი, სირია და ჩრდილოეთ კორეა გამორიცხულია. გადაზიდვის "
+"მეთოდები, ფასები და დრო განსხვავდება ქვეყნების მიხედვით. შეერთებული შტატების "
+"საზღვრებს გარეთ გაგზავნას შეიძლება ჰქონდეს საბაჟო გადასახადი წარმოშობისა და "
+"დანიშნულების ქვეყნების მიხედვით."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-autogen, elixir-format
