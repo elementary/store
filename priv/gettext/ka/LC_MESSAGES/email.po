@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-14 08:06+0000\n"
+"PO-Revision-Date: 2023-05-19 03:53+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/email/ka/>"
 "\n"
@@ -60,7 +60,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "სულმოუთქმელად ველოდებით თქვენს შემდეგ შეკვეთას!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
@@ -95,6 +95,8 @@ msgstr "Elementary-ის გუნდი"
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"ტრეკინგის ინფორმაციის განახლებას შეკვეთის გამოგზავნის შემდეგ 48 საათამდე "
+"შეიძლება, დასჭირდეს."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
@@ -111,6 +113,8 @@ msgstr "ჩვენ გავაგზავნეთ თქვენი შე
 #, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"ეს ელფოსტა მიიღეთ, რადგან Elementary-ის მაღაზიაში შეკვეთა განათავსეთ. "
+"დაგზავნის სია გამოწერილი არ გაქვთ."
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:20
