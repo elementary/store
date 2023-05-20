@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-20 03:47+0000\n"
+"PO-Revision-Date: 2023-05-20 03:48+0000\n"
 "Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
@@ -26,12 +26,12 @@ msgstr "დაფუძნებულია ესპანეთში"
 #: lib/store_web/templates/index/index.html.leex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr "ოფისი ნიდერლანდებში"
+msgstr "დაფუძნებულია ნიდერლანდებში"
 
 #: lib/store_web/templates/index/index.html.leex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr "ოფისი გაერთიანებულ სამეფოში"
+msgstr "დაფუძნებულია გაერთიანებლ სამეფოში"
 
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-autogen, elixir-format
@@ -92,7 +92,7 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"ყოველი შენაძენი მიდის elementary  ოპერაციული სისტემის, მისი პროგრამებისა და "
+"ყოველი შენაძენი მიდის elementary ოპერაციული სისტემის, მისი პროგრამებისა და "
 "სერვისების შემუშავებისკენ. ჩვენ ვართ მცირე გუნდი, ძირითადად მოხალისე, "
 "მუდმივად ვმუშაობთ ელემენტარული გაუმჯობესების მიზნით - თქვენი მხარდაჭერა "
 "ეხმარება ელემენტარული ოპერაციული სისტემის უფრო მდგრადობას. ყოველი შესყიდვა "
@@ -119,8 +119,8 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
-"ჩვენ ვაგზავნით ტანსაცმელს და აქსესუარებს მთელს მსოფლიოში! შეკვეთები ხდება "
-"მოთხოვნით, როგორც წესი, 2-7 დღის განმავლობაში და გაიგზავნება იმ მეთოდით, "
-"რომელსაც აირჩევთ გამოსვლისას. COVID-19– ის გამო, შეკვეთები შეიძლება გადაიდო. "
-"წარმოება დაგეგმილია, მაგრამ შეფერხებები მაინც შეიძლება მოხდეს შეკვეთის, "
-"გადაზიდვის მეთოდისა და დანიშნულების მიხედვით."
+"ჩვენს ტანსაცმელს და სამკაულებს მთელს მსოფლიოში ვაგზავნით! შეკვეთები "
+"მოთხოვნის მიხედვით, 2-7 დღეშ სრულდება და იმ მეთოდით იქნება გამოგზავნილი, "
+"რომელსაც გადახდისას აირჩევთ. COVID-19-ის გამო თქვენმა შეკვეთამ შეიძლება "
+"დაიგვიანოს. წარმოება მოთხოვნას აკმაყოფილებს, მაგრამ დაყოვნება შეიძლებ "
+"გაგზავნის, ტრანსპორტირების ან დანიშნულების პუნქტის გამო მოხდეს."
