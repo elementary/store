@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-05-20 03:49+0000\n"
-"Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
 "Language: ka\n"
@@ -36,12 +36,12 @@ msgstr "დაფუძნებულია გაერთიანებლ �
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr "მოწყობილობს"
+msgstr "მოწყობილობები"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr "უფასო მიწოდება ევროკავშირის ფარგლებში"
+msgstr "უფასო მიწოდება ევროკავშირში"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
