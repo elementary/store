@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-20 03:49+0000\n"
+"PO-Revision-Date: 2023-05-20 03:50+0000\n"
 "Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
@@ -57,12 +57,12 @@ msgstr "ლეპტოპები"
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr "ლეპტოპები, კომპიუტერები, მინი-კომპიუტერები, ყველაერთში კომპიტერი"
+msgstr "ლეპტოპები, კომპიუტერები, მინი დესკტოპები, ყველა"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr "ნოუთბუქები, მინი დესკტოპები"
+msgstr "ლეპტოპები, მინი კომპიუტერი"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
