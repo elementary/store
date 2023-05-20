@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-20 03:48+0000\n"
+"PO-Revision-Date: 2023-05-20 03:49+0000\n"
 "Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
@@ -36,7 +36,7 @@ msgstr "დაფუძნებულია გაერთიანებლ �
 #: lib/store_web/templates/index/index.html.leex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr "მოწყობილობა"
+msgstr "მოწყობილობს"
 
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
