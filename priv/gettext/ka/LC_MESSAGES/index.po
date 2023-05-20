@@ -62,12 +62,12 @@ msgstr "ლეპტოპები, კომპიუტერები, მ�
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr "ლეპტოპები, მინი კომპიუტერი"
+msgstr "ნოუთბუქები, მინი დესკტოპები"
 
 #: lib/store_web/templates/index/index.html.leex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr "მსოფლიოს მასშტაბით"
+msgstr "საერთაშირიშო მიწოდება"
 
 #: lib/store_web/templates/index/index.html.leex:4
 #, elixir-autogen, elixir-format
