@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-19 03:54+0000\n"
-"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2023-05-20 03:43+0000\n"
+"Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
 "Language: ka\n"
@@ -85,18 +85,28 @@ msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, pr
 msgstr ""
 "ყირიმი, კუბა, ირანი, სირია და ჩრდილოეთ კორეა გამორიცხულია. გადაზიდვის "
 "მეთოდები, ფასები და დრო განსხვავდება ქვეყნების მიხედვით. შეერთებული შტატების "
-"საზღვრებს გარეთ გაგზავნას შეიძლება ჰქონდეს საბაჟო გადასახადი წარმოშობისა და "
-"დანიშნულების ქვეყნების მიხედვით."
+"საზღვრებს გარეთ გაგზავნას, წარმოშობისა და დანიშნულების ქვეყნების მიხედვით, "
+"საბაჟო გადასახადი შეიძლება ჰქონდეს."
 
 #: lib/store_web/templates/index/index.html.leex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"ყოველი შენაძენი მიდის elementary  ოპერაციული სისტემის, მისი პროგრამებისა და "
+"სერვისების შემუშავებისკენ. ჩვენ ვართ მცირე გუნდი, ძირითადად მოხალისე, "
+"მუდმივად ვმუშაობთ ელემენტარული გაუმჯობესების მიზნით - თქვენი მხარდაჭერა "
+"ეხმარება ელემენტარული ოპერაციული სისტემის უფრო მდგრადობას. ყოველი შესყიდვა "
+"მიემართება ელემენტარული ოპერაციული სისტემის, მისი პროგრამებისა და სერვისების "
+"განვითარებაზე. ჩვენ ვართ მცირე გუნდი, ძირითადად მოხალისეები, მუდმივად "
+"ვმუშაობთ ელემენტარული გაუმჯობესების მიზნით - თქვენი მხარდაჭერა ეხმარება "
+"ელემენტარული ოპერაციული სისტემის უფრო მდგრადობას."
 
 #: lib/store_web/templates/index/index.html.leex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"ამ მოწყობილობების ტექნიკური და პროგრამული უზრუნველყოფა უზრუნველყოფილია "
+"საცალო ვაჭრობის მიერ."
 
 #: lib/store_web/templates/index/index.html.leex:16
 #, elixir-autogen, elixir-format
