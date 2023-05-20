@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-20 03:45+0000\n"
+"PO-Revision-Date: 2023-05-20 03:47+0000\n"
 "Last-Translator: Tchitchikashvili Zakro <zevilmanzaqro@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/index/ka/>"
 "\n"
@@ -112,11 +112,15 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
-"ტექნიკური მოწყობილობების elementary  OS შეძენა შესაძლებელია შემდეგი საცალო "
-"ვაჭრობიდან. ამ კომპანიებიდან შესყიდვები ეხმარება elementary ოპერაციული "
-"სისტემის მხარდაჭერას."
+"Elementary OS-ით აპარატურის შეძენა შემდეგი საცალო მოვაჭრეებისგან შეგიძლიათ. "
+"ამ კომპანიებისგან შეძენით თქვენ Elementary OS-ს უჭერთ მხარს."
 
 #: lib/store_web/templates/index/index.html.leex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"ჩვენ ვაგზავნით ტანსაცმელს და აქსესუარებს მთელს მსოფლიოში! შეკვეთები ხდება "
+"მოთხოვნით, როგორც წესი, 2-7 დღის განმავლობაში და გაიგზავნება იმ მეთოდით, "
+"რომელსაც აირჩევთ გამოსვლისას. COVID-19– ის გამო, შეკვეთები შეიძლება გადაიდო. "
+"წარმოება დაგეგმილია, მაგრამ შეფერხებები მაინც შეიძლება მოხდეს შეკვეთის, "
+"გადაზიდვის მეთოდისა და დანიშნულების მიხედვით."
