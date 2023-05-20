@@ -57,7 +57,7 @@ msgstr "ლეპტოპები"
 #: lib/store_web/templates/index/index.html.leex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr "ლეპტოპები, კომპიუტერები, მინი დესკტოპები, ყველა"
+msgstr "ლეპტოპები, კომპიუტერები, მინი-კომპიუტერები, ყველაერთში კომპიტერი"
 
 #: lib/store_web/templates/index/index.html.leex:23
 #, elixir-autogen, elixir-format
