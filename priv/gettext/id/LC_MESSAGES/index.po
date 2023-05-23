@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-11 16:07+0000\n"
-"PO-Revision-Date: 2023-05-12 17:06+0000\n"
+"PO-Revision-Date: 2023-05-23 18:07+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/store/index/"
@@ -47,7 +47,7 @@ msgstr "Perangkat"
 #: lib/store_web/templates/index/index.html.leex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr "Pengiriman gratis di Uni Eropa"
+msgstr "Pengiriman gratis dalam Uni Eropa"
 
 #: lib/store_web/templates/index/index.html.leex:34
 #: lib/store_web/templates/index/index.html.leex:43
