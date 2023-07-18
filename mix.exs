@@ -20,7 +20,7 @@ defmodule Elementary.Store.MixProject do
   def application do
     [
       extra_applications: [:logger, :runtime_tools],
-      mod: {Elementary.Store.Application, []}
+      mod: {Elementary.Store.Application, [env: Mix.env()]}
     ]
   end
 

@@ -23,10 +23,6 @@ defmodule Printful.Order do
     Api.post("/orders/estimate-costs", params)
   end
 
-  def update(id, params) do
-    Api.put("/orders/#{id}", params)
-  end
-
   def delete(id) do
     Api.delete("/orders/#{id}")
   end
