@@ -2,7 +2,6 @@ defmodule Elementary.StoreWeb.CheckoutView do
   use Elementary.StoreWeb, :view
 
   alias Elementary.Store.Catalog
-  alias Elementary.StoreWeb.Checkout
 
   def fetch_cart_info(cart) do
     cart

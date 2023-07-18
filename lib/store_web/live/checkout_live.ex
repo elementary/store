@@ -3,9 +3,7 @@ defmodule Elementary.StoreWeb.CheckoutLive do
 
   use Elementary.StoreWeb, :live_view
 
-  alias Elementary.Store.PubSub, as: StorePubSub
   alias Elementary.Store.{Fulfillment, Shipping}
-  alias Phoenix.PubSub
 
   @impl true
   def mount(
