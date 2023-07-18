@@ -111,6 +111,6 @@ defmodule PrintfulTest do
   end
 
   test "get catalog variant" do
-    {:ok, %{variant: %{id: 13097}}} = Printful.Catalog.variant(13097)
+    {:ok, %{variant: %{id: 13_097}}} = Printful.Catalog.variant(13_097)
   end
 end

@@ -1,4 +1,8 @@
 defmodule Printful.MockServer do
+  @moduledoc """
+  A set of mock HTTP endpoints for Printful
+  """
+
   use Plug.Router
 
   @valid_order %{
@@ -409,14 +413,14 @@ defmodule Printful.MockServer do
           "sync_product_id" => 264_672_898,
           "name" => "Wallpaper Mouse pad – Odin",
           "synced" => true,
-          "variant_id" => 13097,
+          "variant_id" => 13_097,
           "main_category_id" => 251,
           "warehouse_product_variant_id" => nil,
           "retail_price" => "16.00",
           "sku" => "61F18E1C450D8",
           "currency" => "USD",
           "product" => %{
-            "variant_id" => 13097,
+            "variant_id" => 13_097,
             "product_id" => 518,
             "image" => "https://files.cdn.printful.com/products/518/13097_1629286642.jpg",
             "name" => "Mouse Pad (White / 8.7\"x7.1\")"
@@ -479,14 +483,14 @@ defmodule Printful.MockServer do
         "sync_product_id" => 264_672_898,
         "name" => "Wallpaper Mouse pad – Odin",
         "synced" => true,
-        "variant_id" => 13097,
+        "variant_id" => 13_097,
         "main_category_id" => 251,
         "warehouse_product_variant_id" => nil,
         "retail_price" => "16.00",
         "sku" => "61F18E1C450D8",
         "currency" => "USD",
         "product" => %{
-          "variant_id" => 13097,
+          "variant_id" => 13_097,
           "product_id" => 518,
           "image" => "https://files.cdn.printful.com/products/518/13097_1629286642.jpg",
           "name" => "Mouse Pad (White / 8.7\"x7.1\")"
@@ -564,7 +568,7 @@ defmodule Printful.MockServer do
   get "/products/variant/:id" do
     success(conn, %{
       "variant" => %{
-        "id" => 13097,
+        "id" => 13_097,
         "product_id" => 518,
         "display_name" => "Mouse Pad (White / 8.7\"x7.1\")",
         "image_url" => "https://files.cdn.printful.com/products/518/13097_1629286642.jpg",
