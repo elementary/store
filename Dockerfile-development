@@ -20,14 +20,16 @@ RUN apk --no-cache --update add \
   npm \
   python3
 
+RUN cd /opt/app && \
+  mix local.hex --force && \
+  mix local.rebar --force && \
+  mix deps.get --all
+
 RUN npm install npm -g --no-progress && \
   cd /opt/app/assets && \
   npm ci
 
 RUN cd /opt/app && \
-  mix local.hex --force && \
-  mix local.rebar --force && \
-  mix deps.get --all && \
   MIX_ENV=dev mix deps.compile --all && \
   MIX_ENV=test mix deps.compile --all
 
