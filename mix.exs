@@ -7,7 +7,7 @@ defmodule Elementary.Store.MixProject do
       version: "0.1.0",
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env()),
-      compilers: [:phoenix, :gettext] ++ Mix.compilers(),
+      compilers: [:phoenix] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -41,7 +41,6 @@ defmodule Elementary.Store.MixProject do
       {:gettext, "~> 0.11"},
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
-      {:libcluster, "~> 3.3.0"},
       {:nebulex, "~> 2.5.2"},
       {:phoenix_html, "~> 2.14.3"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},

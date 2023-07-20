@@ -1,15 +1,15 @@
 ## "msgid"s in this file come from POT (.pot) files.
-##
-## Do not add, change, or remove "msgid"s manually here as
-## they're tied to the ones in the corresponding POT file
-## (with the same domain).
-##
-## Use "mix gettext.extract --merge" or "mix gettext.merge"
-## to merge POT files into PO files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"Language: pl_BR\n"
-"Plural-Forms: nplurals=3\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
 
 msgid "can't be blank"
 msgstr ""
@@ -45,37 +45,31 @@ msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 msgid "must be less than %{number}"
 msgstr ""
