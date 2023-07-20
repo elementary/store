@@ -27,7 +27,7 @@
     "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.1.0",
     "sass-loader": "^12.1.0",
-    "standard": "^16.0.3",
+    "standard": "^17.1.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "terser-webpack-plugin": "^5.1.4",
