@@ -8,9 +8,9 @@ services:
       context: .
       dockerfile: Dockerfile-development
     volumes:
-      - ./assets/scripts:/opt/app/assets/scripts
+      - ./assets/js:/opt/app/assets/js
       - ./assets/static:/opt/app/assets/static
-      - ./assets/styles:/opt/app/assets/styles
+      - ./assets/css:/opt/app/assets/css
       - ./config:/opt/app/config
       - ./lib:/opt/app/lib
       - ./priv:/opt/app/priv

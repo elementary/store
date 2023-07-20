@@ -1,8 +1,8 @@
-import '../styles/app.scss'
+import '../css/app.scss'
 
 import 'phoenix_html'
 import { Socket } from 'phoenix'
-import NProgress from 'nprogress'
+import topbar from 'topbar'
 import { LiveSocket } from 'phoenix_live_view'
 
 import SetSession from './set-session'
@@ -15,10 +15,10 @@ const liveSocket = new LiveSocket('/live', Socket, {
   hooks: { SetSession, Stripe }
 })
 
-NProgress.configure({ showSpinner: false })
-
-window.addEventListener('phx:page-loading-start', info => NProgress.start())
-window.addEventListener('phx:page-loading-stop', info => NProgress.done())
+// Show progress bar on live navigation and form submits
+topbar.config({ barColors: { 0: '#29d' }, shadowColor: 'rgba(0, 0, 0, .3)' })
+window.addEventListener('phx:page-loading-start', info => topbar.show())
+window.addEventListener('phx:page-loading-stop', info => topbar.hide())
 
 liveSocket.connect()
 

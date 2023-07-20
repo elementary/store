@@ -10,7 +10,7 @@ body {
   justify-content: stretch;
 }
 
-body > div {
+body>div {
   align-content: stretch;
   align-items: stretch;
   display: flex;
@@ -19,7 +19,7 @@ body > div {
   justify-content: stretch;
 }
 
-body > div > main {
+body>div>main {
   flex: 1 0 auto;
   margin: 0 auto;
   max-width: var(--page-width);
@@ -27,7 +27,7 @@ body > div > main {
   padding: 0 1rem;
 }
 
-body > div > footer {
+body>div>footer {
   background-color: var(--secondary-bg-color);
   display: flex;
   flex-flow: wrap-reverse;
@@ -78,14 +78,8 @@ body > div > footer {
   }
 }
 
-#nprogress {
-  flex: 0 0 0%;
-  height: 0;
-  width: 0;
-}
-
 @media (min-width: 900px) {
-  body > div > main {
+  body>div>main {
     padding: 0 2rem;
   }
 }
