@@ -67,8 +67,6 @@ config :phoenix, :json_library, Jason
 
 config :tesla, adapter: Tesla.Adapter.Hackney
 
-config :libcluster, topologies: []
-
 config :store, Printful.Api,
   baseUrl: "https://api.printful.com/",
   api_key: "",
