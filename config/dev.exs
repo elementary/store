@@ -4,22 +4,14 @@ import Config
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
-# watchers to your application. For example, we use it
-# with webpack to recompile .js and .css sources.
+# watchers to your application.
 config :store, Elementary.StoreWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
   watchers: [
-    node: [
-      "node_modules/webpack/bin/webpack.js",
-      "--mode",
-      "development",
-      "--watch",
-      "--no-stats-all",
-      cd: Path.expand("../assets", __DIR__)
-    ]
+    node: ["build.mjs", "--watch", cd: Path.expand("../assets", __DIR__)]
   ]
 
 # ## SSL Support

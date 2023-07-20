@@ -63,7 +63,8 @@ defmodule Elementary.Store.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "cmd npm ci --prefix assets"]
+      setup: ["deps.get", "cmd --cd assets npm ci"],
+      "assets.deploy": ["cmd --cd assets node build.mjs --deploy", "phx.digest"]
     ]
   end
 end

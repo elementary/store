@@ -26,11 +26,9 @@ RUN cd /opt/app && \
   mix deps.get
 
 RUN npm install npm -g --no-progress && \
-  cd /opt/app/assets && \
-  npm ci && \
-  NODE_ENV=production npm run build
+  npm --prefix assets ci && \
+  mix assets.deploy
 
-RUN mix phx.digest
 RUN mix release
 
 # Dockerfile

@@ -26,13 +26,13 @@
     <meta name="apple-mobile-web-app-title" content="elementary Store">
     <link rel="shortcut icon" href={Routes.static_path(Endpoint, "/favicon.png")}>
 
-    <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/css/app.css")}/>
+    <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/assets/app.css")}/>
 
     <%= for {code, _language} <- available_languages() do %>
       <link rel="alternate" hreflang={code} href={language_path(connection(assigns), code)} />
     <% end %>
 
-    <script phx-track-static defer type="text/javascript" src={Routes.static_path(@conn, "/js/app.js")}></script>
+    <script phx-track-static defer type="text/javascript" src={Routes.static_path(@conn, "/assets/app.js")}></script>
     <script defer type="text/javascript" src="https://js.stripe.com/v3"></script>
   </head>
 
