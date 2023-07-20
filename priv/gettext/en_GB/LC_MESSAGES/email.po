@@ -3,14 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-18 18:44+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-19 19:07+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"store/email/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.8.6\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 ## This file is a PO Template file.
 ##
@@ -21,12 +23,11 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "Copyright © %{year} elementary, Inc. All rights reserved."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -34,25 +35,29 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "Here's what we shipped in this order:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr ""
+msgstr "Here's your tracking number:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
+"Hey there, Thanks for ordering from the elementary store. Just letting you "
+"know that we have received your order!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
+"Hey there, Thanks for ordering from the elementary store. Just letting you "
+"know that your order has been sent out!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
@@ -60,19 +65,19 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "Looking forward to your next order!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
 #, elixir-autogen, elixir-format
 msgid "Price"
-msgstr ""
+msgstr "Price"
 
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-autogen, elixir-format
 msgid "Qty"
-msgstr ""
+msgstr "Qty"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
@@ -80,7 +85,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "Shipping Address:"
-msgstr ""
+msgstr "Shipping Address:"
 
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
@@ -88,42 +93,46 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-autogen, elixir-format
 msgid "The elementary Team"
-msgstr ""
+msgstr "The elementary Team"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"Tracking information can take up to 48 hours to be updated after the order "
+"is shipped."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "We Have Received Your Order!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "We Have Shipped Your Order!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"You're receiving this email because you placed an order in the elementary "
+"store. You are not subscribed to any mailing list."
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:20
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Your order has been received!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "Your order has been shipped!"
 
 #: lib/store/email.ex:32
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "Your package shipped!"
