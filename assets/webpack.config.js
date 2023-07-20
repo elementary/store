@@ -9,16 +9,16 @@ module.exports = (env, options) => {
 
   return {
     entry: {
-      app: ['./scripts/app.js']
+      app: ['./js/app.js']
     },
 
     output: {
       filename: '[name].js',
-      path: path.resolve(__dirname, '../priv/static/scripts'),
-      publicPath: '/scripts/'
+      path: path.resolve(__dirname, '../priv/static/js'),
+      publicPath: '/js/'
     },
 
-    devtool: devMode ? 'source-map' : undefined,
+    devtool: devMode ? 'eval-cheap-module-source-map' : undefined,
 
     module: {
       rules: [
@@ -48,7 +48,7 @@ module.exports = (env, options) => {
     },
 
     plugins: [
-      new MiniCssExtractPlugin({ filename: '../styles/app.css' }),
+      new MiniCssExtractPlugin({ filename: '../css/app.css' }),
       new CopyWebpackPlugin({
         patterns: [{ from: 'static/', to: '../' }]
       })
