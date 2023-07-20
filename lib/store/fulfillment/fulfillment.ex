@@ -4,7 +4,7 @@ defmodule Elementary.Store.Fulfillment do
   Printful.
   """
 
-  alias Elementary.Store.{Catalog, Email, Mailer, Shipping}
+  alias Elementary.Store.{Catalog, Email, Mailer}
   alias Elementary.StoreWeb.Router.Helpers, as: Routes
   alias __MODULE__
 
