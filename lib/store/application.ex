@@ -6,13 +6,9 @@ defmodule Elementary.Store.Application do
   use Application
 
   def start(_type, _args) do
-    topologies = Application.get_env(:libcluster, :topologies)
-
     children = [
       # Start the Telemetry supervisor
       Elementary.StoreWeb.Telemetry,
-      # Start clustering logic
-      {Cluster.Supervisor, [topologies, [name: Elementary.Store.ClusterSupervisor]]},
       # Start the Printful API cache
       Printful.Cache,
       # Start the fulfillment cleaner
