@@ -4,15 +4,15 @@
   elementary OS is created and used by people from all around the World;
   translated to languages from all across the World. Make the experience even
   better by selecting your language of choice.
-</P>
+</p>
 
 <ul>
   <%= for {code, name} <- available_languages() do %>
     <li>
       <a
-        href="<%= Routes.language_path(Endpoint, :set, code) %>"
+        href={Routes.language_path(Endpoint, :set, code)}
         rel="alternate"
-        hreflang="<%= code %>"
+        hreflang={code}
       >
         <%= name %>
       </a>
