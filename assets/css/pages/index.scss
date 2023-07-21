@@ -50,11 +50,11 @@ section.products {
     }
   }
 
-  @media (min-width: 600px) {
+  @media (width >= 600px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: 970px) {
+  @media (width >= 970px) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -113,7 +113,7 @@ section.products {
     }
   }
 
-  @media (min-width: 970px) {
+  @media (width >= 970px) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -240,7 +240,7 @@ section.products {
     }
   }
 
-  @media (min-width: 900px) {
+  @media (width >= 900px) {
     align-items: center;
     grid-template-areas:
       "title title"
@@ -270,7 +270,7 @@ section.products {
   button[type="submit"]:hover {
     background-color: var(--blueberry-300);
     box-shadow:
-      0 2px 3px -1px rgba(30, 51, 134, 0.3),
-      0 5px 10px -2px rgba(89, 159, 239, 0.5);
+      0 2px 3px -1px rgb(30 51 134 / 30%),
+      0 5px 10px -2px rgb(89 159 239 / 50%);
   }
 }
