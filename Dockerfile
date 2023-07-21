@@ -29,6 +29,7 @@ RUN npm install npm -g --no-progress && \
   npm --prefix assets ci && \
   mix assets.deploy
 
+RUN mix phx.gen.release
 RUN mix release
 
 # Dockerfile
@@ -46,5 +47,4 @@ WORKDIR /opt/app
 
 EXPOSE 4000
 
-ENTRYPOINT ["/opt/app/bin/store"]
-CMD ["start"]
+ENTRYPOINT ["/opt/app/bin/server"]

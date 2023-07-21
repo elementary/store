@@ -19,7 +19,6 @@ config :store, Elementary.StoreWeb.Endpoint,
     view: Elementary.StoreWeb.ErrorView
   ],
   pubsub_server: Elementary.Store.PubSub,
-  server: true,
   gzip: false,
   live_view: [signing_salt: "FhR1Qu+m"]
 
