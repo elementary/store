@@ -31,7 +31,7 @@ defmodule Printful.Order do
     if Application.get_env(:store, Printful.Api)[:enable_purchasing] do
       Api.post("/orders/#{id}/confirm", %{})
     else
-      Logger.warn("Not confirming order #{id} due to printful settings")
+      Logger.warning("Not confirming order #{id} due to printful settings")
     end
   end
 end

@@ -7,4 +7,4 @@ config :store, Printful.Api,
   # OK to enable purchasing here, since we're pointing at the mock API
   enable_purchasing: true
 
-config :store, Elementary.Store.Mailer, adapter: Bamboo.TestAdapter
+config :store, Elementary.Store.Mailer, adapter: Swoosh.Adapters.Test

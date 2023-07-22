@@ -1,5 +1,5 @@
 defmodule Elementary.Store.Mailer do
   @moduledoc false
 
-  use Bamboo.Mailer, otp_app: :store
+  use Swoosh.Mailer, otp_app: :store
 end

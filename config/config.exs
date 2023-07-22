@@ -19,7 +19,6 @@ config :store, Elementary.StoreWeb.Endpoint,
     view: Elementary.StoreWeb.ErrorView
   ],
   pubsub_server: Elementary.Store.PubSub,
-  server: true,
   gzip: false,
   live_view: [signing_salt: "FhR1Qu+m"]
 
@@ -30,7 +29,7 @@ config :store, Elementary.StoreWeb.Gettext,
     "af" => "Afrikaans",
     "ar" => "العَرَبِيَّة",
     "ca" => "català",
-    "cs-CZ" => "čeština",
+    "cs_CZ" => "čeština",
     "de" => "Deutsch",
     "es" => "Español",
     "fi" => "Finnish",
@@ -45,16 +44,16 @@ config :store, Elementary.StoreWeb.Gettext,
     "nl" => "Nederlands",
     "pa" => "ਪੰਜਾਬੀ",
     "pl" => "Polski",
-    "pt-BR" => "Português (Brasil)",
+    "pt_BR" => "Português (Brasil)",
     "pt" => "Português (Portugal)",
     "ru" => "Русский",
     "th" => "Thai",
     "sk" => "Slovak",
     "sv" => "Swedish",
-    "tr-TR" => "Türkçe",
+    "tr_TR" => "Türkçe",
     "uk" => "Українська",
-    "zh-CN" => "简体中文",
-    "zh-TW" => "繁體中文"
+    "zh_CN" => "简体中文",
+    "zh_TW" => "繁體中文"
   }
 
 # Configures Elixir's Logger
@@ -66,8 +65,6 @@ config :logger, :console,
 config :phoenix, :json_library, Jason
 
 config :tesla, adapter: Tesla.Adapter.Hackney
-
-config :libcluster, topologies: []
 
 config :store, Printful.Api,
   baseUrl: "https://api.printful.com/",
@@ -81,7 +78,7 @@ config :store, Printful.Cache,
     backend: :shards
   ]
 
-config :store, Elementary.Store.Mailer, adapter: Bamboo.LocalAdapter
+config :store, Elementary.Store.Mailer, adapter: Swoosh.Adapters.Local
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

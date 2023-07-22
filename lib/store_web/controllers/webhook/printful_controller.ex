@@ -30,6 +30,6 @@ defmodule Elementary.StoreWeb.Webhook.PrintfulController do
 
     data.order
     |> Email.package_shipped(data.shipment)
-    |> Mailer.deliver_later()
+    |> Mailer.deliver()
   end
 end

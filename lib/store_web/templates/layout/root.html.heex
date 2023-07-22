@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="<%= current_language() %>">
+<html lang={ current_language() }>
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <%= csrf_meta_tag() %>
-    <meta name="stripe-key" content="<%= stripe_key() %>">
+    <meta name="stripe-key" content={ stripe_key() }>
 
     <%= live_title_tag assigns[:page_title] || "Store", suffix: " ⋅ elementary Store" %>
     <meta name="description" content="Support Development. Get Gear. Win/Win.">
@@ -16,23 +16,23 @@
     <meta name="twitter:creator" content="@elementary">
     <meta name="twitter:title" content="elementary Store">
 
-    <meta itemprop="image" content="<%= meta_image(connection(assigns)) %>" />
-    <meta property="og:image" content="<%= meta_image(connection(assigns)) %>" />
+    <meta itemprop="image" content={ meta_image(connection(assigns)) } />
+    <meta property="og:image" content={ meta_image(connection(assigns)) } />
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:image" content="<%= meta_image(connection(assigns)) %>" />
+    <meta property="twitter:image" content={ meta_image(connection(assigns)) } />
 
     <meta name="author" content="elementary, Inc.">
     <meta name="theme-color" content="#3689e6">
     <meta name="apple-mobile-web-app-title" content="elementary Store">
-    <link rel="shortcut icon" href="<%= Routes.static_path(Endpoint, "/favicon.png") %>">
+    <link rel="shortcut icon" href={Routes.static_path(Endpoint, "/favicon.png")}>
 
-    <link phx-track-static rel="stylesheet" href="<%= Routes.static_path(Endpoint, "/styles/app.css") %>"/>
+    <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/assets/app.css")}/>
 
     <%= for {code, _language} <- available_languages() do %>
-      <link rel="alternate" hreflang="<%= code %>" href="<%= language_path(connection(assigns), code) %>" />
+      <link rel="alternate" hreflang={code} href={language_path(connection(assigns), code)} />
     <% end %>
 
-    <script phx-track-static defer type="text/javascript" src="<%= Routes.static_path(Endpoint, "/scripts/app.js") %>"></script>
+    <script phx-track-static defer type="text/javascript" src={Routes.static_path(@conn, "/assets/app.js")}></script>
     <script defer type="text/javascript" src="https://js.stripe.com/v3"></script>
   </head>
 

@@ -1,13 +1,8 @@
 <nav class="secondary nav-sticky">
   <ul>
-    <!--
-      NOTE: There is a live view bug in chrome that makes this not work all
-      the time.
-      https://github.com/phoenixframework/phoenix_live_view/issues/1204
-    -->
     <%= for category <- categories() do %>
       <li>
-        <a href="<%= Routes.index_path(Endpoint, :index) %>#<%= category_slug(category) %>">
+        <a href={"#{Routes.index_path(Endpoint, :index)}##{category_slug(category)}"}>
           <%= category %>
         </a>
       </li>

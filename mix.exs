@@ -7,7 +7,7 @@ defmodule Elementary.Store.MixProject do
       version: "0.1.0",
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env()),
-      compilers: [:phoenix, :gettext] ++ Mix.compilers(),
+      compilers: [:phoenix] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -33,25 +33,24 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:bamboo, "~> 2.3.0"},
-      {:bamboo_phoenix, "~> 1.0.0"},
+      {:swoosh, "~> 1.11"},
+      {:phoenix_swoosh, "~> 1.2"},
       {:castore, "~> 1.0.1"},
       {:credo, "~> 1.7.0", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.11"},
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
-      {:libcluster, "~> 3.3.0"},
       {:nebulex, "~> 2.5.2"},
-      {:phoenix_html, "~> 2.14.3"},
+      {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
-      {:phoenix_live_view, "~> 0.15.3"},
-      {:phoenix, "~> 1.5.7"},
+      {:phoenix_live_view, "~> 0.17.5"},
+      {:phoenix, "~> 1.6.0"},
       {:plug_cowboy, "~> 2.4"},
       {:shards, "~> 1.0"},
       {:stripity_stripe, "~> 2.10"},
       {:telemetry_metrics, "~> 0.6"},
-      {:telemetry_poller, "~> 0.4"},
+      {:telemetry_poller, "~> 1.0"},
       {:tesla, "~> 1.6.0", override: true}
     ]
   end
@@ -64,7 +63,8 @@ defmodule Elementary.Store.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "cmd npm ci --prefix assets"]
+      setup: ["deps.get", "cmd --cd assets npm ci"],
+      "assets.deploy": ["cmd --cd assets node build.mjs --deploy", "phx.digest"]
     ]
   end
 end

@@ -60,7 +60,7 @@
 .checkout-product .price-row input {
   background: linear-gradient(to bottom, #fafafa, #fdfdfd);
   border-radius: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.22);
+  border: 1px solid rgb(0 0 0 / 22%);
   font-size: 1em;
   height: 1.8em;
   margin: 0 0.5ch;
@@ -89,8 +89,8 @@
 .checkout-product .price-row button:hover {
   background-color: var(--blueberry-300);
   box-shadow:
-    0 2px 3px -1px rgba(30, 51, 134, 0.3),
-    0 5px 10px -2px rgba(89, 159, 239, 0.5);
+    0 2px 3px -1px rgb(30 51 134 / 30%),
+    0 5px 10px -2px rgb(89 159 239 / 50%);
 }
 
 .checkout-product .total-price {
@@ -103,7 +103,7 @@
   margin: 1rem 0;
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   .checkout-cart {
     max-width: 1160px;
     width: calc(100vw - 4rem);
@@ -139,8 +139,7 @@ form.shipping-checkout {
 
 form.address-checkout {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 
   label {
@@ -170,7 +169,7 @@ form.address-checkout {
 
   input {
     background: linear-gradient(to bottom, #fafafa, #fdfdfd);
-    border: 1px solid rgba(0, 0, 0, 0.22);
+    border: 1px solid rgb(0 0 0 / 22%);
     border-radius: 3px;
     display: block;
     font-size: 1rem;
@@ -181,7 +180,7 @@ form.address-checkout {
 
   select {
     background: linear-gradient(to bottom, #fafafa, #fdfdfd);
-    border: 1px solid rgba(0, 0, 0, 0.22);
+    border: 1px solid rgb(0 0 0 / 22%);
     border-radius: 3px;
     display: block;
     font-size: 1rem;
@@ -215,12 +214,8 @@ form.shipping-checkout button:disabled {
 .shipping-checkout label {
   display: grid;
   grid-gap: 0.5rem;
-  grid-template-areas:
-    "check name"
-    "check estimate"
-    "check price";
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template:
+    "check name" auto "check estimate" auto "check price" auto / auto 1fr;
   padding: 1rem 0;
   text-align: center;
 }
@@ -253,14 +248,11 @@ form.shipping-checkout button:disabled {
   padding: 1rem 0;
 }
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   .shipping-checkout label {
     align-items: center;
-    grid-template-areas:
-      "check name price"
-      "check estimate price";
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto;
+    grid-template:
+      "check name price" auto "check estimate price" auto / auto 1fr auto;
   }
 
   .shipping-checkout .price,

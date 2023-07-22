@@ -1,7 +1,7 @@
 # Dockerfile
 # Building for production
 
-FROM elixir:1.14.5-alpine as build
+FROM elixir:1.15.1-alpine as build
 
 RUN mkdir -p /opt/app
 
@@ -26,17 +26,16 @@ RUN cd /opt/app && \
   mix deps.get
 
 RUN npm install npm -g --no-progress && \
-  cd /opt/app/assets && \
-  npm ci && \
-  NODE_ENV=production npm run build
+  npm --prefix assets ci && \
+  mix assets.deploy
 
-RUN mix phx.digest
+RUN mix phx.gen.release
 RUN mix release
 
 # Dockerfile
 # Runing in production
 
-FROM elixir:1.14.5-alpine as release
+FROM elixir:1.15.1-alpine as release
 
 RUN apk add --no-cache bash openssl
 
@@ -48,5 +47,4 @@ WORKDIR /opt/app
 
 EXPOSE 4000
 
-ENTRYPOINT ["/opt/app/bin/store"]
-CMD ["start"]
+ENTRYPOINT ["/opt/app/bin/server"]

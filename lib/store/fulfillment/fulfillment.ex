@@ -4,7 +4,7 @@ defmodule Elementary.Store.Fulfillment do
   Printful.
   """
 
-  alias Elementary.Store.{Catalog, Email, Mailer, Shipping}
+  alias Elementary.Store.{Catalog, Email, Mailer}
   alias Elementary.StoreWeb.Router.Helpers, as: Routes
   alias __MODULE__
 
@@ -120,7 +120,7 @@ defmodule Elementary.Store.Fulfillment do
     printful_id
     |> Printful.Order.get()
     |> Email.order_created()
-    |> Mailer.deliver_later()
+    |> Mailer.deliver()
 
     if livemode do
       fulfill_order(printful_id)

@@ -53,14 +53,14 @@
 </section>
 
 <%= for {category, products} <- group_by_category(@products) do %>
-  <section class="products" id="<%= category_slug(hd(products).category) %>">
+  <section class="products" id={category_slug(hd(products).category)}>
     <h2><%= hd(products).category %></h2>
 
     <ul>
       <%= for product <- products do %>
         <li>
           <%= live_patch to: Routes.product_path(Endpoint, :index, product.id) do %>
-            <img alt="<%= product.name %>" loading="lazy" src="<%= product.thumbnail_url %>" />
+            <img alt={product.name} loading="lazy" src={product.thumbnail_url} />
             <h3>
               <%= product.name %>
               <span class="price">
