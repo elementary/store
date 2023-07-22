@@ -5,8 +5,14 @@ defmodule Elementary.Store.Application do
 
   use Application
 
-  def start(_type, _args) do
-    children = [
+  # In the test environment, start the mock server
+  defp children(env: :test) do
+    children(env: :prod) ++
+      [{Plug.Cowboy, scheme: :http, plug: Printful.MockServer, options: [port: 8081]}]
+  end
+
+  defp children(_) do
+    [
       # Start the Telemetry supervisor
       Elementary.StoreWeb.Telemetry,
       # Start the Printful API cache
@@ -18,6 +24,10 @@ defmodule Elementary.Store.Application do
       # Start the Endpoint (http/https)
       {Elementary.StoreWeb.Endpoint, []}
     ]
+  end
+
+  def start(_type, args) do
+    children = children(args)
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options

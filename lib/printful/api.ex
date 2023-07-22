@@ -42,7 +42,7 @@ defmodule Printful.Api do
 
   def post(url, body) do
     new()
-    |> Tesla.post(url, Jason.encode!(body))
+    |> Tesla.post(url, body)
     |> parse_result!()
   end
 

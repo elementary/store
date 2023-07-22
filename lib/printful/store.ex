@@ -13,10 +13,6 @@ defmodule Printful.Store do
     Api.get("/store/products/" <> to_string(product_id))
   end
 
-  def variants(product_id) do
-    Api.get("/store/products/" <> to_string(product_id))
-  end
-
   def variant(variant_id) do
     Api.get("/store/variants/" <> to_string(variant_id))
   end
