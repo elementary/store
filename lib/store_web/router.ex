@@ -21,7 +21,7 @@ defmodule Elementary.StoreWeb.Router do
     scope "/" do
       pipe_through :browser
 
-      forward "/emails", Bamboo.SentEmailViewerPlug
+      forward "/emails", Plug.Swoosh.MailboxPreview
     end
   end
 

@@ -33,8 +33,8 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:bamboo, "~> 2.3.0"},
-      {:bamboo_phoenix, "~> 1.0.0"},
+      {:swoosh, "~> 1.11"},
+      {:phoenix_swoosh, "~> 1.2"},
       {:castore, "~> 1.0.1"},
       {:credo, "~> 1.7.0", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},

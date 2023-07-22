@@ -120,7 +120,7 @@ defmodule Elementary.Store.Fulfillment do
     printful_id
     |> Printful.Order.get()
     |> Email.order_created()
-    |> Mailer.deliver_later()
+    |> Mailer.deliver()
 
     if livemode do
       fulfill_order(printful_id)
