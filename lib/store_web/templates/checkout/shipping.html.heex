@@ -8,7 +8,7 @@
   class: "shipping-checkout"
 ], fn f -> %>
   <%= for rate <- @shipping_rates do %>
-    <label for="<%= rate.id %>">
+    <label for={rate.id}>
       <%= radio_button f, :id, rate.id, id: rate.id %>
       <span class="name"><%= rate.name %></span>
       <span class="estimate">

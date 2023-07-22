@@ -19,7 +19,6 @@ config :store, Elementary.StoreWeb.Endpoint,
     view: Elementary.StoreWeb.ErrorView
   ],
   pubsub_server: Elementary.Store.PubSub,
-  server: true,
   gzip: false,
   live_view: [signing_salt: "FhR1Qu+m"]
 
@@ -79,7 +78,7 @@ config :store, Printful.Cache,
     backend: :shards
   ]
 
-config :store, Elementary.Store.Mailer, adapter: Bamboo.LocalAdapter
+config :store, Elementary.Store.Mailer, adapter: Swoosh.Adapters.Local
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

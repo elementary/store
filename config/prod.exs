@@ -20,4 +20,4 @@ config :logger, level: :info
 
 config :store, Printful.Api, enable_purchasing: true
 
-config :store, Elementary.Store.Mailer, adapter: Bamboo.MailgunAdapter
+config :store, Elementary.Store.Mailer, adapter: Swoosh.Adapters.Mailgun
