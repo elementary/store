@@ -1,6 +1,6 @@
 import Config
 
-config :logger, level: :warn
+config :logger, level: :warning
 
 config :store, Printful.Api,
   baseUrl: "http://localhost:8081/",

@@ -44,3 +44,6 @@ npm-debug.log
 
 # elementary Code and Gedit temporary files
 *~
+
+# Somewhere to store secret env vars for Docker testing
+.secrets.env
