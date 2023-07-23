@@ -122,17 +122,17 @@ msgstr ""
 "store. You are not subscribed to any mailing list."
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "Your order has been received!"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "Your order has been shipped!"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "Your package shipped!"

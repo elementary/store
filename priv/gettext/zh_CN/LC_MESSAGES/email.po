@@ -109,17 +109,17 @@ msgid "You're receiving this email because you placed an order in the elementary
 msgstr "您收到此邮件是因为您在 elementary 商店有一笔订单。您没有订阅到任何邮件列表。"
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "您的订单已收到！"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "您的订单已发出！"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "您的包裹已发出！"

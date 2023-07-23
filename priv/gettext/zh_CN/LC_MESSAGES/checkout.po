@@ -18,143 +18,143 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/checkout/address.html.leex:23
+#: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Address Line 1"
 msgstr "地址行 1"
 
-#: lib/store_web/templates/checkout/address.html.leex:34
+#: lib/store_web/templates/checkout/address.html.heex:34
 #, elixir-autogen, elixir-format
 msgid "Address Line 2"
 msgstr "地址行 2"
 
-#: lib/store_web/templates/checkout/cart.html.leex:1
+#: lib/store_web/templates/checkout/cart.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Cart"
 msgstr "购物车"
 
-#: lib/store_web/templates/checkout/index.html.leex:8
-#: lib/store_web/templates/checkout/shipping.html.leex:25
+#: lib/store_web/templates/checkout/index.html.heex:8
+#: lib/store_web/templates/checkout/shipping.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Checkout"
 msgstr "结账"
 
-#: lib/store_web/templates/checkout/address.html.leex:44
+#: lib/store_web/templates/checkout/address.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "City"
 msgstr "城市"
 
-#: lib/store_web/templates/checkout/address.html.leex:55
+#: lib/store_web/templates/checkout/address.html.heex:55
 #, elixir-autogen, elixir-format
 msgid "Country"
 msgstr "国家或地区"
 
-#: lib/store_web/templates/checkout/address.html.leex:86
+#: lib/store_web/templates/checkout/address.html.heex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
 msgstr "电子邮箱"
 
-#: lib/store_web/templates/checkout/address.html.leex:114
+#: lib/store_web/templates/checkout/address.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
 msgstr "获取运输费率"
 
-#: lib/store_web/templates/checkout/address.html.leex:12
+#: lib/store_web/templates/checkout/address.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Name"
 msgstr "姓名"
 
-#: lib/store_web/templates/checkout/address.html.leex:74
+#: lib/store_web/templates/checkout/address.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
 msgstr "邮政编码"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:1
+#: lib/store_web/templates/checkout/shipping.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping"
 msgstr "送货"
 
-#: lib/store_web/templates/checkout/address.html.leex:1
+#: lib/store_web/templates/checkout/address.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping Address"
 msgstr "送货地址"
 
-#: lib/store_web/templates/checkout/address.html.leex:65
+#: lib/store_web/templates/checkout/address.html.heex:65
 #, elixir-autogen, elixir-format
 msgid "State or Province"
 msgstr "州或省"
 
-#: lib/store_web/templates/checkout/cart_item.html.leex:38
+#: lib/store_web/templates/checkout/cart_item.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Update"
 msgstr "更新"
 
-#: lib/store_web/templates/checkout/shipping.html.leex:26
+#: lib/store_web/templates/checkout/shipping.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Checking Out"
 msgstr "结账"
 
-#: lib/store_web/templates/checkout/address.html.leex:115
+#: lib/store_web/templates/checkout/address.html.heex:115
 #, elixir-autogen, elixir-format
 msgid "Fetching Shipping Rates"
 msgstr "正在获取运输费率"
 
-#: lib/store_web/templates/checkout/index.html.leex:2
+#: lib/store_web/templates/checkout/index.html.heex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
 msgstr "清空购物车"
 
-#: lib/store_web/templates/checkout/index.html.leex:5
+#: lib/store_web/templates/checkout/index.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
 msgstr "给自己买点好东西！"
 
-#: lib/store_web/templates/checkout/address.html.leex:79
+#: lib/store_web/templates/checkout/address.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "12345"
 msgstr "12345"
 
-#: lib/store_web/templates/checkout/address.html.leex:48
+#: lib/store_web/templates/checkout/address.html.heex:48
 #, elixir-autogen, elixir-format
 msgid "Anytown"
 msgstr "任何城镇"
 
-#: lib/store_web/templates/checkout/address.html.leex:38
+#: lib/store_web/templates/checkout/address.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
 msgstr "公寓、套房、单元、楼栋、楼层"
 
-#: lib/store_web/templates/checkout/address.html.leex:17
+#: lib/store_web/templates/checkout/address.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Ellie Mendez"
 msgstr "Ellie Mendez"
 
-#: lib/store_web/templates/checkout/address.html.leex:28
+#: lib/store_web/templates/checkout/address.html.heex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
 msgstr "街道地址、邮箱、公司名称"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:1
+#: lib/store_web/templates/checkout/result/success.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
 msgstr "订单完成"
 
-#: lib/store_web/templates/checkout/result/success.html.eex:4
+#: lib/store_web/templates/checkout/result/success.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr "您的订单已收到，我们的履约合作伙伴正在努力工作以尽快送到您的手上。一封包含了确认信息和收据的电子邮件已经发送至您提供的电子邮箱。"
 
-#: lib/store_web/templates/checkout/address.html.leex:87
+#: lib/store_web/templates/checkout/address.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "For receipt; never used for marketing"
 msgstr "仅用于收据; 从未用于市场营销"
 
-#: lib/store_web/templates/checkout/address.html.leex:100
+#: lib/store_web/templates/checkout/address.html.heex:100
 #, elixir-autogen, elixir-format
 msgid "Phone"
 msgstr "电话"
 
-#: lib/store_web/templates/checkout/address.html.leex:101
+#: lib/store_web/templates/checkout/address.html.heex:101
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
 msgstr "运输合作伙伴要求"

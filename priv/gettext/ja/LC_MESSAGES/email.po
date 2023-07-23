@@ -111,17 +111,17 @@ msgstr ""
 "ストアでご購入いただいた商品に関する通知をメールでお届けしています。お使いのメールアドレスは、メーリングリストには追加されていません。"
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "ご注文を確認いたしました！"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "ご注文の商品を発送しました！"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "配送が開始されました！"

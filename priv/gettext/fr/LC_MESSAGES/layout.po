@@ -18,88 +18,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/layout/footer.html.leex:4
+#: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
 msgstr "%{year} elementary, Inc"
 
-#: nav.html.leex:35
+#: lib/store_web/templates/layout/primary-nav.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "Blog"
 msgstr "Blog"
 
-#: lib/store_web/templates/layout/footer.html.leex:26
+#: lib/store_web/templates/layout/footer.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Brand"
 msgstr "Marque"
 
-#: nav.html.leex:31
+#: lib/store_web/templates/layout/secondary-nav.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
 msgstr "Panier (%{count})"
 
-#: nav.html.leex:17
+#: lib/store_web/templates/layout/primary-nav.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Developer"
 msgstr "Développeur"
 
-#: nav.html.leex:23
+#: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
 msgstr "Contribuer"
 
-#: lib/store_web/templates/layout/footer.html.leex:32
+#: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "OEMs"
 msgstr "OEM"
 
-#: lib/store_web/templates/layout/footer.html.leex:50
+#: lib/store_web/templates/layout/footer.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Open Source"
 msgstr "Open Source"
 
-#: lib/store_web/templates/layout/footer.html.leex:20
+#: lib/store_web/templates/layout/footer.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Press"
 msgstr "Presse"
 
-#: lib/store_web/templates/layout/footer.html.leex:38
+#: lib/store_web/templates/layout/footer.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Privacy"
 msgstr "Confidentialité"
 
-#: nav.html.leex:29
+#: lib/store_web/templates/layout/primary-nav.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Store"
 msgstr "Boutique"
 
-#: nav.html.leex:11
+#: lib/store_web/templates/layout/primary-nav.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Support"
 msgstr "Support"
 
-#: lib/store_web/templates/layout/footer.html.leex:44
+#: lib/store_web/templates/layout/footer.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "Team"
 msgstr "Équipe"
 
-#: lib/store_web/templates/layout/footer.html.leex:12
+#: lib/store_web/templates/layout/footer.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Langue"
 
-#: nav.html.leex:25
+#: lib/store_web/templates/layout/secondary-nav.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Clear Cart"
 msgstr "Vider le panier"
 
-#: lib/store_web/templates/layout/app.html.leex:19
-#: lib/store_web/templates/layout/live.html.leex:32
+#: lib/store_web/templates/layout/app.html.heex:19
+#: lib/store_web/templates/layout/live.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr "Ce site nécessite JavaScript pour procéder au paiement"
 
-#: nav.html.leex:37
+#: lib/store_web/templates/layout/secondary-nav.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Cart empty"
 msgstr "Panier vide"

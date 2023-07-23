@@ -116,17 +116,17 @@ msgstr ""
 "boutique d'elementary. Vous n'êtes inscrit à aucune liste de diffusion."
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "Votre commande a été reçue !"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "Votre commande a été expédiée !"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "Votre colis a été expédié !"

@@ -117,17 +117,17 @@ msgstr ""
 "l'elementary. No esteu subscrit a cap llista de correu."
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "Hem rebut la comanda!"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "La comanda s'ha enviat!"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "El paquet ja ha sortit!"

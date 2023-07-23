@@ -1,0 +1,98 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/store_web/templates/layout/footer.html.heex:4
+#, elixir-autogen, elixir-format
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:35
+#, elixir-autogen, elixir-format
+msgid "Blog"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:26
+#, elixir-autogen, elixir-format
+msgid "Brand"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:26
+#, elixir-autogen, elixir-format
+msgid "Cart (%{count})"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:17
+#, elixir-autogen, elixir-format
+msgid "Developer"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:23
+#, elixir-autogen, elixir-format
+msgid "Get Involved"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "OEMs"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:50
+#, elixir-autogen, elixir-format
+msgid "Open Source"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Press"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:38
+#, elixir-autogen, elixir-format
+msgid "Privacy"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:29
+#, elixir-autogen, elixir-format
+msgid "Store"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:11
+#, elixir-autogen, elixir-format
+msgid "Support"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:44
+#, elixir-autogen, elixir-format
+msgid "Team"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:12
+#, elixir-autogen, elixir-format
+msgid "Language"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Clear Cart"
+msgstr ""
+
+#: lib/store_web/templates/layout/app.html.heex:19
+#: lib/store_web/templates/layout/live.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "Cart empty"
+msgstr ""

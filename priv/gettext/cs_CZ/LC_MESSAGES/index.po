@@ -17,68 +17,68 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/index/index.html.leex:33
+#: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
 msgstr "Nachází se ve Španělsku"
 
-#: lib/store_web/templates/index/index.html.leex:24
+#: lib/store_web/templates/index/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
 msgstr "Nachází se v Nizozemsku"
 
-#: lib/store_web/templates/index/index.html.leex:42
+#: lib/store_web/templates/index/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
 msgstr "Nachází se ve Velké Británii"
 
-#: lib/store_web/templates/index/index.html.leex:13
+#: lib/store_web/templates/index/index.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
 msgstr "Zařízení"
 
-#: lib/store_web/templates/index/index.html.leex:25
+#: lib/store_web/templates/index/index.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
 msgstr "Doprava v ceně v rámci EU"
 
-#: lib/store_web/templates/index/index.html.leex:34
-#: lib/store_web/templates/index/index.html.leex:43
+#: lib/store_web/templates/index/index.html.heex:34
+#: lib/store_web/templates/index/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
 msgstr "Zasílání po celém světě"
 
-#: lib/store_web/templates/index/index.html.leex:41
+#: lib/store_web/templates/index/index.html.heex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
 msgstr "Notebooky"
 
-#: lib/store_web/templates/index/index.html.leex:32
+#: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr "Notebooky, (mini) stolní počítače, vestavěné do obrazovek"
 
-#: lib/store_web/templates/index/index.html.leex:23
+#: lib/store_web/templates/index/index.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
 msgstr "Notebooky, mini stolní počítače"
 
-#: lib/store_web/templates/index/index.html.leex:79
+#: lib/store_web/templates/index/index.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
 msgstr "Zasílání do celého světa"
 
-#: lib/store_web/templates/index/index.html.leex:4
+#: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr "Získejte zboží. Výhodné pro obě strany."
 
-#: lib/store_web/templates/index/index.html.leex:3
+#: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
 msgstr "Podpořte vývoj."
 
-#: lib/store_web/templates/index/index.html.leex:87
+#: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
@@ -86,7 +86,7 @@ msgstr ""
 "dodání se liší podle státu. Zasílání mimo Spojené Státy Americké může "
 "podléhat clům v závislosti na zemi původu a doručení."
 
-#: lib/store_web/templates/index/index.html.leex:8
+#: lib/store_web/templates/index/index.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
@@ -95,20 +95,20 @@ msgstr ""
 "vylepšují elementary. Vaše podpora zajišťuje udržitelnost vývoje elementary "
 "OS."
 
-#: lib/store_web/templates/index/index.html.leex:50
+#: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
 "Hardwarová a softwarová podpora pro tato zařízení je zajišťována výrobcem."
 
-#: lib/store_web/templates/index/index.html.leex:16
+#: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 "Hardwarová zařízení s elementary OS je možné zakoupit od následujících "
 "prodejců. Nakupování od těchto společností pomůže podpořit elementary OS."
 
-#: lib/store_web/templates/index/index.html.leex:82
+#: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""

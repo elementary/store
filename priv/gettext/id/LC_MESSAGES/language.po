@@ -21,7 +21,6 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/controllers/language_controller.ex:30
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"

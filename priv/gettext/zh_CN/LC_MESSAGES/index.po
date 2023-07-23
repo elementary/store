@@ -18,90 +18,90 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: lib/store_web/templates/index/index.html.leex:33
+#: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
 msgstr "位于西班牙"
 
-#: lib/store_web/templates/index/index.html.leex:24
+#: lib/store_web/templates/index/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
 msgstr "位于荷兰"
 
-#: lib/store_web/templates/index/index.html.leex:42
+#: lib/store_web/templates/index/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
 msgstr "位于英国"
 
-#: lib/store_web/templates/index/index.html.leex:13
+#: lib/store_web/templates/index/index.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
 msgstr "设备"
 
-#: lib/store_web/templates/index/index.html.leex:25
+#: lib/store_web/templates/index/index.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
 msgstr "欧盟内免费送货"
 
-#: lib/store_web/templates/index/index.html.leex:34
-#: lib/store_web/templates/index/index.html.leex:43
+#: lib/store_web/templates/index/index.html.heex:34
+#: lib/store_web/templates/index/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
 msgstr "国际送货"
 
-#: lib/store_web/templates/index/index.html.leex:41
+#: lib/store_web/templates/index/index.html.heex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
 msgstr "笔记本电脑"
 
-#: lib/store_web/templates/index/index.html.leex:32
+#: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr "笔记本电脑、台式电脑、微型台式电脑、一体机电脑"
 
-#: lib/store_web/templates/index/index.html.leex:23
+#: lib/store_web/templates/index/index.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
 msgstr "笔记本电脑、微型台式电脑"
 
-#: lib/store_web/templates/index/index.html.leex:79
+#: lib/store_web/templates/index/index.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
 msgstr "全球送货"
 
-#: lib/store_web/templates/index/index.html.leex:4
+#: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
 msgstr "购买设备，互利共赢。"
 
-#: lib/store_web/templates/index/index.html.leex:3
+#: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
 msgstr "支持开发。"
 
-#: lib/store_web/templates/index/index.html.leex:87
+#: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr "不包括克里米亚、古巴、伊朗、叙利亚、朝鲜。送货方式、运费、时间随国家变化。美国以外的送货可能产生关税，取决于发货地和收货地。"
 
-#: lib/store_web/templates/index/index.html.leex:8
+#: lib/store_web/templates/index/index.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
 "每一笔订单都是在支持 elementary OS 及其应用程序和服务的开发工作。我们是一个小团队，主要由志愿者组成，始终致力于让 elementary "
 "变得更好——您的支持可以帮助 elementary OS 可持续发展。"
 
-#: lib/store_web/templates/index/index.html.leex:50
+#: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr "这些设备的硬件和软件支持由零售商提供。"
 
-#: lib/store_web/templates/index/index.html.leex:16
+#: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr "搭载 elementary OS 的硬件设备可从以下零售商处购买。从这些公司购买可以帮助支持 elementary OS。"
 
-#: lib/store_web/templates/index/index.html.leex:82
+#: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""

@@ -114,17 +114,17 @@ msgstr ""
 ". आपण कोणत्याही मेलिंग यादीची सदस्यता घेतली नाही."
 
 #: lib/store/email.ex:16
-#: lib/store/email.ex:20
+#: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
 msgstr "आपली ऑर्डर प्राप्त झाली आहे!"
 
-#: lib/store/email.ex:28
+#: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
 msgstr "आपली ऑर्डर रवाना करण्यात आली आहे!"
 
-#: lib/store/email.ex:32
+#: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
 msgstr "आपले पॅकेज पाठवले!"
