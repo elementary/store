@@ -38,15 +38,15 @@ defmodule Elementary.Store.Fulfillment do
       payment_intent_data: %{
         description: "elementary Store",
         metadata: %{
-          source: "elementary/store#v1",
-          printful_id: printful_order.id,
-          locale: Gettext.get_locale()
+          "source" => "elementary/store#v1",
+          "printful_id" => printful_order.id,
+          "locale" => Gettext.get_locale()
         }
       },
       metadata: %{
-        source: "elementary/store#v1",
-        printful_id: printful_order.id,
-        locale: Gettext.get_locale()
+        "source" => "elementary/store#v1",
+        "printful_id" => printful_order.id,
+        "locale" => Gettext.get_locale()
       }
     })
   end
@@ -90,27 +90,37 @@ defmodule Elementary.Store.Fulfillment do
     }
   end
 
+  @spec stripe_line_item({binary(), integer()}) :: Stripe.Session.line_item_data()
   defp stripe_line_item({variant_id, quantity}) do
     variant = Catalog.get_variant!(variant_id)
 
     %{
-      amount: round(variant.price * 100),
-      currency: "USD",
-      name: variant.name,
       quantity: quantity,
-      images: [variant.preview_url]
+      price_data: %{
+        unit_amount: round(variant.price * 100),
+        currency: "USD",
+        product_data: %{
+          name: variant.name,
+          images: [variant.preview_url]
+        }
+      }
     }
   end
 
+  @spec stripe_extra_lines(map()) :: list(Stripe.Session.line_item_data())
   defp stripe_extra_lines(estimate) do
     estimate
     |> Map.take([:shipping, :tax, :vat])
     |> Enum.reject(fn {_k, v} -> is_nil(v) or v == 0 end)
     |> Enum.map(fn {name, value} ->
       %{
-        amount: round(value * 100),
-        currency: "USD",
-        name: String.capitalize(to_string(name)),
+        price_data: %{
+          unit_amount: round(value * 100),
+          currency: "USD",
+          product_data: %{
+            name: String.capitalize(to_string(name))
+          }
+        },
         quantity: 1
       }
     end)
