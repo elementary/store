@@ -44,7 +44,7 @@ defmodule Elementary.Store.MixProject do
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.17.5"},
-      {:phoenix, "~> 1.6.0"},
+      {:phoenix, "~> 1.7.7"},
       {:plug_cowboy, "~> 2.4"},
       {:shards, "~> 1.0"},
       {:stripity_stripe, "~> 2.10"},
