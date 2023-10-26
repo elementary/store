@@ -8,146 +8,156 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-10-26 19:10+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"store/checkout/en_GB/>\n"
 "Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Address Line 1"
-msgstr ""
+msgstr "Address Line 1"
 
 #: lib/store_web/templates/checkout/address.html.heex:34
 #, elixir-autogen, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "Address Line 2"
 
 #: lib/store_web/templates/checkout/cart.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Cart"
-msgstr ""
+msgstr "Cart"
 
 #: lib/store_web/templates/checkout/index.html.heex:8
 #: lib/store_web/templates/checkout/shipping.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "Checkout"
 
 #: lib/store_web/templates/checkout/address.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "City"
-msgstr ""
+msgstr "City"
 
 #: lib/store_web/templates/checkout/address.html.heex:55
 #, elixir-autogen, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "Country"
 
 #: lib/store_web/templates/checkout/address.html.heex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: lib/store_web/templates/checkout/address.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "Get Shipping Rates"
 
 #: lib/store_web/templates/checkout/address.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: lib/store_web/templates/checkout/address.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "Postal Code"
 
 #: lib/store_web/templates/checkout/shipping.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "Shipping"
 
 #: lib/store_web/templates/checkout/address.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "Shipping Address"
 
 #: lib/store_web/templates/checkout/address.html.heex:65
 #, elixir-autogen, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "State or Province"
 
 #: lib/store_web/templates/checkout/cart_item.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "Update"
 
 #: lib/store_web/templates/checkout/shipping.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "Checking Out"
 
 #: lib/store_web/templates/checkout/address.html.heex:115
 #, elixir-autogen, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr ""
+msgstr "Fetching Shipping Rates"
 
 #: lib/store_web/templates/checkout/index.html.heex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
-msgstr ""
+msgstr "Empty Cart"
 
 #: lib/store_web/templates/checkout/index.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
-msgstr ""
+msgstr "Go get yourself something nice!"
 
 #: lib/store_web/templates/checkout/address.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
 #: lib/store_web/templates/checkout/address.html.heex:48
 #, elixir-autogen, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "Anytown"
 
 #: lib/store_web/templates/checkout/address.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "Apartment, Suite, Unit, Building, Floor"
 
 #: lib/store_web/templates/checkout/address.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Ellie Mendez"
-msgstr ""
+msgstr "Ellie Mendez"
 
 #: lib/store_web/templates/checkout/address.html.heex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "Street Address, P.O. Box, Company Name"
 
 #: lib/store_web/templates/checkout/result/success.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "Order Placed"
 
 #: lib/store_web/templates/checkout/result/success.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"Your order has been received and our fulfillment partner is working hard to "
+"get it to you as soon as possible. A confirmation and receipt has been sent "
+"to the provided email address."
 
 #: lib/store_web/templates/checkout/address.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr ""
+msgstr "For receipt; never used for marketing"
 
 #: lib/store_web/templates/checkout/address.html.heex:100
 #, elixir-autogen, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "Phone"
 
 #: lib/store_web/templates/checkout/address.html.heex:101
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "Required by shipping partners"
