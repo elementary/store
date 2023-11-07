@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-13 07:37+0000\n"
+"PO-Revision-Date: 2023-11-07 17:10+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/store/checkout/"
 "ka/>\n"
 "Language: ka\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
@@ -57,7 +57,7 @@ msgstr "ელფოტა"
 #: lib/store_web/templates/checkout/address.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr "გადაზიდვის ტარიფების მიღება"
+msgstr "მიიღეთ გადაზიდვის ტარიფები"
 
 #: lib/store_web/templates/checkout/address.html.heex:12
 #, elixir-autogen, elixir-format
@@ -102,7 +102,7 @@ msgstr "გადაზიდვის ტარიფების მიღე�
 #: lib/store_web/templates/checkout/index.html.heex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
-msgstr "კალათა ცარიელია"
+msgstr "კალათის დაცარიელება"
 
 #: lib/store_web/templates/checkout/index.html.heex:5
 #, elixir-autogen, elixir-format
