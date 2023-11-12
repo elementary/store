@@ -13,6 +13,7 @@ config :store, Elementary.StoreWeb.Endpoint,
   url: [scheme: "https", port: 443],
   http: [port: 4000, transport_options: [socket_opts: [:inet6]]],
   cache_static_manifest: "priv/static/cache_manifest.json",
+  check_origin: ["https://store.elementary.io", "https://store.elementaryos.org"],
   gzip: true
 
 # Do not print debug messages in production
