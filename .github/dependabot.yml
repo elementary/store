@@ -33,6 +33,8 @@ updates:
         update-types:
         - "minor"
         - "patch"
+        exclude-patterns:
+        - "phoenix_live_view*"
 
   - package-ecosystem: npm
     directory: /
