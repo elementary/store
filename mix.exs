@@ -43,14 +43,14 @@ defmodule Elementary.Store.MixProject do
       {:nebulex, "~> 2.5.2"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
-      {:phoenix_live_view, "~> 0.17.5"},
+      {:phoenix_live_view, "~> 0.20.1"},
       {:phoenix, "~> 1.6.0"},
       {:plug_cowboy, "~> 2.4"},
       {:shards, "~> 1.0"},
       {:stripity_stripe, "~> 2.10"},
       {:telemetry_metrics, "~> 0.6"},
       {:telemetry_poller, "~> 1.0"},
-      {:tesla, "~> 1.7.0", override: true}
+      {:tesla, "~> 1.8.0", override: true}
     ]
   end
 
