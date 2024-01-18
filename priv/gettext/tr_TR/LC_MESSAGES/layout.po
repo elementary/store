@@ -8,91 +8,100 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-18 10:45+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/store/layout/"
+"tr_TR/>\n"
 "Language: tr_TR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Weblate 5.0.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: lib/store_web/templates/layout/footer.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "Marka"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Sepet (%{count})"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Geliştirici"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "Dahil olun"
 
 #: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "OEMler"
 
 #: lib/store_web/templates/layout/footer.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Açık Kaynaklı"
 
 #: lib/store_web/templates/layout/footer.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Basın"
 
 #: lib/store_web/templates/layout/footer.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Mağaza"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Destek"
 
 #: lib/store_web/templates/layout/footer.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Takım"
 
 #: lib/store_web/templates/layout/footer.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Dil"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Clear Cart"
-msgstr ""
+msgstr "Sepeti Temizle"
 
 #: lib/store_web/templates/layout/app.html.heex:19
 #: lib/store_web/templates/layout/live.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
 msgstr ""
+"Bu web sitesi siparişi tamamlamak için JavaScript'in etkin olmasını "
+"gerektirir"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Sepet boş"
