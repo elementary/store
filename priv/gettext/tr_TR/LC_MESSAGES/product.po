@@ -32,28 +32,28 @@ msgstr "Boyutlar"
 #: lib/store_web/templates/product/index.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr "%{size} beden mevcut değil"
+msgstr "%{size} boyut mevcut değil"
 
 #: lib/store_web/templates/product/index.html.heex:80
 #, elixir-autogen, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "%{color} renk mevcut değil"
 
 #: lib/store_web/templates/product/index.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Sepete ekle"
 
 #: lib/store_web/templates/product/index.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
-msgstr ""
+msgstr "%{color} stokta yok"
 
 #: lib/store_web/templates/product/index.html.heex:38
 #: lib/store_web/templates/product/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} beden stokta yok"
 
 #: lib/store_web/templates/product/index.html.heex:124
 #, elixir-autogen, elixir-format
