@@ -8,14 +8,21 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-18 10:58+0000\n"
+"Last-Translator: Hüseyin EROL <husseinerol@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/store/email/"
+"tr_TR/>\n"
 "Language: tr_TR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "Telif Hakkı© %{year} elementary, Inc. Tüm Hakları Saklıdır."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -23,7 +30,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "Bu sipariş ile gönderdiklerimiz işte bunlar:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4

@@ -8,8 +8,8 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-18 10:46+0000\n"
-"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
+"PO-Revision-Date: 2024-01-18 10:58+0000\n"
+"Last-Translator: Baran TAN <barantan89@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/store/product/"
 "tr_TR/>\n"
 "Language: tr_TR\n"
@@ -63,4 +63,4 @@ msgstr "Sepete ekleniyor"
 #: lib/store_web/templates/product/index.html.heex:117
 #, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "Bu ürün şu anda mevcut değil"
