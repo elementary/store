@@ -8,8 +8,8 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-18 10:36+0000\n"
-"Last-Translator: Yağız Yılmaz <11quartz@protonmail.com>\n"
+"PO-Revision-Date: 2024-01-18 10:39+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/store/index/"
 "tr_TR/>\n"
 "Language: tr_TR\n"
@@ -93,22 +93,30 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"Her satın alma işlemi Elementary OS'i, uygulamalarını ve hizmetlerini "
+"Her satın alma işlemi elementary OS'i, uygulamalarını ve hizmetlerini "
 "geliştirmeye yöneliktir. Çoğunlukla gönüllü, temel bilgileri daha iyi hale "
-"getirmek için sürekli çalışan küçük bir ekibiz; desteğiniz temel işletim "
-"sistemini daha sürdürülebilir hale getirmeye yardımcı olur."
+"getirmek için sürekli çalışan küçük bir ekibiz; desteğiniz elementary OS'i "
+"daha sürdürülebilir hale getirmeye yardımcı olur."
 
 #: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
-msgstr ""
+msgstr "Bu cihazlar için donanım ve yazılım desteği bayi tarafından verilir."
 
 #: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Elementary OS'e sahip donanım cihazları aşağıdaki satıcılardan satın "
+"alınabilir. Bu şirketlerden satın almak, Elementary OS'İ desteklemeye "
+"yardımcı olur."
 
 #: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Tüm dünyaya kıyafet ve aksesuar gönderiyoruz! Siparişler genellikle 2-7 gün "
+"içinde isteğe bağlı olarak yapılır ve ödeme sırasında seçtiğiniz yöntemle "
+"gönderilir. COVID-19 nedeniyle siparişler gecikebilir. Üretim programa "
+"uygundur, ancak siparişe, nakliye yöntemine ve varış yerine bağlı olarak "
+"gönderim ve nakliye ile ilgili gecikmeler hala meydana gelebilir."
