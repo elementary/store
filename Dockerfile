@@ -33,7 +33,7 @@ RUN mix phx.gen.release
 RUN mix release
 
 # Dockerfile
-# Runing in production
+# Running in production
 
 FROM elixir:1.15.7-alpine as release
 

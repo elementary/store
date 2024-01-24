@@ -16,7 +16,7 @@ defmodule Elementary.StoreWeb.Webhook.PrintfulController do
   end
 
   def handle_event(%{"type" => type}) when type in ["product_synced", "product_updated"] do
-    # This shoudl clear cache, but it was breaking the site due to how fast
+    # This should clear cache, but it was breaking the site due to how fast
     # it was being called, filling up the API quota.
     # Printful.Cache.flush()
     # Elementary.Store.Catalog.get_products()

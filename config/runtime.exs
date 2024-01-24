@@ -83,7 +83,7 @@ if config_env() == :prod do
   if String.starts_with?(stripe_public_key, "sk_") do
     raise """
     environment variable STRIPE_PUBLIC_KEY starts with sk_.
-    This indicates you accidently put your secret key instead.
+    This indicates you accidentally put your secret key instead.
     Please double check to ensure you don't leak secret credentials.
     """
   end
