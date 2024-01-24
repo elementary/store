@@ -8,80 +8,87 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-24 03:38+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"store/errors/en_GB/>\n"
 "Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "can't be blank"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "has already been taken"
 
 msgid "is invalid"
-msgstr ""
+msgstr "is invalid"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "must be accepted"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "has invalid format"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "has an invalid entry"
 
 msgid "is reserved"
-msgstr ""
+msgstr "is reserved"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "does not match confirmation"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "is still associated with this entry"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "are still associated with this entry"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should be %{count} character"
+msgstr[1] "should be %{count} characters"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should have %{count} item"
+msgstr[1] "should have %{count} items"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should be at least %{count} character"
+msgstr[1] "should be at least %{count} characters"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should have at least %{count} item"
+msgstr[1] "should have at least %{count} items"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should be at most %{count} character"
+msgstr[1] "should be at most %{count} characters"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "should have at most %{count} item"
+msgstr[1] "should have at most %{count} items"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "must be less than %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "must be greater than %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "must be less than or equal to %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "must be greater than or equal to %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "must be equal to %{number}"

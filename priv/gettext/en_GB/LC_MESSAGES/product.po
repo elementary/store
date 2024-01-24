@@ -8,52 +8,59 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-24 03:38+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"store/product/en_GB/>\n"
 "Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/product/index.html.heex:14
 #, elixir-autogen, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "Colours"
 
 #: lib/store_web/templates/product/index.html.heex:68
 #, elixir-autogen, elixir-format
 msgid "Sizes"
-msgstr ""
+msgstr "Sizes"
 
 #: lib/store_web/templates/product/index.html.heex:26
 #: lib/store_web/templates/product/index.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "Unavailable for %{size}"
 
 #: lib/store_web/templates/product/index.html.heex:80
 #, elixir-autogen, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "Unavailable in %{color}"
 
 #: lib/store_web/templates/product/index.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Add to Cart"
 
 #: lib/store_web/templates/product/index.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
-msgstr ""
+msgstr "%{color} is out of stock"
 
 #: lib/store_web/templates/product/index.html.heex:38
 #: lib/store_web/templates/product/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} is out of stock"
 
 #: lib/store_web/templates/product/index.html.heex:124
 #, elixir-autogen, elixir-format
 msgid "Adding to Cart"
-msgstr ""
+msgstr "Adding to Cart"
 
 #: lib/store_web/templates/product/index.html.heex:117
 #, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "This product is currently unavailable"
