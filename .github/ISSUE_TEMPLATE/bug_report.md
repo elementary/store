@@ -38,7 +38,7 @@ assignees: ''
 
 ## Platform Information
 <!--
-* The browswer name, version, and operating system you're accessing the store from
+* The browser name, version, and operating system you're accessing the store from
 -->
 
 
