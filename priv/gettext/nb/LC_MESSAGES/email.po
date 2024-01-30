@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-29 20:32+0000\n"
+"PO-Revision-Date: 2024-01-30 15:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/store/"
 "email/nb/>\n"
 "Language: nb\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -43,16 +43,16 @@ msgstr "Her er sporingsnummeret ditt:"
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
-"Hei der. Takk for at du bestiller fra elementary-butikken. Din ordre har "
-"blitt mottatt."
+"Hei der. Takk for at du bestiller fra elementary-butikken. Ordren din er "
+"mottatt."
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
-"Hei der. Takk for at du bestiller fra elementary-butikken. Din ordre har "
-"blitt sendt."
+"Hei der. Takk for at du bestiller fra elementary-butikken. Ordren din er "
+"sendt."
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
@@ -100,12 +100,12 @@ msgstr ""
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr "Vi har mottatt din ordre."
+msgstr "Vi har mottatt ordren din."
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr "Vi har sendt din ordre."
+msgstr "Vi har sendt ordren din."
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
@@ -119,14 +119,14 @@ msgstr ""
 #: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr "Din ordre har blitt mottatt."
+msgstr "Ordren din er mottatt."
 
 #: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr "Din ordre har blitt sendt."
+msgstr "Ordren din er sendt."
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr "Pakken din har blitt sendt."
+msgstr "Pakken din ert sendt."
