@@ -1,7 +1,7 @@
 # Dockerfile
 # Building for production
 
-FROM elixir:1.15.7-alpine as build
+FROM elixir:1.16.0-alpine as build
 
 RUN mkdir -p /opt/app
 
@@ -35,7 +35,7 @@ RUN mix release
 # Dockerfile
 # Running in production
 
-FROM elixir:1.15.7-alpine as release
+FROM elixir:1.16.0-alpine as release
 
 RUN apk add --no-cache bash openssl
 
