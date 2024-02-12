@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 04:32+0000\n"
+"PO-Revision-Date: 2024-02-12 08:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/email/ja/>"
 "\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -42,13 +42,15 @@ msgstr "お問い合わせ番号:"
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
-msgstr "こんにちは。elementary ストアでのご注文ありがとうございます。あなたからのご注文をご確認いたしました！"
+msgstr "こんにちは。elementary ストアでのご注文、ありがとうございます。あなたからのご"
+"注文をご確認いたしました!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
-msgstr "こんにちは。elementary ストアでのご注文ありがとうございます。ご注文の商品を無事発送いたしました！"
+msgstr "こんにちは。elementary "
+"ストアでのご注文、ありがとうございます。ご注文の商品を無事発送いたしました!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
@@ -56,7 +58,7 @@ msgstr "こんにちは。elementary ストアでのご注文ありがとうご�
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr "またのご利用をお待ちしております！"
+msgstr "またのご利用をお待ちしております!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
@@ -95,12 +97,12 @@ msgstr "商品発送後ご注文の商品の追跡情報が更新されるまで
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr "ご注文を確認いたしました！"
+msgstr "ご注文を確認いたしました!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr "ご注文の商品を発送しました！"
+msgstr "ご注文の商品を発送しました!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
@@ -114,14 +116,14 @@ msgstr ""
 #: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr "ご注文を確認いたしました！"
+msgstr "ご注文を確認いたしました!"
 
 #: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr "ご注文の商品を発送しました！"
+msgstr "ご注文の商品を発送しました!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr "配送が開始されました！"
+msgstr "配送が開始されました!"
