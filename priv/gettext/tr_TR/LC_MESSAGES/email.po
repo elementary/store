@@ -8,8 +8,8 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-19 11:11+0000\n"
-"Last-Translator: Baran TAN <barantan89@gmail.com>\n"
+"PO-Revision-Date: 2024-03-07 00:12+0000\n"
+"Last-Translator: Hüseyin EROL <husseinerol@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/store/email/"
 "tr_TR/>\n"
 "Language: tr_TR\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr "Telif Hakkı© %{year} elementary, Inc. Tüm Hakları Saklıdır."
+msgstr "Telif hakkı © %{year} elementary, A.Ş. Tüm hakları saklıdır."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -30,13 +30,13 @@ msgstr "Telif Hakkı© %{year} elementary, Inc. Tüm Hakları Saklıdır."
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr "Bu sipariş ile gönderdiklerimiz bunlar:"
+msgstr "İşte bu siparişte gönderdiklerimiz:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr "Takip numaranız:"
+msgstr "İşte takip numaran:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
