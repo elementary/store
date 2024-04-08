@@ -48,7 +48,7 @@ defmodule Elementary.Store.MixProject do
       {:plug_cowboy, "~> 2.4"},
       {:shards, "~> 1.0"},
       {:stripity_stripe, "~> 2.10"},
-      {:telemetry_metrics, "~> 0.6"},
+      {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
       {:tesla, "~> 1.8.0", override: true}
     ]
