@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-12 08:11+0000\n"
+"PO-Revision-Date: 2024-05-07 04:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/index/ja/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
@@ -110,8 +110,8 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
-"これらのグッズは世界中への発送が可能です! 商品はご注文に応じて通常2〜7日以内"
-"に製造され、注文時にお客様が選択された配送方法でお送りいたします。新型コロナ"
-"ウイルスの影響で受注が遅れる可能性があります。製造は通常通り行われていますが"
-"、ご注文内容や配送方法、配送先によっては、配送工程や発送において遅れが発生す"
-"ることがあります。"
+"これらのグッズは世界中への発送が可能です! 商品はご注文に応じて通常 2 〜 7 日"
+"以内に製造され、注文時にお客様が選択された配送方法でお送りいたします。新型コ"
+"ロナウイルスの影響で受注が遅れる可能性があります。製造は通常通り行われていま"
+"すが、ご注文内容や配送方法、配送先によっては、配送工程や発送において遅れが発"
+"生することがあります。"
