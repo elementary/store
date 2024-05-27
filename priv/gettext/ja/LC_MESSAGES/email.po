@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-02-12 08:11+0000\n"
+"PO-Revision-Date: 2024-05-27 07:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/email/ja/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -92,7 +92,8 @@ msgstr "elementary チーム"
 #: lib/store_web/templates/email/package_shipped.text.eex:8
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
-msgstr "商品発送後ご注文の商品の追跡情報が更新されるまでに、最大48時間かかることがあります。"
+msgstr "商品発送後ご注文の商品の追跡情報が更新されるまでに、最大 48 "
+"時間かかることがあります。"
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
