@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-18 18:53+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"PO-Revision-Date: 2024-06-05 01:13+0000\n"
+"Last-Translator: Heber <heberdanielorellana@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/checkout/"
 "es/>\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
@@ -31,13 +31,13 @@ msgstr "Línea de dirección 2"
 #: lib/store_web/templates/checkout/cart.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Cart"
-msgstr "Carro"
+msgstr "Carrito"
 
 #: lib/store_web/templates/checkout/index.html.heex:8
 #: lib/store_web/templates/checkout/shipping.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Checkout"
-msgstr "Caja"
+msgstr "Proceder al pago"
 
 #: lib/store_web/templates/checkout/address.html.heex:44
 #, elixir-autogen, elixir-format
@@ -52,7 +52,7 @@ msgstr "País"
 #: lib/store_web/templates/checkout/address.html.heex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: lib/store_web/templates/checkout/address.html.heex:114
 #, elixir-autogen, elixir-format
@@ -67,7 +67,7 @@ msgstr "Nombre"
 #: lib/store_web/templates/checkout/address.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
-msgstr "Código Postal"
+msgstr "Código postal"
 
 #: lib/store_web/templates/checkout/shipping.html.heex:1
 #, elixir-autogen, elixir-format
@@ -102,12 +102,12 @@ msgstr "Obteniendo las tarifas de envío"
 #: lib/store_web/templates/checkout/index.html.heex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
-msgstr "Vaciar el carrito"
+msgstr "El carrito está vacío"
 
 #: lib/store_web/templates/checkout/index.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
-msgstr "¡Ve a buscar algo bonito!"
+msgstr "¡Ve a buscar algo bonito para ti!"
 
 #: lib/store_web/templates/checkout/address.html.heex:79
 #, elixir-autogen, elixir-format
@@ -132,7 +132,7 @@ msgstr "Ellie Méndez"
 #: lib/store_web/templates/checkout/address.html.heex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr "Dirección postal, Apdo. de Correos, Nombre de la empresa"
+msgstr "Dirección postal, apartado de correos, nombre de la empresa"
 
 #: lib/store_web/templates/checkout/result/success.html.heex:1
 #, elixir-autogen, elixir-format
@@ -144,13 +144,13 @@ msgstr "Pedido realizado"
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
 "Su pedido ha sido recibido y nuestro socio responsable está trabajando duro "
-"para llevárselo lo más pronto posible. Un correo de confirmación y el recibo "
-"han sido al correo electrónico provisto."
+"para llevárselo lo más pronto posible. Un correo de confirmación con el "
+"recibo han sido enviados al correo electrónico provisto."
 
 #: lib/store_web/templates/checkout/address.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr "Para facturas únicamente, nunca será usado para campañas de marketing"
+msgstr "Para facturas únicamente, nunca será usado para campañas de mercadeo"
 
 #: lib/store_web/templates/checkout/address.html.heex:100
 #, elixir-autogen, elixir-format
