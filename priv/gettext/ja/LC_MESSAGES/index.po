@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-07 04:13+0000\n"
+"PO-Revision-Date: 2024-06-07 12:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/store/index/ja/>"
 "\n"
@@ -90,9 +90,11 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
-"お支払いいただいた代金はすべて、elementary OS "
-"とそのアプリ、およびそのサービスの開発に当てられます。私たちは小さなチームで、そのメンバーのほとんどが、日々 elementary OS "
-"の改善に力を注いでくれているボランティアです。あなたの支援が、elementary OS を持続可能にします。"
+"お支払いいただいた代金はすべて、elementary OS とそのアプリ、およびそのサービ"
+"スの開発に充てられます。私たちは小さなチームで、そのメンバーのほとんどが、"
+"日々 elementary OS "
+"の改善に力を注いでくれているボランティアです。あなたの支援が、elementary OS "
+"を持続可能にします。"
 
 #: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
