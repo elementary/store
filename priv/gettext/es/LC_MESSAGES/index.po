@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-14 09:00+0000\n"
-"Last-Translator: Daniel Carril <danicarril@gmail.com>\n"
+"PO-Revision-Date: 2024-06-05 01:13+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/index/es/>"
 "\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
@@ -74,19 +74,19 @@ msgstr "Envíos a todo el mundo"
 #: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "Obtenga productos elementary. Todo el mundo gana."
+msgstr "Obtenga productos elementary. Todos ganan."
 
 #: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr "Apoya el desarrollo."
+msgstr "Apoye el desarrollo."
 
 #: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
 "Se excluyen Crimea, Cuba, Irán, Siria y Corea del Norte. Los métodos de "
-"envío, los precios y los tiempos varían según el país. Los envíos fuera de "
+"envío, los precios y los tiempos varían según el país. Los envíos afuera de "
 "los EE. UU. pueden incurrir en tarifas de aduana según los países de origen "
 "y destino."
 
@@ -119,8 +119,8 @@ msgstr ""
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
 "¡Enviamos ropa y accesorios a todo el mundo! Los pedidos se realizan bajo "
-"demanda normalmente en un plazo de 2–7 días y son enviados con el método que "
-"elija al momento de pagar. Debido al COVID-19, los pedidos pueden "
+"demanda, normalmente en un plazo de 2–7 días y son enviados con el método "
+"que elija al momento de pagar. Debido al COVID-19, los pedidos pueden "
 "retrasarse. La producción está según lo programado, pero aún pueden "
 "producirse retrasos con el cumplimiento y el envío según el pedido, el "
 "método de envío y el destino."
