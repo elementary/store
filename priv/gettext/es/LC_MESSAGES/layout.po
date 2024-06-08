@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-18 18:53+0000\n"
-"Last-Translator: Eldhrimer <vico.220895@gmail.com>\n"
+"PO-Revision-Date: 2024-06-05 01:13+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/layout/es/>"
 "\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
@@ -41,12 +41,12 @@ msgstr "Carrito (%{count})"
 #: lib/store_web/templates/layout/primary-nav.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Developer"
-msgstr "Desarrollador"
+msgstr "Desarrollar"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr "Participa"
+msgstr "Participar"
 
 #: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format

@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-18 18:53+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"PO-Revision-Date: 2024-06-05 01:13+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/product/es/"
 ">\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5\n"
 
 #: lib/store_web/templates/product/index.html.heex:14
 #, elixir-autogen, elixir-format
@@ -47,13 +47,13 @@ msgstr "Añadir al carrito"
 #: lib/store_web/templates/product/index.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
-msgstr "El color %{color} está fuera de stock"
+msgstr "El color %{color} está agotado"
 
 #: lib/store_web/templates/product/index.html.heex:38
 #: lib/store_web/templates/product/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr "La talla %{size} está fuera de stock"
+msgstr "La talla %{size} está agotado"
 
 #: lib/store_web/templates/product/index.html.heex:124
 #, elixir-autogen, elixir-format
@@ -63,4 +63,4 @@ msgstr "Añadiendo al carrito"
 #: lib/store_web/templates/product/index.html.heex:117
 #, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr "Este producto actualmente no esta disponible"
+msgstr "Este producto actualmente no está disponible"
