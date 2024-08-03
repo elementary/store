@@ -22,10 +22,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compile
-        run: docker-compose build
+        run: docker compose build
 
       - name: Extract
-        run: docker-compose run store mix gettext.extract --merge
+        run: docker compose run store mix gettext.extract --merge
 
       - name: Push
         run: |
