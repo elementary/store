@@ -8,44 +8,51 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-08-17 20:16+0000\n"
+"Last-Translator: celiopy <cepefilho@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"store/index/pt_BR/>\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Com sede na Espanha"
 
 #: lib/store_web/templates/index/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Com sede nos Países Baixos"
 
 #: lib/store_web/templates/index/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Com sede no Reino Unido"
 
 #: lib/store_web/templates/index/index.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: lib/store_web/templates/index/index.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "Frete grátis dentro da UE"
 
 #: lib/store_web/templates/index/index.html.heex:34
 #: lib/store_web/templates/index/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Envio internacional"
 
 #: lib/store_web/templates/index/index.html.heex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Laptops"
 
 #: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
