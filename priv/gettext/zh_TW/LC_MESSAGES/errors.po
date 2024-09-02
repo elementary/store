@@ -8,74 +8,81 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-09-02 05:42+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"store/errors/zh_Hant/>\n"
 "Language: zh_TW\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "不能是空的"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "已被使用"
 
 msgid "is invalid"
-msgstr ""
+msgstr "是無效的"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "必須被接受"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "格式無效"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "有無效的項目"
 
 msgid "is reserved"
-msgstr ""
+msgstr "已被保留"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "不符合確認"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "依然與此項目相關聯"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "依然與此項目相關聯"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "應為 %{count} 個字元"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "應有 %{count} 個項目"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "應該至少有 %{count} 個字元"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "應該至少有 %{count} 個項目"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
+msgstr[0] "最多只應該有 %{count} 個字元"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
+msgstr[0] "最多只應該有 %{count} 個項目"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "必須小於 %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "必須大於 %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "必須小於或等於 %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "必須大於或等於 %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "必須等於 %{number}"

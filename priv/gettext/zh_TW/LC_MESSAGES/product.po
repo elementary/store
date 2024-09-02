@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-24 18:40+0000\n"
-"Last-Translator: Vincent Yu <coolplayyhj@gmail.com>\n"
+"PO-Revision-Date: 2024-09-02 05:42+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "store/product/zh_Hant/>\n"
 "Language: zh_TW\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: lib/store_web/templates/product/index.html.heex:14
 #, elixir-autogen, elixir-format
@@ -42,18 +42,18 @@ msgstr "%{color} 不可用"
 #: lib/store_web/templates/product/index.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Add to Cart"
-msgstr "添加到購物車"
+msgstr "加入購物車"
 
 #: lib/store_web/templates/product/index.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
-msgstr "%{color} 暫缺"
+msgstr "%{color} 缺貨"
 
 #: lib/store_web/templates/product/index.html.heex:38
 #: lib/store_web/templates/product/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr "%{size} 暫缺"
+msgstr "%{size} 缺貨"
 
 #: lib/store_web/templates/product/index.html.heex:124
 #, elixir-autogen, elixir-format
