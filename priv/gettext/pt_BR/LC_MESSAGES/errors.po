@@ -8,14 +8,21 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-10-27 16:35+0000\n"
+"Last-Translator: Max2020 <alcizmaxpereira@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"store/errors/pt_BR/>\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "não pode estar em branco"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "Já foi tomada"
 
 msgid "is invalid"
 msgstr ""
