@@ -8,8 +8,8 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-17 20:16+0000\n"
-"Last-Translator: celiopy <cepefilho@gmail.com>\n"
+"PO-Revision-Date: 2024-10-27 19:56+0000\n"
+"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/index/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -57,7 +57,7 @@ msgstr "Laptops"
 #: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Laptops, desktops, mini desktops, tudo-em-um"
 
 #: lib/store_web/templates/index/index.html.heex:23
 #, elixir-autogen, elixir-format
