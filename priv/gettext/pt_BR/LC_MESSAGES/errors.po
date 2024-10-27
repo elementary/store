@@ -8,50 +8,50 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-27 16:35+0000\n"
+"PO-Revision-Date: 2024-10-27 16:38+0000\n"
 "Last-Translator: Max2020 <alcizmaxpereira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/errors/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.6.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
 msgstr "não pode estar em branco"
 
 msgid "has already been taken"
-msgstr "Já foi tomada"
+msgstr "Já foi escolhido"
 
 msgid "is invalid"
-msgstr ""
+msgstr "é inválido"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "deve ser aceito"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "tem formato inválido"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "tem uma entrada inválida"
 
 msgid "is reserved"
-msgstr ""
+msgstr "é reservado"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "não corresponde à confirmação"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "ainda está associado a esta entrada"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "ainda estão associados a esta entrada"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "deve ser %{count} caractere(s)"
+msgstr[1] "deve ser %{count} caractere(s)"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
