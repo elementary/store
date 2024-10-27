@@ -8,7 +8,7 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-27 20:01+0000\n"
+"PO-Revision-Date: 2024-10-27 20:09+0000\n"
 "Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/index/pt_BR/>\n"
@@ -77,27 +77,39 @@ msgstr "Adquira Equipamento. Todo Mundo Ganha."
 #: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr "Apoie o desenvolvimento."
+msgstr "Apoie o Desenvolvimento."
 
 #: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Crimeia, Cuba, Irã, Síria e Coreia do Norte não inclusos. Os métodos de "
+"envio, preços, e prazos de entrega variam de país para país. Envios para "
+"fora dos EUA podem ter taxas alfandegárias dependendo do país de origem e "
+"destino."
 
 #: lib/store_web/templates/index/index.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Cada compra vai para o desenvolvimento do elementary OS, seus aplicativos e "
+"seus serviços. Somos uma equipe pequena, em sua maioria voluntária, "
+"trabalhando constantemente para tornar o elementary melhor — seu apoio ajuda "
+"a tornar o elementary OS mais sustentável."
 
 #: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Suporte ao hardware e software para estes dispositivos é fornecido pelo "
+"revendedor."
 
 #: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Os equipamentos com o elementary OS podem ser adquiridos nos seguintes "
+"revendedores. Comprando destas empresas ajuda no apoio ao elementary OS."
 
 #: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
