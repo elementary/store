@@ -8,14 +8,21 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-10-27 16:58+0000\n"
+"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"store/email/pt_BR/>\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "Copyright © %{year} elementary, Inc. Todos os direitos reservados."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -23,19 +30,21 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "Aqui está o que enviamos neste pedido:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr ""
+msgstr "Aqui está seu número de rastreio:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
+"Olá, obrigado por fazer seu pedido na loja elementary. Só para avisar que "
+"recebemos seu pedido!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
@@ -49,19 +58,19 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "Aguardamos seu próximo pedido!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
 #, elixir-autogen, elixir-format
 msgid "Price"
-msgstr ""
+msgstr "Preço"
 
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-autogen, elixir-format
 msgid "Qty"
-msgstr ""
+msgstr "Qtd"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
@@ -69,7 +78,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "Shipping Address:"
-msgstr ""
+msgstr "Endereço de Envio:"
 
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
@@ -77,7 +86,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-autogen, elixir-format
 msgid "The elementary Team"
-msgstr ""
+msgstr "A equipe elementary"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
