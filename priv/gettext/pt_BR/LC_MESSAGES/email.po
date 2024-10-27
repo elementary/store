@@ -8,15 +8,15 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-27 16:58+0000\n"
+"PO-Revision-Date: 2024-10-27 17:08+0000\n"
 "Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/email/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.6.2\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -93,35 +93,39 @@ msgstr "A equipe elementary"
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"As informações de rastreamento podem levar até 48 horas para serem "
+"atualizadas após o envio do pedido."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "Nós Recebemos Seu Pedido!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "Nós Enviamos Seu Pedido!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"Você está recebendo este e-mail porque fez um pedido na loja elementary. "
+"Você não está inscrito em nenhuma lista de e-mail."
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Seu pedido foi recebido!"
 
 #: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "Seu pedido foi enviado!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "Seu pacote foi enviado!"
