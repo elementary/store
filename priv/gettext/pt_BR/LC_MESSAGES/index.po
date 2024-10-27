@@ -8,7 +8,7 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-27 20:09+0000\n"
+"PO-Revision-Date: 2024-10-27 20:29+0000\n"
 "Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/index/pt_BR/>\n"
@@ -109,9 +109,15 @@ msgstr ""
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
 "Os equipamentos com o elementary OS podem ser adquiridos nos seguintes "
-"revendedores. Comprando destas empresas ajuda no apoio ao elementary OS."
+"revendedores. Comprar destas empresas ajuda a apoiar o elementary OS."
 
 #: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Nós enviamos roupas e acessórios para todo o mundo! Os pedidos são feitos "
+"sob demanda, normalmente em 2 a 7 dias, e serão enviados com o método que "
+"você escolher no checkout. Devido à COVID-19, os pedidos podem sofrer "
+"atrasos. A produção está dentro do cronograma, mas ainda podem ocorrer "
+"atrasos no atendimento e no envio, dependendo do pedido, método de envio e "
+"destino."
