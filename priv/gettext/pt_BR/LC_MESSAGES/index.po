@@ -8,8 +8,8 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-27 19:59+0000\n"
-"Last-Translator: Gustavo Silva <g.costasalles@gmail.com>\n"
+"PO-Revision-Date: 2024-10-27 20:01+0000\n"
+"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "store/index/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -72,12 +72,12 @@ msgstr "Entrega internacional"
 #: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr "Compre produtos. Todos ganham."
+msgstr "Adquira Equipamento. Todo Mundo Ganha."
 
 #: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Apoie o desenvolvimento."
 
 #: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
