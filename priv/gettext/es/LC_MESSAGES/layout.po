@@ -8,7 +8,7 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-05 01:13+0000\n"
+"PO-Revision-Date: 2024-12-10 11:51+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/store/layout/es/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
@@ -46,7 +46,7 @@ msgstr "Desarrollar"
 #: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr "Participar"
+msgstr "Participa"
 
 #: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format
