@@ -16,9 +16,9 @@
     "topbar": "^2.0.1"
   },
   "devDependencies": {
-    "esbuild": "^0.18.20",
+    "esbuild": "^0.25.0",
     "esbuild-copy-static-files": "^0.1.0",
-    "esbuild-sass-plugin": "^2.11.0",
+    "esbuild-sass-plugin": "^3.3.1",
     "lodash": "^4.17.21",
     "standard": "^17.1.0",
     "stylelint": "^15.5.0",
