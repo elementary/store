@@ -24,12 +24,12 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-#: lib/store_web/controllers/language_controller.ex:30
+#: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
 msgstr "Невідомий код мови %{code}"
 
-#: lib/store_web/controllers/language_controller.ex:21
+#: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
 msgstr "Вашою мовою було встановлено %{language}"

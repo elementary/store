@@ -18,12 +18,12 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/store_web/controllers/language_controller.ex:30
+#: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
 msgstr "不明な言語コード %{code} です"
 
-#: lib/store_web/controllers/language_controller.ex:21
+#: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
 msgstr "表示言語を%{language}に設定しました"

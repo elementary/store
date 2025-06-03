@@ -10,12 +10,12 @@
 msgid ""
 msgstr ""
 
-#: lib/store_web/controllers/language_controller.ex:30
+#: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
 msgstr ""
 
-#: lib/store_web/controllers/language_controller.ex:21
+#: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
 msgstr ""
