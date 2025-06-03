@@ -20,12 +20,11 @@ defmodule Elementary.StoreWeb do
   def controller do
     quote do
       use Phoenix.Controller, namespace: Elementary.StoreWeb
+      use Gettext, backend: Elementary.StoreWeb.Gettext
 
       import Plug.Conn
       import Phoenix.LiveView.Controller
-      import Elementary.StoreWeb.Gettext
 
-      alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
 
       action_fallback Elementary.StoreWeb.FallbackController
@@ -77,15 +76,14 @@ defmodule Elementary.StoreWeb do
   def view_helpers do
     quote do
       use Phoenix.HTML
+      use Gettext, backend: Elementary.StoreWeb.Gettext
 
       import Phoenix.LiveView.Helpers
       import Phoenix.View
       import Elementary.StoreWeb.ErrorHelpers
       import Elementary.StoreWeb.ProductHelpers
-      import Elementary.StoreWeb.Gettext
 
       alias Elementary.StoreWeb.Endpoint
-      alias Elementary.StoreWeb.Gettext, as: Gtext
       alias Elementary.StoreWeb.Router.Helpers, as: Routes
     end
   end

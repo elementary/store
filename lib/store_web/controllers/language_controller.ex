@@ -1,6 +1,7 @@
 defmodule Elementary.StoreWeb.LanguageController do
   use Elementary.StoreWeb, :controller
 
+  use Gettext, backend: Elementary.StoreWeb.Gettext
   alias Elementary.StoreWeb.Gettext, as: Gtext
 
   def index(conn, _params) do
@@ -18,7 +19,7 @@ defmodule Elementary.StoreWeb.LanguageController do
       |> put_session(:locale, lang)
       |> put_flash(
         :info,
-        Gtext.dgettext("language", "Your language has been set to %{language}",
+        dgettext("language", "Your language has been set to %{language}",
           language: language_name
         )
       )
@@ -27,7 +28,7 @@ defmodule Elementary.StoreWeb.LanguageController do
       conn
       |> put_flash(
         :error,
-        Gtext.dgettext("language", "Unknown language code %{code}", code: lang)
+        dgettext("language", "Unknown language code %{code}", code: lang)
       )
       |> redirect(to: redirect_path)
     end

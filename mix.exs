@@ -37,7 +37,7 @@ defmodule Elementary.Store.MixProject do
       {:castore, "~> 1.0.1"},
       {:credo, "~> 1.7.0", only: :dev, runtime: false},
       {:decimal, "~> 2.0"},
-      {:gettext, "~> 0.11"},
+      {:gettext, "~> 0.26.2"},
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.0"},
       {:nebulex, "~> 2.6.1"},

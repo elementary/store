@@ -5,7 +5,7 @@ defmodule Elementary.StoreWeb.Gettext do
   By using [Gettext](https://hexdocs.pm/gettext),
   your module gains a set of macros for translations, for example:
 
-      import Elementary.StoreWeb.Gettext
+      use Gettext, backend: Elementary.StoreWeb.Gettext
 
       # Simple translation
       gettext("Here is the string to translate")
@@ -20,7 +20,7 @@ defmodule Elementary.StoreWeb.Gettext do
 
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
-  use Gettext, otp_app: :store
+  use Gettext.Backend, otp_app: :store
 
   @doc """
   Returns the default language code set by the code configuration.
