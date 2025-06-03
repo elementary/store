@@ -39,7 +39,7 @@ defmodule Elementary.Store.MixProject do
       {:decimal, "~> 2.0"},
       {:gettext, "~> 0.26.2"},
       {:hackney, "~> 1.14"},
-      {:jason, "~> 1.0"},
+      {:jason, "~> 1.4"},
       {:nebulex, "~> 2.6.1"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
@@ -50,7 +50,7 @@ defmodule Elementary.Store.MixProject do
       {:stripity_stripe, "~> 2.10"},
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
-      {:tesla, "~> 1.14.1", override: true}
+      {:tesla, "~> 1.14.2", override: true}
     ]
   end
 
