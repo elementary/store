@@ -32,7 +32,7 @@ defmodule Elementary.Store.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:swoosh, "~> 1.11"},
+      {:swoosh, "~> 1.19"},
       {:phoenix_swoosh, "~> 1.2"},
       {:castore, "~> 1.0.1"},
       {:credo, "~> 1.7.0", only: :dev, runtime: false},
