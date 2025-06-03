@@ -1,10 +1,12 @@
 @charset "utf-8";
 
-@import "colors";
-@import "layout";
-@import "typography";
-@import "nav";
-@import "alert";
+@use "colors";
+@use "layout";
+@use "typography";
+@use "nav";
+@use "alert";
+@use "pages/index";
+@use "pages/checkout";
 
 :root {
   color-scheme: light dark;
@@ -42,6 +44,3 @@ svg {
     font-family: var(--ui-font);
   }
 }
-
-@import "pages/index";
-@import "pages/checkout";
