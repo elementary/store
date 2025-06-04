@@ -161,3 +161,13 @@ msgstr "Telefon"
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Required by shipping partners"
 msgstr "Påkrevd av fraktselskaper"
+
+#: lib/store_web/templates/checkout/cart_item.html.heex:10
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr ""
+
+#: lib/store_web/templates/checkout/cart.html.heex:12
+#, elixir-autogen, elixir-format
+msgid "Sub-Total:"
+msgstr ""

@@ -159,3 +159,13 @@ msgstr "携帯電話"
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
 msgstr "発送業者が必要な情報です"
+
+#: lib/store_web/templates/checkout/cart_item.html.heex:10
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr ""
+
+#: lib/store_web/templates/checkout/cart.html.heex:12
+#, elixir-autogen, elixir-format
+msgid "Sub-Total:"
+msgstr ""
