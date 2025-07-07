@@ -8,16 +8,16 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-29 20:55+0000\n"
-"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/store/checkout/pl/"
-">\n"
+"PO-Revision-Date: 2025-07-07 18:55+0000\n"
+"Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
+"Language-Team: Polish <https://l10n.elementaryos.org/projects/store/checkout/"
+"pl/>\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
@@ -166,9 +166,9 @@ msgstr "Wymagane przez partnerów dostawczych"
 #: lib/store_web/templates/checkout/cart_item.html.heex:10
 #, elixir-autogen, elixir-format
 msgid "Remove"
-msgstr ""
+msgstr "Usuń"
 
 #: lib/store_web/templates/checkout/cart.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Sub-Total:"
-msgstr ""
+msgstr "Suma częściowa:"
