@@ -7,7 +7,7 @@
 <span class="name"><%= @variant.name %></span>
 
 <div class="remove">
-  <%= link "Remove",
+  <%= link (dgettext "checkout", "Remove"),
     to: Routes.cart_path(Endpoint, :delete, @variant.id),
     id: "remove-" <> to_string(@variant.id),
     method: :delete,

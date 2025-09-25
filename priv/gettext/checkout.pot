@@ -150,3 +150,13 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
 msgstr ""
+
+#: lib/store_web/templates/checkout/cart_item.html.heex:10
+#, elixir-autogen, elixir-format
+msgid "Remove"
+msgstr ""
+
+#: lib/store_web/templates/checkout/cart.html.heex:12
+#, elixir-autogen, elixir-format
+msgid "Sub-Total:"
+msgstr ""

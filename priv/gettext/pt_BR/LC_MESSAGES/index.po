@@ -8,91 +8,116 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-10-27 20:29+0000\n"
+"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"store/index/pt_BR/>\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Com sede na Espanha"
 
 #: lib/store_web/templates/index/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Com sede nos Países Baixos"
 
 #: lib/store_web/templates/index/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Com sede no Reino Unido"
 
 #: lib/store_web/templates/index/index.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: lib/store_web/templates/index/index.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "Frete grátis dentro da UE"
 
 #: lib/store_web/templates/index/index.html.heex:34
 #: lib/store_web/templates/index/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Envio internacional"
 
 #: lib/store_web/templates/index/index.html.heex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Laptops"
 
 #: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
-msgstr ""
+msgstr "Notebooks, desktops, mini PCs, all-in-ones"
 
 #: lib/store_web/templates/index/index.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Notebooks, mini PCs"
 
 #: lib/store_web/templates/index/index.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Entrega internacional"
 
 #: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Adquira Equipamento. Todo Mundo Ganha."
 
 #: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Apoie o Desenvolvimento."
 
 #: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Crimeia, Cuba, Irã, Síria e Coreia do Norte não inclusos. Os métodos de "
+"envio, preços, e prazos de entrega variam de país para país. Envios para "
+"fora dos EUA podem ter taxas alfandegárias dependendo do país de origem e "
+"destino."
 
 #: lib/store_web/templates/index/index.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Cada compra vai para o desenvolvimento do elementary OS, seus aplicativos e "
+"seus serviços. Somos uma equipe pequena, em sua maioria voluntária, "
+"trabalhando constantemente para tornar o elementary melhor — seu apoio ajuda "
+"a tornar o elementary OS mais sustentável."
 
 #: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Suporte ao hardware e software para estes dispositivos é fornecido pelo "
+"revendedor."
 
 #: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Os equipamentos com o elementary OS podem ser adquiridos nos seguintes "
+"revendedores. Comprar destas empresas ajuda a apoiar o elementary OS."
 
 #: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Nós enviamos roupas e acessórios para todo o mundo! Os pedidos são feitos "
+"sob demanda, normalmente em 2 a 7 dias, e serão enviados com o método que "
+"você escolher no checkout. Devido à COVID-19, os pedidos podem sofrer "
+"atrasos. A produção está dentro do cronograma, mas ainda podem ocorrer "
+"atrasos no atendimento e no envio, dependendo do pedido, método de envio e "
+"destino."

@@ -8,14 +8,21 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-09-02 05:42+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"store/email/zh_Hant/>\n"
 "Language: zh_TW\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
-msgstr ""
+msgstr "版權所有 © %{year} elementary, Inc. All rights reserved."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -23,25 +30,25 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "這是我們在此訂單中已寄出的物品："
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr ""
+msgstr "這是您的追蹤號碼 (tracking number)："
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
-msgstr ""
+msgstr "您好，謝謝您從 elementary 商店訂購商品。我們想讓您知道我們已經收到您的訂單！"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
-msgstr ""
+msgstr "您好，謝謝您從 elementary 商店訂購商品。我們想讓您知道您的訂單已被寄出！"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
@@ -49,19 +56,19 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "我們期待您的下一個訂單！"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
 #, elixir-autogen, elixir-format
 msgid "Price"
-msgstr ""
+msgstr "價格"
 
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-autogen, elixir-format
 msgid "Qty"
-msgstr ""
+msgstr "數量"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
@@ -69,7 +76,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "Shipping Address:"
-msgstr ""
+msgstr "運送地址："
 
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
@@ -77,42 +84,43 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-autogen, elixir-format
 msgid "The elementary Team"
-msgstr ""
+msgstr "elementary 團隊"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
-msgstr ""
+msgstr "追蹤資訊在訂單寄出後可能還需要最多 48 小時才會更新。"
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "我們已收到您的訂單！"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "我們已寄出您的訂單！"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
-msgstr ""
+msgstr "您收到這封郵件是因為您在 elementary "
+"商店進行了下單。您沒有被加入任何郵件論壇。"
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "您的訂單已收到！"
 
 #: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "您的訂單已寄出！"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "您的包裹已寄出！"

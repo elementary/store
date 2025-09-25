@@ -9,5 +9,5 @@
 </ul>
 
 <div class="cart-total">
-  Sub-Total: $<%= assigns |> cart_subtotal() |> format_price() %>
+  <%= dgettext "checkout", "Sub-Total:" %> $<%= assigns |> cart_subtotal() |> format_price() %>
 </div>

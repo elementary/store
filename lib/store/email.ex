@@ -8,7 +8,7 @@ defmodule Elementary.Store.Email do
     view: Elementary.StoreWeb.EmailView,
     layout: {Elementary.StoreWeb.LayoutView, :email}
 
-  import Elementary.StoreWeb.Gettext
+  use Gettext, backend: Elementary.StoreWeb.Gettext
 
   def order_created(printful_order) do
     new()

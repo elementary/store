@@ -8,52 +8,59 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-11-05 04:16+0000\n"
+"Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"store/product/pt_BR/>\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/product/index.html.heex:14
 #, elixir-autogen, elixir-format
 msgid "Colors"
-msgstr ""
+msgstr "Cores"
 
 #: lib/store_web/templates/product/index.html.heex:68
 #, elixir-autogen, elixir-format
 msgid "Sizes"
-msgstr ""
+msgstr "Tamanhos"
 
 #: lib/store_web/templates/product/index.html.heex:26
 #: lib/store_web/templates/product/index.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "Unavailable for %{size}"
-msgstr ""
+msgstr "Indisponível para %{size}"
 
 #: lib/store_web/templates/product/index.html.heex:80
 #, elixir-autogen, elixir-format
 msgid "Unavailable in %{color}"
-msgstr ""
+msgstr "Indisponível para %{color}"
 
 #: lib/store_web/templates/product/index.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Add to Cart"
-msgstr ""
+msgstr "Adicionar ao carrinho"
 
 #: lib/store_web/templates/product/index.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "%{color} is out of stock"
-msgstr ""
+msgstr "%{color} está fora de estoque"
 
 #: lib/store_web/templates/product/index.html.heex:38
 #: lib/store_web/templates/product/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "%{size} is out of stock"
-msgstr ""
+msgstr "%{size} está fora de estoque"
 
 #: lib/store_web/templates/product/index.html.heex:124
 #, elixir-autogen, elixir-format
 msgid "Adding to Cart"
-msgstr ""
+msgstr "Adicionando ao carrinho"
 
 #: lib/store_web/templates/product/index.html.heex:117
 #, elixir-autogen, elixir-format
 msgid "This product is currently unavailable"
-msgstr ""
+msgstr "Este produto está atualmente indisponível"

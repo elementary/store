@@ -18,12 +18,12 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/store_web/controllers/language_controller.ex:30
+#: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
 msgstr "უცნობი ენის კოდი %{code}"
 
-#: lib/store_web/controllers/language_controller.ex:21
+#: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
 msgstr "თქვენი ენა ახლა დაყენებულია მნიშვნელობაზე %{language}"
