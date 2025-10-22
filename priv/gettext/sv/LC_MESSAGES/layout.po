@@ -8,91 +8,98 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/store/layout/"
+"sv/>\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Blogg"
 
 #: lib/store_web/templates/layout/footer.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "Varumärke"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Varukorg (%{count})"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Utvecklare"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "Engagera dig"
 
 #: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "OEM"
 
 #: lib/store_web/templates/layout/footer.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Öppen källkod"
 
 #: lib/store_web/templates/layout/footer.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Press"
 
 #: lib/store_web/templates/layout/footer.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Integritet"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Butik"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: lib/store_web/templates/layout/footer.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #: lib/store_web/templates/layout/footer.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Clear Cart"
-msgstr ""
+msgstr "Töm varukorg"
 
 #: lib/store_web/templates/layout/app.html.heex:19
 #: lib/store_web/templates/layout/live.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
+msgstr "Denna webbplats kräver att JavaScript är aktiverat för utcheckning"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Varukorgen är tom"

@@ -8,15 +8,22 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/store/"
+"language/sv/>\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
-msgstr ""
+msgstr "Okänd språkkod %{code}"
 
 #: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
-msgstr ""
+msgstr "Ditt språk har ställts in till %{language}"

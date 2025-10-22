@@ -8,80 +8,87 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/store/errors/"
+"sv/>\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
-msgstr ""
+msgstr "kan inte lämnas tomt"
 
 msgid "has already been taken"
-msgstr ""
+msgstr "har redan tagits"
 
 msgid "is invalid"
-msgstr ""
+msgstr "är ogiltig"
 
 msgid "must be accepted"
-msgstr ""
+msgstr "måste accepteras"
 
 msgid "has invalid format"
-msgstr ""
+msgstr "har ogiltigt format"
 
 msgid "has an invalid entry"
-msgstr ""
+msgstr "har en ogiltig post"
 
 msgid "is reserved"
-msgstr ""
+msgstr "är reserverad"
 
 msgid "does not match confirmation"
-msgstr ""
+msgstr "stämmer inte överens med bekräftelsen"
 
 msgid "is still associated with this entry"
-msgstr ""
+msgstr "är fortfarande associerad med denna post"
 
 msgid "are still associated with this entry"
-msgstr ""
+msgstr "är fortfarande associerade med denna post"
 
 msgid "should be %{count} character(s)"
 msgid_plural "should be %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör vara %{count} tecken"
+msgstr[1] "bör vara %{count} tecken"
 
 msgid "should have %{count} item(s)"
 msgid_plural "should have %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör ha %{count} artikel"
+msgstr[1] "bör ha %{count} artiklar"
 
 msgid "should be at least %{count} character(s)"
 msgid_plural "should be at least %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör vara minst %{count} tecken"
+msgstr[1] "bör vara minst %{count} tecken"
 
 msgid "should have at least %{count} item(s)"
 msgid_plural "should have at least %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör ha minst %{count} artikel"
+msgstr[1] "bör ha minst %{count} artiklar"
 
 msgid "should be at most %{count} character(s)"
 msgid_plural "should be at most %{count} character(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör vara högst %{count} tecken"
+msgstr[1] "bör vara högst %{count} tecken"
 
 msgid "should have at most %{count} item(s)"
 msgid_plural "should have at most %{count} item(s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "bör ha högst %{count} artikel"
+msgstr[1] "bör ha högst %{count} artiklar"
 
 msgid "must be less than %{number}"
-msgstr ""
+msgstr "måste vara mindre än %{number}"
 
 msgid "must be greater than %{number}"
-msgstr ""
+msgstr "måste vara större än %{number}"
 
 msgid "must be less than or equal to %{number}"
-msgstr ""
+msgstr "måste vara mindre än eller lika med %{number}"
 
 msgid "must be greater than or equal to %{number}"
-msgstr ""
+msgstr "måste vara större än eller lika med %{number}"
 
 msgid "must be equal to %{number}"
-msgstr ""
+msgstr "måste vara lika med %{number}"
