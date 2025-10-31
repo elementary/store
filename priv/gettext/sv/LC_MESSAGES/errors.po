@@ -8,21 +8,21 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"PO-Revision-Date: 2025-10-31 14:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/store/errors/"
 "sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 msgid "can't be blank"
 msgstr "kan inte lämnas tomt"
 
 msgid "has already been taken"
-msgstr "har redan tagits"
+msgstr "används redan"
 
 msgid "is invalid"
 msgstr "är ogiltig"

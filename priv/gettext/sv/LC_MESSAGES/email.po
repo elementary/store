@@ -8,15 +8,15 @@
 ### to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"PO-Revision-Date: 2025-10-31 14:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/store/email/"
 "sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
@@ -43,16 +43,16 @@ msgstr "Här är ditt spårningsnummer:"
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
-"Hej där, tack för att du beställde från elementary-butiken.  Bara så att du "
-"vet att vi har tagit emot din beställning!"
+"Hej där, tack för att du beställde från elementary-butiken.  Vi vill bara "
+"meddela att vi har mottagit din beställning!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
-"Hej där, tack för att du beställde från elementary-butiken. Bara så att du "
-"vet att din beställning har lämnat vårt lager!"
+"Hej där, tack för att du beställde från elementary-butiken. Vi vill bara "
+"meddela att din beställning har skickats!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
