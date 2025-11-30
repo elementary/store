@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-14 09:51+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/store/checkout/nl/>"
-"\n"
+"PO-Revision-Date: 2025-11-30 07:55+0000\n"
+"Last-Translator: Bas Ernst <bas@ernstgenova.it>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/store/checkout/"
+"nl/>\n"
 "Language: nl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
@@ -165,9 +165,9 @@ msgstr "Nodig voor de verzender"
 #: lib/store_web/templates/checkout/cart_item.html.heex:10
 #, elixir-autogen, elixir-format
 msgid "Remove"
-msgstr ""
+msgstr "Verwijder"
 
 #: lib/store_web/templates/checkout/cart.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Sub-Total:"
-msgstr ""
+msgstr "Subtotaal:"
