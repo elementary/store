@@ -37,7 +37,7 @@ defmodule PrintfulTest do
 
   test "get countries" do
     countries = Printful.Shipping.countries()
-    assert length(countries) > 0
+    refute Enum.empty?(countries)
   end
 
   test "get shipping rates" do
@@ -54,7 +54,7 @@ defmodule PrintfulTest do
 
   test "lists products" do
     products = Printful.Store.products()
-    assert length(products) > 0
+    refute Enum.empty?(products)
   end
 
   test "get single product" do
@@ -67,7 +67,7 @@ defmodule PrintfulTest do
 
   test "get orders" do
     orders = Printful.Order.list()
-    assert length(orders) > 0
+    refute Enum.empty?(orders)
   end
 
   test "get single order" do
