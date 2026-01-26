@@ -33,7 +33,7 @@ defmodule Elementary.Store.MixProject do
   defp deps do
     [
       {:swoosh, "~> 1.19"},
-      {:multipart, "~> 0.4.0"},
+      {:multipart, "~> 0.6.0"},
       {:phoenix_swoosh, "~> 1.2"},
       {:castore, "~> 1.0.1"},
       {:credo, "~> 1.7.0", only: :dev, runtime: false},
