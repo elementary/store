@@ -51,7 +51,7 @@ defmodule Elementary.Store.MixProject do
       {:stripity_stripe, "~> 2.10"},
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
-      {:tesla, "~> 1.15.2", override: true}
+      {:tesla, "~> 1.16.0", override: true}
     ]
   end
 
