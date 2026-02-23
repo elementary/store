@@ -41,7 +41,7 @@ defmodule Elementary.Store.MixProject do
       {:gettext, "~> 1.0.0"},
       {:hackney, "~> 1.14"},
       {:jason, "~> 1.4"},
-      {:nebulex, "~> 2.6.1"},
+      {:nebulex, "~> 3.0.0"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.3", only: :dev},
       {:phoenix_live_view, "~> 0.17.5"},
