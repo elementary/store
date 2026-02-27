@@ -5,10 +5,10 @@ defmodule Printful.Cache do
 
   use Nebulex.Cache,
     otp_app: :store,
-    adapter: Nebulex.Adapters.Replicated
+    adapter: Nebulex.Adapters.Local
 
   def call(%{method: :get} = env, next, _opts) do
-    case env |> cache_key |> get() do
+    case env |> cache_key |> get!() do
       nil -> call_cached(env, next)
       result -> {:ok, result}
     end
@@ -25,7 +25,7 @@ defmodule Printful.Cache do
   defp call_cached_set(res, env) do
     case res do
       {:ok, %{status: status} = res_env} when status in 200..299 ->
-        with :ok <- env |> cache_key() |> put(res_env, on_conflict: :override) do
+        with :ok <- env |> cache_key() |> put(res_env) do
           {:ok, res_env}
         end
 

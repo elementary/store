@@ -73,10 +73,8 @@ config :store, Printful.Api,
   enable_purchasing: false
 
 config :store, Printful.Cache,
-  primary: [
-    gc_interval: 3_600_000,
-    backend: :shards
-  ]
+  gc_interval: 3_600_000,
+  backend: :shards
 
 config :store, Elementary.Store.Mailer, adapter: Swoosh.Adapters.Local
 
