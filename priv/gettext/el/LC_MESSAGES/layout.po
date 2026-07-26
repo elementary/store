@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-26 09:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Translate Toolkit 3.19.10\n"
+
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here as no
+## effect: edit them in PO (.po) files instead.
+
+#: lib/store_web/templates/layout/footer.html.heex:4
+#, elixir-autogen, elixir-format
+msgid "%{year} elementary, Inc"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:35
+#, elixir-autogen, elixir-format
+msgid "Blog"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:26
+#, elixir-autogen, elixir-format
+msgid "Brand"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:26
+#, elixir-autogen, elixir-format
+msgid "Cart (%{count})"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:17
+#, elixir-autogen, elixir-format
+msgid "Developer"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:23
+#, elixir-autogen, elixir-format
+msgid "Get Involved"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "OEMs"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:50
+#, elixir-autogen, elixir-format
+msgid "Open Source"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Press"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:38
+#, elixir-autogen, elixir-format
+msgid "Privacy"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:29
+#, elixir-autogen, elixir-format
+msgid "Store"
+msgstr ""
+
+#: lib/store_web/templates/layout/primary-nav.html.heex:11
+#, elixir-autogen, elixir-format
+msgid "Support"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:44
+#, elixir-autogen, elixir-format
+msgid "Team"
+msgstr ""
+
+#: lib/store_web/templates/layout/footer.html.heex:12
+#, elixir-autogen, elixir-format
+msgid "Language"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Clear Cart"
+msgstr ""
+
+#: lib/store_web/templates/layout/app.html.heex:19
+#: lib/store_web/templates/layout/live.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "This website requires JavaScript enabled to checkout"
+msgstr ""
+
+#: lib/store_web/templates/layout/secondary-nav.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "Cart empty"
+msgstr ""
