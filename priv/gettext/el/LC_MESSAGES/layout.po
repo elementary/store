@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 09:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-27 10:01+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/store/layout/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Weblate 2026.5\n"
 
 ## This file is a PO Template file.
 ##
@@ -22,89 +24,88 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "%{year} elementary, Inc"
-msgstr ""
+msgstr "%{year} elementary, Inc"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "Blog"
-msgstr ""
+msgstr "Ιστολόγιο"
 
 #: lib/store_web/templates/layout/footer.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Brand"
-msgstr ""
+msgstr "Επωνυμία"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Cart (%{count})"
-msgstr ""
+msgstr "Καλάθι (%{count})"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Developer"
-msgstr ""
+msgstr "Ανάπτυξη"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Get Involved"
-msgstr ""
+msgstr "Συμμετοχή"
 
 #: lib/store_web/templates/layout/footer.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "OEMs"
-msgstr ""
+msgstr "OEM"
 
 #: lib/store_web/templates/layout/footer.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Open Source"
-msgstr ""
+msgstr "Ανοικτός κώδικας"
 
 #: lib/store_web/templates/layout/footer.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Press"
-msgstr ""
+msgstr "Τύπος"
 
 #: lib/store_web/templates/layout/footer.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Privacy"
-msgstr ""
+msgstr "Απόρρητο"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Store"
-msgstr ""
+msgstr "Κατάστημα"
 
 #: lib/store_web/templates/layout/primary-nav.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Support"
-msgstr ""
+msgstr "Υποστήριξη"
 
 #: lib/store_web/templates/layout/footer.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "Team"
-msgstr ""
+msgstr "Ομάδα"
 
 #: lib/store_web/templates/layout/footer.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Clear Cart"
-msgstr ""
+msgstr "Άδειασμα καλαθιού"
 
 #: lib/store_web/templates/layout/app.html.heex:19
 #: lib/store_web/templates/layout/live.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr ""
+msgstr "Αυτός ο ιστότοπος απαιτεί JavaScript για την ολοκλήρωση της αγοράς"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Cart empty"
-msgstr ""
+msgstr "Άδειο καλάθι"

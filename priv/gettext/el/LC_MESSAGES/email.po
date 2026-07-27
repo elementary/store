@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 09:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-27 10:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/store/email/el/>"
+"\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Weblate 2026.5\n"
 
 ## This file is a PO Template file.
 ##
@@ -22,12 +23,13 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/layout/email.html.eex:715
 #: lib/store_web/templates/layout/email.text.eex:3
 #, elixir-autogen, elixir-format
 msgid "Copyright © %{year} elementary, Inc. All rights reserved."
 msgstr ""
+"Πνευματικά δικαιώματα © %{year} elementary, Inc. Με επιφύλαξη παντός "
+"δικαιώματος."
 
 #: lib/store_web/templates/email/order_created.html.eex:42
 #: lib/store_web/templates/email/order_created.text.eex:4
@@ -35,25 +37,31 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:11
 #, elixir-autogen, elixir-format
 msgid "Here's what we shipped in this order:"
-msgstr ""
+msgstr "Ακολουθούν τα προϊόντα που στείλαμε σε αυτήν την παραγγελία:"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:43
 #: lib/store_web/templates/email/package_shipped.text.eex:4
 #, elixir-autogen, elixir-format
 msgid "Here's your tracking number:"
-msgstr ""
+msgstr "Ο αριθμός αποστολής σας:"
 
 #: lib/store_web/templates/email/order_created.html.eex:15
 #: lib/store_web/templates/email/order_created.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that we have received your order!"
 msgstr ""
+"Γεια σας, σας ευχαριστούμε για την παραγγελία σας στο κατάστημα του "
+"elementary. Θα θέλαμε απλώς να σας ενημερώσουμε ότι έχουμε λάβει την "
+"παραγγελία σας!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:15
 #: lib/store_web/templates/email/package_shipped.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "Hey there, Thanks for ordering from the elementary store. Just letting you know that your order has been sent out!"
 msgstr ""
+"Γεια σας, σας ευχαριστούμε για την παραγγελία σας στο κατάστημα του "
+"elementary. Θα θέλαμε απλώς να σας ενημερώσουμε ότι η παραγγελία σας έχει "
+"αποσταλεί!"
 
 #: lib/store_web/templates/email/order_created.html.eex:105
 #: lib/store_web/templates/email/order_created.text.eex:16
@@ -61,19 +69,19 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:23
 #, elixir-autogen, elixir-format
 msgid "Looking forward to your next order!"
-msgstr ""
+msgstr "Ανυπομονούμε για την επόμενη παραγγελία σας!"
 
 #: lib/store_web/templates/email/order_created.html.eex:61
 #: lib/store_web/templates/email/package_shipped.html.eex:77
 #, elixir-autogen, elixir-format
 msgid "Price"
-msgstr ""
+msgstr "Τιμή"
 
 #: lib/store_web/templates/email/order_created.html.eex:58
 #: lib/store_web/templates/email/package_shipped.html.eex:74
 #, elixir-autogen, elixir-format
 msgid "Qty"
-msgstr ""
+msgstr "Ποσότητα"
 
 #: lib/store_web/templates/email/order_created.html.eex:74
 #: lib/store_web/templates/email/order_created.text.eex:10
@@ -81,7 +89,7 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "Shipping Address:"
-msgstr ""
+msgstr "Διεύθυνση αποστολής:"
 
 #: lib/store_web/templates/email/order_created.html.eex:106
 #: lib/store_web/templates/email/order_created.text.eex:17
@@ -89,42 +97,46 @@ msgstr ""
 #: lib/store_web/templates/email/package_shipped.text.eex:24
 #, elixir-autogen, elixir-format
 msgid "The elementary Team"
-msgstr ""
+msgstr "Η ομάδα του elementary"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:55
 #: lib/store_web/templates/email/package_shipped.text.eex:8
 #, elixir-autogen, elixir-format
 msgid "Tracking information can take up to 48 hours to be updated after the order is shipped."
 msgstr ""
+"Ενδέχεται να χρειαστούν έως και 48 ώρες από την αποστολή της παραγγελίας, "
+"μέχρι να ενημερωθούν οι πληροφορίες παρακολούθησης της αποστολής."
 
 #: lib/store_web/templates/email/order_created.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Received Your Order!"
-msgstr ""
+msgstr "Λάβαμε την παραγγελία σας!"
 
 #: lib/store_web/templates/email/package_shipped.html.eex:13
 #, elixir-autogen, elixir-format
 msgid "We Have Shipped Your Order!"
-msgstr ""
+msgstr "Στείλαμε την παραγγελία σας!"
 
 #: lib/store_web/templates/layout/email.html.eex:718
 #: lib/store_web/templates/layout/email.text.eex:5
 #, elixir-autogen, elixir-format
 msgid "You're receiving this email because you placed an order in the elementary store. You are not subscribed to any mailing list."
 msgstr ""
+"Λαμβάνετε αυτό το email επειδή πραγματοποιήσατε παραγγελία στο κατάστημα του "
+"elementary. Δεν έχετε εγγραφεί σε κάποια λίστα αλληλογραφίας."
 
 #: lib/store/email.ex:16
 #: lib/store/email.ex:18
 #, elixir-autogen, elixir-format
 msgid "Your order has been received!"
-msgstr ""
+msgstr "Η παραγγελία σας έχει ληφθεί!"
 
 #: lib/store/email.ex:26
 #, elixir-autogen, elixir-format
 msgid "Your order has been shipped!"
-msgstr ""
+msgstr "Η παραγγελία σας έχει αποσταλεί!"
 
 #: lib/store/email.ex:28
 #, elixir-autogen, elixir-format
 msgid "Your package shipped!"
-msgstr ""
+msgstr "Το δέμα σας απεστάλη!"

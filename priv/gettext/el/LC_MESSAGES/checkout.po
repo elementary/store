@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 09:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-27 10:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/store/checkout/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Weblate 2026.5\n"
 
 ## This file is a PO Template file.
 ##
@@ -22,154 +23,156 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/checkout/address.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Address Line 1"
-msgstr ""
+msgstr "Γραμμή διεύθυνσης 1"
 
 #: lib/store_web/templates/checkout/address.html.heex:34
 #, elixir-autogen, elixir-format
 msgid "Address Line 2"
-msgstr ""
+msgstr "Γραμμή διεύθυνσης 2"
 
 #: lib/store_web/templates/checkout/cart.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Cart"
-msgstr ""
+msgstr "Καλάθι"
 
 #: lib/store_web/templates/checkout/index.html.heex:8
 #: lib/store_web/templates/checkout/shipping.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Checkout"
-msgstr ""
+msgstr "Ολοκλήρωση αγοράς"
 
 #: lib/store_web/templates/checkout/address.html.heex:44
 #, elixir-autogen, elixir-format
 msgid "City"
-msgstr ""
+msgstr "Πόλη"
 
 #: lib/store_web/templates/checkout/address.html.heex:55
 #, elixir-autogen, elixir-format
 msgid "Country"
-msgstr ""
+msgstr "Χώρα"
 
 #: lib/store_web/templates/checkout/address.html.heex:86
 #, elixir-autogen, elixir-format
 msgid "Email"
-msgstr ""
+msgstr "Διεύθυνση email"
 
 #: lib/store_web/templates/checkout/address.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Get Shipping Rates"
-msgstr ""
+msgstr "Λήψη τιμής μεταφορικών"
 
 #: lib/store_web/templates/checkout/address.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: lib/store_web/templates/checkout/address.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Postal Code"
-msgstr ""
+msgstr "Ταχυδρομικός κώδικας"
 
 #: lib/store_web/templates/checkout/shipping.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping"
-msgstr ""
+msgstr "Αποστολή"
 
 #: lib/store_web/templates/checkout/address.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Shipping Address"
-msgstr ""
+msgstr "Διεύθυνση αποστολής"
 
 #: lib/store_web/templates/checkout/address.html.heex:65
 #, elixir-autogen, elixir-format
 msgid "State or Province"
-msgstr ""
+msgstr "Πολιτεία/Περιφέρεια"
 
 #: lib/store_web/templates/checkout/cart_item.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Update"
-msgstr ""
+msgstr "Ενημέρωση"
 
 #: lib/store_web/templates/checkout/shipping.html.heex:26
 #, elixir-autogen, elixir-format
 msgid "Checking Out"
-msgstr ""
+msgstr "Ολοκλήρωση παραγγελίας"
 
 #: lib/store_web/templates/checkout/address.html.heex:115
 #, elixir-autogen, elixir-format
 msgid "Fetching Shipping Rates"
-msgstr ""
+msgstr "Λήψη τιμής μεταφορικών"
 
 #: lib/store_web/templates/checkout/index.html.heex:2
 #, elixir-autogen, elixir-format
 msgid "Empty Cart"
-msgstr ""
+msgstr "Άδειο καλάθι"
 
 #: lib/store_web/templates/checkout/index.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Go get yourself something nice!"
-msgstr ""
+msgstr "Αγοράστε κάτι ωραίο για τον εαυτό σας!"
 
 #: lib/store_web/templates/checkout/address.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "12345"
-msgstr ""
+msgstr "12345"
 
 #: lib/store_web/templates/checkout/address.html.heex:48
 #, elixir-autogen, elixir-format
 msgid "Anytown"
-msgstr ""
+msgstr "Η πόλη σας"
 
 #: lib/store_web/templates/checkout/address.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Apartment, Suite, Unit, Building, Floor"
-msgstr ""
+msgstr "Διαμέρισμα, σουίτα, μονάδα, κτίριο, όροφος"
 
 #: lib/store_web/templates/checkout/address.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Ellie Mendez"
-msgstr ""
+msgstr "Ονοματεπώνυμο"
 
 #: lib/store_web/templates/checkout/address.html.heex:28
 #, elixir-autogen, elixir-format
 msgid "Street Address, P.O. Box, Company Name"
-msgstr ""
+msgstr "Διεύθυνση, ταχυδρομική θυρίδα, επωνυμία εταιρείας"
 
 #: lib/store_web/templates/checkout/result/success.html.heex:1
 #, elixir-autogen, elixir-format
 msgid "Order Placed"
-msgstr ""
+msgstr "Η παραγγελία καταχωρίστηκε"
 
 #: lib/store_web/templates/checkout/result/success.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Your order has been received and our fulfillment partner is working hard to get it to you as soon as possible. A confirmation and receipt has been sent to the provided email address."
 msgstr ""
+"Η παραγγελία σας έχει ληφθεί και ο συνεργάτης διεκπεραίωσης εργάζεται "
+"εντατικά για να σας την παραδώσει το συντομότερο δυνατόν. Μια επιβεβαίωση, "
+"καθώς και η απόδειξη, έχουν σταλεί στη διεύθυνση email που δηλώσατε."
 
 #: lib/store_web/templates/checkout/address.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "For receipt; never used for marketing"
-msgstr ""
+msgstr "Για την απόδειξη· δεν θα χρησιμοποιηθεί ποτέ για διαφημιστικούς σκοπούς"
 
 #: lib/store_web/templates/checkout/address.html.heex:100
 #, elixir-autogen, elixir-format
 msgid "Phone"
-msgstr ""
+msgstr "Τηλέφωνο"
 
 #: lib/store_web/templates/checkout/address.html.heex:101
 #, elixir-autogen, elixir-format
 msgid "Required by shipping partners"
-msgstr ""
+msgstr "Απαιτείται από τη συνεργαζόμενη υπηρεσία αποστολής"
 
 #: lib/store_web/templates/checkout/cart_item.html.heex:10
 #, elixir-autogen, elixir-format
 msgid "Remove"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: lib/store_web/templates/checkout/cart.html.heex:12
 #, elixir-autogen, elixir-format
 msgid "Sub-Total:"
-msgstr ""
+msgstr "Υποσύνολο:"

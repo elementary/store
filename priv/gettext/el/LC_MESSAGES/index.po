@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 09:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-27 10:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/store/index/el/>"
+"\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Weblate 2026.5\n"
 
 ## This file is a PO Template file.
 ##
@@ -22,89 +23,110 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/templates/index/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Based in Spain"
-msgstr ""
+msgstr "Με έδρα την Ισπανία"
 
 #: lib/store_web/templates/index/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Based in the Netherlands"
-msgstr ""
+msgstr "Με έδρα την Ολλανδία"
 
 #: lib/store_web/templates/index/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Based in the United Kingdom"
-msgstr ""
+msgstr "Με έδρα το Ηνωμένο Βασίλειο"
 
 #: lib/store_web/templates/index/index.html.heex:13
 #, elixir-autogen, elixir-format
 msgid "Devices"
-msgstr ""
+msgstr "Συσκευές"
 
 #: lib/store_web/templates/index/index.html.heex:25
 #, elixir-autogen, elixir-format
 msgid "Free shipping within EU"
-msgstr ""
+msgstr "Δωρεάν αποστολή εντός ΕΕ"
 
 #: lib/store_web/templates/index/index.html.heex:34
 #: lib/store_web/templates/index/index.html.heex:43
 #, elixir-autogen, elixir-format
 msgid "International shipping"
-msgstr ""
+msgstr "Διεθνής αποστολή"
 
 #: lib/store_web/templates/index/index.html.heex:41
 #, elixir-autogen, elixir-format
 msgid "Laptops"
-msgstr ""
+msgstr "Φορητοί υπολογιστές"
 
 #: lib/store_web/templates/index/index.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "Laptops, desktops, mini desktops, all-in-ones"
 msgstr ""
+"Φορητοί και επιτραπέζιοι υπολογιστές, mini επιτραπέζιοι υπολογιστές, "
+"συστήματα all-in-one"
 
 #: lib/store_web/templates/index/index.html.heex:23
 #, elixir-autogen, elixir-format
 msgid "Laptops, mini desktops"
-msgstr ""
+msgstr "Φορητοί υπολογιστές, mini επιτραπέζιοι υπολογιστές"
 
 #: lib/store_web/templates/index/index.html.heex:79
 #, elixir-autogen, elixir-format
 msgid "Worldwide Shipping"
-msgstr ""
+msgstr "Αποστολή σε όλο τον κόσμο"
 
 #: lib/store_web/templates/index/index.html.heex:4
 #, elixir-autogen, elixir-format
 msgid "Get Gear. Win/Win."
-msgstr ""
+msgstr "Αποκτήστε εξοπλισμό. Όλοι κερδίζουν."
 
 #: lib/store_web/templates/index/index.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "Support Development."
-msgstr ""
+msgstr "Υποστηρίξτε την ανάπτυξη."
 
 #: lib/store_web/templates/index/index.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Crimea, Cuba, Iran, Syria, and North Korea excluded. Shipping methods, prices, and times vary by country. Shipments outside of the USA may incur customs fees depending on the origin and destination countries."
 msgstr ""
+"Εξαιρούνται η Κριμαία, η Κούβα, το Ιράν, η Συρία και η Βόρεια Κορέα. Οι "
+"μέθοδοι, οι τιμές και οι χρόνοι αποστολής διαφέρουν ανά χώρα. Οι αποστολές "
+"εκτός ΗΠΑ ενδέχεται να επιβαρυνθούν με τελωνειακούς δασμούς ανάλογα με τις "
+"χώρες προέλευσης και προορισμού."
 
 #: lib/store_web/templates/index/index.html.heex:8
 #, elixir-autogen, elixir-format
 msgid "Every purchase goes towards developing elementary OS, its apps, and its services. We're a small team, mostly volunteer, working constantly to make elementary better—your support helps make elementary OS more sustainable."
 msgstr ""
+"Κάθε αγορά συμβάλλει στην ανάπτυξη του elementary OS, των εφαρμογών και των "
+"υπηρεσιών του. Είμαστε μια μικρή ομάδα, αποτελούμενη ως επί το πλείστον από "
+"εθελοντές, που εργάζεται συνεχώς για να κάνει το elementary καλύτερο. Η "
+"υποστήριξή σας βοηθά ώστε το elementary OS να γίνει πιο βιώσιμο."
 
 #: lib/store_web/templates/index/index.html.heex:50
 #, elixir-autogen, elixir-format
 msgid "Hardware and software support for these devices are provided by the retailer."
 msgstr ""
+"Η υποστήριξη υλικού και λογισμικού για αυτές τις συσκευές παρέχεται από τον "
+"μεταπωλητή."
 
 #: lib/store_web/templates/index/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Hardware devices with elementary OS can be purchased from the following retailers. Purchasing from these companies helps support elementary OS."
 msgstr ""
+"Μπορείτε να αγοράσετε συσκευές με προεγκατεστημένο το elementary OS από τους "
+"ακόλουθους μεταπωλητές. Η αγορά από αυτές τις εταιρείες βοηθά στην "
+"υποστήριξη του elementary OS."
 
 #: lib/store_web/templates/index/index.html.heex:82
 #, elixir-autogen, elixir-format
 msgid "We ship apparel and accessories all around the world! Orders are made on-demand typically within 2–7 days and will be shipped with the method you choose at checkout. Due to COVID-19, orders may be delayed. Production is on schedule, but delays may still occur with fulfillment and shipping depending on the order, shipping method, and destination."
 msgstr ""
+"Στέλνουμε ρούχα και αξεσουάρ σε όλο τον κόσμο! Τα προϊόντα κατασκευάζονται "
+"κατόπιν παραγγελίας συνήθως εντός 2–7 ημερών και αποστέλλονται με τη μέθοδο "
+"που επιλέγετε κατά την ολοκλήρωση της αγοράς. Λόγω του COVID-19, ενδέχεται "
+"να υπάρξουν καθυστερήσεις στις παραγγελίες. Η παραγωγή βρίσκεται εντός "
+"προγράμματος, αλλά ενδέχεται να εμφανιστούν καθυστερήσεις στην διεκπεραίωση "
+"και την αποστολή, ανάλογα με την παραγγελία, τη μέθοδο αποστολής και τον "
+"προορισμό."

@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 09:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-27 10:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/store/language/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Weblate 2026.5\n"
 
 ## This file is a PO Template file.
 ##
@@ -22,13 +23,12 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/store_web/controllers/language_controller.ex:31
 #, elixir-autogen, elixir-format
 msgid "Unknown language code %{code}"
-msgstr ""
+msgstr "Άγνωστος κωδικός γλώσσας %{code}"
 
 #: lib/store_web/controllers/language_controller.ex:22
 #, elixir-autogen, elixir-format
 msgid "Your language has been set to %{language}"
-msgstr ""
+msgstr "Η γλώσσα σας έχει οριστεί σε %{language}"
