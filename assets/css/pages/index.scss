@@ -8,12 +8,11 @@ section.products {
 }
 
 .products > ul {
-  align-content: stretch;
+  place-content: stretch stretch;
   align-items: stretch;
   display: grid;
-  grid-gap: 3rem 1.5rem;
+  gap: 3rem 1.5rem;
   grid-template-columns: repeat(1, 1fr);
-  justify-content: stretch;
   margin: 0;
   padding: 0;
 
@@ -60,12 +59,11 @@ section.products {
 }
 
 #devices > ul {
-  align-content: stretch;
+  place-content: stretch stretch;
   align-items: stretch;
   display: grid;
-  grid-gap: 1rem;
+  gap: 1rem;
   grid-template-columns: repeat(1, 1fr);
-  justify-content: stretch;
   margin: 3rem auto 2rem;
   padding: 0;
 
@@ -120,7 +118,7 @@ section.products {
 
 .product {
   display: grid;
-  grid-gap: 0 1.5rem;
+  gap: 0 1.5rem;
   grid-template-areas:
     "title"
     "image"
@@ -191,15 +189,14 @@ section.products {
 
       a,
       button {
-        align-content: center;
+        place-content: center flex-start;
         align-items: center;
         display: grid;
-        grid-gap: 0 1ch;
+        gap: 0 1ch;
         grid-template-areas:
           "color name"
           "color warning";
         grid-template-rows: 1fr auto;
-        justify-content: flex-start;
         padding: 0.5rem 1rem;
         text-align: left;
         width: 100%;
