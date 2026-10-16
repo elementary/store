@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-07 04:13+0000\n"
+"PO-Revision-Date: 2026-10-12 08:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/store/layout/ja/"
-">\n"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/store/layout/"
+"ja/>\n"
 "Language: ja\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: lib/store_web/templates/layout/footer.html.heex:4
 #, elixir-autogen, elixir-format
@@ -97,7 +97,7 @@ msgstr "カートを空にする"
 #: lib/store_web/templates/layout/live.html.heex:32
 #, elixir-autogen, elixir-format
 msgid "This website requires JavaScript enabled to checkout"
-msgstr "この Web サイトを閲覧するには JavaScript を有効にする必要があります"
+msgstr "このウェブサイトを閲覧するには JavaScript を有効にする必要があります"
 
 #: lib/store_web/templates/layout/secondary-nav.html.heex:32
 #, elixir-autogen, elixir-format
