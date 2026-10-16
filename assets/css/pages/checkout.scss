@@ -7,7 +7,7 @@
 .checkout-product {
   border-bottom: 1px solid var(--slate-100);
   display: grid;
-  grid-gap: 0.5rem 1rem;
+  gap: 0.5rem 1rem;
   grid-template-areas:
     "image"
     "name"
@@ -42,11 +42,10 @@
 }
 
 .checkout-product .price-row {
-  align-content: center;
+  place-content: center center;
   align-items: center;
   display: flex;
   grid-area: prices;
-  justify-content: center;
 }
 
 .checkout-product .price-row > *:not(:first-child) {
@@ -111,14 +110,13 @@
 
   .checkout-product {
     align-items: center;
-    align-content: center;
+    place-content: center flex-start;
     grid-template-areas:
       "image space1 space1"
       "image name name"
       "image remove prices"
       "image space2 space2";
     grid-template-columns: auto 1fr auto;
-    justify-content: flex-start;
     text-align: inherit;
   }
 
@@ -213,7 +211,7 @@ form.shipping-checkout button:disabled {
 
 .shipping-checkout label {
   display: grid;
-  grid-gap: 0.5rem;
+  gap: 0.5rem;
   grid-template:
     "check name" auto "check estimate" auto "check price" auto / auto 1fr;
   padding: 1rem 0;
